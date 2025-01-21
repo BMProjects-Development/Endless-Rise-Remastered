@@ -551,7 +551,7 @@
 		check_armor_value = false
 		#Max armor value allowed for any damage bonus that checks for armor to apply, without any armor equipped
 		#Range: 1.0 ~ 50.0
-		max_armor_value = 0.0
+		max_armor_value = 1.0
 		#Changes the "Undead Damage Bonus" Weapon Trait multiplier value
 		#Range: 1.0 ~ 50.0
 		undead_multiplier = 1.5

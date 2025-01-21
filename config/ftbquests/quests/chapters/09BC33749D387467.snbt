@@ -302,7 +302,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 2.5d
 			y: 1.0d
 			description: ["Довольно простой способ добычи еды на ранних этапах игры."]
 			dependencies: ["3A6840BC06F09951"]
@@ -452,7 +452,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: 3.0d
 			shape: "rsquare"
 			description: ["С помощью костра можно легко жарить еду."]
@@ -462,18 +462,6 @@
 				id: "1A9093D042E85EF8"
 				type: "item"
 				item: "minecraft:campfire"
-			}]
-		}
-		{
-			x: 2.5d
-			y: 1.0d
-			description: ["Удобная вещь для хранения вещей во время путешествия."]
-			dependencies: ["3A6840BC06F09951"]
-			id: "3EBA5DFF322FED98"
-			tasks: [{
-				id: "0E0EEF239986A3F2"
-				type: "item"
-				item: "sophisticatedbackpacks:backpack"
 			}]
 		}
 		{
@@ -584,33 +572,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
-			shape: "rsquare"
-			description: ["Чистит воду."]
-			dependencies: ["41C6AB8863DA77C2"]
-			id: "6681F0ED12AC13A3"
-			tasks: [{
-				id: "39BD0D114C139801"
-				type: "item"
-				item: "toughasnails:water_purifier"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -1.0d
-			description: ["Чтобы брать воду с собой."]
-			dependencies: ["3A6840BC06F09951"]
-			id: "770AA3494C433DA3"
-			tasks: [{
-				id: "0286E7288C59D98B"
-				type: "item"
-				item: "toughasnails:empty_canteen"
-			}]
-		}
-		{
 			title: "Разное"
-			x: 4.5d
+			x: 2.5d
 			y: -1.0d
 			description: ["Просто разное..."]
 			dependencies: ["3A6840BC06F09951"]
@@ -705,18 +668,21 @@
 		}
 		{
 			x: 14.0d
-			y: 0.0d
-			dependencies: ["5BDECB0FE44124D8"]
+			y: 2.0d
+			dependencies: [
+				"5BDECB0FE44124D8"
+				"7A0E4BDCE0CFCEEF"
+			]
 			id: "7CF5E955D4A6A1F5"
 			tasks: [{
-				id: "4F46EF2D79764832"
+				id: "1EDA97B2A3944DE1"
 				type: "item"
-				item: "naturesaura:infused_stone"
+				item: "naturesaura:infused_brick"
 			}]
 		}
 		{
 			x: 15.5d
-			y: 0.0d
+			y: 2.0d
 			dependencies: ["7CF5E955D4A6A1F5"]
 			id: "54C4258DA0CA4367"
 			tasks: [{
@@ -727,7 +693,7 @@
 		}
 		{
 			x: 16.0d
-			y: -1.5d
+			y: 1.0d
 			dependencies: ["54C4258DA0CA4367"]
 			id: "220E1FD6E4020B8C"
 			tasks: [{
@@ -737,8 +703,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 1.5d
+			x: 15.0d
+			y: 1.0d
 			dependencies: ["54C4258DA0CA4367"]
 			id: "5C1D1FD3B74A91AC"
 			tasks: [{
@@ -754,7 +720,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 15.5d
 			y: 0.0d
 			dependencies: [
 				"220E1FD6E4020B8C"
