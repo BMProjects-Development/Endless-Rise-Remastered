@@ -1,0 +1,64 @@
+
+[advancedcompass]
+	#Vertical offset from top edge of the screen (from 0 to 50)
+	#Range: 0 ~ 50
+	yOffset = 4
+	#Maximum distance to entity for rendering (from 0 to 999)
+	#Range: 0 ~ 999
+	maxDistance = 50
+	#Maximum radius to merge entity into groups (from 5 to 15)
+	#Range: 5 ~ 15
+	groupRadius = 10
+	#Angle of view that fits into the compass (from 30 to 360)
+	#Range: 30 ~ 360
+	viewAngle = 70
+	#Angle threshold for rendering entity icons (from 15 to 180)
+	#Range: 15 ~ 180
+	angleThreshold = 90
+	#Angle threshold for rendering waypoint icons (from 15 to 180)
+	#Range: 15 ~ 180
+	angleThresholdWaypoint = 90
+	#Move vanilla bossbar below the compass
+	moveBossbar = true
+	#Merge entities into groups
+	groupEntities = true
+	#Show distance
+	showDistance = true
+	#Show players
+	showPlayers = true
+	#Hide overlapped icons
+	hideOverlapped = true
+	#Overlap threshold
+	#Range: 0 ~ 10
+	overlapThreshold = 4
+	#Create waypoint on death
+	autoDeathWaypoint = true
+	#Compass show mode
+	#Allowed Values: OFF, ALWAYS_ON, MAIN_HAND, BOTH_HANDS, ANY_SLOT
+	showMode = "ALWAYS_ON"
+	#Show coordinates
+	#Allowed Values: OFF, ABOVE, BELOW
+	coordinatesMode = "OFF"
+	#Coordinates font scale
+	#Range: 50 ~ 200
+	coordinatesScale = 100
+	#Compass width
+	#Range: 100 ~ 9999
+	compassWidth = 412
+	#Compass height
+	#Range: 8 ~ 50
+	compassHeight = 22
+	#Icon scale
+	#Range: 50 ~ 200
+	iconScale = 100
+	#Auto icon generation type
+	#Allowed Values: HEAD_FIRST, FULL_BODY, OFF
+	generationType = "HEAD_FIRST"
+	#Way to show waypoints from other mods
+	#Allowed Values: SHOW_ENABLED, SHOW_DISABLED, SHOW_ALL, HIDE_ALL
+	modWPType = "SHOW_ENABLED"
+	#Show markers from all atlases in player's inventory
+	allAtlases = false
+	#Hide mob icons if they are behind blocks
+	hideBehind = false
+

@@ -1,9 +1,9 @@
 {
 	id: "61C23A1A1B8933B6"
 	group: "1ED255BD6A1F3077"
-	order_index: 1
+	order_index: 2
 	filename: "61C23A1A1B8933B6"
-	title: "Эпоха Механики"
+	title: "&aЭпоха Механики"
 	icon: "create:large_cogwheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

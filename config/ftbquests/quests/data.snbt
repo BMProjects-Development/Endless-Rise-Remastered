@@ -1,7 +1,7 @@
 {
 	version: 13
-	title: "Endless Rise"
-	default_reward_team: false
+	title: "&6&lEndless Rise"
+	default_reward_team: true
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
 	default_quest_shape: "circle"

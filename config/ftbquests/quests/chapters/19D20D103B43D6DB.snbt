@@ -1,0 +1,217 @@
+{
+	id: "19D20D103B43D6DB"
+	group: "1ED255BD6A1F3077"
+	order_index: 1
+	filename: "19D20D103B43D6DB"
+	title: "Металлическая эпоха"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Домна"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Чтобы построить домну нужно поставить 2 блока фурмы по краям, на них блоки кирпича. Также, чтобы процесс шёл быстрее, нужны меха, которые ставятся к блокам фурмы."]
+			dependencies: [
+				"7A0E4BDCE0CFCEEF"
+				"2F178217D0C37FC8"
+			]
+			id: "4EBFB6F86A201036"
+			tasks: [
+				{
+					id: "6C236567795EC17D"
+					type: "item"
+					item: "charcoal_pit:brick_tuyere"
+					count: 2L
+				}
+				{
+					id: "15CD856AD86D76FE"
+					type: "item"
+					item: "charcoal_pit:bellows"
+					count: 2L
+				}
+				{
+					id: "459CFFDA2FD1CAF1"
+					type: "questsadditions:structure"
+					title: "Домна"
+					name: "bloomery_new"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+			]
+			rewards: [
+				{
+					id: "7F5EC54BC152C18E"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "20890CEBC581DCF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Железная руда"
+			x: 1.5d
+			y: 0.0d
+			description: ["Просто железная руда."]
+			dependencies: ["4EBFB6F86A201036"]
+			id: "0D1E69925DD2C3CE"
+			tasks: [{
+				id: "40841BC25AD67AE4"
+				type: "item"
+				title: "Железная руда"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/iron"
+					}
+				}
+				count: 4L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Это главный металл, чтобы перейти в новую эпоху - Эпоху Механики!"]
+			dependencies: ["0D1E69925DD2C3CE"]
+			id: "544D867E9E65F95E"
+			tasks: [{
+				id: "67925F061791895F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "21B05AE2B4E6E82C"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage add @a primitive false"
+					player_command: false
+				}
+				{
+					id: "050348F7E25635FC"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "099290F9AF28F54E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["На кухоную плиту можно поставить кухоные приборы и приготовить очень вкусные блюда!"]
+			dependencies: ["544D867E9E65F95E"]
+			id: "7455E4A62CD8E5E9"
+			tasks: [{
+				id: "40D8DF64462B82B4"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["С помощью кухоного котла можно приготовить вкусные блюда, для это нужно поставить его на кухоную плиту."]
+			dependencies: ["544D867E9E65F95E"]
+			id: "098811FF1C8C0952"
+			tasks: [{
+				id: "5ED598E95E6A06F3"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["Сундук, который хранит больше вещей, он вам понадобится."]
+			dependencies: ["544D867E9E65F95E"]
+			id: "7E50B0D00134778F"
+			tasks: [{
+				id: "7E2899B13AF3E999"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["544D867E9E65F95E"]
+			id: "6A0ED669633D1FC0"
+			tasks: [{
+				id: "520F33C9A8F6B4E6"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["Для плавки железа."]
+			dependencies: ["544D867E9E65F95E"]
+			id: "5E9827D76147D7A2"
+			tasks: [{
+				id: "10F73DE9AD2750B2"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["Камень перемещения нужен для того, чтобы сделать путеводный обелиск. И для того, чтобы без обелиска телепортироваться на другую точку. (Зажмите ПКМ)"]
+			dependencies: ["544D867E9E65F95E"]
+			id: "12AE8B72E160FB72"
+			tasks: [{
+				id: "3A9F83BE35A86B49"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			shape: "pentagon"
+			description: ["С помощью путеводного обелиска можно телепортироваться на большие расстояния. Для этого нужно как минимум 2 точки (2 обелиска) или камень перемещения."]
+			dependencies: ["12AE8B72E160FB72"]
+			id: "7364D564BF495130"
+			tasks: [{
+				id: "1499E27E53E3D280"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			title: "Блок коксового угля"
+			x: 1.0d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["Чтобы получить блок коксового угля, нужно зажечь и герметично застроить кирпичами блок обычного угля."]
+			dependencies: ["7A0E4BDCE0CFCEEF"]
+			id: "17DABC5FC1A79596"
+			tasks: [{
+				id: "51B2005EAC8205F6"
+				type: "item"
+				item: "charcoal_pit:coke_block"
+			}]
+		}
+	]
+}

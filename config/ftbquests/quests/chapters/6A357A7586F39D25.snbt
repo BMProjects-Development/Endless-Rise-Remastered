@@ -3,7 +3,7 @@
 	group: "4F34514062F979C6"
 	order_index: 3
 	filename: "6A357A7586F39D25"
-	title: "Эпоха Космоса"
+	title: "&aЭпоха Космоса"
 	icon: {
 		id: "boss_tools:rocket_t3"
 		Count: 1b

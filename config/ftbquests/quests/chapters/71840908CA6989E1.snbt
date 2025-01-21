@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "71840908CA6989E1"
-	title: "Особенности"
+	title: "&bОсобенности"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
