@@ -87,96 +87,6 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -4.5d
-			description: ["На кухоную плиту можно поставить кухоные приборы и приготовить очень вкусные блюда!"]
-			dependencies: ["544D867E9E65F95E"]
-			id: "7455E4A62CD8E5E9"
-			tasks: [{
-				id: "40D8DF64462B82B4"
-				type: "item"
-				item: "farmersdelight:stove"
-			}]
-		}
-		{
-			x: 4.0d
-			y: -3.0d
-			description: ["С помощью кухоного котла можно приготовить вкусные блюда, для это нужно поставить его на кухоную плиту."]
-			dependencies: ["544D867E9E65F95E"]
-			id: "098811FF1C8C0952"
-			tasks: [{
-				id: "5ED598E95E6A06F3"
-				type: "item"
-				item: "farmersdelight:cooking_pot"
-			}]
-		}
-		{
-			x: 5.0d
-			y: -2.0d
-			description: ["Сундук, который хранит больше вещей, он вам понадобится."]
-			dependencies: ["544D867E9E65F95E"]
-			id: "7E50B0D00134778F"
-			tasks: [{
-				id: "7E2899B13AF3E999"
-				type: "item"
-				item: "ironchest:iron_chest"
-			}]
-		}
-		{
-			x: 5.5d
-			y: -3.0d
-			dependencies: ["544D867E9E65F95E"]
-			id: "6A0ED669633D1FC0"
-			tasks: [{
-				id: "520F33C9A8F6B4E6"
-				type: "item"
-				item: "ironfurnaces:iron_furnace"
-			}]
-		}
-		{
-			x: 6.5d
-			y: -2.5d
-			description: ["Для плавки железа."]
-			dependencies: ["544D867E9E65F95E"]
-			id: "5E9827D76147D7A2"
-			tasks: [{
-				id: "10F73DE9AD2750B2"
-				type: "item"
-				item: "minecraft:blast_furnace"
-			}]
-		}
-		{
-			x: 7.0d
-			y: -3.5d
-			description: ["Камень перемещения нужен для того, чтобы сделать путеводный обелиск. И для того, чтобы без обелиска телепортироваться на другую точку. (Зажмите ПКМ)"]
-			dependencies: ["544D867E9E65F95E"]
-			id: "12AE8B72E160FB72"
-			tasks: [{
-				id: "3A9F83BE35A86B49"
-				type: "item"
-				item: {
-					id: "waystones:warp_stone"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 8.0d
-			y: -3.0d
-			shape: "pentagon"
-			description: ["С помощью путеводного обелиска можно телепортироваться на большие расстояния. Для этого нужно как минимум 2 точки (2 обелиска) или камень перемещения."]
-			dependencies: ["12AE8B72E160FB72"]
-			id: "7364D564BF495130"
-			tasks: [{
-				id: "1499E27E53E3D280"
-				type: "item"
-				item: "waystones:waystone"
-			}]
-		}
-		{
 			x: 2.5d
 			y: -2.5d
 			description: ["Чтобы получить блок коксового угля, нужно зажечь и герметично застроить кирпичами блок обычного угля."]
@@ -351,6 +261,7 @@
 			}]
 		}
 		{
+			title: "Набор юного пчеловода"
 			x: 0.0d
 			y: 0.0d
 			dependencies: ["7FDC9E533E9291EB"]
@@ -397,6 +308,284 @@
 					item: "eidolon:enchanted_ash"
 				}
 			]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["544D867E9E65F95E"]
+			id: "134CBA3BB8134681"
+			tasks: [{
+				id: "08BB91596C3C7D51"
+				type: "item"
+				item: "eidolon:pewter_inlay"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["134CBA3BB8134681"]
+			id: "3DBDAB37A3B9DC34"
+			tasks: [{
+				id: "5C5BB81AE4B578F7"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			shape: "rsquare"
+			description: ["Основа плавильни."]
+			dependencies: ["3DBDAB37A3B9DC34"]
+			id: "331FF86414916787"
+			tasks: [{
+				id: "6435CB9B69042C54"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 8L
+			}]
+		}
+		{
+			title: "Первая плавильня"
+			x: 10.0d
+			y: -2.0d
+			description: ["Начало великой плавильни."]
+			dependencies: ["7D81A6A09B44FC6C"]
+			id: "1F75B70BE7D3826B"
+			tasks: [
+				{
+					id: "6A1081A6BE2D1794"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "6ADF3773BC6B21FF"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+		}
+		{
+			title: "Плавильня!"
+			x: 9.5d
+			y: -1.0d
+			description: ["Чтобы построить эту плавильню нужно поставить контроллер плавильни и жидкостный резервуар(самые главные блоки плавильни). Также нужно поставить обожённые кирпичи 3х3, 5х5(смотря сколько у вас кирпичей). С помощью этой плавильне можно переплавлять руды, тем самым их удваивать, и не только!"]
+			dependencies: ["1F75B70BE7D3826B"]
+			id: "093501F9725A0851"
+			tasks: [
+				{
+					id: "5F32918DDCA96E73"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 27L
+				}
+				{
+					id: "3BDACF3D4A43F179"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6104B5D165B74FC0"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "0A7E74278F410C56"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "437AF32783C6B542"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "76631B519E28664A"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 2L
+				}
+				{
+					id: "4005D60C051245EF"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Лучшие инструменты"
+			x: 10.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["С помощью этих форм можно создавать хорошие инструменты, вливая в эти формы жидкий металл."]
+			dependencies: [
+				"093501F9725A0851"
+				"59A5FE901F6E7AD9"
+			]
+			id: "787E9D342C3CC0FE"
+			tasks: [
+				{
+					id: "7D5B405FC69276F8"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E68FB25F85615AF"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			dependencies: ["331FF86414916787"]
+			id: "7D81A6A09B44FC6C"
+			tasks: [{
+				id: "77B90B4CF1F4BE36"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			dependencies: ["787E9D342C3CC0FE"]
+			id: "4AA01FD336CE2A5A"
+			tasks: [
+				{
+					id: "5D4CF871F144185A"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "0AD5CD8297BCC3B4"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "17481DFE40F6B702"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["544D867E9E65F95E"]
+			id: "42E2FDCCB1075B02"
+			tasks: [{
+				id: "505D39B7F0A30A1C"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			dependencies: ["42E2FDCCB1075B02"]
+			id: "49CCF55A820C2DEF"
+			tasks: [
+				{
+					id: "7EA442FB95698F9B"
+					type: "checkmark"
+					title: "Новый gate"
+				}
+				{
+					id: "4B7E4EF647F09679"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["5088AD54716FE4D5"]
+			id: "5F68AF26491C1428"
+			tasks: [
+				{
+					id: "4A735679C04BD225"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "5A38B7A444E3C670"
+					type: "item"
+					item: "naturesaura:token_sorrow"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["49CCF55A820C2DEF"]
+			id: "5088AD54716FE4D5"
+			tasks: [{
+				id: "544377B924213527"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			dependencies: ["4AA01FD336CE2A5A"]
+			id: "1F6E07D722E36440"
+			tasks: [
+				{
+					id: "3F7415638B67D46A"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "5B0601B50A7C5611"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["5F68AF26491C1428"]
+			id: "56227990F58301A2"
+			tasks: [{
+				id: "14585B8E9FA05A0F"
+				type: "checkmark"
+				title: "Получение скрапа (Обычный мультиблок)"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			dependencies: ["56227990F58301A2"]
+			id: "59A5FE901F6E7AD9"
+			tasks: [{
+				id: "33060A50088B75A7"
+				type: "item"
+				item: "relics:common_scrap"
+			}]
 		}
 	]
 }

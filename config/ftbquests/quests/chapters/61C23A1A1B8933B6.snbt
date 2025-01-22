@@ -675,85 +675,6 @@
 			}]
 		}
 		{
-			title: "Плавильня!"
-			x: 0.0d
-			y: -6.0d
-			description: ["Чтобы построить эту плавильню нужно поставить контроллер плавильни и жидкостный резервуар(самые главные блоки плавильни). Также нужно поставить обожённые кирпичи 3х3, 5х5(смотря сколько у вас кирпичей). С помощью этой плавильне можно переплавлять руды, тем самым их удваивать, и не только!"]
-			dependencies: ["1F75B70BE7D3826B"]
-			id: "093501F9725A0851"
-			tasks: [
-				{
-					id: "5F32918DDCA96E73"
-					type: "item"
-					item: "tconstruct:seared_bricks"
-					count: 27L
-				}
-				{
-					id: "3BDACF3D4A43F179"
-					type: "item"
-					item: "tconstruct:smeltery_controller"
-				}
-				{
-					id: "6104B5D165B74FC0"
-					type: "item"
-					item: "tconstruct:seared_fuel_tank"
-				}
-				{
-					id: "0A7E74278F410C56"
-					type: "item"
-					item: "tconstruct:seared_basin"
-				}
-				{
-					id: "437AF32783C6B542"
-					type: "item"
-					item: "tconstruct:seared_table"
-				}
-				{
-					id: "76631B519E28664A"
-					type: "item"
-					item: "tconstruct:seared_drain"
-					count: 2L
-				}
-				{
-					id: "4005D60C051245EF"
-					type: "item"
-					item: "tconstruct:seared_faucet"
-					count: 2L
-				}
-			]
-		}
-		{
-			title: "Лучшие инструменты"
-			x: 1.0d
-			y: -6.5d
-			shape: "rsquare"
-			description: ["С помощью этих форм можно создавать хорошие инструменты, вливая в эти формы жидкий металл."]
-			dependencies: ["093501F9725A0851"]
-			id: "787E9D342C3CC0FE"
-			tasks: [
-				{
-					id: "4789427467C44BFC"
-					type: "item"
-					item: "tconstruct:pickaxe_head_cast"
-				}
-				{
-					id: "75D4E8875CACAAD1"
-					type: "item"
-					item: "tconstruct:small_axe_head_cast"
-				}
-				{
-					id: "581C6BAA0DDED077"
-					type: "item"
-					item: "tconstruct:hammer_head_cast"
-				}
-				{
-					id: "4DE8300E8657ACDA"
-					type: "item"
-					item: "tconstruct:broad_axe_head_cast"
-				}
-			]
-		}
-		{
 			x: 10.0d
 			y: 1.5d
 			shape: "rsquare"
@@ -904,49 +825,6 @@
 				type: "item"
 				item: "create:propeller"
 			}]
-		}
-		{
-			title: "Цемент и кирпичи"
-			x: 1.0d
-			y: -4.5d
-			shape: "rsquare"
-			description: ["Основа плавильни."]
-			dependencies: ["549F858A9EB00499"]
-			id: "331FF86414916787"
-			tasks: [
-				{
-					id: "6435CB9B69042C54"
-					type: "item"
-					item: "tconstruct:grout"
-					count: 8L
-				}
-				{
-					id: "5B2D4F811A7029EB"
-					type: "item"
-					item: "tconstruct:seared_brick"
-					count: 8L
-				}
-			]
-		}
-		{
-			title: "Первая плавильня"
-			x: 0.0d
-			y: -5.0d
-			description: ["Начало великой плавильни."]
-			dependencies: ["331FF86414916787"]
-			id: "1F75B70BE7D3826B"
-			tasks: [
-				{
-					id: "6A1081A6BE2D1794"
-					type: "item"
-					item: "tconstruct:seared_melter"
-				}
-				{
-					id: "6ADF3773BC6B21FF"
-					type: "item"
-					item: "tconstruct:seared_basin"
-				}
-			]
 		}
 		{
 			x: 5.0d
