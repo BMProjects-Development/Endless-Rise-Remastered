@@ -283,7 +283,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: -1.5d
 			description: ["Довольно простой способ добычи еды на ранних этапах игры."]
 			dependencies: ["3A6840BC06F09951"]
@@ -437,11 +437,11 @@
 		}
 		{
 			title: "Телега"
-			x: 2.0d
-			y: -1.5d
+			x: 10.5d
+			y: -3.5d
 			shape: "rsquare"
 			description: ["Можно перевозить свои вещи."]
-			dependencies: ["3A6840BC06F09951"]
+			dependencies: ["2AE120F27D53F56A"]
 			id: "27F6D0F855D593D6"
 			tasks: [
 				{

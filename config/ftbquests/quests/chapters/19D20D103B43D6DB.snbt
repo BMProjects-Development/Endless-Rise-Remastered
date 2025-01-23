@@ -225,11 +225,18 @@
 			y: 1.0d
 			dependencies: ["496D1A4D98936186"]
 			id: "5BA6E33D823FED38"
-			tasks: [{
-				id: "16C346CE2B3CB4D7"
-				type: "item"
-				item: "botania:apothecary_default"
-			}]
+			tasks: [
+				{
+					id: "16C346CE2B3CB4D7"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "03514811BE140055"
+					type: "item"
+					item: "botania:white_mystical_flower"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -415,14 +422,11 @@
 		}
 		{
 			title: "Лучшие инструменты"
-			x: 10.0d
-			y: 0.0d
+			x: 10.5d
+			y: -1.0d
 			shape: "rsquare"
 			description: ["С помощью этих форм можно создавать хорошие инструменты, вливая в эти формы жидкий металл."]
-			dependencies: [
-				"093501F9725A0851"
-				"59A5FE901F6E7AD9"
-			]
+			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
 			tasks: [
 				{
@@ -462,7 +466,7 @@
 		}
 		{
 			x: 11.5d
-			y: 0.0d
+			y: -0.5d
 			dependencies: ["787E9D342C3CC0FE"]
 			id: "4AA01FD336CE2A5A"
 			tasks: [
@@ -548,9 +552,9 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 14.5d
 			y: 0.0d
-			dependencies: ["4AA01FD336CE2A5A"]
+			dependencies: ["69BCEFBAF7910D76"]
 			id: "1F6E07D722E36440"
 			tasks: [
 				{
@@ -585,6 +589,108 @@
 				id: "33060A50088B75A7"
 				type: "item"
 				item: "relics:common_scrap"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["17DABC5FC1A79596"]
+			id: "575E409AB86052BC"
+			tasks: [{
+				id: "45029174A168D456"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["3DF62D42B4362E99"]
+			id: "4C830546D36EB0F9"
+			tasks: [{
+				id: "0CFA03AE9DB3D590"
+				type: "checkmark"
+				title: "Ритуалы"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			dependencies: ["42E2FDCCB1075B02"]
+			id: "19625034EF387185"
+			tasks: [{
+				id: "4F0B01135BAB914F"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			dependencies: ["776B11A2A1F4666E"]
+			id: "0A2731172EA36868"
+			tasks: [{
+				id: "5AD0A7B69C36F543"
+				type: "checkmark"
+				title: "Промышленная кожа"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			dependencies: ["0A2731172EA36868"]
+			id: "36DC9C281D285F7B"
+			tasks: [{
+				id: "2724077D20348116"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["3DBDAB37A3B9DC34"]
+			id: "776B11A2A1F4666E"
+			tasks: [{
+				id: "4E43DBACA348B972"
+				type: "item"
+				item: "legendarysurvivaloverhaul:sewing_table"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			dependencies: ["59A5FE901F6E7AD9"]
+			id: "07B2FB524220084D"
+			tasks: [{
+				id: "2CF1CC2651884005"
+				type: "checkmark"
+				title: "Мультиблок по созданию рун"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["07B2FB524220084D"]
+			id: "453D7988FA1A4EED"
+			tasks: [{
+				id: "153520E303FD08CC"
+				type: "item"
+				item: "relics:blank_rune"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			dependencies: [
+				"453D7988FA1A4EED"
+				"4AA01FD336CE2A5A"
+			]
+			id: "69BCEFBAF7910D76"
+			tasks: [{
+				id: "34BCAE6F2A43CAD5"
+				type: "item"
+				item: "relics:rune_of_redstone"
 			}]
 		}
 	]
