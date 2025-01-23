@@ -423,8 +423,7 @@
 		{
 			title: "Лучшие инструменты"
 			x: 10.5d
-			y: -1.0d
-			shape: "rsquare"
+			y: -0.5d
 			description: ["С помощью этих форм можно создавать хорошие инструменты, вливая в эти формы жидкий металл."]
 			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
@@ -466,7 +465,7 @@
 		}
 		{
 			x: 11.5d
-			y: -0.5d
+			y: -1.0d
 			dependencies: ["787E9D342C3CC0FE"]
 			id: "4AA01FD336CE2A5A"
 			tasks: [
@@ -552,7 +551,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 14.0d
 			y: 0.0d
 			dependencies: ["69BCEFBAF7910D76"]
 			id: "1F6E07D722E36440"
@@ -592,28 +591,6 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.5d
-			dependencies: ["17DABC5FC1A79596"]
-			id: "575E409AB86052BC"
-			tasks: [{
-				id: "45029174A168D456"
-				type: "item"
-				item: "minecraft:torch"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 3.5d
-			dependencies: ["3DF62D42B4362E99"]
-			id: "4C830546D36EB0F9"
-			tasks: [{
-				id: "0CFA03AE9DB3D590"
-				type: "checkmark"
-				title: "Ритуалы"
-			}]
-		}
-		{
 			x: 6.5d
 			y: 2.5d
 			dependencies: ["42E2FDCCB1075B02"]
@@ -625,8 +602,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -5.0d
+			x: 5.5d
+			y: -4.0d
 			dependencies: ["776B11A2A1F4666E"]
 			id: "0A2731172EA36868"
 			tasks: [{
@@ -636,8 +613,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -6.5d
+			x: 4.0d
+			y: -3.5d
 			dependencies: ["0A2731172EA36868"]
 			id: "36DC9C281D285F7B"
 			tasks: [{
@@ -659,7 +636,7 @@
 		}
 		{
 			x: 10.5d
-			y: 1.0d
+			y: 0.5d
 			dependencies: ["59A5FE901F6E7AD9"]
 			id: "07B2FB524220084D"
 			tasks: [{
@@ -670,7 +647,7 @@
 		}
 		{
 			x: 11.5d
-			y: 0.5d
+			y: 1.0d
 			dependencies: ["07B2FB524220084D"]
 			id: "453D7988FA1A4EED"
 			tasks: [{
@@ -680,7 +657,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 12.0d
 			y: 0.0d
 			dependencies: [
 				"453D7988FA1A4EED"
@@ -691,6 +668,315 @@
 				id: "34BCAE6F2A43CAD5"
 				type: "item"
 				item: "relics:rune_of_redstone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["3DF62D42B4362E99"]
+			id: "22EAA975AF0F5A2D"
+			tasks: [
+				{
+					id: "538DD8C7E4F8E9D0"
+					type: "item"
+					item: "occultism:datura_seeds"
+				}
+				{
+					id: "174487D6AB8DB605"
+					type: "item"
+					item: "occultism:datura"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["22EAA975AF0F5A2D"]
+			id: "3817A71B94F73235"
+			tasks: [
+				{
+					id: "68B21FD58ADEE4AA"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "1D3286B072D1B18B"
+					type: "item"
+					item: "occultism:otherworld_sapling"
+				}
+				{
+					id: "4F5A7F6FAA5545C9"
+					type: "item"
+					item: "occultism:otherworld_log"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["3817A71B94F73235"]
+			id: "21D8585211394758"
+			tasks: [
+				{
+					id: "41A4458511598E6B"
+					type: "item"
+					item: "occultism:otherworld_ashes"
+				}
+				{
+					id: "5933AF3BCD5DA840"
+					type: "item"
+					item: "occultism:burnt_otherstone"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["3817A71B94F73235"]
+			id: "3F903400AFBA6BE8"
+			tasks: [{
+				id: "5C6952B3C1797E7D"
+				type: "item"
+				item: "botania:pestle_and_mortar"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: [
+				"21D8585211394758"
+				"3F903400AFBA6BE8"
+			]
+			id: "5696F8B38C83049D"
+			tasks: [{
+				id: "6CBDC2455CCB59CE"
+				type: "item"
+				item: {
+					id: "naturesaura:effect_powder"
+					Count: 1b
+					tag: {
+						effect: "naturesaura:ore_spawn"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["5696F8B38C83049D"]
+			id: "428C726067E20CB4"
+			tasks: [{
+				id: "3C536528EAB6D36C"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			dependencies: ["776B11A2A1F4666E"]
+			id: "40E1033B327FD584"
+			tasks: [{
+				id: "3E4614DD7E3D0E55"
+				type: "item"
+				item: "legendarysurvivaloverhaul:cold_string"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			dependencies: ["776B11A2A1F4666E"]
+			id: "36D4ABA1BC39FB7B"
+			tasks: [{
+				id: "51C59FC21867515D"
+				type: "item"
+				item: "legendarysurvivaloverhaul:warm_string"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			dependencies: ["40E1033B327FD584"]
+			id: "2FFD1B580D731549"
+			tasks: [{
+				id: "4DA918B7200D209B"
+				type: "item"
+				item: "legendarysurvivaloverhaul:cooling_coat_1"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			dependencies: ["36D4ABA1BC39FB7B"]
+			id: "442D13BF8D080060"
+			tasks: [{
+				id: "57A7EB74D1644B0F"
+				type: "item"
+				item: "legendarysurvivaloverhaul:heating_coat_1"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			dependencies: ["453D7988FA1A4EED"]
+			dependency_requirement: "one_completed"
+			id: "78DE3E78C0BF1E44"
+			tasks: [
+				{
+					id: "70654A798E2D242F"
+					type: "item"
+					item: "eidolon:wooden_altar"
+				}
+				{
+					id: "69EF890810B6C01B"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			dependencies: ["78DE3E78C0BF1E44"]
+			id: "749EF73C5322DA7F"
+			tasks: [
+				{
+					id: "147886E05EE63A26"
+					type: "item"
+					item: "eidolon:candle"
+				}
+				{
+					id: "2D5417CA1B048317"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 2.5d
+			dependencies: ["749EF73C5322DA7F"]
+			id: "30DAE9A5302C273B"
+			tasks: [{
+				id: "38A9CEDB91567657"
+				type: "checkmark"
+				title: "Получение первого знака"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			dependencies: ["4AA01FD336CE2A5A"]
+			id: "6D9B351916B2423C"
+			tasks: [{
+				id: "061AA95634DC2C38"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.5d
+			dependencies: ["6D9B351916B2423C"]
+			id: "76A0313B16DECA92"
+			tasks: [{
+				id: "33427E506E3E3BBC"
+				type: "item"
+				item: "eidolon:death_essence"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.0d
+			dependencies: ["76A0313B16DECA92"]
+			id: "71E9022AE3024C97"
+			tasks: [{
+				id: "7ABDD245EFD742ED"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			dependencies: [
+				"71E9022AE3024C97"
+				"1F6E07D722E36440"
+			]
+			id: "1C4507D642B9C740"
+			tasks: [{
+				id: "34D12409A9A1A752"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			dependencies: ["1C4507D642B9C740"]
+			id: "42A746C715AAE3F9"
+			tasks: [{
+				id: "30367C9C1FB1CE0B"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			dependencies: ["42A746C715AAE3F9"]
+			id: "6F1C1457DC781412"
+			tasks: [{
+				id: "7AA196A80E38A267"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			dependencies: ["30DAE9A5302C273B"]
+			id: "45926686018A0B33"
+			tasks: [{
+				id: "1B467E738A03C926"
+				type: "checkmark"
+				title: "Получение второго знака"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.0d
+			dependencies: [
+				"45926686018A0B33"
+				"6F1C1457DC781412"
+			]
+			id: "49F1CBD4E45231F3"
+			tasks: [{
+				id: "11C162E80EE3AAFD"
+				type: "checkmark"
+				title: "Получение третьего знака"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			dependencies: ["49F1CBD4E45231F3"]
+			id: "3D95FE9DE2C4D09C"
+			tasks: [{
+				id: "0C12E9CC59A92BB3"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			dependencies: ["3D95FE9DE2C4D09C"]
+			id: "4DA4D3E5866C5EB7"
+			tasks: [{
+				id: "727F444ADF92C0EB"
+				type: "item"
+				item: "undergarden:catalyst"
 			}]
 		}
 	]
