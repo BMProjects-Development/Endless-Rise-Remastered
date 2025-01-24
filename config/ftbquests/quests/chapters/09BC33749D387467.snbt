@@ -5,7 +5,7 @@
 	filename: "09BC33749D387467"
 	title: "&aЭпоха Примитива"
 	icon: "notreepunching:flint_shard"
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{

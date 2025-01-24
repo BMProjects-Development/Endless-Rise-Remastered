@@ -3,9 +3,9 @@
 	group: "1ED255BD6A1F3077"
 	order_index: 1
 	filename: "19D20D103B43D6DB"
-	title: "&aЖелезный Век"
+	title: "&aМеталлический Век"
 	icon: "minecraft:iron_ingot"
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -978,6 +978,63 @@
 				type: "item"
 				item: "undergarden:catalyst"
 			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			dependencies: ["1C4507D642B9C740"]
+			id: "2CCEABFB44909797"
+			tasks: [{
+				id: "26F649D26DF6030D"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			dependencies: ["71E9022AE3024C97"]
+			id: "6756DCB1AAB36D62"
+			tasks: [
+				{
+					id: "14D2B6CC89E2C503"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25803EC02C07AFD7"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4704D3E5FCDF1D5F"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "090C2831C88400E4"
+					type: "item"
+					item: "eidolon:prestigious_palm"
+				}
+			]
 		}
 	]
 }
