@@ -671,5 +671,17 @@
 				title: "Алмазная пластина"
 			}]
 		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: ["Связывают валы в полноценные конвейерные ленты."]
+			dependencies: ["31B0B795411A5508"]
+			id: "2CD44FAE0380EB2A"
+			tasks: [{
+				id: "2B31D89769CA0FE9"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
 	]
 }

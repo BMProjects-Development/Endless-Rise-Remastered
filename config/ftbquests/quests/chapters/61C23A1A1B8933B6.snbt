@@ -238,18 +238,6 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.0d
-			description: ["Связывают валы в полноценные конвейерные ленты."]
-			dependencies: ["31B0B795411A5508"]
-			id: "2CD44FAE0380EB2A"
-			tasks: [{
-				id: "2B31D89769CA0FE9"
-				type: "item"
-				item: "create:belt_connector"
-			}]
-		}
-		{
 			x: 19.5d
 			y: -1.5d
 			shape: "hexagon"
