@@ -3,17 +3,17 @@
 	group: "11EC8770AFEB5B52"
 	order_index: 1
 	filename: "57D608A24DE940DA"
-	title: "&aНезер"
+	title: "{er.57d608a24de940da.title}"
 	icon: "minecraft:nether_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Портал в Незер"
+			title: "{er.57d608a24de940da.quests0.title}"
 			x: -0.5d
 			y: -0.5d
-			shape: "gear"
-			description: ["С помощью обсидиана можно построить портал в ад."]
+			shape: "tech_smooth_square"
+			description: ["{er.57d608a24de940da.quests0.description0}"]
 			dependencies: ["31BD23CD6DFA60B1"]
 			hide: true
 			size: 1.2d
@@ -28,7 +28,7 @@
 				{
 					id: "7FCB4EBEC204E0D1"
 					type: "questsadditions:structure"
-					title: "Портал в Незер"
+					title: "{er.57d608a24de940da.quests0.tasks1.title}"
 					name: "nether_portal"
 					hasCustomPicture: false
 					layer: true
@@ -38,16 +38,16 @@
 				{
 					id: "30AE021C00511187"
 					type: "dimension"
-					title: "Посетить измерение Незер"
+					title: "{er.57d608a24de940da.quests0.tasks2.title}"
 					dimension: "minecraft:the_nether"
 				}
 			]
 		}
 		{
-			title: "Босс"
+			title: "{er.57d608a24de940da.quests1.title}"
 			x: 1.0d
 			y: 0.0d
-			description: ["С помощью 3 черепов скелета и 4 песка душ можно призвать босса - Иссушителя."]
+			description: ["{er.57d608a24de940da.quests1.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "3B1B40E055D9689D"
 			tasks: [
@@ -68,8 +68,8 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			shape: "gear"
-			description: ["После победы над боссом вы получите нагрду - Звезду Незера. Она вам понадобится."]
+			shape: "tech_circle"
+			description: ["{er.57d608a24de940da.quests2.description0}"]
 			dependencies: ["3B1B40E055D9689D"]
 			size: 1.2d
 			id: "417082ECCD50CFA0"
@@ -82,8 +82,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			shape: "rsquare"
-			description: ["С помощью Маяка можно получить постоянный положительный эффект, но для этого вам нужно немало потратиться. Для первого уровня вам понадобится 9 драгоценный блоков, например железные. Их нужно поставить под Маяком (3х3), после чего он активируется."]
+			description: ["{er.57d608a24de940da.quests3.description0}"]
 			dependencies: ["417082ECCD50CFA0"]
 			id: "7BBC76EDB8528709"
 			tasks: [{
@@ -95,7 +94,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			description: ["Просто светокаменная пыль, которую можно перекрафтить в светокамень!"]
+			description: ["{er.57d608a24de940da.quests4.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "15812550ADBA539C"
 			tasks: [{
@@ -106,10 +105,10 @@
 			}]
 		}
 		{
-			title: "Древние обломки"
+			title: "{er.57d608a24de940da.quests5.title}"
 			x: -2.0d
 			y: -1.0d
-			description: ["Древние обломки очень редкая руда в Нижнем мире, но с помощью неё можно получить сильное снаряжение."]
+			description: ["{er.57d608a24de940da.quests5.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "67061367401ADFFB"
 			tasks: [{
@@ -120,10 +119,10 @@
 			}]
 		}
 		{
-			title: "Незеритовый лом"
+			title: "{er.57d608a24de940da.quests6.title}"
 			x: -2.5d
 			y: -2.0d
-			description: ["С помощью незеритового лома можно создать незеритовые слитки для улучшения своего снаряжения."]
+			description: ["{er.57d608a24de940da.quests6.description0}"]
 			dependencies: ["67061367401ADFFB"]
 			id: "2472ED4B88B44529"
 			tasks: [{
@@ -136,8 +135,7 @@
 		{
 			x: -4.0d
 			y: -2.0d
-			shape: "rsquare"
-			description: ["С помощью незеритовых слитков можно улучшить своё снаряжение и не только. Эти слитки понадобятся вам во многих крафтах."]
+			description: ["{er.57d608a24de940da.quests7.description0}"]
 			dependencies: ["2472ED4B88B44529"]
 			id: "7C6F8290B3E50949"
 			tasks: [{
@@ -148,10 +146,10 @@
 			}]
 		}
 		{
-			title: "Огненные стержни"
+			title: "{er.57d608a24de940da.quests8.title}"
 			x: -2.0d
 			y: 0.0d
-			description: ["С помощью огненных стержней можно создать Око Эндера, которые в свою очередь помогут вам попасть в Край!"]
+			description: ["{er.57d608a24de940da.quests8.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "5807AA78E1578DDF"
 			tasks: [{
@@ -162,11 +160,11 @@
 			}]
 		}
 		{
-			title: "Око эндера"
+			title: "{er.57d608a24de940da.quests9.title}"
 			x: -3.5d
 			y: 0.0d
-			shape: "gear"
-			description: ["С помощью Око Эндера можно попасть в новое измерение - Край!"]
+			shape: "tech_smooth_square"
+			description: ["{er.57d608a24de940da.quests9.description0}"]
 			dependencies: ["5807AA78E1578DDF"]
 			size: 1.2d
 			id: "5A4E2FDAE9E6BDB5"
@@ -187,7 +185,7 @@
 		{
 			x: -2.5d
 			y: 1.0d
-			description: ["С помощью зельеварки можно варить зелья, которые могут понадобиться вам в дальнейшем."]
+			description: ["{er.57d608a24de940da.quests10.description0}"]
 			dependencies: ["5807AA78E1578DDF"]
 			id: "054786CC970C41B3"
 			tasks: [{
@@ -197,10 +195,10 @@
 			}]
 		}
 		{
-			title: "Светокамень"
+			title: "{er.57d608a24de940da.quests11.title}"
 			x: 1.5d
 			y: -2.0d
-			description: ["Просто обычный светокамень."]
+			description: ["{er.57d608a24de940da.quests11.description0}"]
 			dependencies: ["15812550ADBA539C"]
 			id: "2B4AB3B3ED59D5B7"
 			tasks: [{
@@ -213,7 +211,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			description: ["Можно найти в адской крепости."]
+			description: ["{er.57d608a24de940da.quests12.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "1ECE8CDDCB4F6F81"
 			tasks: [{
@@ -226,8 +224,8 @@
 		{
 			x: -1.0d
 			y: -2.0d
-			shape: "gear"
-			description: ["Просто кварц, часто встречается в Незере."]
+			shape: "tech_square"
+			description: ["{er.57d608a24de940da.quests13.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			size: 1.2d
 			id: "13CCA304B7C69DB3"
@@ -241,7 +239,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["Сложный противник!"]
+			description: ["{er.57d608a24de940da.quests14.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "34A7FE9376813446"
 			tasks: [{
@@ -254,8 +252,7 @@
 		{
 			x: -1.5d
 			y: 2.0d
-			shape: "rsquare"
-			description: ["Горячие!"]
+			description: ["{er.57d608a24de940da.quests15.description0}"]
 			dependencies: ["34A7FE9376813446"]
 			id: "572FBA521097362A"
 			tasks: [{
@@ -266,11 +263,11 @@
 			}]
 		}
 		{
-			title: "Огненная броня"
+			title: "{er.57d608a24de940da.quests16.title}"
 			x: -1.0d
 			y: 3.5d
-			shape: "octagon"
-			description: ["Хорошая броня."]
+			shape: "tech_circle"
+			description: ["{er.57d608a24de940da.quests16.description0}"]
 			dependencies: ["572FBA521097362A"]
 			id: "416A3A5BD334DBF3"
 			tasks: [
@@ -321,11 +318,11 @@
 			]
 		}
 		{
-			title: "Огненная боевая часть"
+			title: "{er.57d608a24de940da.quests17.title}"
 			x: -3.0d
 			y: 2.5d
-			shape: "octagon"
-			description: ["Хороший меч и щит."]
+			shape: "tech_circle"
+			description: ["{er.57d608a24de940da.quests17.description0}"]
 			dependencies: ["572FBA521097362A"]
 			id: "67420863D23DA5BD"
 			tasks: [
@@ -344,7 +341,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
-			description: ["Сложный противник!"]
+			description: ["{er.57d608a24de940da.quests18.description0}"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "27013DB46FA954AC"
 			tasks: [{
@@ -357,8 +354,8 @@
 		{
 			x: 0.5d
 			y: 2.0d
-			shape: "rsquare"
-			description: ["Выглядит страшно."]
+			shape: "tech_circle"
+			description: ["{er.57d608a24de940da.quests19.description0}"]
 			dependencies: ["27013DB46FA954AC"]
 			id: "137DA83271DA2726"
 			tasks: [{
@@ -370,8 +367,8 @@
 		{
 			x: 2.0d
 			y: 2.5d
-			shape: "octagon"
-			description: ["Интересный шлем."]
+			shape: "tech_circle"
+			description: ["{er.57d608a24de940da.quests20.description0}"]
 			dependencies: ["137DA83271DA2726"]
 			id: "27E2A4EFB5774EAB"
 			tasks: [{
@@ -389,7 +386,7 @@
 		{
 			x: -0.5d
 			y: 2.0d
-			description: ["Хорошее оружие."]
+			description: ["{er.57d608a24de940da.quests21.description0}"]
 			dependencies: ["27013DB46FA954AC"]
 			id: "5A69D9627B4C0617"
 			tasks: [{
@@ -405,10 +402,10 @@
 			}]
 		}
 		{
-			title: "Незеритовая броня"
+			title: "{er.57d608a24de940da.quests22.title}"
 			x: -5.0d
 			y: -3.0d
-			description: ["Хорошая броня."]
+			description: ["{er.57d608a24de940da.quests22.description0}"]
 			dependencies: ["7C6F8290B3E50949"]
 			id: "741186B79AFCC650"
 			tasks: [
@@ -459,10 +456,10 @@
 			]
 		}
 		{
-			title: "Незеритовые инструменты"
+			title: "{er.57d608a24de940da.quests23.title}"
 			x: -5.0d
 			y: -1.0d
-			description: ["Хорошие инструменты."]
+			description: ["{er.57d608a24de940da.quests23.description0}"]
 			dependencies: ["7C6F8290B3E50949"]
 			id: "2DA652089028017F"
 			tasks: [
@@ -502,10 +499,10 @@
 			]
 		}
 		{
-			title: "1 Уровень маяка"
+			title: "{er.57d608a24de940da.quests24.title}"
 			x: 4.5d
 			y: 1.5d
-			description: ["1 уровень маяка."]
+			description: ["{er.57d608a24de940da.quests24.description0}"]
 			dependencies: ["7BBC76EDB8528709"]
 			id: "433140B2E4B68927"
 			tasks: [{
@@ -519,10 +516,10 @@
 			}]
 		}
 		{
-			title: "2 Уровень маяка"
+			title: "{er.57d608a24de940da.quests25.title}"
 			x: 5.0d
 			y: 2.5d
-			description: ["2 уровень маяка."]
+			description: ["{er.57d608a24de940da.quests25.description0}"]
 			dependencies: ["433140B2E4B68927"]
 			id: "2E122743881CF3F1"
 			tasks: [{
@@ -536,10 +533,10 @@
 			}]
 		}
 		{
-			title: "3 Уровень маяка"
+			title: "{er.57d608a24de940da.quests26.title}"
 			x: 6.0d
 			y: 2.5d
-			description: ["3 уровень маяка."]
+			description: ["{er.57d608a24de940da.quests26.description0}"]
 			dependencies: ["2E122743881CF3F1"]
 			id: "3FDF27B93851A1DB"
 			tasks: [{
@@ -553,10 +550,10 @@
 			}]
 		}
 		{
-			title: "4 Уровень маяка"
+			title: "{er.57d608a24de940da.quests27.title}"
 			x: 6.5d
 			y: 1.5d
-			description: ["4 уровень маяка."]
+			description: ["{er.57d608a24de940da.quests27.description0}"]
 			dependencies: ["3FDF27B93851A1DB"]
 			id: "0404168B1E457D56"
 			tasks: [{
@@ -572,8 +569,7 @@
 		{
 			x: 3.0d
 			y: 0.5d
-			shape: "rsquare"
-			description: ["Хорошее оружие."]
+			description: ["{er.57d608a24de940da.quests28.description0}"]
 			dependencies: ["417082ECCD50CFA0"]
 			id: "1ABE9F47FF3EE573"
 			tasks: [{

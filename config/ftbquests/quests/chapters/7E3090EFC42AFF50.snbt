@@ -3,7 +3,7 @@
 	group: "4F34514062F979C6"
 	order_index: 1
 	filename: "7E3090EFC42AFF50"
-	title: "&aЭпоха Цифровых технологий"
+	title: "{er.7e3090efc42aff50.title}"
 	icon: "mekanism:metallurgic_infuser"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,8 +11,8 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["С помощью металлургического наполнителя можно создавать различные компоненты, путём наполнения их различными веществами, например редстоуном."]
+			shape: "tech_smooth_square"
+			description: ["{er.7e3090efc42aff50.quests0.description0}"]
 			hide_dependency_lines: false
 			dependencies: ["58A6DAC2644D7A3E"]
 			hide: true
@@ -25,11 +25,11 @@
 			}]
 		}
 		{
-			title: "Базовые элементы"
+			title: "{er.7e3090efc42aff50.quests1.title}"
 			x: 2.0d
 			y: 0.0d
-			shape: "octagon"
-			description: ["Базовые компоненты из этого мода. Они вам понадобятся для создания различных механизмов."]
+			shape: "tech_circle"
+			description: ["{er.7e3090efc42aff50.quests1.description0}"]
 			dependencies: ["6EDBA2148672DAB0"]
 			size: 1.2d
 			id: "62856F299F843C2A"
@@ -51,7 +51,7 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			description: ["С помощью энергетической плавильне можно довольно быстро переплавлять руду и другие предметы."]
+			description: ["{er.7e3090efc42aff50.quests2.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "503E435E7C535666"
@@ -64,7 +64,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests3.description0}"]
 			dependencies: ["503E435E7C535666"]
 			size: 0.5d
 			id: "7F8CF3FD15F15B09"
@@ -77,7 +77,7 @@
 		{
 			x: 5.5d
 			y: 2.5d
-			description: ["С помощью камеры обогощения можно обогащять руды в их аналоги и не только."]
+			description: ["{er.7e3090efc42aff50.quests4.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "3F32DC3C39248E2D"
@@ -90,7 +90,7 @@
 		{
 			x: 5.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests5.description0}"]
 			dependencies: ["3F32DC3C39248E2D"]
 			size: 0.5d
 			id: "375CDE7E8E58F594"
@@ -103,7 +103,7 @@
 		{
 			x: 6.5d
 			y: 2.5d
-			description: ["С помощью дробителя можно передрабливать слитки в пыль, создавать биотопливо из растений и не только."]
+			description: ["{er.7e3090efc42aff50.quests6.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "0C4A82F954C2A3CA"
@@ -116,7 +116,7 @@
 		{
 			x: 6.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests7.description0}"]
 			dependencies: ["0C4A82F954C2A3CA"]
 			size: 0.5d
 			id: "4B4E2B0C9A683E59"
@@ -129,7 +129,7 @@
 		{
 			x: 7.5d
 			y: 2.5d
-			description: ["С помощью осмиевого компрессора можно создавать различные газ из предметов и не только."]
+			description: ["{er.7e3090efc42aff50.quests8.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "2D5061979FCFC54F"
@@ -142,7 +142,7 @@
 		{
 			x: 7.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests9.description0}"]
 			dependencies: ["2D5061979FCFC54F"]
 			size: 0.5d
 			id: "0EE4CDDB14ED7DD6"
@@ -156,8 +156,8 @@
 			x: 8.5d
 			y: 2.5d
 			description: [
-				"С помощью объединителя можно, например, из пыли и булыжника создать руду."
-				"Улучшенная версия предыдущего механизма."
+				"{er.7e3090efc42aff50.quests10.description0}"
+				"{er.7e3090efc42aff50.quests10.description1}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
@@ -171,7 +171,7 @@
 		{
 			x: 8.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests11.description0}"]
 			dependencies: ["2289980729F93539"]
 			size: 0.5d
 			id: "7FDC648BF4E0D44E"
@@ -184,7 +184,7 @@
 		{
 			x: 3.5d
 			y: 2.5d
-			description: ["С помощью камеры очистки можно создавать глыбы из руды для дальнейшей ёё переработки."]
+			description: ["{er.7e3090efc42aff50.quests12.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "33322337C2DC41D8"
@@ -197,7 +197,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests13.description0}"]
 			dependencies: ["33322337C2DC41D8"]
 			size: 0.5d
 			id: "09F287BC1BB5D7BF"
@@ -210,7 +210,7 @@
 		{
 			x: 2.5d
 			y: 2.5d
-			description: ["С помощью химической инъекционой камеры можно создавать осколки из руды для их дальнейшей обработки и не только."]
+			description: ["{er.7e3090efc42aff50.quests14.description0}"]
 			dependencies: ["33322337C2DC41D8"]
 			id: "38D63AB28ED4AADF"
 			tasks: [{
@@ -222,7 +222,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests15.description0}"]
 			dependencies: ["38D63AB28ED4AADF"]
 			size: 0.5d
 			id: "394CF810847DA605"
@@ -237,7 +237,7 @@
 			y: 2.5d
 			description: [
 				""
-				"С помощью металлургического наполнителя можно создавать различные компоненты, путём наполнения их различными веществами, например редстоуном."
+				"{er.7e3090efc42aff50.quests16.description0}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
@@ -251,7 +251,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests17.description0}"]
 			dependencies: ["3AAA0C7B246482C6"]
 			size: 0.5d
 			id: "5B606D7ACA3AC32A"
@@ -264,7 +264,7 @@
 		{
 			x: 0.5d
 			y: 2.5d
-			description: ["С помощью лесопилки можно получать доски из различных деревянных предметов, наример люк или плита."]
+			description: ["{er.7e3090efc42aff50.quests18.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "554CF85C82723CA6"
@@ -277,7 +277,7 @@
 		{
 			x: -0.25d
 			y: 3.0d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests19.description0}"]
 			dependencies: ["554CF85C82723CA6"]
 			size: 0.5d
 			id: "7197967E7E122CF8"
@@ -290,8 +290,8 @@
 		{
 			x: 1.0d
 			y: 1.0d
-			shape: "pentagon"
-			description: ["С помощью солнечной панели можно вырабатывать энергию для механизмов."]
+			shape: "tech_circle"
+			description: ["{er.7e3090efc42aff50.quests20.description0}"]
 			dependencies: ["62856F299F843C2A"]
 			id: "468C4625B2717D3F"
 			tasks: [{
@@ -303,7 +303,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Продвинутая версия солнечной панели."]
+			description: ["{er.7e3090efc42aff50.quests21.description0}"]
 			dependencies: ["468C4625B2717D3F"]
 			id: "67D0E8CE6812F777"
 			tasks: [{
@@ -315,8 +315,8 @@
 		{
 			x: 3.0d
 			y: 1.0d
-			shape: "pentagon"
-			description: ["С помощью ветрогенератора можно вырабатывать энергию для механизмов."]
+			shape: "tech_circle"
+			description: ["{er.7e3090efc42aff50.quests22.description0}"]
 			dependencies: ["62856F299F843C2A"]
 			id: "31EB22539EB09CF9"
 			tasks: [{
@@ -328,7 +328,7 @@
 		{
 			x: 4.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests23.description0}"]
 			dependencies: ["7F8CF3FD15F15B09"]
 			size: 0.5d
 			id: "73FA97C6C5053E2E"
@@ -341,7 +341,7 @@
 		{
 			x: 4.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests24.description0}"]
 			dependencies: ["73FA97C6C5053E2E"]
 			size: 0.5d
 			id: "2C728E7EB4FCB2E2"
@@ -354,7 +354,7 @@
 		{
 			x: 4.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests25.description0}"]
 			dependencies: ["2C728E7EB4FCB2E2"]
 			size: 0.5d
 			id: "64BD104C30269288"
@@ -367,7 +367,7 @@
 		{
 			x: 5.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests26.description0}"]
 			dependencies: ["375CDE7E8E58F594"]
 			size: 0.5d
 			id: "7E3A98691A4F60F2"
@@ -380,7 +380,7 @@
 		{
 			x: 5.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests27.description0}"]
 			dependencies: ["7E3A98691A4F60F2"]
 			size: 0.5d
 			id: "602966B62B305D20"
@@ -393,7 +393,7 @@
 		{
 			x: 5.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests28.description0}"]
 			dependencies: ["602966B62B305D20"]
 			size: 0.5d
 			id: "2C5A3B2A81A4D14D"
@@ -406,7 +406,7 @@
 		{
 			x: 6.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests29.description0}"]
 			dependencies: ["4B4E2B0C9A683E59"]
 			size: 0.5d
 			id: "5C7D0E822714E99C"
@@ -419,7 +419,7 @@
 		{
 			x: 6.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests30.description0}"]
 			dependencies: ["5C7D0E822714E99C"]
 			size: 0.5d
 			id: "2355F2027D2806E4"
@@ -432,7 +432,7 @@
 		{
 			x: 6.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests31.description0}"]
 			dependencies: ["2355F2027D2806E4"]
 			size: 0.5d
 			id: "7EF20A271D055586"
@@ -445,7 +445,7 @@
 		{
 			x: 7.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests32.description0}"]
 			dependencies: ["0EE4CDDB14ED7DD6"]
 			size: 0.5d
 			id: "0FF755C549AB49AE"
@@ -458,7 +458,7 @@
 		{
 			x: 7.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests33.description0}"]
 			dependencies: ["0FF755C549AB49AE"]
 			size: 0.5d
 			id: "1DE41FDB3D9D4907"
@@ -471,7 +471,7 @@
 		{
 			x: 7.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests34.description0}"]
 			dependencies: ["1DE41FDB3D9D4907"]
 			size: 0.5d
 			id: "6381551414008E29"
@@ -484,7 +484,7 @@
 		{
 			x: 8.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests35.description0}"]
 			dependencies: ["7FDC648BF4E0D44E"]
 			size: 0.5d
 			id: "5BEF27C9B66210D7"
@@ -497,7 +497,7 @@
 		{
 			x: 8.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests36.description0}"]
 			dependencies: ["5BEF27C9B66210D7"]
 			size: 0.5d
 			id: "221534821196EC29"
@@ -510,7 +510,7 @@
 		{
 			x: 8.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests37.description0}"]
 			dependencies: ["221534821196EC29"]
 			size: 0.5d
 			id: "7ADAA639F50D8396"
@@ -523,7 +523,7 @@
 		{
 			x: 3.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests38.description0}"]
 			dependencies: ["09F287BC1BB5D7BF"]
 			size: 0.5d
 			id: "57B03D511EC81BDA"
@@ -536,7 +536,7 @@
 		{
 			x: 3.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests39.description0}"]
 			dependencies: ["57B03D511EC81BDA"]
 			size: 0.5d
 			id: "51239D5FD44FF05A"
@@ -549,7 +549,7 @@
 		{
 			x: 3.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests40.description0}"]
 			dependencies: ["51239D5FD44FF05A"]
 			size: 0.5d
 			id: "60B96610836F5C0F"
@@ -562,7 +562,7 @@
 		{
 			x: 2.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests41.description0}"]
 			dependencies: ["394CF810847DA605"]
 			size: 0.5d
 			id: "4A193DC022B1B955"
@@ -575,7 +575,7 @@
 		{
 			x: 2.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests42.description0}"]
 			dependencies: ["4A193DC022B1B955"]
 			size: 0.5d
 			id: "00E29DA1ED9F14FD"
@@ -588,7 +588,7 @@
 		{
 			x: 2.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests43.description0}"]
 			dependencies: ["00E29DA1ED9F14FD"]
 			size: 0.5d
 			id: "11301B6701561D45"
@@ -601,7 +601,7 @@
 		{
 			x: 1.0d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests44.description0}"]
 			dependencies: ["5B606D7ACA3AC32A"]
 			size: 0.5d
 			id: "235DF1389452B882"
@@ -614,7 +614,7 @@
 		{
 			x: 1.5d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests45.description0}"]
 			dependencies: ["235DF1389452B882"]
 			size: 0.5d
 			id: "5F54333312FDD86E"
@@ -627,7 +627,7 @@
 		{
 			x: 1.5d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests46.description0}"]
 			dependencies: ["5F54333312FDD86E"]
 			size: 0.5d
 			id: "12BA658647C1846E"
@@ -640,7 +640,7 @@
 		{
 			x: -0.25d
 			y: 3.5d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests47.description0}"]
 			dependencies: ["7197967E7E122CF8"]
 			size: 0.5d
 			id: "22B99F621B5F8037"
@@ -653,7 +653,7 @@
 		{
 			x: 0.25d
 			y: 3.75d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests48.description0}"]
 			dependencies: ["22B99F621B5F8037"]
 			size: 0.5d
 			id: "464F41746C14B2C2"
@@ -666,7 +666,7 @@
 		{
 			x: 0.25d
 			y: 3.25d
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{er.7e3090efc42aff50.quests49.description0}"]
 			dependencies: ["464F41746C14B2C2"]
 			size: 0.5d
 			id: "4DA76BFE501B0727"
@@ -679,7 +679,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			description: ["Личный сундук это сундук, который можно открывать везде, даже из инвентаря игрока."]
+			description: ["{er.7e3090efc42aff50.quests50.description0}"]
 			dependencies: ["62856F299F843C2A"]
 			id: "44E26D6A4B7A4E43"
 			tasks: [{
@@ -691,7 +691,7 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			description: ["Просто прикольной робот, который нужен для друго, более крутого робота."]
+			description: ["{er.7e3090efc42aff50.quests51.description0}"]
 			dependencies: ["44E26D6A4B7A4E43"]
 			id: "2840A60CEEEFAEE6"
 			tasks: [{
@@ -703,8 +703,8 @@
 		{
 			x: 2.0d
 			y: -4.5d
-			shape: "rsquare"
-			description: ["С помощью цифрового шахтера можно добывать все блоки, в пределах 32-х блоков."]
+			shape: "tech_smooth_square"
+			description: ["{er.7e3090efc42aff50.quests52.description0}"]
 			dependencies: ["2840A60CEEEFAEE6"]
 			id: "7506B61ECB963FC8"
 			tasks: [{
@@ -716,8 +716,8 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			shape: "rsquare"
-			description: ["Кирка, которая работает на энергии и не имеет прочности. Также достаточно быстро копает."]
+			shape: "tech_circle"
+			description: ["{er.7e3090efc42aff50.quests53.description0}"]
 			dependencies: ["7986D6D72CCCD95A"]
 			id: "463C26E2FB1F6B63"
 			tasks: [{
@@ -735,8 +735,8 @@
 		{
 			x: 3.5d
 			y: -1.5d
-			shape: "rsquare"
-			description: ["С помощью огнемёта можно выжигать различные блоки или убивать монстров."]
+			shape: "tech_circle"
+			description: ["{er.7e3090efc42aff50.quests54.description0}"]
 			dependencies: ["4A75CC5B7B46A4FE"]
 			id: "35213A92364227E4"
 			tasks: [{
@@ -746,11 +746,11 @@
 			}]
 		}
 		{
-			title: "Полезности"
+			title: "{er.7e3090efc42aff50.quests55.title}"
 			x: 4.5d
 			y: -1.5d
-			shape: "rsquare"
-			description: ["Просто довольно интересные и полезные вещи."]
+			shape: "tech_circle"
+			description: ["{er.7e3090efc42aff50.quests55.description0}"]
 			dependencies: ["4A75CC5B7B46A4FE"]
 			id: "3FC452A0F78F6D65"
 			tasks: [
@@ -784,10 +784,10 @@
 			]
 		}
 		{
-			title: "Продвинутые элементы"
+			title: "{er.7e3090efc42aff50.quests56.title}"
 			x: 4.0d
 			y: 0.0d
-			shape: "octagon"
+			shape: "tech_circle"
 			dependencies: ["62856F299F843C2A"]
 			size: 1.2d
 			id: "4A75CC5B7B46A4FE"
@@ -805,10 +805,10 @@
 			]
 		}
 		{
-			title: "Элитные предметы"
+			title: "{er.7e3090efc42aff50.quests57.title}"
 			x: 6.0d
 			y: 0.0d
-			shape: "octagon"
+			shape: "tech_circle"
 			dependencies: ["4A75CC5B7B46A4FE"]
 			size: 1.2d
 			id: "7986D6D72CCCD95A"
@@ -828,7 +828,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			shape: "octagon"
+			shape: "tech_circle"
 			dependencies: ["7986D6D72CCCD95A"]
 			size: 1.2d
 			id: "48502CFABF15A126"
@@ -852,7 +852,7 @@
 		{
 			x: 10.5d
 			y: -1.5d
-			shape: "gear"
+			shape: "tech_smooth_square"
 			dependencies: ["66E79C37834A07DF"]
 			size: 1.2d
 			id: "0890E8870E816C1D"
@@ -865,7 +865,7 @@
 		{
 			x: 8.5d
 			y: -1.5d
-			shape: "gear"
+			shape: "tech_smooth_square"
 			dependencies: ["66E79C37834A07DF"]
 			size: 1.2d
 			id: "6CBF2038A77A746C"
@@ -889,7 +889,7 @@
 		{
 			x: 11.0d
 			y: 0.5d
-			shape: "gear"
+			shape: "tech_smooth_square"
 			dependencies: ["582BD1E5EC7F3963"]
 			size: 1.2d
 			id: "5B4AD921207A3E45"
@@ -922,7 +922,7 @@
 			}]
 		}
 		{
-			title: "Meka Suit"
+			title: "{er.7e3090efc42aff50.quests66.title}"
 			x: 9.0d
 			y: -3.0d
 			dependencies: ["6CBF2038A77A746C"]

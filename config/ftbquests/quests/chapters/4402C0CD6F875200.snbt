@@ -1,9 +1,9 @@
 {
 	id: "4402C0CD6F875200"
 	group: "1ED255BD6A1F3077"
-	order_index: 4
+	order_index: 2
 	filename: "4402C0CD6F875200"
-	title: "&aЭпоха Инженерии"
+	title: "{er.4402c0cd6f875200.title}"
 	icon: "immersiveengineering:manual"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,8 +11,8 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["Молот инженера нужен чтобы сформировать мультиблочные структуры. А руководство, чтобы разобратся в этой моде!"]
+			shape: "tech_smooth_square"
+			description: ["{er.4402c0cd6f875200.quests0.description0}"]
 			dependencies: ["29039481EF4BB2EF"]
 			hide: true
 			size: 1.2d
@@ -35,10 +35,10 @@
 			}]
 		}
 		{
-			title: "Кирпичи коксовой печи"
+			title: "{er.4402c0cd6f875200.quests1.title}"
 			x: 0.5d
 			y: 0.0d
-			description: ["Используйте эти кирпичи чтобы сформировать коксовую печь, в которой можно получить коксовый уголь."]
+			description: ["{er.4402c0cd6f875200.quests1.description0}"]
 			dependencies: ["4AA6F5E7D38B0E33"]
 			id: "7BC929A9FE99C775"
 			tasks: [{
@@ -51,7 +51,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
-			description: ["Этот уголь лучше обычного. Ещё он нужен чтобы получить стальные слитки!"]
+			description: ["{er.4402c0cd6f875200.quests2.description0}"]
 			dependencies: ["7BC929A9FE99C775"]
 			id: "49B663AD2181C26F"
 			tasks: [{
@@ -61,7 +61,7 @@
 			}]
 		}
 		{
-			title: "Горизонтальные доски"
+			title: "{er.4402c0cd6f875200.quests3.title}"
 			x: 2.0d
 			y: 0.0d
 			dependencies: ["7BC929A9FE99C775"]
@@ -76,8 +76,8 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			shape: "gear"
-			description: ["Кинетический генератор нужен чтобы получать энергию из энерговыробатываемых структурах, например, ветряная мельница или водяное колесо."]
+			shape: "tech_circle"
+			description: ["{er.4402c0cd6f875200.quests4.description0}"]
 			dependencies: ["0CB34097439D4C81"]
 			size: 1.2d
 			id: "386BB10DF97AC311"
@@ -88,10 +88,10 @@
 			}]
 		}
 		{
-			title: "Кирпичи доменной печи"
+			title: "{er.4402c0cd6f875200.quests5.title}"
 			x: 2.0d
 			y: -1.5d
-			description: ["Используйте эти кирпичи чтобы сформировать доменную печь. Она, в свою очередь, нужна для того, чтобы получить стальные слитки. Совет: сделайте сразу несколько таких печей т.к. стали нужно очень много!"]
+			description: ["{er.4402c0cd6f875200.quests5.description0}"]
 			dependencies: [
 				"49B663AD2181C26F"
 				"52B94FC9AA7696E2"
@@ -105,11 +105,10 @@
 			}]
 		}
 		{
-			title: "Стальные слитки"
+			title: "{er.4402c0cd6f875200.quests6.title}"
 			x: 4.0d
 			y: -1.5d
-			shape: "rsquare"
-			description: ["Охх... Приготовьтесь к тому, что этих слитков вам понадобится очень много."]
+			description: ["{er.4402c0cd6f875200.quests6.description0}"]
 			dependencies: ["77E59CDF780113E6"]
 			id: "0CB34097439D4C81"
 			tasks: [{
@@ -122,7 +121,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["Водяное колесо вырабатывает энергию из-за ТЕЧЕНИЯ воды по лопостям колеса."]
+			description: ["{er.4402c0cd6f875200.quests7.description0}"]
 			dependencies: ["386BB10DF97AC311"]
 			id: "1FE72594940AEB12"
 			tasks: [{
@@ -134,7 +133,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: ["Ветряная мельница вырабатывает энергию с помощью ветра."]
+			description: ["{er.4402c0cd6f875200.quests8.description0}"]
 			dependencies: ["386BB10DF97AC311"]
 			id: "6EE3E55D0AEA127E"
 			tasks: [{
@@ -146,8 +145,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			shape: "rsquare"
-			description: ["С помощью этого вы будете снабжать свои приборы энергией!"]
+			description: ["{er.4402c0cd6f875200.quests9.description0}"]
 			dependencies: [
 				"386BB10DF97AC311"
 				"52B94FC9AA7696E2"
@@ -169,7 +167,7 @@
 		{
 			x: 5.0d
 			y: -2.5d
-			description: ["Низковольтный конденсатор нужен чтобы хранить энергию и в будущем использовать в своих целях."]
+			description: ["{er.4402c0cd6f875200.quests10.description0}"]
 			dependencies: ["0CB34097439D4C81"]
 			id: "5EEDECEE6A47C769"
 			tasks: [{
@@ -181,7 +179,7 @@
 		{
 			x: 5.5d
 			y: -1.5d
-			description: ["Верстак инженера нужен для создания металлических пресс-форм."]
+			description: ["{er.4402c0cd6f875200.quests11.description0}"]
 			dependencies: ["0CB34097439D4C81"]
 			id: "2CF80C115156DAAE"
 			tasks: [{
@@ -193,7 +191,7 @@
 		{
 			x: 7.0d
 			y: -2.0d
-			description: ["С помощью чертежей инженера можно создавать металлические пресс-формы для пресса."]
+			description: ["{er.4402c0cd6f875200.quests12.description0}"]
 			dependencies: ["2CF80C115156DAAE"]
 			id: "40458E59F39A1519"
 			tasks: [{
@@ -211,7 +209,7 @@
 		{
 			x: 7.5d
 			y: -3.0d
-			description: ["С помощью металлической пресс-формы: Пластина на прессе можно создавать пластины из  различнвых слитков."]
+			description: ["{er.4402c0cd6f875200.quests13.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["40458E59F39A1519"]
 			id: "3DBE00DDDF7E9EF9"
@@ -224,7 +222,7 @@
 		{
 			x: 8.5d
 			y: -3.5d
-			description: ["С помощью металлической пресс-формы: Шестерня на прессе можно создавать шестерни из различных слитков."]
+			description: ["{er.4402c0cd6f875200.quests14.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["40458E59F39A1519"]
 			id: "6DAE2ED5BE949B3F"
@@ -237,7 +235,7 @@
 		{
 			x: 6.5d
 			y: -3.5d
-			description: ["С помощью металлической пресс-формы: Прут на прессе можно создавать пруты из различных слитков."]
+			description: ["{er.4402c0cd6f875200.quests15.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["40458E59F39A1519"]
 			id: "7C372E3AD7771C76"
@@ -250,7 +248,7 @@
 		{
 			x: 7.5d
 			y: -4.0d
-			description: ["С помощью металлической пресс-формы: Провод на прессе можно создавать провода из различных слитков."]
+			description: ["{er.4402c0cd6f875200.quests16.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["40458E59F39A1519"]
 			id: "045ED1D5522382E4"
@@ -261,10 +259,10 @@
 			}]
 		}
 		{
-			title: "Металлический пресс"
+			title: "{er.4402c0cd6f875200.quests17.title}"
 			x: 7.0d
 			y: -1.0d
-			description: ["Очень удобная вещь для прессования слитков и не только! Советую по-больше использовать этот механизм для удобства."]
+			description: ["{er.4402c0cd6f875200.quests17.description0}"]
 			dependencies: ["2CF80C115156DAAE"]
 			id: "702178730DDDFEEC"
 			tasks: [
@@ -298,10 +296,10 @@
 			]
 		}
 		{
-			title: "Дробитель!"
+			title: "{er.4402c0cd6f875200.quests18.title}"
 			x: 5.0d
 			y: 0.0d
-			description: ["С помощью дробителья можно передрабливать различные руды, тем самым увеличивая количество слитков!"]
+			description: ["{er.4402c0cd6f875200.quests18.description0}"]
 			dependencies: ["386BB10DF97AC311"]
 			id: "188CCD6ABC1330F6"
 			tasks: [
@@ -337,10 +335,10 @@
 			]
 		}
 		{
-			title: "Лесопилка"
+			title: "{er.4402c0cd6f875200.quests19.title}"
 			x: 4.0d
 			y: 3.5d
-			description: ["Лесопилка поможет перерабатывать дерево и всё, что с ним связано."]
+			description: ["{er.4402c0cd6f875200.quests19.description0}"]
 			dependencies: ["386BB10DF97AC311"]
 			id: "18C1ABED62E5ABDD"
 			tasks: [
@@ -384,7 +382,7 @@
 		{
 			x: 4.0d
 			y: 5.0d
-			description: ["Бензопила поможет быстрее добывать дерево."]
+			description: ["{er.4402c0cd6f875200.quests20.description0}"]
 			dependencies: ["18C1ABED62E5ABDD"]
 			id: "6A30AB30A284E6F5"
 			tasks: [
@@ -416,10 +414,10 @@
 			]
 		}
 		{
-			title: "Ферментер"
+			title: "{er.4402c0cd6f875200.quests21.title}"
 			x: 5.5d
 			y: 1.0d
-			description: ["С помощью ферментера можно извлекать этанол из различных семян растений, фруктов и овощей."]
+			description: ["{er.4402c0cd6f875200.quests21.description0}"]
 			dependencies: ["386BB10DF97AC311"]
 			id: "75A6E765528ED19C"
 			tasks: [
@@ -463,7 +461,7 @@
 		{
 			x: 7.0d
 			y: 1.0d
-			description: ["Просто ведро этанола."]
+			description: ["{er.4402c0cd6f875200.quests22.description0}"]
 			dependencies: ["75A6E765528ED19C"]
 			id: "594E0E221CDA7EE4"
 			tasks: [{
@@ -473,10 +471,10 @@
 			}]
 		}
 		{
-			title: "Промышленная маслобойня"
+			title: "{er.4402c0cd6f875200.quests23.title}"
 			x: 5.5d
 			y: 2.0d
-			description: ["С помощью промышленной маслобойни можно выжимать сок или масло из органических материалов."]
+			description: ["{er.4402c0cd6f875200.quests23.description0}"]
 			dependencies: ["386BB10DF97AC311"]
 			id: "5FE34C6161186226"
 			tasks: [
@@ -525,7 +523,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
-			description: ["Просто ведро растительного масла."]
+			description: ["{er.4402c0cd6f875200.quests24.description0}"]
 			dependencies: ["5FE34C6161186226"]
 			id: "7151C49209BD61F7"
 			tasks: [{
@@ -535,10 +533,10 @@
 			}]
 		}
 		{
-			title: "Очиститель"
+			title: "{er.4402c0cd6f875200.quests25.title}"
 			x: 8.5d
 			y: 1.5d
-			description: ["С помощью очистителя можно перерабатывать несколько жидкостей в одну. Но лучше всего перерабатывать этанол и растительное масло в биодизельное топливо."]
+			description: ["{er.4402c0cd6f875200.quests25.description0}"]
 			dependencies: [
 				"594E0E221CDA7EE4"
 				"7151C49209BD61F7"
@@ -583,10 +581,10 @@
 			]
 		}
 		{
-			title: "Дуговая печь"
+			title: "{er.4402c0cd6f875200.quests26.title}"
 			x: 5.0d
 			y: 3.0d
-			description: ["С помощью дуговой печи можно получать больше слитков и быстрее переплавлять руду."]
+			description: ["{er.4402c0cd6f875200.quests26.description0}"]
 			dependencies: ["386BB10DF97AC311"]
 			id: "511279A0B9E350A3"
 			tasks: [
@@ -645,10 +643,10 @@
 			]
 		}
 		{
-			title: "Кирпичи продвинутой доменной печи"
+			title: "{er.4402c0cd6f875200.quests27.title}"
 			x: 3.0d
 			y: -2.5d
-			description: ["Используйте эти кирпичи чтобы сформировать улучшенную доменную печь и делайте сталь ещё больше и быстрее!"]
+			description: ["{er.4402c0cd6f875200.quests27.description0}"]
 			dependencies: [
 				"0CB34097439D4C81"
 				"77E59CDF780113E6"
@@ -664,7 +662,7 @@
 		{
 			x: 5.5d
 			y: -3.5d
-			description: ["Средневольтный конденсатор имеет тот же функционал, что и предыдущий конденсатор, но он может хранить больше энергии."]
+			description: ["{er.4402c0cd6f875200.quests28.description0}"]
 			dependencies: ["5EEDECEE6A47C769"]
 			id: "56CB723FD6DC690C"
 			tasks: [{
@@ -676,7 +674,7 @@
 		{
 			x: 5.5d
 			y: -5.0d
-			description: ["Высоковольтный конденсатор имеет тот же функционал, что и предыдущий конденсатор, но он может хранить больше энергии."]
+			description: ["{er.4402c0cd6f875200.quests29.description0}"]
 			dependencies: ["56CB723FD6DC690C"]
 			id: "2D7452A49298CF6A"
 			tasks: [{
@@ -688,7 +686,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["С помощью этого можно передавать больше энергии."]
+			description: ["{er.4402c0cd6f875200.quests30.description0}"]
 			dependencies: ["21C13322A38D1D84"]
 			id: "5CF0020AB69E08C8"
 			tasks: [
@@ -707,7 +705,7 @@
 		{
 			x: 2.0d
 			y: 4.5d
-			description: ["С помощью этого можно передавать ещё больше энергии!"]
+			description: ["{er.4402c0cd6f875200.quests31.description0}"]
 			dependencies: ["5CF0020AB69E08C8"]
 			id: "7A141D6821E9840C"
 			tasks: [
@@ -724,10 +722,10 @@
 			]
 		}
 		{
-			title: "Экскаватор"
+			title: "{er.4402c0cd6f875200.quests32.title}"
 			x: 6.0d
 			y: 3.5d
-			description: ["С помощью эксковатора можно добывать много ресурсов(работает как карьер), но нужно достаточно много энергии!"]
+			description: ["{er.4402c0cd6f875200.quests32.description0}"]
 			dependencies: ["511279A0B9E350A3"]
 			id: "2A4374A06B583E2A"
 			tasks: [
@@ -771,7 +769,7 @@
 		{
 			x: 6.5d
 			y: 4.5d
-			description: ["С помощью колонкового бура вы будете искать нужные вам жили ресурсов.(какие жили содержат нужные вам ресурсы можно посмотреть в книги инженерии)"]
+			description: ["{er.4402c0cd6f875200.quests33.description0}"]
 			dependencies: ["2A4374A06B583E2A"]
 			id: "3C5A026C51519028"
 			tasks: [{
@@ -783,15 +781,15 @@
 		{
 			x: 0.5d
 			y: -3.0d
-			shape: "gear"
-			description: ["С помощью данной книги можно создавать различный инженерный декор."]
+			shape: "tech_smooth_square"
+			description: ["{er.4402c0cd6f875200.quests34.description0}"]
 			dependencies: ["49B663AD2181C26F"]
 			size: 1.2d
 			id: "32A38DBDC7C1566C"
 			tasks: [{
 				id: "67ED535212598800"
 				type: "checkmark"
-				title: "Декор Инженера"
+				title: "{er.4402c0cd6f875200.quests34.tasks0.title}"
 			}]
 			rewards: [{
 				id: "6D2A1C66E4813E91"
@@ -808,7 +806,7 @@
 		{
 			x: 1.5d
 			y: -4.0d
-			description: ["С помощью металлической бруска создаётся большинство инженерного декора!"]
+			description: ["{er.4402c0cd6f875200.quests35.description0}"]
 			dependencies: ["32A38DBDC7C1566C"]
 			id: "062D32FE0EB6C571"
 			tasks: [{
@@ -820,7 +818,7 @@
 		{
 			x: -0.5d
 			y: -4.0d
-			description: ["Старые промышленные деревянные доски можно использовать в тематических постройках и т.п."]
+			description: ["{er.4402c0cd6f875200.quests36.description0}"]
 			dependencies: ["32A38DBDC7C1566C"]
 			id: "7B8C8830FC0585C9"
 			tasks: [{
@@ -832,7 +830,7 @@
 		{
 			x: 0.5d
 			y: -5.0d
-			description: ["Ящик с рамкой можно использовать как обычный сундук или в тематических постройках и т.п."]
+			description: ["{er.4402c0cd6f875200.quests37.description0}"]
 			dependencies: [
 				"062D32FE0EB6C571"
 				"7B8C8830FC0585C9"
@@ -847,7 +845,7 @@
 		{
 			x: 3.0d
 			y: -4.0d
-			description: ["Настенные металлические ступеньки можно использовать вместо лестницы в тематических постройках и т.п."]
+			description: ["{er.4402c0cd6f875200.quests38.description0}"]
 			dependencies: ["062D32FE0EB6C571"]
 			id: "4177D025E2015B40"
 			tasks: [{
@@ -859,7 +857,7 @@
 		{
 			x: 2.5d
 			y: -5.0d
-			description: ["Стальной мостик можно использовать как мост или в тематических постройках и т.п."]
+			description: ["{er.4402c0cd6f875200.quests39.description0}"]
 			dependencies: ["062D32FE0EB6C571"]
 			id: "7F66F85114BD664B"
 			tasks: [
@@ -878,7 +876,7 @@
 		{
 			x: 2.5d
 			y: -6.5d
-			description: ["Ступеньки стального мостикак можно использовать как обычные ступеньки или в тематических постройках и т.п."]
+			description: ["{er.4402c0cd6f875200.quests40.description0}"]
 			dependencies: ["7F66F85114BD664B"]
 			id: "106430E3C3C55B9F"
 			tasks: [{
@@ -890,7 +888,7 @@
 		{
 			x: 4.0d
 			y: -5.0d
-			description: ["Решётки стального пола можно использовать как решётку для пола или в тематических постройках и т.п."]
+			description: ["{er.4402c0cd6f875200.quests41.description0}"]
 			dependencies: ["7F66F85114BD664B"]
 			id: "3BDC0ACA44FC0956"
 			tasks: [{
@@ -902,7 +900,7 @@
 		{
 			x: 1.5d
 			y: -5.5d
-			description: ["Забор из стальной сетки можно использовать вместо обычного забора или в тематических постройках и т.п."]
+			description: ["{er.4402c0cd6f875200.quests42.description0}"]
 			dependencies: ["062D32FE0EB6C571"]
 			id: "0C8602F96A6B0AF0"
 			tasks: [
@@ -921,7 +919,7 @@
 		{
 			x: 10.0d
 			y: 1.5d
-			description: ["Просто ведро биодизеля."]
+			description: ["{er.4402c0cd6f875200.quests43.description0}"]
 			dependencies: ["57BD13B18305E76B"]
 			id: "41A9456A8427B415"
 			tasks: [{
@@ -933,7 +931,7 @@
 		{
 			x: 8.5d
 			y: -0.5d
-			description: ["С помощью термоэлектрического генератора можно вырабатывать энергию с помощью тепмературного градиента между двумя источниками тепла и холода."]
+			description: ["{er.4402c0cd6f875200.quests44.description0}"]
 			dependencies: ["702178730DDDFEEC"]
 			id: "3643F99F0BFBA33B"
 			tasks: [{
@@ -943,10 +941,10 @@
 			}]
 		}
 		{
-			title: "Дизельный генератор"
+			title: "{er.4402c0cd6f875200.quests45.title}"
 			x: 11.5d
 			y: 1.5d
-			description: ["С помощью дизельного генератора можно вырабатывать достаточно много энергии использую, как топливо, биодизель."]
+			description: ["{er.4402c0cd6f875200.quests45.description0}"]
 			dependencies: ["41A9456A8427B415"]
 			id: "28444A2E49133191"
 			tasks: [
@@ -990,7 +988,7 @@
 		{
 			x: 8.5d
 			y: -1.5d
-			description: ["С помощью трансформатора тока можно узнать количество энергии проходящей по сети."]
+			description: ["{er.4402c0cd6f875200.quests46.description0}"]
 			dependencies: ["702178730DDDFEEC"]
 			id: "5E382330BD5CAB77"
 			tasks: [{
@@ -1000,10 +998,10 @@
 			}]
 		}
 		{
-			title: "Громоотвод"
+			title: "{er.4402c0cd6f875200.quests47.title}"
 			x: 7.0d
 			y: 3.0d
-			description: ["С помощью громоотвода можно получать достаточно много энергии ловя природное явление - молнии!"]
+			description: ["{er.4402c0cd6f875200.quests47.description0}"]
 			dependencies: ["2A4374A06B583E2A"]
 			id: "013ABDCD24A76483"
 			tasks: [

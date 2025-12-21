@@ -3,7 +3,7 @@
 	group: "4F34514062F979C6"
 	order_index: 0
 	filename: "6953150A66C1136B"
-	title: "&aЭпоха Пневматики"
+	title: "{er.6953150a66c1136b.title}"
 	icon: {
 		id: "patchouli:guide_book"
 		Count: 1b
@@ -15,11 +15,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Укреплённые кирпичи"
+			title: "{er.6953150a66c1136b.quests0.title}"
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["Укреплённые кирпичи используются для создания различных блоков и предметов."]
+			shape: "tech_smooth_square"
+			description: ["{er.6953150a66c1136b.quests0.description0}"]
 			dependencies: ["0CB34097439D4C81"]
 			hide: true
 			size: 1.2d
@@ -51,10 +51,10 @@
 			}]
 		}
 		{
-			title: "Барокамера "
+			title: "{er.6953150a66c1136b.quests1.title}"
 			x: 0.5d
 			y: -1.5d
-			description: ["Барокамера один из важнейших приборов этого мода. С помощью неё вы будете создавать различные предметы для продвижения по этому моду!"]
+			description: ["{er.6953150a66c1136b.quests1.description0}"]
 			dependencies: ["45A07D9B8081F2A0"]
 			id: "24D7624AB316B3C9"
 			tasks: [
@@ -78,8 +78,8 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			shape: "rsquare"
-			description: ["С помощью воздушного компрессора можно вырабатывать сжатый воздух, путём сжигания топлива, главный вид \"энергии\" в этом моде!"]
+			shape: "tech_circle"
+			description: ["{er.6953150a66c1136b.quests2.description0}"]
 			dependencies: ["29D3BB90C1AFD93D"]
 			id: "11FC3733A1D623C4"
 			tasks: [{
@@ -89,10 +89,10 @@
 			}]
 		}
 		{
-			title: "Трубы под давлением"
+			title: "{er.6953150a66c1136b.quests3.title}"
 			x: 2.5d
 			y: 0.0d
-			description: ["С помощью труб под давлением можно передавать сжатый воздух в различные механизмы."]
+			description: ["{er.6953150a66c1136b.quests3.description0}"]
 			dependencies: ["45A07D9B8081F2A0"]
 			id: "29D3BB90C1AFD93D"
 			tasks: [{
@@ -105,7 +105,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["С помощью гаечного пневмаключа можно забирать предметы из этого мода, закрывть/открывать трубы и т.п."]
+			description: ["{er.6953150a66c1136b.quests4.description0}"]
 			dependencies: ["29D3BB90C1AFD93D"]
 			id: "1B7652DB784BCFA6"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["С помощью термоперерабатывающего завода можно преобразовывать одни жидкости в другие."]
+			description: ["{er.6953150a66c1136b.quests5.description0}"]
 			dependencies: ["45A07D9B8081F2A0"]
 			id: "4750ED395F4119D0"
 			tasks: [{
@@ -127,11 +127,11 @@
 			}]
 		}
 		{
-			title: "Листы пластика"
+			title: "{er.6953150a66c1136b.quests6.title}"
 			x: -1.0d
 			y: 3.0d
-			shape: "rsquare"
-			description: ["Листы пластика можно получить путём затвердевания в мире. Сам пластик используется во многих крафтах на этой сборке."]
+			shape: "tech_circle"
+			description: ["{er.6953150a66c1136b.quests6.description0}"]
 			dependencies: ["4750ED395F4119D0"]
 			size: 1.1d
 			id: "491435ED023469B3"
@@ -145,8 +145,8 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			shape: "rsquare"
-			description: ["С помощью резервуара для травления можно получить печатные платы. Для этого нужно заполнить резервуар кислотой и вставить пустые печатные платы."]
+			shape: "tech_smooth_square"
+			description: ["{er.6953150a66c1136b.quests7.description0}"]
 			dependencies: ["45A07D9B8081F2A0"]
 			size: 1.1d
 			id: "58A6DAC2644D7A3E"
@@ -167,7 +167,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			description: ["С помощью сборочного контроллера можно управлять другими сборочными машинами."]
+			description: ["{er.6953150a66c1136b.quests8.description0}"]
 			dependencies: ["58A6DAC2644D7A3E"]
 			id: "6D2F62AF25B42BF4"
 			tasks: [{
@@ -179,7 +179,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			description: ["С помощью программатора можно программировать дронов."]
+			description: ["{er.6953150a66c1136b.quests9.description0}"]
 			dependencies: ["58A6DAC2644D7A3E"]
 			id: "669D2D535CE74E00"
 			tasks: [{
@@ -191,8 +191,8 @@
 		{
 			x: 2.0d
 			y: 3.5d
-			shape: "rsquare"
-			description: ["Обычный дрон, которого можно запрограммировать почти на любое действие."]
+			shape: "tech_circle"
+			description: ["{er.6953150a66c1136b.quests10.description0}"]
 			dependencies: ["669D2D535CE74E00"]
 			id: "519DF9A53D61AED0"
 			tasks: [{
@@ -204,7 +204,7 @@
 		{
 			x: 2.0d
 			y: 5.0d
-			description: ["С помощью программировоного контроллера можно заменить дронов. Чаще всего используется для масшатабных проектов, таких как - карьер!"]
+			description: ["{er.6953150a66c1136b.quests11.description0}"]
 			dependencies: ["519DF9A53D61AED0"]
 			id: "0E8AA98C7E41B191"
 			tasks: [{
@@ -216,7 +216,7 @@
 		{
 			x: 3.0d
 			y: 4.0d
-			description: ["Дрон-логистик выполняет логистические задачи."]
+			description: ["{er.6953150a66c1136b.quests12.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["519DF9A53D61AED0"]
 			id: "2DC43B829EA05B7A"
@@ -229,7 +229,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
-			description: ["Дрон-фермер собирает любые полностью выросшие растения."]
+			description: ["{er.6953150a66c1136b.quests13.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["519DF9A53D61AED0"]
 			id: "149EEDB69FF1A900"
@@ -242,7 +242,7 @@
 		{
 			x: 1.0d
 			y: 4.0d
-			description: ["Дрон-защитник может защищать территорию от враждебных мобов."]
+			description: ["{er.6953150a66c1136b.quests14.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["519DF9A53D61AED0"]
 			id: "1044D5274BE72552"
@@ -255,7 +255,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["Дрон-собиратель собирает различные предметы в области его действия."]
+			description: ["{er.6953150a66c1136b.quests15.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["519DF9A53D61AED0"]
 			id: "11740A14D6774375"
@@ -268,7 +268,7 @@
 		{
 			x: 6.0d
 			y: -0.5d
-			description: ["Продвинутая версия воздушного компрессора."]
+			description: ["{er.6953150a66c1136b.quests16.description0}"]
 			dependencies: ["11FC3733A1D623C4"]
 			id: "4558CD67EADF401F"
 			tasks: [{
@@ -280,7 +280,7 @@
 		{
 			x: 6.5d
 			y: -1.5d
-			description: ["С помощью электростатического компрессора можно вырабатывать сжатый воздух, путём попадания молнии в сам механизм, сделать это очень сложно!"]
+			description: ["{er.6953150a66c1136b.quests17.description0}"]
 			dependencies: ["4558CD67EADF401F"]
 			id: "1418F3518E83EC8E"
 			tasks: [{
@@ -292,7 +292,7 @@
 		{
 			x: 6.0d
 			y: 0.5d
-			description: ["С помощью жидкостного компрессра можно вырабатывать сжатый воздух, путём сжигания различных топливных жидкостей."]
+			description: ["{er.6953150a66c1136b.quests18.description0}"]
 			dependencies: ["11FC3733A1D623C4"]
 			id: "149B92FBFDBACFD9"
 			tasks: [{
@@ -304,7 +304,7 @@
 		{
 			x: 6.5d
 			y: 1.5d
-			description: ["Продвинутая версия жидкостного компрессор."]
+			description: ["{er.6953150a66c1136b.quests19.description0}"]
 			dependencies: ["149B92FBFDBACFD9"]
 			id: "02F2E3A42E301527"
 			tasks: [{
@@ -316,7 +316,7 @@
 		{
 			x: 5.0d
 			y: -1.5d
-			description: ["С помощью флаксового компрессора можно вырабатывать сжатый воздух, путём преобразования Forge Enegry."]
+			description: ["{er.6953150a66c1136b.quests20.description0}"]
 			dependencies: ["11FC3733A1D623C4"]
 			id: "7AAF2AC6B08EE590"
 			tasks: [{
@@ -328,7 +328,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			description: ["С помощью термального компрессора можно вырабатывать сжатый воздух, путём перепада температуры."]
+			description: ["{er.6953150a66c1136b.quests21.description0}"]
 			dependencies: ["11FC3733A1D623C4"]
 			id: "06907AE75B374A5D"
 			tasks: [{
@@ -340,7 +340,7 @@
 		{
 			x: 1.5d
 			y: -1.0d
-			description: ["Продвинутая версия трубы под давлением.(по названию не понятно)"]
+			description: ["{er.6953150a66c1136b.quests22.description0}"]
 			dependencies: ["29D3BB90C1AFD93D"]
 			id: "3D3C7FD61E230EAA"
 			tasks: [{
@@ -352,7 +352,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
-			description: ["Воздушная канистра может быть использована для заправки сжатым воздухом на станции заправки."]
+			description: ["{er.6953150a66c1136b.quests23.description0}"]
 			dependencies: ["29D3BB90C1AFD93D"]
 			id: "268FCC2C8C81C4DC"
 			tasks: [{
@@ -364,7 +364,7 @@
 		{
 			x: 2.5d
 			y: -3.0d
-			description: ["Улучшенная версия воздушной канисты."]
+			description: ["{er.6953150a66c1136b.quests24.description0}"]
 			dependencies: ["268FCC2C8C81C4DC"]
 			id: "7E3215B6AA8043DE"
 			tasks: [{
@@ -376,7 +376,7 @@
 		{
 			x: 1.5d
 			y: -2.0d
-			description: ["Очень питательный и вкусный хлеб, обязательно попробуйте!"]
+			description: ["{er.6953150a66c1136b.quests25.description0}"]
 			dependencies: ["24D7624AB316B3C9"]
 			id: "37059FDED1AD1C58"
 			tasks: [{
@@ -388,7 +388,7 @@
 		{
 			x: 2.5d
 			y: -4.5d
-			description: ["С помощью вихревой пушки можно стрелять потоками воздуха. А с помощью них, например, можно стричь животных."]
+			description: ["{er.6953150a66c1136b.quests26.description0}"]
 			dependencies: ["7E3215B6AA8043DE"]
 			id: "192E4E411B871C96"
 			tasks: [{
@@ -400,7 +400,7 @@
 		{
 			x: -2.0d
 			y: 3.5d
-			description: ["Маркер GPS сохраняет координаты в мире. Используете в различных приборах из этого мода, например программатор и воздушная пушка."]
+			description: ["{er.6953150a66c1136b.quests27.description0}"]
 			dependencies: ["491435ED023469B3"]
 			id: "73F313E9E587150D"
 			tasks: [{
@@ -412,7 +412,7 @@
 		{
 			x: -3.5d
 			y: 3.5d
-			description: ["С помощью воздушной пушки можно перебрасывать предметы по воздуху. Для её работы нужен маркер GPS."]
+			description: ["{er.6953150a66c1136b.quests28.description0}"]
 			dependencies: ["73F313E9E587150D"]
 			id: "2AA9EE59F2E904E3"
 			tasks: [{
@@ -424,7 +424,7 @@
 		{
 			x: -2.0d
 			y: 1.5d
-			description: ["Очень вкусная еда, попробуйте обязательно!"]
+			description: ["{er.6953150a66c1136b.quests29.description0}"]
 			dependencies: ["4750ED395F4119D0"]
 			id: "7B1C5B1C711FACCF"
 			tasks: [{
@@ -436,7 +436,7 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			description: ["С помощью экстрактора спаунера можно извлекать ядро спаунера из спаунера. Но весьма интересным способом..."]
+			description: ["{er.6953150a66c1136b.quests30.description0}"]
 			dependencies: ["45A07D9B8081F2A0"]
 			id: "4187103267BDC294"
 			tasks: [{
@@ -448,7 +448,7 @@
 		{
 			x: -1.5d
 			y: -2.0d
-			description: ["С помощью пустого спаунера можно создать герметичный спаунер."]
+			description: ["{er.6953150a66c1136b.quests31.description0}"]
 			dependencies: ["4187103267BDC294"]
 			id: "5F78168421BAA44A"
 			tasks: [{
@@ -460,8 +460,8 @@
 		{
 			x: -3.0d
 			y: -2.0d
-			shape: "rsquare"
-			description: ["С помощью спаунера под давлением можно создавать мобов, используя сжатый воздух и ИГНОРИРУЯ уровень освещения!"]
+			shape: "tech_circle"
+			description: ["{er.6953150a66c1136b.quests32.description0}"]
 			dependencies: ["5F78168421BAA44A"]
 			id: "1A8B1232DA3B698F"
 			tasks: [{
@@ -473,7 +473,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["Ядро спаунера можно поместить в герметичный спаунер, чтобы спавнить мобов, находящихся в этом ядре."]
+			description: ["{er.6953150a66c1136b.quests33.description0}"]
 			dependencies: ["4750ED395F4119D0"]
 			id: "110F8BC45D436115"
 			tasks: [{

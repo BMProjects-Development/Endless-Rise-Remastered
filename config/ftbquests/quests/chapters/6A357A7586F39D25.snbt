@@ -3,7 +3,7 @@
 	group: "4F34514062F979C6"
 	order_index: 3
 	filename: "6A357A7586F39D25"
-	title: "&aЭпоха Космоса"
+	title: "{er.6a357a7586f39d25.title}"
 	icon: {
 		id: "boss_tools:rocket_t3"
 		Count: 1b
@@ -15,8 +15,8 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			shape: "pentagon"
-			description: ["На верстаке НАСА создаётся самая главная вещь этой сборки - РАКЕТА!"]
+			shape: "tech_smooth_square"
+			description: ["{er.6a357a7586f39d25.quests0.description0}"]
 			dependencies: ["756376AFE30D2029"]
 			id: "1C3B604A3C71EA61"
 			tasks: [{
@@ -26,11 +26,11 @@
 			}]
 		}
 		{
-			title: "Молот"
+			title: "{er.6a357a7586f39d25.quests1.title}"
 			x: -3.0d
 			y: 0.5d
-			shape: "gear"
-			description: ["Молот - это один из самых важных предметов в этом моде. Он нужен при создании основных механизмов из этого мода."]
+			shape: "tech_smooth_square"
+			description: ["{er.6a357a7586f39d25.quests1.description0}"]
 			dependencies: ["4222E4C3CB12466C"]
 			hide: true
 			size: 1.2d
@@ -48,10 +48,10 @@
 			}]
 		}
 		{
-			title: "Компресор"
+			title: "{er.6a357a7586f39d25.quests2.title}"
 			x: -1.5d
 			y: 0.5d
-			description: ["С помощью компрессора создаются скомпрессированые слитки. Они нужно в создании целой РАКЕТЫ!"]
+			description: ["{er.6a357a7586f39d25.quests2.description0}"]
 			dependencies: ["718D674A4C22515B"]
 			id: "724672A66EADBAE6"
 			tasks: [{
@@ -63,7 +63,7 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: ["Важный ингридиент в этом моде."]
+			description: ["{er.6a357a7586f39d25.quests3.description0}"]
 			dependencies: ["724672A66EADBAE6"]
 			id: "756376AFE30D2029"
 			tasks: [{
@@ -76,8 +76,8 @@
 		{
 			x: 3.0d
 			y: 0.5d
-			shape: "rsquare"
-			description: ["Ракета 1 уровня, ура!"]
+			shape: "tech_circle"
+			description: ["{er.6a357a7586f39d25.quests4.description0}"]
 			dependencies: ["1C3B604A3C71EA61"]
 			id: "316AB192E34650FA"
 			tasks: [{
@@ -91,10 +91,10 @@
 			}]
 		}
 		{
-			title: "Нефтеперерабатывающий завод"
+			title: "{er.6a357a7586f39d25.quests5.title}"
 			x: 0.5d
 			y: 2.0d
-			description: ["С помощью нефтеперерабатывающего завода можно создать топливо для ракеты."]
+			description: ["{er.6a357a7586f39d25.quests5.description0}"]
 			dependencies: ["756376AFE30D2029"]
 			id: "5469B4886D2B7209"
 			tasks: [{
@@ -104,10 +104,10 @@
 			}]
 		}
 		{
-			title: "Кислородный загрузчик"
+			title: "{er.6a357a7586f39d25.quests6.title}"
 			x: 0.5d
 			y: -1.0d
-			description: ["С помощью кислородного загрузчика можно заполнить кислородом свой костюм."]
+			description: ["{er.6a357a7586f39d25.quests6.description0}"]
 			dependencies: ["756376AFE30D2029"]
 			id: "14779353BBD8B279"
 			tasks: [{
@@ -119,7 +119,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
-			description: ["Слитки деш можно найти ТОЛЬКО на Луне. С помощью них можно создать скомпрессированые деш."]
+			description: ["{er.6a357a7586f39d25.quests7.description0}"]
 			dependencies: ["316AB192E34650FA"]
 			id: "143DCF41180D79EA"
 			tasks: [{
@@ -132,8 +132,8 @@
 		{
 			x: 7.5d
 			y: 0.5d
-			shape: "rsquare"
-			description: ["Ракета 2 уровня, ура!"]
+			shape: "tech_circle"
+			description: ["{er.6a357a7586f39d25.quests8.description0}"]
 			dependencies: ["7D9C57C7DDBAD6A3"]
 			id: "1B59AE41FFE36798"
 			tasks: [{
@@ -149,7 +149,7 @@
 		{
 			x: 9.0d
 			y: 0.5d
-			description: ["Слитки силикона можно найти ТОЛЬКО на Марсе! С помощью них можно создать скомпрессированый силикон"]
+			description: ["{er.6a357a7586f39d25.quests9.description0}"]
 			dependencies: ["1B59AE41FFE36798"]
 			id: "1028C24F95877032"
 			tasks: [{
@@ -161,8 +161,8 @@
 		{
 			x: 12.0d
 			y: 0.5d
-			shape: "rsquare"
-			description: ["Ракета 3 и последнего уровня!"]
+			shape: "tech_circle"
+			description: ["{er.6a357a7586f39d25.quests10.description0}"]
 			dependencies: ["4AE34957E7FA3DD5"]
 			id: "4B22C2E1D0D516E4"
 			tasks: [{
@@ -176,11 +176,11 @@
 			}]
 		}
 		{
-			title: "Стартовая площадка"
+			title: "{er.6a357a7586f39d25.quests11.title}"
 			x: 1.5d
 			y: 0.0d
-			shape: "pentagon"
-			description: ["На стартовой площадке осуществляется взлёт ракеты в космос!"]
+			shape: "tech_circle"
+			description: ["{er.6a357a7586f39d25.quests11.description0}"]
 			dependencies: ["756376AFE30D2029"]
 			id: "5326710021E37B03"
 			tasks: [{
@@ -193,7 +193,7 @@
 		{
 			x: 6.0d
 			y: 0.5d
-			description: ["С помощью скомпресированых деш создаётся ракета 2 уровня."]
+			description: ["{er.6a357a7586f39d25.quests12.description0}"]
 			dependencies: ["143DCF41180D79EA"]
 			id: "7D9C57C7DDBAD6A3"
 			tasks: [{
@@ -206,7 +206,7 @@
 		{
 			x: 10.5d
 			y: 0.5d
-			description: ["Скомпресированый силикон нужен для создания ракеты 3 уровня!"]
+			description: ["{er.6a357a7586f39d25.quests13.description0}"]
 			dependencies: ["1028C24F95877032"]
 			id: "4AE34957E7FA3DD5"
 			tasks: [{
@@ -227,38 +227,23 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 1.5d
-			shape: "gear"
-			description: ["Первый человек, который смог пройти эту сборку - anay!"]
+			x: 13.5d
+			y: 0.5d
+			shape: "tech_smooth_square"
+			subtitle: "{er.6a357a7586f39d25.quests15.subtitle}"
+			description: [
+				"{er.6a357a7586f39d25.quests15.description0}"
+				""
+				"{er.6a357a7586f39d25.quests15.description1}"
+			]
 			dependencies: ["4B22C2E1D0D516E4"]
 			hide: true
-			size: 1.2d
-			id: "1BE6421FDA7DE7B4"
+			size: 1.5d
+			id: "488BACFA502A74E4"
 			tasks: [{
-				id: "76C157BF5AB956A2"
-				type: "checkmark"
-				title: "Спидранер!"
-			}]
-		}
-		{
-			title: "Это конец..."
-			x: 13.0d
-			y: -0.5d
-			shape: "gear"
-			description: ["Видимо, Ты всё же смог дойти до конца... Надеюсь, тебе эта сборка понравилась и ты смог отвлечься от реального мира и отлично провёл время! Единственное, что я могу сказать тебе - обязательно жди новых сборок, ведь с каждым разом они становятся все интереснее! И, спасибо, что уделил моей работе время и, раз ты дошёл до конца, она тебе понравилась! А наша команда желает тебе - удачи!"]
-			dependencies: ["4B22C2E1D0D516E4"]
-			hide: true
-			size: 1.2d
-			id: "56A33AB1B4AE13FF"
-			tasks: [{
-				id: "6BEA0AEC72555A53"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "57D76BABBA5E8EE0"
+				id: "6648CD67CB024CDC"
 				type: "item"
-				item: "create:handheld_worldshaper"
+				item: "kubejs:endless_rise"
 			}]
 		}
 	]

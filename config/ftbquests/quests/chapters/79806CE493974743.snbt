@@ -3,7 +3,7 @@
 	group: "4F34514062F979C6"
 	order_index: 2
 	filename: "79806CE493974743"
-	title: "&aХранилище"
+	title: "{er.79806ce493974743.title}"
 	icon: "appliedenergistics2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,8 +11,8 @@
 		{
 			x: -3.5d
 			y: -3.0d
-			shape: "gear"
-			description: ["Изменчивые кристаллы один из основных ресурсов для создания БЕСКОНЕЧНОГО(ну, почти) хранилища! Чтобы их получить, нужно бросить в воду 1 заряженный истинный кварц, 1 кварц нижнего мира и 1 редстоун пыль."]
+			shape: "tech_smooth_square"
+			description: ["{er.79806ce493974743.quests0.description0}"]
 			dependencies: ["13CCA304B7C69DB3"]
 			hide: true
 			size: 1.2d
@@ -27,8 +27,8 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["С помощью высекателя можно создавать различные компоненты, которые нужны для создания МЭ хранилища. Для создния этих компонентов нужны формы этих компонентов, которые в свою очередь, находятся внутри метеоритов.(Всего форм 4)"]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests1.description0}"]
 			dependencies: ["62856F299F843C2A"]
 			hide: true
 			size: 1.2d
@@ -42,7 +42,7 @@
 		{
 			x: -0.5d
 			y: 1.0d
-			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			description: ["{er.79806ce493974743.quests2.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["116A04DB56AEFF3E"]
 			id: "611330E698CC1E78"
@@ -55,7 +55,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
-			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			description: ["{er.79806ce493974743.quests3.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["116A04DB56AEFF3E"]
 			id: "1F8CCECCACA5D33A"
@@ -68,7 +68,7 @@
 		{
 			x: -0.5d
 			y: 2.0d
-			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			description: ["{er.79806ce493974743.quests4.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["116A04DB56AEFF3E"]
 			id: "759C0F5612C90F04"
@@ -81,7 +81,7 @@
 		{
 			x: 0.5d
 			y: 2.0d
-			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			description: ["{er.79806ce493974743.quests5.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["116A04DB56AEFF3E"]
 			id: "4E19E43FFAFC0BDB"
@@ -94,7 +94,7 @@
 		{
 			x: -5.0d
 			y: -2.5d
-			description: ["С помощью метеоритного компаса можно искать метеориты по всему миру. Внутри метеорита находится сундук, в котором находятся формы. Обычно этот сундук находится по-центру метеорита."]
+			description: ["{er.79806ce493974743.quests6.description0}"]
 			dependencies: ["38D25F8137A28EFD"]
 			id: "5E5746EA61145D4C"
 			tasks: [{
@@ -106,7 +106,7 @@
 		{
 			x: -2.0d
 			y: -2.5d
-			description: ["С помощью изменчивого МЭ стеклянного кабеля можно передавать энергию из этого мода на расстояние."]
+			description: ["{er.79806ce493974743.quests7.description0}"]
 			dependencies: ["38D25F8137A28EFD"]
 			id: "2A0A5A9E18005F31"
 			tasks: [{
@@ -118,7 +118,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			description: ["С помощью ускорителя роста кристаллов можно ускорить рост чистых кристаллов.(Советую вам их создать)"]
+			description: ["{er.79806ce493974743.quests8.description0}"]
 			dependencies: ["2A0A5A9E18005F31"]
 			id: "71CD56B8654872BE"
 			tasks: [{
@@ -128,10 +128,10 @@
 			}]
 		}
 		{
-			title: "Семена кварца"
+			title: "{er.79806ce493974743.quests9.title}"
 			x: 1.0d
 			y: -2.5d
-			description: ["Семена, из которых, путём роста в воде, получются чистые кристаллы."]
+			description: ["{er.79806ce493974743.quests9.description0}"]
 			dependencies: ["71CD56B8654872BE"]
 			id: "3E655507E5C51C7A"
 			tasks: [
@@ -153,10 +153,10 @@
 			]
 		}
 		{
-			title: "Чистые кристаллы"
+			title: "{er.79806ce493974743.quests10.title}"
 			x: 2.0d
 			y: -1.5d
-			description: ["С помощью чистых кристаллов создаётся много предметов из этого мода."]
+			description: ["{er.79806ce493974743.quests10.description0}"]
 			dependencies: ["3E655507E5C51C7A"]
 			id: "1864C5BF06205F25"
 			tasks: [
@@ -180,8 +180,8 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			shape: "pentagon"
-			description: ["МЭ контроллер один из самых важных блоков при создании МЭ системы."]
+			shape: "tech_smooth_square"
+			description: ["{er.79806ce493974743.quests11.description0}"]
 			dependencies: [
 				"116A04DB56AEFF3E"
 				"1864C5BF06205F25"
@@ -197,8 +197,8 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			shape: "rsquare"
-			description: ["С помощью МЭ накопителя можно хранить почти бесконечное количество ресурсов. Всё что нужно, это положить внутрь МЭ накопителя ячейки хранения."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests12.description0}"]
 			dependencies: ["6A63DD0C75C4DC73"]
 			id: "601325ECE439EDA4"
 			tasks: [{
@@ -210,7 +210,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["Самый обычный терминал, с помощью него можно работать с МЭ системой."]
+			description: ["{er.79806ce493974743.quests13.description0}"]
 			dependencies: ["6A63DD0C75C4DC73"]
 			id: "7CE9B4C41FD8D048"
 			tasks: [{
@@ -222,7 +222,7 @@
 		{
 			x: 2.5d
 			y: 2.5d
-			description: ["С помощью МЭ терминала шаблонов можно создавать шаблоны для автокрафта! "]
+			description: ["{er.79806ce493974743.quests14.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["7CE9B4C41FD8D048"]
 			id: "45BC756331F2C438"
@@ -235,7 +235,7 @@
 		{
 			x: 1.5d
 			y: 2.5d
-			description: ["С помощью МЭ термина крафта можно не только работать с МЭ системой, но и крафтить различные предметы."]
+			description: ["{er.79806ce493974743.quests15.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["7CE9B4C41FD8D048"]
 			id: "6947B0D789ACD97E"
@@ -248,8 +248,8 @@
 		{
 			x: 3.0d
 			y: 1.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 1024 байтов и 63 типа предметов."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests16.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "7CC7A8055789364C"
@@ -266,8 +266,8 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 4096 байтов и 63 типа предметов."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests17.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "7FABF570E44135F5"
@@ -284,8 +284,8 @@
 		{
 			x: 4.5d
 			y: 2.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 16384 байтов и 63 типа предметов."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests18.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "689B487E6F2176EB"
@@ -302,8 +302,8 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 65536 байтов и 63 типа предметов."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests19.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "5C35B7CA713C8447"
@@ -320,8 +320,8 @@
 		{
 			x: 3.0d
 			y: -1.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 1024 байтов и 5 типа жидкостей."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests20.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "47B535D420AC234A"
@@ -338,8 +338,8 @@
 		{
 			x: 3.5d
 			y: -2.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 4096 байтов и 5 типа жидкостей."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests21.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "2F138F22E3E5185A"
@@ -356,8 +356,8 @@
 		{
 			x: 4.5d
 			y: -2.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 16384 байтов и 5 типа жидкостей."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests22.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "7316E9856F0A6A86"
@@ -374,8 +374,8 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			shape: "octagon"
-			description: ["Ячейка, которая может вместить 65536 байтов и 5 типа жидкостей."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests23.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
 			id: "78412AAE2B2B48D7"
@@ -392,7 +392,7 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			description: ["С помощью блока крафта можно создать блоки обработки крафта и блоки хранения крафта."]
+			description: ["{er.79806ce493974743.quests24.description0}"]
 			dependencies: ["601325ECE439EDA4"]
 			id: "292289FEE7F94D68"
 			tasks: [{
@@ -404,8 +404,8 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			shape: "rsquare"
-			description: ["С помощью блока обработки крафта можно создавать авто-крафты для автоматизации производства."]
+			shape: "tech_square"
+			description: ["{er.79806ce493974743.quests25.description0}"]
 			dependencies: ["292289FEE7F94D68"]
 			id: "69825D5DFE2FB5F8"
 			tasks: [{
@@ -417,8 +417,8 @@
 		{
 			x: 7.0d
 			y: 1.0d
-			shape: "pentagon"
-			description: ["Хранилище, которое может хранить 1024 байтов крафта."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests26.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
 			id: "1FDCD30F8BD7404F"
@@ -431,8 +431,8 @@
 		{
 			x: 8.0d
 			y: 1.0d
-			shape: "pentagon"
-			description: ["Хранилище, которое может хранить 4096 байтов крафта."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests27.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
 			id: "3BD10D801BF998D9"
@@ -445,8 +445,8 @@
 		{
 			x: 7.0d
 			y: -1.0d
-			shape: "pentagon"
-			description: ["Хранилище, которое может хранить 16384 байтов крафта."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests28.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
 			id: "277CDE6E08FF89AB"
@@ -459,8 +459,8 @@
 		{
 			x: 8.0d
 			y: -1.0d
-			shape: "pentagon"
-			description: ["Хранилище, которое может хранить 65536 байтов крафта."]
+			shape: "tech_circle"
+			description: ["{er.79806ce493974743.quests29.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
 			id: "43C122C1636BFB88"
@@ -473,7 +473,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			description: ["С помощью монитора крафта можно следить за вашими авто-крафтами, чтобы они никуда не сбежали."]
+			description: ["{er.79806ce493974743.quests30.description0}"]
 			dependencies: ["69825D5DFE2FB5F8"]
 			id: "190383D0B53D0F7D"
 			tasks: [{
@@ -485,7 +485,7 @@
 		{
 			x: 5.5d
 			y: 2.0d
-			description: ["С помощью конденсатора материи можно создавать шары материи и сингулярность, при этом удаляя очень много предметов."]
+			description: ["{er.79806ce493974743.quests31.description0}"]
 			dependencies: ["5C35B7CA713C8447"]
 			id: "28228B7B50410FD3"
 			tasks: [{
@@ -497,8 +497,8 @@
 		{
 			x: 7.0d
 			y: 2.5d
-			shape: "pentagon"
-			description: ["Сингулярность создаётся в конденсаторе материи, при этом нужно удалить 256 ТЫСЯЧ предметов.(всего-то...)"]
+			shape: "tech_square"
+			description: ["{er.79806ce493974743.quests32.description0}"]
 			dependencies: ["28228B7B50410FD3"]
 			id: "48FABDCCAEA50360"
 			tasks: [{
@@ -510,8 +510,8 @@
 		{
 			x: 8.5d
 			y: 2.5d
-			shape: "pentagon"
-			description: ["Чтобы сделать квантовую запутанную сингулярность, нужно бросить на землю сингулярность и эндер-пыль, после взорвав рядом с ними что-нибудь."]
+			shape: "tech_smooth_square"
+			description: ["{er.79806ce493974743.quests33.description0}"]
 			dependencies: ["48FABDCCAEA50360"]
 			size: 1.2d
 			id: "0CC765D2CCFCA86B"
@@ -524,7 +524,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			shape: "gear"
+			shape: "tech_smooth_square"
 			dependencies: ["116A04DB56AEFF3E"]
 			size: 1.2d
 			id: "4BC27B8F8CBF12A3"
@@ -542,7 +542,7 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			description: ["Новый ресурс!"]
+			description: ["{er.79806ce493974743.quests35.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "4222E4C3CB12466C"
 			tasks: [{
@@ -555,7 +555,7 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			description: ["Новый ресурс!"]
+			description: ["{er.79806ce493974743.quests36.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "55089144A1EAB58D"
 			tasks: [{
@@ -568,7 +568,7 @@
 		{
 			x: -2.5d
 			y: 1.0d
-			description: ["Новый ресурс!"]
+			description: ["{er.79806ce493974743.quests37.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "297BFFD7B579CB71"
 			tasks: [{
@@ -581,7 +581,7 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			description: ["Новый ресурс!"]
+			description: ["{er.79806ce493974743.quests38.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "740DC1D7FBBB85D3"
 			tasks: [{
@@ -594,7 +594,7 @@
 		{
 			x: -3.5d
 			y: 0.0d
-			description: ["Новый ресурс!"]
+			description: ["{er.79806ce493974743.quests39.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "6188EB67616DEC14"
 			tasks: [{
@@ -604,10 +604,10 @@
 			}]
 		}
 		{
-			title: "Начало флакса"
+			title: "{er.79806ce493974743.quests40.title}"
 			x: -1.5d
 			y: 2.5d
-			description: ["Великое начало беспроводной энергии."]
+			description: ["{er.79806ce493974743.quests40.description0}"]
 			dependencies: ["55089144A1EAB58D"]
 			id: "2997A409CF73DC0D"
 			tasks: [
@@ -628,7 +628,7 @@
 		{
 			x: -1.0d
 			y: 4.0d
-			description: ["Просто блоки."]
+			description: ["{er.79806ce493974743.quests41.description0}"]
 			dependencies: ["2997A409CF73DC0D"]
 			id: "33DBD241362CF43E"
 			tasks: [{
@@ -641,7 +641,7 @@
 		{
 			x: -1.5d
 			y: 5.5d
-			description: ["Беспроводная энергия!"]
+			description: ["{er.79806ce493974743.quests42.description0}"]
 			dependencies: ["33DBD241362CF43E"]
 			id: "4AA3AC2CC41E4F58"
 			tasks: [{

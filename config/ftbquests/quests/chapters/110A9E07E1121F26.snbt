@@ -3,17 +3,17 @@
 	group: "11EC8770AFEB5B52"
 	order_index: 0
 	filename: "110A9E07E1121F26"
-	title: "&aАтум"
+	title: "{er.110a9e07e1121f26.title}"
 	icon: "atum:nebu_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Потрескавшийся известняк"
+			title: "{er.110a9e07e1121f26.quests0.title}"
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["Начальный ресурс."]
+			shape: "tech_smooth_square"
+			description: ["{er.110a9e07e1121f26.quests0.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
 			size: 1.2d
@@ -26,11 +26,10 @@
 			}]
 		}
 		{
-			title: "Слитки Небу"
+			title: "{er.110a9e07e1121f26.quests1.title}"
 			x: 1.5d
 			y: 0.0d
-			shape: "rsquare"
-			description: ["Слитки Небу можно получить созданием из осколков Небу, а их, в свою очередь, переплавкой руды Небу."]
+			description: ["{er.110a9e07e1121f26.quests1.description0}"]
 			dependencies: ["7A6D61FA5C10CC91"]
 			id: "632D858FA5AEF2CB"
 			tasks: [{
@@ -43,7 +42,7 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["Печь для обжига можно использовать как обычную печь."]
+			description: ["{er.110a9e07e1121f26.quests2.description0}"]
 			dependencies: ["7A6D61FA5C10CC91"]
 			id: "1B5158F335DFBA89"
 			tasks: [{
@@ -55,7 +54,7 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			description: ["С помощью прялки можно получить льняную нить или обычные нитки."]
+			description: ["{er.110a9e07e1121f26.quests3.description0}"]
 			dependencies: ["7A6D61FA5C10CC91"]
 			id: "0FD5BAA169067EBD"
 			tasks: [{
@@ -65,10 +64,10 @@
 			}]
 		}
 		{
-			title: "Молот Небу"
+			title: "{er.110a9e07e1121f26.quests4.title}"
 			x: 3.0d
 			y: 0.0d
-			description: ["С помощью молота Небу можно ломать GodForged Block, а из этого блока падают различные реликвии!"]
+			description: ["{er.110a9e07e1121f26.quests4.description0}"]
 			dependencies: ["632D858FA5AEF2CB"]
 			id: "67FDC152546EFFF7"
 			tasks: [{
@@ -78,11 +77,11 @@
 			}]
 		}
 		{
-			title: "Броня Атума"
+			title: "{er.110a9e07e1121f26.quests5.title}"
 			x: -4.0d
 			y: 1.0d
-			shape: "octagon"
-			description: ["Очень крутая и стильная броня, но броня Ра всё равно лучше!"]
+			shape: "tech_circle"
+			description: ["{er.110a9e07e1121f26.quests5.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
 			id: "0B47526986E9ACE0"
@@ -134,11 +133,11 @@
 			]
 		}
 		{
-			title: "Броня Ра"
+			title: "{er.110a9e07e1121f26.quests6.title}"
 			x: -2.0d
 			y: 1.0d
-			shape: "octagon"
-			description: ["Очень крутая и стильная броня."]
+			shape: "tech_circle"
+			description: ["{er.110a9e07e1121f26.quests6.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
 			id: "06288659F7984AAD"
@@ -190,11 +189,11 @@
 			]
 		}
 		{
-			title: "Луки"
+			title: "{er.110a9e07e1121f26.quests7.title}"
 			x: -3.0d
 			y: -0.5d
-			shape: "octagon"
-			description: ["В этом моде есть довольно много луков, выбирай самый крутой."]
+			shape: "tech_circle"
+			description: ["{er.110a9e07e1121f26.quests7.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
 			id: "5994C2B43C20B396"
@@ -237,8 +236,8 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			shape: "octagon"
-			description: ["Милосердие Анубиса можно получить, ломая Godforged Block молотом Небу. Эта реликвия сохраняет ваши вещи после смерти!"]
+			shape: "tech_circle"
+			description: ["{er.110a9e07e1121f26.quests8.description0}"]
 			dependencies: ["67FDC152546EFFF7"]
 			id: "12C3B76EC2D1D263"
 			tasks: [{
@@ -256,7 +255,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			description: ["Жало Сета можно получить ломая GodForged Block молотом Небу. Это оружие отравляет врага, если его полность зарядить."]
+			description: ["{er.110a9e07e1121f26.quests9.description0}"]
 			dependencies: ["67FDC152546EFFF7"]
 			id: "5A9DFEF835545F59"
 			tasks: [{
@@ -274,7 +273,7 @@
 		{
 			x: 3.5d
 			y: -1.5d
-			description: ["Гнев Анубиса можно получить ломая GodForged Block молотом Небу. Это оружие становится сильнее, путём поглащение душ убитых вами врагов!"]
+			description: ["{er.110a9e07e1121f26.quests10.description0}"]
 			dependencies: ["67FDC152546EFFF7"]
 			id: "2EC4B1D1DD00509F"
 			tasks: [{
@@ -292,7 +291,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["Просто прикольная декорация."]
+			description: ["{er.110a9e07e1121f26.quests11.description0}"]
 			dependencies: ["632D858FA5AEF2CB"]
 			id: "14A964BA8C2CB2AA"
 			tasks: [{
@@ -302,11 +301,10 @@
 			}]
 		}
 		{
-			title: "Известняк"
+			title: "{er.110a9e07e1121f26.quests12.title}"
 			x: 0.0d
 			y: -1.5d
-			shape: "rsquare"
-			description: ["Новый камень!"]
+			description: ["{er.110a9e07e1121f26.quests12.description0}"]
 			dependencies: ["7A6D61FA5C10CC91"]
 			id: "10680882FA67673F"
 			tasks: [{
@@ -319,7 +317,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			description: ["Ловушка!"]
+			description: ["{er.110a9e07e1121f26.quests13.description0}"]
 			dependencies: ["10680882FA67673F"]
 			id: "62C30D504664D20E"
 			tasks: [{
@@ -331,7 +329,7 @@
 		{
 			x: -1.0d
 			y: -2.5d
-			description: ["Ловушка!"]
+			description: ["{er.110a9e07e1121f26.quests14.description0}"]
 			dependencies: ["10680882FA67673F"]
 			id: "30D873C1A4EBDF47"
 			tasks: [{
@@ -343,7 +341,7 @@
 		{
 			x: 1.0d
 			y: -2.5d
-			description: ["Ловушка!"]
+			description: ["{er.110a9e07e1121f26.quests15.description0}"]
 			dependencies: ["10680882FA67673F"]
 			id: "106568EEFDE3BB16"
 			tasks: [{
@@ -355,7 +353,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
-			description: ["Ловушка!"]
+			description: ["{er.110a9e07e1121f26.quests16.description0}"]
 			dependencies: ["10680882FA67673F"]
 			id: "465C4EFFDEB2A231"
 			tasks: [{
@@ -367,7 +365,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			description: ["Ловушка!"]
+			description: ["{er.110a9e07e1121f26.quests17.description0}"]
 			dependencies: ["10680882FA67673F"]
 			id: "355CE38C9AD4BF67"
 			tasks: [{

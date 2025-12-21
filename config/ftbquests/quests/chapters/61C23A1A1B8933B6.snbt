@@ -1,17 +1,260 @@
 {
 	id: "61C23A1A1B8933B6"
 	group: "1ED255BD6A1F3077"
-	order_index: 3
+	order_index: 1
 	filename: "61C23A1A1B8933B6"
-	title: "&aЭпоха Механики"
+	title: "{er.61c23a1a1b8933b6.title}"
 	icon: "create:large_cogwheel"
-	default_quest_shape: "tech_square"
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			x: -1.0d
+			y: 0.0d
+			description: ["{er.61c23a1a1b8933b6.quests0.description0}"]
+			dependencies: ["7CAEFFF51B924E9A"]
+			size: 1.2d
+			id: "1618941433039F79"
+			tasks: [{
+				id: "7B783C3BBF00F3EA"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 8L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			shape: "tech_smooth_square"
+			description: ["{er.61c23a1a1b8933b6.quests1.description0}"]
+			dependencies: ["544D867E9E65F95E"]
+			hide: true
+			size: 1.2d
+			id: "7CAEFFF51B924E9A"
+			tasks: [
+				{
+					id: "45715C66AF051739"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "499AB74F3892A1D1"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests2.title}"
+			x: 1.0d
+			y: 0.0d
+			description: ["{er.61c23a1a1b8933b6.quests2.description0}"]
+			dependencies: ["1618941433039F79"]
+			id: "31B0B795411A5508"
+			tasks: [
+				{
+					id: "3B5E2BE5DE7B336E"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "16B33DABB95C7A3C"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4L
+				}
+				{
+					id: "53CC01FEFF45928D"
+					type: "item"
+					item: "create:shaft"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["{er.61c23a1a1b8933b6.quests3.description0}"]
+			dependencies: ["31B0B795411A5508"]
+			id: "67D2C16A151DAF63"
+			tasks: [{
+				id: "31A69242441A0BF9"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests4.title}"
+			x: 2.0d
+			y: -3.5d
+			description: ["{er.61c23a1a1b8933b6.quests4.description0}"]
+			dependencies: ["17FC0F3202DCCA6A"]
+			id: "549F858A9EB00499"
+			tasks: [
+				{
+					id: "1CAFCF65A6C563F3"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "59DF5AD35E233D26"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests5.title}"
+			x: 3.5d
+			y: 0.0d
+			description: [
+				"{er.61c23a1a1b8933b6.quests5.description0}"
+				"{er.61c23a1a1b8933b6.quests5.description1}"
+			]
+			dependencies: ["31B0B795411A5508"]
+			id: "7C8A764A4A0F003E"
+			tasks: [
+				{
+					id: "5A9E39371F1DB7AE"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "3931D2C78802AACB"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			shape: "tech_circle"
+			description: ["{er.61c23a1a1b8933b6.quests6.description0}"]
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "759CD5F854301CA1"
+			tasks: [{
+				id: "162AA645BC55F932"
+				type: "item"
+				item: "create:iron_sheet"
+				count: 4L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			shape: "tech_circle"
+			description: ["{er.61c23a1a1b8933b6.quests7.description0}"]
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "30141E3997BA2ADF"
+			tasks: [{
+				id: "5C45F80B572434D9"
+				type: "item"
+				item: "create:copper_sheet"
+				count: 4L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "tech_circle"
+			description: ["{er.61c23a1a1b8933b6.quests8.description0}"]
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "2373D730A820B6FB"
+			tasks: [{
+				id: "21320A3D0400104C"
+				type: "item"
+				item: "create:golden_sheet"
+				count: 4L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			shape: "tech_circle"
+			description: ["{er.61c23a1a1b8933b6.quests9.description0}"]
+			dependencies: [
+				"7C8A764A4A0F003E"
+				"2888C9E7B1571B7C"
+			]
+			id: "29039481EF4BB2EF"
+			tasks: [{
+				id: "58ACB21720A7811D"
+				type: "item"
+				item: "create:brass_sheet"
+				count: 4L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			description: ["{er.61c23a1a1b8933b6.quests10.description0}"]
+			dependencies: ["63B31D2AF4550037"]
+			id: "562B29B6639F36A9"
+			tasks: [
+				{
+					id: "3E1CF5EB8616DF6A"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "6CAE888EFA3C36B0"
+					type: "item"
+					item: "create:nozzle"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests11.title}"
+			x: -1.0d
+			y: 3.0d
+			description: ["{er.61c23a1a1b8933b6.quests11.description0}"]
+			dependencies: ["462BBE365EAB472A"]
+			id: "533FAB3239A6359F"
+			tasks: [
+				{
+					id: "5CFF819C2C048EEB"
+					type: "item"
+					item: "create:sail_frame"
+					count: 4L
+				}
+				{
+					id: "73EE6FBBDF5A7E99"
+					type: "item"
+					item: "create:white_sail"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["{er.61c23a1a1b8933b6.quests12.description0}"]
+			dependencies: ["1618941433039F79"]
+			id: "462BBE365EAB472A"
+			tasks: [{
+				id: "08C09F5EE542FA3A"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["{er.61c23a1a1b8933b6.quests13.description0}"]
+			dependencies: ["30141E3997BA2ADF"]
+			id: "3045A3DD55265737"
+			tasks: [{
+				id: "7724C6BDCAA660EA"
+				type: "item"
+				item: "create:copper_casing"
+				count: 4L
+			}]
+		}
+		{
 			x: 9.5d
 			y: -1.0d
-			description: ["Обычная наждачка."]
+			description: ["{er.61c23a1a1b8933b6.quests14.description0}"]
 			dependencies: ["2C356C79E12F86BE"]
 			id: "46515BC511B4975E"
 			tasks: [{
@@ -27,10 +270,10 @@
 			}]
 		}
 		{
-			title: "Известняк"
+			title: "{er.61c23a1a1b8933b6.quests15.title}"
 			x: 8.5d
 			y: -1.0d
-			description: ["Для этого вам нужно сходить в Атум!"]
+			description: ["{er.61c23a1a1b8933b6.quests15.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
 			id: "2C356C79E12F86BE"
 			tasks: [
@@ -51,7 +294,7 @@
 		{
 			x: 10.0d
 			y: 0.0d
-			description: ["Красивый :)"]
+			description: ["{er.61c23a1a1b8933b6.quests16.description0}"]
 			dependencies: ["46515BC511B4975E"]
 			id: "309F4243634A2888"
 			tasks: [{
@@ -63,7 +306,7 @@
 		{
 			x: 11.5d
 			y: 0.0d
-			description: ["Лампочка!"]
+			description: ["{er.61c23a1a1b8933b6.quests17.description0}"]
 			dependencies: ["309F4243634A2888"]
 			id: "3A22BE56B1E3CBDA"
 			tasks: [{
@@ -73,11 +316,23 @@
 			}]
 		}
 		{
-			title: "Механические крафтеры"
+			x: 3.0d
+			y: 2.5d
+			description: ["{er.61c23a1a1b8933b6.quests18.description0}"]
+			dependencies: ["2373D730A820B6FB"]
+			id: "746E116CECECCC5F"
+			tasks: [{
+				id: "396D12FCC4608E3C"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests19.title}"
 			x: 13.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["Создаёт предметы самостоятельно!"]
+			shape: "tech_smooth_square"
+			description: ["{er.61c23a1a1b8933b6.quests19.description0}"]
 			dependencies: ["3A22BE56B1E3CBDA"]
 			size: 1.2d
 			id: "365E33230CE0071A"
@@ -91,7 +346,7 @@
 		{
 			x: 13.0d
 			y: -1.5d
-			description: ["Новый вид получения кинетической энергии."]
+			description: ["{er.61c23a1a1b8933b6.quests20.description0}"]
 			dependencies: ["365E33230CE0071A"]
 			id: "781C653D37B7AA5B"
 			tasks: [
@@ -115,8 +370,7 @@
 		{
 			x: 14.5d
 			y: 0.0d
-			shape: "rsquare"
-			description: ["Полноценное дробление!"]
+			description: ["{er.61c23a1a1b8933b6.quests21.description0}"]
 			dependencies: ["365E33230CE0071A"]
 			id: "3FB4B3A128FF3B65"
 			tasks: [{
@@ -127,10 +381,10 @@
 			}]
 		}
 		{
-			title: "Прочее"
+			title: "{er.61c23a1a1b8933b6.quests22.title}"
 			x: 11.0d
 			y: -4.0d
-			description: ["Забавные и полезные вещи!"]
+			description: ["{er.61c23a1a1b8933b6.quests22.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "19080414E59C38ED"
 			tasks: [
@@ -161,7 +415,7 @@
 		{
 			x: 12.0d
 			y: -4.0d
-			description: ["Новая рука!"]
+			description: ["{er.61c23a1a1b8933b6.quests23.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "0221FA51E282769A"
 			tasks: [{
@@ -177,10 +431,10 @@
 			}]
 		}
 		{
-			title: "Механика"
+			title: "{er.61c23a1a1b8933b6.quests24.title}"
 			x: 13.0d
 			y: 1.5d
-			description: ["Удобные штучки."]
+			description: ["{er.61c23a1a1b8933b6.quests24.description0}"]
 			dependencies: ["365E33230CE0071A"]
 			id: "21231BF299577C9D"
 			tasks: [
@@ -197,9 +451,53 @@
 			]
 		}
 		{
+			x: -1.5d
+			y: -1.5d
+			description: ["{er.61c23a1a1b8933b6.quests25.description0}"]
+			dependencies: ["1618941433039F79"]
+			id: "6F9AF24E06600707"
+			tasks: [{
+				id: "6C30E3831578C22A"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 4L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			shape: "tech_circle"
+			description: ["{er.61c23a1a1b8933b6.quests26.description0}"]
+			dependencies: ["1618941433039F79"]
+			id: "4B7996FC7BE671DA"
+			tasks: [{
+				id: "74D2C7FAFE35CA64"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["{er.61c23a1a1b8933b6.quests27.description0}"]
+			dependencies: ["759CD5F854301CA1"]
+			id: "2C26A692DADE6537"
+			tasks: [{
+				id: "21306F0FBC834AEE"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
 			x: 11.5d
 			y: -1.5d
-			description: ["Сам нажимает!"]
+			description: ["{er.61c23a1a1b8933b6.quests28.description0}"]
 			dependencies: ["3A22BE56B1E3CBDA"]
 			id: "339E99FFA9CEE6D2"
 			tasks: [{
@@ -209,9 +507,70 @@
 			}]
 		}
 		{
+			x: 5.0d
+			y: 4.0d
+			description: ["{er.61c23a1a1b8933b6.quests29.description0}"]
+			dependencies: ["3045A3DD55265737"]
+			id: "3DADF1CE7B4D9A06"
+			tasks: [{
+				id: "17CE0E38A3092C84"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["{er.61c23a1a1b8933b6.quests30.description0}"]
+			dependencies: ["3045A3DD55265737"]
+			id: "7BC47C71E95CC330"
+			tasks: [
+				{
+					id: "385F8CF10F83E2F0"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "0963FFB5243B117E"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "0E6A63BA8376E8EB"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+				{
+					id: "1266EBE59DA505CE"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests31.title}"
+			x: 4.5d
+			y: -2.0d
+			description: ["{er.61c23a1a1b8933b6.quests31.description0}"]
+			dependencies: ["759CD5F854301CA1"]
+			id: "07BAC67F8C8D8A2A"
+			tasks: [
+				{
+					id: "67A25396298B72EB"
+					type: "item"
+					item: "create:empty_blaze_burner"
+				}
+				{
+					id: "130760E4539C4813"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+		}
+		{
 			x: 19.0d
 			y: 0.0d
-			description: ["Новый ресурс!"]
+			description: ["{er.61c23a1a1b8933b6.quests32.description0}"]
 			dependencies: ["0F7CFC82FFD07B37"]
 			id: "62D1BFB9177CF557"
 			tasks: [{
@@ -228,7 +587,7 @@
 		{
 			x: 20.5d
 			y: -2.0d
-			description: ["0_0"]
+			description: ["{er.61c23a1a1b8933b6.quests33.description0}"]
 			dependencies: ["48E28ED91BA9ED80"]
 			id: "0739BAD2D663225B"
 			tasks: [{
@@ -238,10 +597,57 @@
 			}]
 		}
 		{
+			x: 0.5d
+			y: -1.0d
+			description: ["{er.61c23a1a1b8933b6.quests34.description0}"]
+			dependencies: ["31B0B795411A5508"]
+			id: "2CD44FAE0380EB2A"
+			tasks: [{
+				id: "2B31D89769CA0FE9"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			description: ["{er.61c23a1a1b8933b6.quests35.description0}"]
+			dependencies: ["7BC47C71E95CC330"]
+			id: "6901D58B59D2B140"
+			tasks: [{
+				id: "513BD0A943369143"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: ["{er.61c23a1a1b8933b6.quests36.description0}"]
+			dependencies: ["3045A3DD55265737"]
+			id: "39F1810E0C220168"
+			tasks: [{
+				id: "1C15E43F5D7A569D"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			description: ["{er.61c23a1a1b8933b6.quests37.description0}"]
+			dependencies: ["3DADF1CE7B4D9A06"]
+			id: "6D9CE4A3BF12A8A8"
+			tasks: [{
+				id: "10099CFAC7BC6335"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
 			x: 19.5d
 			y: -1.5d
-			shape: "hexagon"
-			description: ["Необходим свет..."]
+			description: ["{er.61c23a1a1b8933b6.quests38.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "48E28ED91BA9ED80"
 			tasks: [{
@@ -254,8 +660,7 @@
 		{
 			x: 20.5d
 			y: 0.0d
-			shape: "hexagon"
-			description: ["Необходима темнота..."]
+			description: ["{er.61c23a1a1b8933b6.quests39.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "65C33752A9CFA7D1"
 			tasks: [{
@@ -266,23 +671,88 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 1.5d
-			shape: "rsquare"
-			description: ["Грузит чанки, пока Вас нет."]
-			dependencies: ["309F4243634A2888"]
-			id: "06F2D10687A0DB8B"
-			tasks: [{
-				id: "01813965D213E26C"
-				type: "item"
-				item: "chickenchunks:chunk_loader"
-			}]
+			title: "{er.61c23a1a1b8933b6.quests40.title}"
+			x: 0.0d
+			y: -6.0d
+			description: ["{er.61c23a1a1b8933b6.quests40.description0}"]
+			dependencies: ["1F75B70BE7D3826B"]
+			id: "093501F9725A0851"
+			tasks: [
+				{
+					id: "5F32918DDCA96E73"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 27L
+				}
+				{
+					id: "3BDACF3D4A43F179"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6104B5D165B74FC0"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "0A7E74278F410C56"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "437AF32783C6B542"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "76631B519E28664A"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 2L
+				}
+				{
+					id: "4005D60C051245EF"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests41.title}"
+			x: 1.0d
+			y: -6.5d
+			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
+			dependencies: ["093501F9725A0851"]
+			id: "787E9D342C3CC0FE"
+			tasks: [
+				{
+					id: "4789427467C44BFC"
+					type: "item"
+					item: "tconstruct:pickaxe_head_cast"
+				}
+				{
+					id: "75D4E8875CACAAD1"
+					type: "item"
+					item: "tconstruct:small_axe_head_cast"
+				}
+				{
+					id: "581C6BAA0DDED077"
+					type: "item"
+					item: "tconstruct:hammer_head_cast"
+				}
+				{
+					id: "4DE8300E8657ACDA"
+					type: "item"
+					item: "tconstruct:broad_axe_head_cast"
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: 0.0d
-			shape: "pentagon"
-			description: ["Чтобы попасть в мир Атум нужно бросить Скоробея в специальную конструкцию из песчаника. Нужно построить 5х5 конструкцию(из песчаника) и залить 3х3 водой, добавить по бокам 2 блока в высоту и кинуть скоробея."]
+			shape: "tech_circle"
+			description: ["{er.61c23a1a1b8933b6.quests42.description0}"]
 			dependencies: ["29039481EF4BB2EF"]
 			id: "4969DAD337FCABE1"
 			tasks: [{
@@ -301,8 +771,8 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["Необходимо построить портал (для этого надо нажать по заданию с постройкой и выбрать в мире место, где будет стоять портал, а после нажать - ПКМ. Когда постройка окончена - необходимо снова нажать по заданию с постройкой портала), а после налить воду внутрь области 3х3 (бесконечные источники). После чего необходимо кинуть Скарабея в центр воды."]
+			shape: "tech_smooth_square"
+			description: ["{er.61c23a1a1b8933b6.quests43.description0}"]
 			dependencies: ["4969DAD337FCABE1"]
 			size: 1.2d
 			id: "6DCDEBE91E280D59"
@@ -310,7 +780,7 @@
 				{
 					id: "07C360D2100DF9BA"
 					type: "questsadditions:structure"
-					title: "Портал в Атум"
+					title: "{er.61c23a1a1b8933b6.quests43.tasks0.title}"
 					name: "portal_to_atum"
 					hasCustomPicture: false
 					layer: true
@@ -320,7 +790,7 @@
 				{
 					id: "6799E1C1E2932172"
 					type: "dimension"
-					title: "Посетить измерение Атум"
+					title: "{er.61c23a1a1b8933b6.quests43.tasks1.title}"
 					dimension: "atum:atum"
 				}
 			]
@@ -328,8 +798,7 @@
 		{
 			x: 19.5d
 			y: 1.5d
-			shape: "hexagon"
-			description: ["Необходимо электричество..."]
+			description: ["{er.61c23a1a1b8933b6.quests44.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "5DCD21BA0E949787"
 			tasks: [{
@@ -337,6 +806,45 @@
 				type: "item"
 				item: "createaddition:overcharged_alloy"
 				count: 2L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			shape: "tech_smooth_square"
+			description: ["{er.61c23a1a1b8933b6.quests45.description0}"]
+			dependencies: ["30141E3997BA2ADF"]
+			size: 1.2d
+			id: "31BD23CD6DFA60B1"
+			tasks: [{
+				id: "20BB3C13423F8C8C"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A0A0A480F4F333F"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a nether false"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["{er.61c23a1a1b8933b6.quests46.description0}"]
+			dependencies: ["2373D730A820B6FB"]
+			id: "30AA80C08138F6F8"
+			tasks: [{
+				id: "3DE45522BACB1F32"
+				type: "item"
+				item: "create:goggles"
 			}]
 		}
 		{
@@ -357,10 +865,86 @@
 			}]
 		}
 		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "17FC0F3202DCCA6A"
+			tasks: [{
+				id: "04A3C2A064BA2DC0"
+				type: "item"
+				item: "create:whisk"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "63B31D2AF4550037"
+			tasks: [{
+				id: "70B542BF670493B1"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests50.title}"
+			x: 1.0d
+			y: -4.5d
+			description: ["{er.61c23a1a1b8933b6.quests50.description0}"]
+			dependencies: ["549F858A9EB00499"]
+			id: "331FF86414916787"
+			tasks: [
+				{
+					id: "6435CB9B69042C54"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 8L
+				}
+				{
+					id: "5B2D4F811A7029EB"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests51.title}"
+			x: 0.0d
+			y: -5.0d
+			description: ["{er.61c23a1a1b8933b6.quests51.description0}"]
+			dependencies: ["331FF86414916787"]
+			id: "1F75B70BE7D3826B"
+			tasks: [
+				{
+					id: "6A1081A6BE2D1794"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "6ADF3773BC6B21FF"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["{er.61c23a1a1b8933b6.quests52.description0}"]
+			dependencies: ["07BAC67F8C8D8A2A"]
+			id: "2888C9E7B1571B7C"
+			tasks: [{
+				id: "04318D9FF6C1164F"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 8L
+			}]
+		}
+		{
 			x: 11.5d
 			y: -3.0d
-			shape: "rsquare"
-			description: ["Он точный..."]
+			description: ["{er.61c23a1a1b8933b6.quests53.description0}"]
 			dependencies: ["339E99FFA9CEE6D2"]
 			id: "27EE9C334876E614"
 			tasks: [{
@@ -370,7 +954,7 @@
 			}]
 		}
 		{
-			title: "Основа торта"
+			title: "{er.61c23a1a1b8933b6.quests54.title}"
 			x: 16.0d
 			y: 0.0d
 			dependencies: ["3FB4B3A128FF3B65"]
@@ -398,35 +982,6 @@
 				id: "478C421FD7577C2C"
 				type: "item"
 				item: "create:blaze_cake"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -1.0d
-			dependencies: ["759CD5F854301CA1"]
-			id: "690DA99595BECBD9"
-			tasks: [{
-				id: "3C4C5DE9FDDD28D5"
-				type: "item"
-				item: "ironjetpacks:basic_coil"
-				count: 2L
-			}]
-		}
-		{
-			x: 1.5d
-			y: -1.0d
-			dependencies: ["690DA99595BECBD9"]
-			id: "67443BACB3292C6E"
-			tasks: [{
-				id: "6A541FE5A87F6561"
-				type: "item"
-				item: {
-					id: "ironjetpacks:wood_jetpack"
-					Count: 1b
-					tag: {
-						Throttle: 1.0d
-					}
-				}
 			}]
 		}
 	]

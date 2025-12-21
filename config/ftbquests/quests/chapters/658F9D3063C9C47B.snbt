@@ -3,7 +3,7 @@
 	group: "11EC8770AFEB5B52"
 	order_index: 2
 	filename: "658F9D3063C9C47B"
-	title: "&aКрай"
+	title: "{er.658f9d3063c9c47b.title}"
 	icon: "betterendforge:guidebook"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
-			description: ["Печь из флаволита работает также, как и обычная печь, но она вам пригодится для создания эндер-плавильни."]
+			description: ["{er.658f9d3063c9c47b.quests0.description0}"]
 			dependencies: ["3130CCB62755EC06"]
 			id: "73233E0F878A57D4"
 			tasks: [{
@@ -21,11 +21,11 @@
 			}]
 		}
 		{
-			title: "Слитки талласия"
+			title: "{er.658f9d3063c9c47b.quests1.title}"
 			x: 2.0d
 			y: -1.5d
-			shape: "rsquare"
-			description: ["С помощью талласиевых слитков можно сделать броню и инструменты. Но самое главное - это эндер-плавильня."]
+			shape: "tech_smooth_square"
+			description: ["{er.658f9d3063c9c47b.quests1.description0}"]
 			dependencies: ["48D9C89EB406FAAC"]
 			id: "3130CCB62755EC06"
 			tasks: [{
@@ -36,10 +36,10 @@
 			}]
 		}
 		{
-			title: "Талласиевая руда"
+			title: "{er.658f9d3063c9c47b.quests2.title}"
 			x: 0.5d
 			y: -1.5d
-			description: ["С помощью талласиевой руды можно получить талласиевые слитки, которые очень нужны в этом моде."]
+			description: ["{er.658f9d3063c9c47b.quests2.description0}"]
 			dependencies: ["33AAFE2BEDD62EF3"]
 			id: "48D9C89EB406FAAC"
 			tasks: [{
@@ -52,7 +52,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["С помощью эндер-плавильни можно получать новые, более сильные слитки."]
+			description: ["{er.658f9d3063c9c47b.quests3.description0}"]
 			dependencies: [
 				"3130CCB62755EC06"
 				"73233E0F878A57D4"
@@ -65,11 +65,11 @@
 			}]
 		}
 		{
-			title: "Слитки терминита"
+			title: "{er.658f9d3063c9c47b.quests4.title}"
 			x: 4.5d
 			y: 0.0d
-			shape: "rsquare"
-			description: ["С помощью слитков из терминита можно создавать новые, более мощные инструменты и броню."]
+			shape: "tech_smooth_square"
+			description: ["{er.658f9d3063c9c47b.quests4.description0}"]
 			dependencies: ["623011190C09C083"]
 			id: "72977A4E8BD56D0A"
 			tasks: [{
@@ -82,7 +82,7 @@
 		{
 			x: 5.0d
 			y: -1.5d
-			description: ["Просто наковальня из терминита."]
+			description: ["{er.658f9d3063c9c47b.quests5.description0}"]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "6489AFAF888AA9BA"
 			tasks: [{
@@ -98,7 +98,7 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			description: ["Просто наковальня, но другого, более красивого цвета."]
+			description: ["{er.658f9d3063c9c47b.quests6.description0}"]
 			dependencies: ["3130CCB62755EC06"]
 			id: "527F948DE8F953B8"
 			tasks: [{
@@ -112,10 +112,10 @@
 			}]
 		}
 		{
-			title: "Броня из терминита"
+			title: "{er.658f9d3063c9c47b.quests7.title}"
 			x: 5.0d
 			y: 1.5d
-			description: ["Та самая броня из терминита."]
+			description: ["{er.658f9d3063c9c47b.quests7.description0}"]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "0C5016DCD082544E"
 			tasks: [
@@ -171,11 +171,11 @@
 			]
 		}
 		{
-			title: "Слитки аэтерниума"
+			title: "{er.658f9d3063c9c47b.quests8.title}"
 			x: 6.0d
 			y: 0.0d
-			shape: "rsquare"
-			description: ["Самые дорогие, но самые мощные слитки в этом моде."]
+			shape: "tech_circle"
+			description: ["{er.658f9d3063c9c47b.quests8.description0}"]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "4C8AB3D36971AD1F"
 			tasks: [{
@@ -188,7 +188,7 @@
 		{
 			x: 7.5d
 			y: -0.5d
-			description: ["Просто аэтерниевая наковальня."]
+			description: ["{er.658f9d3063c9c47b.quests9.description0}"]
 			dependencies: ["4C8AB3D36971AD1F"]
 			id: "7982DC0D8A8458AC"
 			tasks: [{
@@ -202,10 +202,10 @@
 			}]
 		}
 		{
-			title: "Броня из аэтерниума"
+			title: "{er.658f9d3063c9c47b.quests10.title}"
 			x: 7.5d
 			y: 0.5d
-			description: ["Просто броня из аэтерниума."]
+			description: ["{er.658f9d3063c9c47b.quests10.description0}"]
 			dependencies: ["4C8AB3D36971AD1F"]
 			id: "461DFCB7E2524105"
 			tasks: [
@@ -263,8 +263,8 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			description: ["Посетить измерение Энд. Просто войдите в портал, ведущий в Энд."]
+			shape: "tech_smooth_square"
+			description: ["{er.658f9d3063c9c47b.quests11.description0}"]
 			dependencies: ["5A4E2FDAE9E6BDB5"]
 			hide: true
 			size: 1.2d
@@ -272,7 +272,7 @@
 			tasks: [{
 				id: "2E69AE2AD4532B8E"
 				type: "dimension"
-				title: "Посетить измерение Энд"
+				title: "{er.658f9d3063c9c47b.quests11.tasks0.title}"
 				dimension: "minecraft:the_end"
 			}]
 			rewards: [{
@@ -284,8 +284,8 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			shape: "gear"
-			description: ["Убить босса!"]
+			shape: "tech_square"
+			description: ["{er.658f9d3063c9c47b.quests12.description0}"]
 			dependencies: ["33AAFE2BEDD62EF3"]
 			size: 1.2d
 			id: "15035E2A4C5B7F3F"
@@ -299,7 +299,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["Полёт!"]
+			description: ["{er.658f9d3063c9c47b.quests13.description0}"]
 			dependencies: ["15035E2A4C5B7F3F"]
 			id: "194A9F0936073102"
 			tasks: [{
@@ -315,10 +315,10 @@
 			}]
 		}
 		{
-			title: "Шалкер"
+			title: "{er.658f9d3063c9c47b.quests14.title}"
 			x: -1.0d
 			y: 1.5d
-			description: ["Новое переносное хранилище."]
+			description: ["{er.658f9d3063c9c47b.quests14.description0}"]
 			dependencies: ["15035E2A4C5B7F3F"]
 			id: "32359339BBC29883"
 			tasks: [
@@ -337,8 +337,8 @@
 		{
 			x: -1.5d
 			y: 2.5d
-			shape: "hexagon"
-			description: ["Защищён!"]
+			shape: "tech_circle"
+			description: ["{er.658f9d3063c9c47b.quests15.description0}"]
 			dependencies: ["32359339BBC29883"]
 			id: "2CE4B945DE586CED"
 			tasks: [{
@@ -350,8 +350,8 @@
 		{
 			x: 2.5d
 			y: 2.5d
-			shape: "hexagon"
-			description: ["Просто полезно."]
+			shape: "tech_square"
+			description: ["{er.658f9d3063c9c47b.quests16.description0}"]
 			dependencies: ["194A9F0936073102"]
 			id: "5FC800B3BCAD23FD"
 			tasks: [{
@@ -369,7 +369,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			description: ["Сложный противник!"]
+			description: ["{er.658f9d3063c9c47b.quests17.description0}"]
 			dependencies: ["15035E2A4C5B7F3F"]
 			id: "433CFD0D46C32583"
 			tasks: [{
@@ -382,8 +382,8 @@
 		{
 			x: 2.0d
 			y: 3.5d
-			shape: "rsquare"
-			description: ["Мощный предмет."]
+			shape: "tech_circle"
+			description: ["{er.658f9d3063c9c47b.quests18.description0}"]
 			dependencies: ["433CFD0D46C32583"]
 			id: "27A0FEB395AF26F9"
 			tasks: [{
@@ -395,7 +395,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			description: ["Сложный противник!"]
+			description: ["{er.658f9d3063c9c47b.quests19.description0}"]
 			dependencies: ["15035E2A4C5B7F3F"]
 			id: "467049FB5B6047EC"
 			tasks: [{
@@ -408,8 +408,8 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			shape: "rsquare"
-			description: ["Мощный предмет."]
+			shape: "tech_circle"
+			description: ["{er.658f9d3063c9c47b.quests20.description0}"]
 			dependencies: ["467049FB5B6047EC"]
 			id: "2B3B813B3C5A531E"
 			tasks: [{

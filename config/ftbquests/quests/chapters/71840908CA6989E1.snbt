@@ -3,21 +3,21 @@
 	group: ""
 	order_index: 1
 	filename: "71840908CA6989E1"
-	title: "&bОсобенности"
-	default_quest_shape: "rsquare"
+	title: "{er.71840908ca6989e1.title}"
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			description: ["Чем больше разной еды Вы едите - тем больше у Вас здоровья!"]
+			x: 1.0d
+			y: -0.5d
+			description: ["{er.71840908ca6989e1.quests0.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "069657197FCCDE67"
 			tasks: [{
 				id: "0578A2C6E5DFF80C"
 				type: "checkmark"
-				title: "Здоровье за еду!"
+				title: "{er.71840908ca6989e1.quests0.tasks0.title}"
 			}]
 			rewards: [{
 				id: "313B0545F718A9EE"
@@ -28,14 +28,14 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["В игру добавлены сезоны года!"]
+			description: ["{er.71840908ca6989e1.quests1.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "4646110081F3DA55"
 			tasks: [{
 				id: "7392A2BA1AC41F28"
 				type: "checkmark"
-				title: "Сезоны года"
+				title: "{er.71840908ca6989e1.quests1.tasks0.title}"
 			}]
 			rewards: [{
 				id: "6CEAA196E81254E8"
@@ -44,35 +44,16 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
-			description: ["Ваш персонаж теперь будет хотеть пить!"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			id: "4B33B0F5DD68C16E"
-			tasks: [{
-				id: "69846935CAB65EDB"
-				type: "checkmark"
-				title: "Жажда"
-			}]
-			rewards: [{
-				id: "3DBB5CDAB87C3FD3"
-				type: "item"
-				item: "toughasnails:purified_water_bottle"
-				random_bonus: 2
-			}]
-		}
-		{
-			x: -1.5d
-			y: 0.0d
-			description: ["С каждым днём сложность становится всё выше!"]
+			x: -1.0d
+			y: 0.5d
+			description: ["{er.71840908ca6989e1.quests2.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "560C6C0A1DF573D5"
 			tasks: [{
 				id: "40B3429CFB2F34EC"
 				type: "checkmark"
-				title: "Рост сложности"
+				title: "{er.71840908ca6989e1.quests2.tasks0.title}"
 			}]
 			rewards: [{
 				id: "648434A8A75F2C05"
@@ -84,14 +65,14 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Замена мини-карты!"]
+			description: ["{er.71840908ca6989e1.quests3.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "0D811557B1492FA9"
 			tasks: [{
 				id: "2932487E12151B37"
 				type: "checkmark"
-				title: "Атлас"
+				title: "{er.71840908ca6989e1.quests3.tasks0.title}"
 			}]
 			rewards: [{
 				id: "08CD9A76CE2F1398"
@@ -100,16 +81,16 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
-			description: ["В том Акаши Вы можете добавлять любые гайд-книги, чтобы хранить их всех в 1 месте!"]
+			x: 0.5d
+			y: 0.5d
+			description: ["{er.71840908ca6989e1.quests4.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "0AC2DBC17F3860F2"
 			tasks: [{
 				id: "3FABC325E603D640"
 				type: "checkmark"
-				title: "Том Акаши"
+				title: "{er.71840908ca6989e1.quests4.tasks0.title}"
 			}]
 			rewards: [{
 				id: "157FB0ADDACC25A6"
@@ -118,53 +99,16 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
-			description: ["Если Вы ударите мирного моба - он будет Вас атаковать!"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			id: "1BADE5F8121AC673"
-			tasks: [{
-				id: "4F820A6A703DF01D"
-				type: "checkmark"
-				title: "Агрессивные мирные мобы"
-			}]
-			rewards: [{
-				id: "5575A5F98FEA640A"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			x: -1.0d
-			y: 1.0d
-			description: ["Ночью и в пещерах теперь действительно темно!"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			id: "157FC0A47A0D3DC7"
-			tasks: [{
-				id: "778EB51F63AF7FA5"
-				type: "checkmark"
-				title: "Настоящая темнота"
-			}]
-			rewards: [{
-				id: "3A53600381B8F548"
-				type: "item"
-				item: "minecraft:torch"
-				count: 4
-			}]
-		}
-		{
-			x: -1.0d
-			y: -1.0d
-			description: ["Теперь в игре у Вас будет сверху компас, который поможет Вам ориентироваться в мире."]
+			x: -0.5d
+			y: -0.5d
+			description: ["{er.71840908ca6989e1.quests5.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "2F5756F9BB5C3F0F"
 			tasks: [{
 				id: "6006E90919E9E509"
 				type: "checkmark"
-				title: "Компас"
+				title: "{er.71840908ca6989e1.quests5.tasks0.title}"
 			}]
 		}
 	]
