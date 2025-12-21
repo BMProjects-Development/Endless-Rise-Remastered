@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "BarMaxx",
+      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
+    },
+    "time": 1766320472641,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\7500\\AppData\\Roaming\\PrismLauncher\\instances\\Endless Rise\\minecraft\\config\\spark\\profile-2025-12-21_15.34.32.sparkprofile"
+    }
+  }
+]
