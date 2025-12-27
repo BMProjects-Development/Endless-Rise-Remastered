@@ -1,0 +1,9 @@
+
+["Crafting Input Handler"]
+	#Define food input slot within the crafting table.
+	#Range: 0 ~ 9
+	Food_Slot = 4
+	#Define potion input slots  within the crafting table. With this array, you can remove slots as well, but keep the maximum count at 4.
+	##Range: 0 ~ 9
+	Potion_Slots = [1, 3, 5, 7]
+

@@ -1,0 +1,24 @@
+
+["World Settings"]
+	#Enable or disable furnaces to burn nearby flammable blocks.
+	Furnace_Burner = true
+	#Set the range around the player within which the fire furnace event can be triggered.
+	#The value defines the number of blocks in each direction from the player's position.
+	#Range: 2 ~ 192
+	Event_Range_Initialization = 16
+	#Set the range around the furnace within which flammable blocks will be checked for fire generation.
+	#Range: 1 ~ 16
+	Fire_Range = 2
+
+["Event Settings"]
+	#Set the probability for skipping the event execution, which occurs every interval defined in the Event_Execution_Time string.
+	#(0.1 = 10% chance, 0.0 = never execute, 1.0 = always execute)
+	#Range: 0.0 ~ 1.0
+	Event_Execution_Chance = 0.1
+	#Set the delay between the warning sign and the fire spawn event.
+	#Range: 1 ~ 100
+	Delay_Tick = 3
+	#Set the interval in seconds between one possible event execution and the other.
+	#Range: 1 ~ 100
+	Event_Execution_Time = 5
+

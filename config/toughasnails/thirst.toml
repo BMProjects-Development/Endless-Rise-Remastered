@@ -30,7 +30,7 @@
 		location = "toughasnails:dirty_water_canteen"
 		thirst = 5
 		hydration = 0.3
-		poison_chance = 0.10
+		poison_chance = 0.1
 
 	[[drink_options.drink_entries]]
 		location = "toughasnails:purified_water_bottle"

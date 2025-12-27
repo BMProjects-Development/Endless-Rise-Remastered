@@ -1,0 +1,31 @@
+
+["Main Settings Handler"]
+	#List of items that will ignite Furnace blocks. This list will only accept items with durability.
+	Furnace_executor_item_list = []
+	#Custom item consumption for when the player tries to use the Sparkling Flint item. This value can be empty, just keep the brackets.
+	Sparkling_flint_consumption_item = "lititup:switchgrass_fiber"
+	#Enable or disable the requirement to ignite a furnace block with Flint and Steel or Sparkling Flint items before allowing it to cook items.
+	Flint_and_steel_furnace_executor = true
+	#Lit up furnaces success rate for Sparkling Flint item. (0.6 = 60%)
+	#Range: 0.0 ~ 1.0
+	Sparkling_Flint_Jam_Chance = 0.6
+	#Cooldown for the jammed Sparkling Flint item.
+	#Range: > 2
+	Sparkling_Flint_Cooldown = 40
+	#Enable or disable Lava/Fire ignition option. Putting Furnace above those sources will resume vanilla execution of the Furnace.
+	Lava_Fire_Ignition = true
+
+["Custom Message"]
+	#Personalized message for jammed Sparkling Flint item.
+	Personalized_Message_Jammed = "The item is jammed, wait until it is repaired."
+	#Personalized message for missing items when using Sparkling Flint item.
+	Personalized_message = "Missing: Switchgrass Fiber!"
+	#Before using Personalized_message setting, set the value below to true.
+	Use_personalized_message = false
+
+["Compatibility Handler"]
+	#Enable or disable compatibility with the Brick Furnace mod. Link: https://www.curseforge.com/minecraft/mc-mods/brick-furnace
+	Brick_furnace_mod_compatibility = true
+	#Enable or disable compatibility with the Furnace Mk2 mod. Link: https://www.curseforge.com/minecraft/mc-mods/furnace-mk2
+	Furnace_Mk2_mod_compatibility = true
+

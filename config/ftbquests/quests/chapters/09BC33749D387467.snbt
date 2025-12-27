@@ -366,8 +366,8 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests14.title}"
-			x: 9.5d
-			y: 3.0d
+			x: 9.0d
+			y: 2.5d
 			description: ["{er.09bc33749d387467.quests14.description0}"]
 			dependencies: ["7A0E4BDCE0CFCEEF"]
 			id: "17DABC5FC1A79596"
@@ -418,8 +418,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 2.5d
+			y: -1.0d
 			description: ["{er.09bc33749d387467.quests17.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			id: "1623F52695BB1A56"
@@ -472,8 +472,8 @@
 			]
 		}
 		{
-			x: 15.0d
-			y: 1.0d
+			x: 14.0d
+			y: 0.0d
 			description: ["{er.09bc33749d387467.quests19.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7E50B0D00134778F"
@@ -540,10 +540,10 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests23.title}"
-			x: 7.5d
+			x: 8.0d
 			y: 1.5d
 			description: ["{er.09bc33749d387467.quests23.description0}"]
-			dependencies: ["7EBB21849EC41175"]
+			dependencies: ["36860DF44D9FF9A5"]
 			id: "226D273CFCD69825"
 			tasks: [
 				{
@@ -581,7 +581,7 @@
 		}
 		{
 			x: 3.5d
-			y: 3.0d
+			y: 2.0d
 			description: ["{er.09bc33749d387467.quests24.description0}"]
 			dependencies: ["41C6AB8863DA77C2"]
 			id: "0ABFF94FA1462431"
@@ -592,10 +592,10 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 0.0d
+			x: 15.5d
+			y: 3.5d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["63045AEFFE6135FD"]
 			id: "7455E4A62CD8E5E9"
 			tasks: [{
 				id: "40D8DF64462B82B4"
@@ -604,10 +604,10 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 0.0d
+			x: 15.5d
+			y: 2.5d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["63045AEFFE6135FD"]
 			id: "098811FF1C8C0952"
 			tasks: [{
 				id: "5ED598E95E6A06F3"
@@ -617,7 +617,7 @@
 		}
 		{
 			x: 13.0d
-			y: 3.0d
+			y: 0.0d
 			description: ["{er.09bc33749d387467.quests27.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "12AE8B72E160FB72"
@@ -634,8 +634,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 4.5d
+			x: 13.5d
+			y: -1.5d
 			shape: "tech_circle"
 			description: ["{er.09bc33749d387467.quests28.description0}"]
 			dependencies: ["12AE8B72E160FB72"]
@@ -647,10 +647,10 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: 5.0d
+			y: 3.0d
 			description: ["{er.09bc33749d387467.quests29.description0}"]
-			dependencies: ["3A6840BC06F09951"]
+			dependencies: ["42DBB54A6A81625E"]
 			id: "3EBA5DFF322FED98"
 			tasks: [{
 				id: "0E0EEF239986A3F2"
@@ -661,7 +661,7 @@
 		{
 			title: "{er.09bc33749d387467.quests30.title}"
 			x: 3.5d
-			y: 1.5d
+			y: 1.0d
 			description: ["{er.09bc33749d387467.quests30.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			id: "41C6AB8863DA77C2"
@@ -744,9 +744,9 @@
 			]
 		}
 		{
-			x: 15.0d
-			y: 2.0d
-			dependencies: ["544D867E9E65F95E"]
+			x: 13.5d
+			y: 6.0d
+			dependencies: ["0B728A65AD5A65F1"]
 			id: "6A0ED669633D1FC0"
 			tasks: [{
 				id: "520F33C9A8F6B4E6"
@@ -776,10 +776,10 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
-			x: 4.5d
-			y: -1.0d
+			x: 6.5d
+			y: 4.5d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
-			dependencies: ["3A6840BC06F09951"]
+			dependencies: ["2A55F762879AF918"]
 			id: "3FB829F02CA5860E"
 			tasks: [{
 				id: "2BF7B97EF3B19CFB"
@@ -788,16 +788,204 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 3.0d
+			x: 12.5d
+			y: 5.5d
 			description: ["{er.09bc33749d387467.quests37.description0}"]
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["0B728A65AD5A65F1"]
 			id: "5E9827D76147D7A2"
 			tasks: [{
 				id: "10F73DE9AD2750B2"
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["42DBB54A6A81625E"]
+			id: "571F237813EF60B5"
+			tasks: [{
+				id: "51BB41C8F97590F0"
+				type: "item"
+				item: "toughasnails:empty_canteen"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["2B75E14C24231869"]
+			id: "42DBB54A6A81625E"
+			tasks: [{
+				id: "2733C0E1AF743EFE"
+				type: "item"
+				item: "artisanworktables:worktable_tanner"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["27F6D0F855D593D6"]
+			id: "5804894E20CF75B5"
+			tasks: [
+				{
+					id: "007E2785DE8449BE"
+					type: "item"
+					item: "smallships:sail_item"
+				}
+				{
+					id: "493B4B482FF3EE3C"
+					type: "item"
+					item: "smallships:oak_cog"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["7EBB21849EC41175"]
+			id: "36860DF44D9FF9A5"
+			tasks: [{
+				id: "0BF7AFCA37251585"
+				type: "checkmark"
+				title: "Гончарная яма"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["36860DF44D9FF9A5"]
+			id: "2A55F762879AF918"
+			tasks: [
+				{
+					id: "1B4CE5E1BC9CC456"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "631E04122A6A1EEA"
+					type: "item"
+					item: "minecraft:smooth_stone"
+				}
+				{
+					id: "2A7B87A68264FE21"
+					type: "item"
+					item: "minecraft:smooth_stone_slab"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			dependencies: ["2A55F762879AF918"]
+			id: "0FD4CF62064122DD"
+			tasks: [
+				{
+					id: "585B33808C8CAA43"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66BD496E10DBA7FD"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27EBA8BC8BEA566D"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			dependencies: ["544D867E9E65F95E"]
+			id: "63045AEFFE6135FD"
+			tasks: [
+				{
+					id: "002F02532EC02444"
+					type: "item"
+					item: "burningfurnace:needle"
+				}
+				{
+					id: "310ED54D16853766"
+					type: "item"
+					item: {
+						id: "burningfurnace:towel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			dependencies: [
+				"239DA0ED7B6E6E9E"
+				"63045AEFFE6135FD"
+			]
+			id: "0B728A65AD5A65F1"
+			tasks: [{
+				id: "139139A5BEF96A50"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 5.5d
+			dependencies: ["0B728A65AD5A65F1"]
+			id: "1D1D8C789B0248D4"
+			tasks: [{
+				id: "584143F9ABF9018C"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			dependencies: ["544D867E9E65F95E"]
+			id: "239DA0ED7B6E6E9E"
+			tasks: [
+				{
+					id: "5267514F0D429037"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5023DC5A23A4F8FE"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+			]
 		}
 	]
 }

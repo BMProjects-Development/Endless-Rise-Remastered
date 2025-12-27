@@ -13,6 +13,7 @@
 			x: 1.5d
 			y: 0.5d
 			shape: "tech_circle"
+			subtitle: "Диета!"
 			description: ["{er.71840908ca6989e1.quests0.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -30,9 +31,10 @@
 		}
 		{
 			icon: "sereneseasons:calendar"
-			x: 0.0d
+			x: 0.5d
 			y: -1.5d
 			shape: "tech_circle"
+			subtitle: "Смена стилей игры!"
 			description: ["{er.71840908ca6989e1.quests1.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -53,6 +55,7 @@
 			x: -1.5d
 			y: -0.5d
 			shape: "tech_circle"
+			subtitle: "Усложение!"
 			description: ["{er.71840908ca6989e1.quests2.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -71,9 +74,10 @@
 		}
 		{
 			icon: "antiqueatlas:empty_antique_atlas"
-			x: -1.5d
-			y: 0.5d
+			x: -0.5d
+			y: -1.5d
 			shape: "tech_circle"
+			subtitle: "Замена мини-карты!"
 			description: ["{er.71840908ca6989e1.quests3.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -94,6 +98,7 @@
 			x: 1.5d
 			y: -0.5d
 			shape: "tech_circle"
+			subtitle: "Всё в одном месте!"
 			description: ["{er.71840908ca6989e1.quests4.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -124,6 +129,7 @@
 				"- Здоровье за еду."
 			]
 			dependencies: ["4015F9A5ADB11078"]
+			hide: true
 			size: 1.3d
 			id: "207D5D4DC9F02D96"
 			tasks: [{
@@ -135,6 +141,71 @@
 				id: "05BC7E38C516410B"
 				type: "random"
 				table_id: 8329142660977327391L
+			}]
+		}
+		{
+			icon: "smallships:oak_cog"
+			x: -0.5d
+			y: 1.5d
+			shape: "tech_circle"
+			subtitle: "Развитие технологий!"
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "08C151FE635392FC"
+			tasks: [{
+				id: "5E4280459302F150"
+				type: "checkmark"
+				title: "Транспорт"
+			}]
+		}
+		{
+			icon: "bountiful:bounty"
+			x: 0.5d
+			y: 1.5d
+			shape: "tech_circle"
+			subtitle: "И награды за них!"
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "164FAF57F5ED32E1"
+			tasks: [{
+				id: "55F07BE4F7A2913C"
+				type: "checkmark"
+				title: "Задания"
+			}]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:longsword_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 0.5d
+			shape: "tech_circle"
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "62FA6243E8286946"
+			tasks: [{
+				id: "2CAA4DC98B9ADD7C"
+				type: "checkmark"
+				title: "Спартанское оружие"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: [
+				"- Их теперь нужно зажигать для начала работы;"
+				"- Они теперь разводят огонь в радиусе нескольких блоков от себя;"
+				"- Чтобы забирать предметы из печек необходимо иметь полотенце."
+			]
+			id: "472983CD65FFD920"
+			tasks: [{
+				id: "66C5D3C800331024"
+				type: "checkmark"
+				title: "Всё о печках"
 			}]
 		}
 	]
