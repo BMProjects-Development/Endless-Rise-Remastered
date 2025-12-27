@@ -9,6 +9,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]])
-  .output(<item:charcoal_pit:clay_pot>)
   .tool(<item:notreepunching:clay_tool>, 5)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:charcoal_pit:clay_pot>)
   .register();

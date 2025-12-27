@@ -12,6 +12,7 @@
 			icon: "solcarrot:food_book"
 			x: 1.5d
 			y: 0.5d
+			shape: "tech_circle"
 			description: ["{er.71840908ca6989e1.quests0.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -31,6 +32,7 @@
 			icon: "sereneseasons:calendar"
 			x: 0.0d
 			y: -1.5d
+			shape: "tech_circle"
 			description: ["{er.71840908ca6989e1.quests1.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -50,6 +52,7 @@
 			icon: "scalinghealth:chance_heart"
 			x: -1.5d
 			y: -0.5d
+			shape: "tech_circle"
 			description: ["{er.71840908ca6989e1.quests2.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -70,6 +73,7 @@
 			icon: "antiqueatlas:empty_antique_atlas"
 			x: -1.5d
 			y: 0.5d
+			shape: "tech_circle"
 			description: ["{er.71840908ca6989e1.quests3.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -89,6 +93,7 @@
 			icon: "akashictome:tome"
 			x: 1.5d
 			y: -0.5d
+			shape: "tech_circle"
 			description: ["{er.71840908ca6989e1.quests4.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -107,6 +112,17 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			subtitle: "Главные новшества!"
+			description: [
+				"В этом разделе Вы сможете узнать самые главные нововведения о которых Вам стоит знать для удобства дальнейшей игры."
+				""
+				"Среди них:"
+				"- Атлас;"
+				"- Рост сложности;"
+				"- Сезоны года;"
+				"- Том Акаши;"
+				"- Здоровье за еду."
+			]
 			dependencies: ["4015F9A5ADB11078"]
 			size: 1.3d
 			id: "207D5D4DC9F02D96"
@@ -114,6 +130,11 @@
 				id: "2BB5446055A908A7"
 				type: "checkmark"
 				title: "Особенности проекта"
+			}]
+			rewards: [{
+				id: "05BC7E38C516410B"
+				type: "random"
+				table_id: 8329142660977327391L
 			}]
 		}
 	]

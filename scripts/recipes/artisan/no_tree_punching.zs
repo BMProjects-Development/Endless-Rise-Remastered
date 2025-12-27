@@ -9,6 +9,7 @@ Recipe.type(Type.BASIC)
     [<item:notreepunching:flint_shard>, <tag:items:forge:string>, <item:notreepunching:flint_shard>],
     [<item:notreepunching:flint_shard>, <tag:items:forge:rods/wooden>, <item:notreepunching:flint_shard>],
     [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:notreepunching:flint_pickaxe>)
   .register();
   
@@ -19,6 +20,7 @@ Recipe.type(Type.BASIC)
     [<item:minecraft:air>, <item:notreepunching:flint_shard>, <tag:items:forge:rods/wooden>],
     [<item:notreepunching:flint_shard>, <tag:items:forge:rods/wooden>, <item:notreepunching:flint_shard>],
     [<tag:items:forge:rods/wooden>, <item:notreepunching:flint_shard>, <item:minecraft:air>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:notreepunching:macuahuitl>)
   .register();
   
@@ -29,6 +31,7 @@ Recipe.type(Type.BASIC)
     [<item:minecraft:air>, <item:notreepunching:flint_shard>, <item:notreepunching:flint_shard>],
     [<item:minecraft:air>, <tag:items:forge:string>, <item:notreepunching:flint_shard>],
     [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:notreepunching:flint_shovel>)
   .register();
   
@@ -39,6 +42,7 @@ Recipe.type(Type.POTTER)
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
-  .output(<item:notreepunching:clay_brick> * 2)
   .tool(<item:notreepunching:clay_tool>, 2)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:notreepunching:clay_brick> * 2)
   .register();

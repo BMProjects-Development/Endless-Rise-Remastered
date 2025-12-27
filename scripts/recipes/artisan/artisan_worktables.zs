@@ -8,6 +8,7 @@ Recipe.type(Type.BASIC)
     [<item:minecraft:clay>, <item:minecraft:clay>, <item:minecraft:clay>],
     [<item:minecraft:clay>, <tag:items:forge:workbenches>, <item:minecraft:clay>],
     [<tag:items:forge:fences/wooden>, <item:minecraft:air>, <tag:items:forge:fences/wooden>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:artisanworktables:worktable_potter>)
   .register();
   
@@ -17,5 +18,6 @@ Recipe.type(Type.BASIC)
     [<tag:items:forge:leather>, <tag:items:forge:leather>, <tag:items:forge:leather>],
     [<tag:items:forge:leather>, <tag:items:forge:workbenches>, <tag:items:forge:leather>],
     [<tag:items:forge:fences/wooden>, <item:minecraft:air>, <tag:items:forge:fences/wooden>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:artisanworktables:worktable_tanner>)
   .register();
