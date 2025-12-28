@@ -337,7 +337,7 @@
 			shape: "tech_smooth_square"
 			description: ["{er.09bc33749d387467.quests13.description0}"]
 			dependencies: ["0D1E69925DD2C3CE"]
-			size: 1.2d
+			size: 1.1d
 			id: "544D867E9E65F95E"
 			tasks: [{
 				id: "67925F061791895F"
@@ -473,8 +473,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: 0.0d
+			x: 13.5d
+			y: -0.5d
 			description: ["{er.09bc33749d387467.quests19.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7E50B0D00134778F"
@@ -559,25 +559,6 @@
 					count: 16L
 				}
 				{
-					id: "6AE24406C260AB20"
-					type: "item"
-					item: "charcoal_pit:straw"
-					count: 12L
-				}
-				{
-					id: "152A6146364CE110"
-					type: "item"
-					title: "{er.09bc33749d387467.quests23.tasks2.title}"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:logs"
-						}
-					}
-					count: 6L
-				}
-				{
 					id: "172E3C506939A4FE"
 					type: "item"
 					item: "minecraft:brick"
@@ -586,8 +567,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 			description: ["{er.09bc33749d387467.quests24.description0}"]
 			dependencies: ["41C6AB8863DA77C2"]
 			id: "0ABFF94FA1462431"
@@ -598,8 +579,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 2.0d
+			x: 12.5d
+			y: 0.0d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7455E4A62CD8E5E9"
@@ -610,8 +591,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 1.0d
+			x: 14.5d
+			y: 0.0d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
 			dependencies: ["544D867E9E65F95E"]
 			id: "098811FF1C8C0952"
@@ -619,37 +600,6 @@
 				id: "5ED598E95E6A06F3"
 				type: "item"
 				item: "farmersdelight:cooking_pot"
-			}]
-		}
-		{
-			x: 13.0d
-			y: 0.0d
-			description: ["{er.09bc33749d387467.quests27.description0}"]
-			dependencies: ["544D867E9E65F95E"]
-			id: "12AE8B72E160FB72"
-			tasks: [{
-				id: "3A9F83BE35A86B49"
-				type: "item"
-				item: {
-					id: "waystones:warp_stone"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 13.5d
-			y: -1.5d
-			shape: "tech_circle"
-			description: ["{er.09bc33749d387467.quests28.description0}"]
-			dependencies: ["12AE8B72E160FB72"]
-			id: "7364D564BF495130"
-			tasks: [{
-				id: "1499E27E53E3D280"
-				type: "item"
-				item: "waystones:waystone"
 			}]
 		}
 		{
@@ -667,7 +617,7 @@
 		{
 			title: "{er.09bc33749d387467.quests30.title}"
 			x: 3.5d
-			y: 1.0d
+			y: 1.5d
 			description: ["{er.09bc33749d387467.quests30.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			id: "41C6AB8863DA77C2"
@@ -782,8 +732,8 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
-			x: 6.5d
-			y: 5.0d
+			x: 6.0d
+			y: 4.0d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
 			id: "3FB829F02CA5860E"
@@ -846,15 +796,32 @@
 			]
 		}
 		{
+			title: "Гончарная яма"
 			x: 7.0d
 			y: 2.0d
 			dependencies: ["7EBB21849EC41175"]
 			id: "36860DF44D9FF9A5"
-			tasks: [{
-				id: "0BF7AFCA37251585"
-				type: "checkmark"
-				title: "Гончарная яма"
-			}]
+			tasks: [
+				{
+					id: "2DFB3170EDE3FAF9"
+					type: "item"
+					item: "charcoal_pit:straw"
+					count: 6L
+				}
+				{
+					id: "6AC0F83AEB55C945"
+					type: "item"
+					title: "3х Дерево"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 3L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -866,22 +833,33 @@
 					id: "1B4CE5E1BC9CC456"
 					type: "item"
 					item: "minecraft:stone"
+					count: 4L
 				}
 				{
 					id: "631E04122A6A1EEA"
 					type: "item"
 					item: "minecraft:smooth_stone"
+					count: 4L
 				}
 				{
 					id: "2A7B87A68264FE21"
 					type: "item"
 					item: "minecraft:smooth_stone_slab"
+					count: 6L
 				}
 			]
+			rewards: [{
+				id: "66BDF3FABED24B25"
+				type: "item"
+				item: "minecraft:stone"
+				count: 4
+				random_bonus: 4
+			}]
 		}
 		{
-			x: 7.5d
-			y: 5.0d
+			x: 8.0d
+			y: 4.0d
+			description: ["Улучшенные инструменты!"]
 			dependencies: ["2A55F762879AF918"]
 			id: "0FD4CF62064122DD"
 			tasks: [
@@ -1030,6 +1008,38 @@
 				id: "371652F277E45031"
 				type: "item"
 				item: "artisanworktables:worktable_potter"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.5d
+			subtitle: "Перход в новую главу!"
+			dependencies: ["544D867E9E65F95E"]
+			size: 1.3d
+			id: "7F6F9186F2AB5326"
+			tasks: [{
+				id: "2757418F3BBA1EC2"
+				type: "item"
+				item: "artisanworktables:worktable_engineer"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			description: ["Хороший способ получить много Пыльцы."]
+			dependencies: ["18B3AC82C7E152D5"]
+			size: 0.9d
+			id: "433E640317141488"
+			tasks: [{
+				id: "2C62B282F7937772"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:from_bee_gate_small"
+					}
+				}
 			}]
 		}
 	]

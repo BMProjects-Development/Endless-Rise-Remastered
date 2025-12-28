@@ -495,5 +495,7 @@
     "er.7e3090efc42aff50.quests66.title": "Meka Suit",
 	"er.chapter_groups.chapter_groups0.title": "&aНачало развития",
     "er.chapter_groups.chapter_groups1.title": "&aПутешествия",
-    "er.chapter_groups.chapter_groups2.title": "&aЦифровые технологии"
+    "er.chapter_groups.chapter_groups2.title": "&aЦифровые технологии",
+	
+	"gateways.from_bee_gate_small": "Пчелиные врата"
 }

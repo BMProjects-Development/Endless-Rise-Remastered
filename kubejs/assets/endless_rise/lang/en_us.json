@@ -494,5 +494,7 @@
     "er.57d608a24de940da.quests28.description0": "Good weapon.",
 	"er.chapter_groups.chapter_groups0.title": "&aGetting start",
     "er.chapter_groups.chapter_groups1.title": "&aJourney",
-    "er.chapter_groups.chapter_groups2.title": "&aDigital technologies"
+    "er.chapter_groups.chapter_groups2.title": "&aDigital technologies",
+	
+	"gateways.from_bee_gate_small": "Bee Gateways"
 }

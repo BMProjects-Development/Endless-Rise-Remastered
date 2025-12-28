@@ -38,6 +38,56 @@ onEvent('recipes', event => {
   event.shapeless('minecraft:wooden_hoe', ['#forge:string', '#forge:rods/wooden', '#forge:rods/wooden'])
   
   
+  event.shaped('minecraft:stone_pickaxe', [
+    'III',
+    ' S ',
+    ' S '
+  ], {
+    I: 'minecraft:stone',
+	S: '#forge:rods/wooden'
+  })
+  
+  
+  event.shaped('minecraft:stone_axe', [
+    'II ',
+    'IS ',
+    ' S '
+  ], {
+    I: 'minecraft:stone',
+	S: '#forge:rods/wooden'
+  })
+  
+  
+  event.shaped('minecraft:stone_sword', [
+    ' I ',
+    ' I ',
+    ' S '
+  ], {
+    I: 'minecraft:stone',
+	S: '#forge:rods/wooden'
+  })
+  
+  
+  event.shaped('minecraft:stone_shovel', [
+    ' I ',
+    ' S ',
+    ' S '
+  ], {
+    I: 'minecraft:stone',
+	S: '#forge:rods/wooden'
+  })
+  
+  
+  event.shaped('minecraft:stone_hoe', [
+    'II ',
+    ' S ',
+    ' S '
+  ], {
+    I: 'minecraft:stone',
+	S: '#forge:rods/wooden'
+  })
+  
+  
   event.remove({output: 'minecraft:iron_pickaxe'})	
   event.shaped('minecraft:iron_pickaxe', [
     'III',

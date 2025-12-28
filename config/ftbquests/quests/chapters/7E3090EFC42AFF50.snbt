@@ -29,6 +29,7 @@
 			x: 2.0d
 			y: 0.0d
 			shape: "tech_circle"
+			subtitle: "Переход в новую главу!"
 			description: ["{er.7e3090efc42aff50.quests1.description0}"]
 			dependencies: ["6EDBA2148672DAB0"]
 			size: 1.2d

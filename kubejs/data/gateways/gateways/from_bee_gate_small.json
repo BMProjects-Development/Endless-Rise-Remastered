@@ -10,10 +10,12 @@
                 }
             ],
             "rewards": [{
-                "type": "entity_loot",
-                "entity": "minecraft:zombie",
-                "rolls": 3
-            }],
+				"type": "stack",
+				"stack": {
+					"item": "the_bumblezone:pollen_puff",
+					"count": 8
+				}
+			}],
             "max_wave_time": 750,
             "setup_time": 150
         },
@@ -52,10 +54,12 @@
                 }
             ],
             "rewards": [{
-                "type": "entity_loot",
-                "entity": "minecraft:zombie",
-                "rolls": 6
-            }],
+				"type": "stack",
+				"stack": {
+					"item": "the_bumblezone:pollen_puff",
+					"count": 16
+				}
+			}],
             "max_wave_time": 750,
             "setup_time": 150
         },
@@ -100,123 +104,21 @@
                 }
             ],
             "rewards": [{
-                "type": "entity_loot",
-                "entity": "minecraft:zombie",
-                "rolls": 9
-            }],
-            "max_wave_time": 750,
-            "setup_time": 150
-        },
-        {
-            "entities": [{
-                    "entity": "minecraft:zombie"
-                },
-                {
-                    "entity": "minecraft:zombie"
-                },
-                {
-                    "entity": "minecraft:zombie"
-                },
-                {
-                    "entity": "minecraft:zombie"
-                }
-            ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.85
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 5
-                },
-                {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.66
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.15
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
-                }
-            ],
-            "rewards": [{
-                "type": "entity_loot",
-                "entity": "minecraft:zombie",
-                "rolls": 12
-            }],
-            "max_wave_time": 750,
-            "setup_time": 150
-        },
-        {
-            "entities": [{
-                    "entity": "minecraft:zombie"
-                },
-                {
-                    "entity": "minecraft:zombie"
-                },
-                {
-                    "entity": "minecraft:zombie"
-                },
-                {
-                    "entity": "minecraft:husk"
-                },
-                {
-                    "entity": "minecraft:husk"
-                }
-            ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 1.25
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 6
-                },
-                {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.85
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.20
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.20
-                }
-            ],
-            "rewards": [{
-                "type": "entity_loot",
-                "entity": "minecraft:zombie",
-                "rolls": 15
-            }],
+				"type": "stack",
+				"stack": {
+					"item": "the_bumblezone:pollen_puff",
+					"count": 32
+				}
+			}],
             "max_wave_time": 750,
             "setup_time": 150
         }
     ],
     "rewards": [{
-        "type": "entity_loot",
-        "entity": "minecraft:zombie",
-        "rolls": 30
-	},
-	{
 		"type": "stack",
 		"stack": {
 			"item": "the_bumblezone:pollen_puff",
-			"count": 8
+			"count": 64
 		}
     }],
     "completion_xp": 250,

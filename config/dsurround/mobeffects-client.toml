@@ -10,11 +10,11 @@
 #Defines footstep effect generation parameters
 ["Footstep Options"]
 	#Enable replacement of footstep sounds with acoustic versions
-	"Enable Footprint Sound Effects" = true
+	"Enable Footprint Sound Effects" = false
 	#Enable Footprint particle effects
-	"Enable Footprint Particles" = true
+	"Enable Footprint Particles" = false
 	#Use first person footstep cadence
-	"First Person Cadence" = true
+	"First Person Cadence" = false
 	#Style of footprint to display for a player
 	#Allowed Values: SHOE, SQUARE, HORSESHOE, BIRD, PAW, SQUARE_SOLID, LOWRES_SQUARE
 	"Player Footprint Style" = "LOWRES_SQUARE"

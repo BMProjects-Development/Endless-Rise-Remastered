@@ -27,7 +27,7 @@
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.61c23a1a1b8933b6.quests1.description0}"]
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			size: 1.2d
 			id: "7CAEFFF51B924E9A"
@@ -172,6 +172,7 @@
 			x: 5.0d
 			y: 0.0d
 			shape: "tech_circle"
+			subtitle: "Переход в новую главу!"
 			description: ["{er.61c23a1a1b8933b6.quests9.description0}"]
 			dependencies: [
 				"7C8A764A4A0F003E"
@@ -382,8 +383,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests22.title}"
-			x: 11.0d
-			y: -4.0d
+			x: 10.5d
+			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests22.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "19080414E59C38ED"
@@ -413,8 +414,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: -4.0d
+			x: 12.5d
+			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests23.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "0221FA51E282769A"
@@ -676,6 +677,7 @@
 			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests40.description0}"]
 			dependencies: ["1F75B70BE7D3826B"]
+			size: 1.1d
 			id: "093501F9725A0851"
 			tasks: [
 				{
@@ -982,6 +984,104 @@
 				id: "478C421FD7577C2C"
 				type: "item"
 				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["093501F9725A0851"]
+			id: "1C696EB9C608D8CB"
+			tasks: [{
+				id: "00677A9710EAA9E6"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["1C696EB9C608D8CB"]
+			size: 1.2d
+			id: "1BAA190C877E451B"
+			tasks: [{
+				id: "153984DEC54BBDA9"
+				type: "item"
+				item: "bountiful:bountyboard"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["{er.09bc33749d387467.quests27.description0}"]
+			dependencies: ["309F4243634A2888"]
+			id: "12AE8B72E160FB72"
+			tasks: [{
+				id: "3A9F83BE35A86B49"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			shape: "tech_circle"
+			description: ["{er.09bc33749d387467.quests28.description0}"]
+			dependencies: ["12AE8B72E160FB72"]
+			id: "7364D564BF495130"
+			tasks: [{
+				id: "1499E27E53E3D280"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.5d
+			dependencies: ["27EE9C334876E614"]
+			id: "439E2A4DCF4F3D3C"
+			tasks: [{
+				id: "65B494AA989765CC"
+				type: "item"
+				item: "immersive_aircraft:boiler"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.0d
+			dependencies: ["439E2A4DCF4F3D3C"]
+			id: "7561D55FE65CB140"
+			tasks: [{
+				id: "3E3092F3D2B420DD"
+				type: "item"
+				item: "immersive_aircraft:engine"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.5d
+			dependencies: ["7561D55FE65CB140"]
+			id: "14D57DB008DFA90B"
+			tasks: [{
+				id: "59D345721CDCF7E2"
+				type: "item"
+				item: "immersive_aircraft:biplane"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.5d
+			dependencies: ["7561D55FE65CB140"]
+			id: "6238CE5D50CA2737"
+			tasks: [{
+				id: "043791B3D25B78B4"
+				type: "item"
+				item: "immersive_aircraft:airship"
 			}]
 		}
 	]
