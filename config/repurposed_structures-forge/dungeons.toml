@@ -10,52 +10,52 @@ shulkerBoxInEndDungeons = true
 # Note: Vanilla Dungeons will spawn again if a RS Dungeon's entry is set to 0 for the biome.
 [AttemptsPerChunk]
 	#Range: 0 ~ 1000
-	badlandsDungeonAttemptsPerChunk = 8
+	jungleDungeonAttemptsPerChunk = 8
+	#Range: 0 ~ 1000
+	mushroomDungeonAttemptsPerChunk = 8
 	#Range: 0 ~ 1000
 	darkForestDungeonAttemptsPerChunk = 8
 	#Range: 0 ~ 1000
 	desertDungeonAttemptsPerChunk = 8
 	#Range: 0 ~ 1000
-	jungleDungeonAttemptsPerChunk = 8
-	#Range: 0 ~ 1000
-	mushroomDungeonAttemptsPerChunk = 8
-	#Range: 0 ~ 1000
 	snowDungeonAttemptsPerChunk = 8
 	#Range: 0 ~ 1000
-	swampDungeonAttemptsPerChunk = 8
+	badlandsDungeonAttemptsPerChunk = 8
+	#Range: 0 ~ 1000
+	oceanDungeonAttemptsPerChunk = 4
 	#Range: 0 ~ 1000
 	endDungeonAttemptsPerChunk = 12
 	#Range: 0 ~ 1000
 	netherDungeonAttemptsPerChunk = 12
 	#Range: 0 ~ 1000
-	oceanDungeonAttemptsPerChunk = 4
+	swampDungeonAttemptsPerChunk = 8
 
 #-----------------------------------------------------------------------------------------
 # Minimum Y height that this dungeon can spawn at.
 # Note: The dungeon will spawn between min and max y height set in config.
 ["Min Height"]
 	#Range: 2 ~ 255
+	desertDungeonMinHeight = 2
+	#Range: 2 ~ 255
+	mushroomDungeonMinHeight = 2
+	#Range: 2 ~ 255
 	badlandsDungeonMinHeight = 2
 	#Range: 2 ~ 255
 	darkForestDungeonMinHeight = 2
 	#Range: 2 ~ 255
-	desertDungeonMinHeight = 2
-	#Range: 2 ~ 255
-	jungleDungeonMinHeight = 2
-	#Range: 2 ~ 255
-	mushroomDungeonMinHeight = 2
-	#Range: 2 ~ 255
-	snowDungeonMinHeight = 2
+	netherDungeonMinHeight = 2
+	#Range: 3 ~ 255
+	oceanDungeonMinHeight = 3
 	#Range: 2 ~ 255
 	icyDungeonMinHeight = 2
+	#Range: 2 ~ 255
+	snowDungeonMinHeight = 2
 	#Range: 2 ~ 255
 	swampDungeonMinHeight = 2
 	#Range: 2 ~ 255
 	endDungeonMinHeight = 2
 	#Range: 2 ~ 255
-	netherDungeonMinHeight = 2
-	#Range: 3 ~ 255
-	oceanDungeonMinHeight = 3
+	jungleDungeonMinHeight = 2
 
 #-----------------------------------------------------------------------------------------
 # Maximum Y height that this dungeon can spawn at.
@@ -63,25 +63,25 @@ shulkerBoxInEndDungeons = true
 # Setting this to below min height config will make dungeon spawn only at min height.
 ["Max Height"]
 	#Range: 2 ~ 255
-	badlandsDungeonMaxHeight = 255
-	#Range: 2 ~ 255
-	darkForestDungeonMaxHeight = 255
-	#Range: 2 ~ 255
-	desertDungeonMaxHeight = 255
-	#Range: 2 ~ 255
-	jungleDungeonMaxHeight = 255
-	#Range: 2 ~ 255
-	mushroomDungeonMaxHeight = 255
-	#Range: 2 ~ 255
-	snowDungeonMaxHeight = 255
-	#Range: 2 ~ 255
 	icyDungeonMaxHeight = 255
 	#Range: 2 ~ 255
-	swampDungeonMaxHeight = 255
-	#Range: 2 ~ 255
 	endDungeonMaxHeight = 255
+	#Range: 2 ~ 255
+	badlandsDungeonMaxHeight = 255
 	#Range: 2 ~ 255
 	netherDungeonMaxHeight = 255
 	#Range: 3 ~ 255
 	oceanDungeonMaxHeight = 255
+	#Range: 2 ~ 255
+	darkForestDungeonMaxHeight = 255
+	#Range: 2 ~ 255
+	mushroomDungeonMaxHeight = 255
+	#Range: 2 ~ 255
+	jungleDungeonMaxHeight = 255
+	#Range: 2 ~ 255
+	swampDungeonMaxHeight = 255
+	#Range: 2 ~ 255
+	desertDungeonMaxHeight = 255
+	#Range: 2 ~ 255
+	snowDungeonMaxHeight = 255
 

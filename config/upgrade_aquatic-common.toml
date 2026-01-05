@@ -13,21 +13,21 @@
 	"Deep ocean mob max height" = 30
 
 	[mobs.spawns]
+		"Perch spawn weight (swamps)" = 5
 		"Glow Squid spawn weight (oceans)" = 67
 		"Thrasher spawn weight (cold oceans)" = 90
 		"Nautilus spawn weight (warm oceans)" = 51
 		"Lionfish spawn weight (coral reefs)" = 15
-		"Pike spawn weight (rivers)" = 11
-		"Perch spawn weight (swamps)" = 5
-		"Pike spawn weight (swamps)" = 5
 		"Squid spawn weight (swamps)" = 5
+		"Pike spawn weight (rivers)" = 11
+		"Pike spawn weight (swamps)" = 5
 
 [world]
 
 	[world.generation]
-		"Beachgrass frequency (beaches)" = 18
-		"Searocket frequency (beaches)" = 15
-		"Pickerelweed frequency (jungles, swamps, rivers)" = 28
 		"Pickerelweed frequency (flower forests)" = 90
+		"Searocket frequency (beaches)" = 15
+		"Beachgrass frequency (beaches)" = 18
+		"Pickerelweed frequency (jungles, swamps, rivers)" = 28
 		"Flowering Rush frequency (rivers)" = 15
 

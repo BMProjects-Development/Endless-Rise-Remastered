@@ -12,6 +12,15 @@
 	# 
 	#-----------------------------------------------------
 	#
+	# Brood Blocks will automatically spawn bees until the number of active bees is the value below. 
+	# Set this higher to allow Brood Blocks to spawn more bees in a smaller area or set it to 0 to turn 
+	# off automatic Brood Block bee spawning.
+	#
+	#Range: 0 ~ 1000
+	broodBlocksBeeSpawnCapacity = 60
+	# 
+	#-----------------------------------------------------
+	#
 	# Should Dispensers always drop the Glass Bottle when using specific 
 	# bottle items on certain The Bumblezone blocks? 
 	# 
@@ -19,13 +28,4 @@
 	# drop the Glass Bottle instead of putting it back into Dispenser if this is set to true.
 	#
 	dispensersDropGlassBottles = false
-	# 
-	#-----------------------------------------------------
-	#
-	# Brood Blocks will automatically spawn bees until the number of active bees is the value below. 
-	# Set this higher to allow Brood Blocks to spawn more bees in a smaller area or set it to 0 to turn 
-	# off automatic Brood Block bee spawning.
-	#
-	#Range: 0 ~ 1000
-	broodBlocksBeeSpawnCapacity = 60
 

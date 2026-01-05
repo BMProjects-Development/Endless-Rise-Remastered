@@ -164,13 +164,25 @@ locateMaxTime = 15.0
 [PolarBearDen]
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Deep Underground Camps.
+	# Average distance between spawn attempts for IDAS Hermit's Hollows
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.UndergroundCamp]
+	[PolarBearDen.HermitsHollow]
 		#Range: 1 ~ 1001
-		undergroundcampAverageChunkDistance = 25
+		hermitshollowAverageChunkDistance = 20
+
+	#-----------------------------------------------------------------------------------------
+	# Average distance between spawn attempts for IDAS BYG Mahogany Lumber Camps
+	# 1 for spawning in most chunks and 1001 for none.
+	[PolarBearDen.BYGMahoganyLumberCamp]
 		#Range: 1 ~ 1001
-		undergroundcampdeepAverageChunkDistance = 25
+		lumbercampbygmahoganyAverageChunkDistance = 10
+
+	#-----------------------------------------------------------------------------------------
+	# Average distance between spawn attempts for IDAS Apothecary Abodes
+	# 1 for spawning in most chunks and 1001 for none.
+	[PolarBearDen.ApothecaryAbode]
+		#Range: 1 ~ 1001
+		apothecaryabodeAverageChunkDistance = 45
 
 	#-----------------------------------------------------------------------------------------
 	# Average distance between spawn attempts for IDAS Forest (Wolf/Bear) Dens.
@@ -182,11 +194,11 @@ locateMaxTime = 15.0
 		forestdenAverageChunkDistance = 15
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Oak Lumber Camps
+	# Average distance between spawn attempts for IDAS BOP Mahogany Lumber Camps
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.OakLumberCamp]
+	[PolarBearDen.BOPMahoganyLumberCamp]
 		#Range: 1 ~ 1001
-		lumbercampoakAverageChunkDistance = 10
+		lumbercampbopmahoganyAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
 	# Average distance between spawn attempts for IDAS Birch Lumber Camps
@@ -196,32 +208,25 @@ locateMaxTime = 15.0
 		lumbercampbirchAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Spruce Lumber Camps
+	# Average distance between spawn attempts for IDAS BYG Redwood Lumber Camps
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.SpruceLumberCamp]
+	[PolarBearDen.BYGRedwoodLumberCamp]
 		#Range: 1 ~ 1001
-		lumbercampspruceAverageChunkDistance = 10
+		lumbercampbygredwoodAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Dark Oak Lumber Camps
+	# Average distance between spawn attempts for IDAS Oak Lumber Camps
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.DarkOakLumberCamp]
+	[PolarBearDen.OakLumberCamp]
 		#Range: 1 ~ 1001
-		lumbercampdarkoakAverageChunkDistance = 10
+		lumbercampoakAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Acacia Lumber Camps
+	# Average distance between spawn attempts for IDAS Treetop Taverns
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.AcaciaLumberCamp]
+	[PolarBearDen."Treetop Taverns"]
 		#Range: 1 ~ 1001
-		lumbercampacaciaAverageChunkDistance = 10
-
-	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Jungle Lumber Camps
-	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.JungleLumberCamp]
-		#Range: 1 ~ 1001
-		lumbercampjungleAverageChunkDistance = 10
+		treetoptavernAverageChunkDistance = 40
 
 	#-----------------------------------------------------------------------------------------
 	# Average distance between spawn attempts for IDAS BOP Redwood Lumber Camps
@@ -231,32 +236,18 @@ locateMaxTime = 15.0
 		lumbercampbopredwoodAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS BYG Redwood Lumber Camps
+	# Average distance between spawn attempts for IDAS Beekeepers House
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.BYGRedwoodLumberCamp]
+	[PolarBearDen.BeekeepersHouse]
 		#Range: 1 ~ 1001
-		lumbercampbygredwoodAverageChunkDistance = 10
+		beekeepershouseAverageChunkDistance = 40
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS BOP Mahogany Lumber Camps
+	# Average distance between spawn attempts for IDAS Jungle Lumber Camps
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.BOPMahoganyLumberCamp]
+	[PolarBearDen.JungleLumberCamp]
 		#Range: 1 ~ 1001
-		lumbercampbopmahoganyAverageChunkDistance = 10
-
-	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS BYG Mahogany Lumber Camps
-	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.BYGMahoganyLumberCamp]
-		#Range: 1 ~ 1001
-		lumbercampbygmahoganyAverageChunkDistance = 10
-
-	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Bazaars
-	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.Bazaar]
-		#Range: 1 ~ 1001
-		bazaarAverageChunkDistance = 70
+		lumbercampjungleAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
 	# Average distance between spawn attempts for IDAS Bearclaw Inns
@@ -264,6 +255,13 @@ locateMaxTime = 15.0
 	[PolarBearDen.BearclawInn]
 		#Range: 1 ~ 1001
 		bearclawinnAverageChunkDistance = 45
+
+	#-----------------------------------------------------------------------------------------
+	# Average distance between spawn attempts for IDAS Dread Citadels
+	# 1 for spawning in most chunks and 1001 for none.
+	[PolarBearDen."Dread Citadels"]
+		#Range: 1 ~ 1001
+		dreadcitadelAverageChunkDistance = 60
 
 	#-----------------------------------------------------------------------------------------
 	# Average distance between spawn attempts for IDAS Hunters Cabin
@@ -280,11 +278,11 @@ locateMaxTime = 15.0
 		farmhouseAverageChunkDistance = 30
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Hermit's Hollows
+	# Average distance between spawn attempts for IDAS Dark Oak Lumber Camps
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.HermitsHollow]
+	[PolarBearDen.DarkOakLumberCamp]
 		#Range: 1 ~ 1001
-		hermitshollowAverageChunkDistance = 20
+		lumbercampdarkoakAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
 	# Average distance between spawn attempts for IDAS Witches Treestumps
@@ -294,6 +292,13 @@ locateMaxTime = 15.0
 		witchestreestumpAverageChunkDistance = 40
 
 	#-----------------------------------------------------------------------------------------
+	# Average distance between spawn attempts for IDAS Bazaars
+	# 1 for spawning in most chunks and 1001 for none.
+	[PolarBearDen.Bazaar]
+		#Range: 1 ~ 1001
+		bazaarAverageChunkDistance = 70
+
+	#-----------------------------------------------------------------------------------------
 	# Average distance between spawn attempts for IDAS Redhorn Guilds
 	# 1 for spawning in most chunks and 1001 for none.
 	[PolarBearDen.RehornGuild]
@@ -301,30 +306,25 @@ locateMaxTime = 15.0
 		redhornguildAverageChunkDistance = 45
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Apothecary Abodes
+	# Average distance between spawn attempts for IDAS Deep Underground Camps.
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.ApothecaryAbode]
+	[PolarBearDen.UndergroundCamp]
 		#Range: 1 ~ 1001
-		apothecaryabodeAverageChunkDistance = 45
+		undergroundcampdeepAverageChunkDistance = 25
+		#Range: 1 ~ 1001
+		undergroundcampAverageChunkDistance = 25
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Beekeepers House
+	# Average distance between spawn attempts for IDAS Acacia Lumber Camps
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen.BeekeepersHouse]
+	[PolarBearDen.AcaciaLumberCamp]
 		#Range: 1 ~ 1001
-		beekeepershouseAverageChunkDistance = 40
+		lumbercampacaciaAverageChunkDistance = 10
 
 	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Treetop Taverns
+	# Average distance between spawn attempts for IDAS Spruce Lumber Camps
 	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen."Treetop Taverns"]
+	[PolarBearDen.SpruceLumberCamp]
 		#Range: 1 ~ 1001
-		treetoptavernAverageChunkDistance = 40
-
-	#-----------------------------------------------------------------------------------------
-	# Average distance between spawn attempts for IDAS Dread Citadels
-	# 1 for spawning in most chunks and 1001 for none.
-	[PolarBearDen."Dread Citadels"]
-		#Range: 1 ~ 1001
-		dreadcitadelAverageChunkDistance = 60
+		lumbercampspruceAverageChunkDistance = 10
 

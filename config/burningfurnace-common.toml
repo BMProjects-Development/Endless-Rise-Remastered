@@ -1,50 +1,50 @@
 
 ["Stats Handler"]
-	#Damage taken when interacting with a lit furnace/smoker/blast furnace without paper. Every 2 points = 1 heart of damage.
-	Lit_furnace_damage = 2.0
 	#Amount of the bypass item to shrink when using the item for the interaction with a lit furnace/smoker/blast furnace.
 	#Range: 1 ~ 64
 	Shrink_amount = 1
+	#Surface damage over lit furnace blocks. Every 2 points = 1 heart of damage.
+	Furnace_surface_damage = 1.0
 	#Delay in ticks between each particle emissions, sound and Item transformation feature when interacting with a lit furnace/smoker/blast furnace.
 	#Range: 1 ~ 200
 	Action_delay = 20
-	#Surface damage over lit furnace blocks. Every 2 points = 1 heart of damage.
-	Furnace_surface_damage = 1.0
 	#Configurable value of the percentage for burned food output from the cooking pan.
 	#Range: 0.0 ~ 1.0
 	Burned_food_probability_output = 0.3
+	#Damage taken when interacting with a lit furnace/smoker/blast furnace without paper. Every 2 points = 1 heart of damage.
+	Lit_furnace_damage = 2.0
 
 ["Custom List"]
-	#List of alternate items that can be used to bypass damage from a lit furnace/smoker/blast furnace. To implement an item, put minecraft's ID system in the brackets with Ditto marks and use comma to separate list of items inside the brackets. Durability Items can't be used as a bypass event.
-	Bypass_hot_furnace_event_item_list = ["minecraft:paper"]
-	#The pairs of items to be transformed when the player right click on the cooking pan. The items should be written in the following form minecraft:stick=minecraft:diamond.The first element defines the input and the second one defines the output.
-	Item_pairs_cooking_pan = []
-	#The pairs of items to be transformed when the player drops the item over smoker, when it's powered by generator block. The items should be written in the following form minecraft:stick=minecraft:diamond.The first element defines the input and the second one defines the output.
-	Item_pairs_smoker = []
 	#The pairs of items to be transformed when the player drops the item near the lit block. This is the first step before the second transformation. The items should be written in the following form minecraft:stick=minecraft:diamond.The first element defines the input and the second one defines the output.
 	Item_pairs_half_cooked_near_furnace = []
 	#The pairs of items to be transformed when the player drops the item near the lit block. This is the second step for the transformation after the half_cooked event. The items should be written in the following form minecraft:stick=minecraft:diamond.The first element defines the input and the second one defines the output.
 	Item_pairs_burned_near_furnace = []
+	#List of alternate items that can be used to bypass damage from a lit furnace/smoker/blast furnace. To implement an item, put minecraft's ID system in the brackets with Ditto marks and use comma to separate list of items inside the brackets. Durability Items can't be used as a bypass event.
+	Bypass_hot_furnace_event_item_list = ["minecraft:paper"]
+	#The pairs of items to be transformed when the player drops the item over smoker, when it's powered by generator block. The items should be written in the following form minecraft:stick=minecraft:diamond.The first element defines the input and the second one defines the output.
+	Item_pairs_smoker = []
+	#The pairs of items to be transformed when the player right click on the cooking pan. The items should be written in the following form minecraft:stick=minecraft:diamond.The first element defines the input and the second one defines the output.
+	Item_pairs_cooking_pan = []
 
 ["Functionality Handler"]
-	#Enable or disable custom vanilla smelting recipes provided by the mod. It's preferable to use this option as it syncs with the 'Cooking Pan transformation' event.
-	Custom_smelting_recipes = false
-	#Enable or disable flint and steel advanced right-click interaction.
-	Advanced_flint_and_steel_interaction = true
-	#Enable or disable half food drop transformation near the lit furnace/smoker/blast furnace.
-	Food_drop_transformation = true
-	#Enable or disable the furnace's pulling and particle effects underwater.
-	Furnace_underwater_effect = true
-	#Enable or disable the cooking system for the smoker when powered by the generator.
-	Smoker_cooking_transformation = true
-	#Enable or disable nearby cooking event for the blast furnace block.
-	Blast_furnace_nearby_cooking_event = true
 	#Enable or disable damage feature of the mod when interacting with a lit block (furnace, smoker, blast furnace).
 	Lit_block_damage_interaction = true
 	#Enable or disable the damage feature when standing on top of a lit block.
 	Lit_block_hot_surface_damage = true
+	#Enable or disable the furnace's pulling and particle effects underwater.
+	Furnace_underwater_effect = true
+	#Enable or disable the cooking system for the smoker when powered by the generator.
+	Smoker_cooking_transformation = true
+	#Enable or disable flint and steel advanced right-click interaction.
+	Advanced_flint_and_steel_interaction = true
+	#Enable or disable nearby cooking event for the blast furnace block.
+	Blast_furnace_nearby_cooking_event = true
+	#Enable or disable custom vanilla smelting recipes provided by the mod. It's preferable to use this option as it syncs with the 'Cooking Pan transformation' event.
+	Custom_smelting_recipes = false
 	#Enable or disable the explosion when the smoker is powered by a generator block and there is a solid block above the smoker. This value won't work if Smoker_cooking_transformation is set to false.
 	Explosive_smoker_block = true
+	#Enable or disable half food drop transformation near the lit furnace/smoker/blast furnace.
+	Food_drop_transformation = true
 
 ["Status Message"]
 	#Personalized message for missing items when using advanced flint and steel interaction
