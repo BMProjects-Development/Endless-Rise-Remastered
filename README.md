@@ -11,6 +11,14 @@
 Endless Rise - is a modpack in which you will plunge into progress. You have to go through many epochs to reach Space! Travel through the worlds, study artifacts, build various mechanisms and farms. All mods are linked by new crafts and quests. We hope that you will enjoy it and you will get only positive emotions from the passage! <br/>
 
 ## Features
+▫️Many quests <br/>
+▫️Changed recipes <br/>
+▫️Unique main menu <br/>
+▫️Custom items <br/>
+▫️Game stages <br/>
+▫️Custom textures <br/>
+▫️Good optimization <br/>
+▫️and more!
 
 # 🎞️ Trailer
 [YouTube](https://youtu.be/IDgItyj6tPI)
