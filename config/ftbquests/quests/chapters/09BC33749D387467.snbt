@@ -781,7 +781,7 @@
 		{
 			title: "{er.09bc33749d387467.quests38.title}"
 			x: 3.5d
-			y: -4.0d
+			y: -4.5d
 			description: ["{er.09bc33749d387467.quests38.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
 			id: "5804894E20CF75B5"
@@ -1043,6 +1043,28 @@
 						gateway: "gateways:from_bee_gate_small"
 					}
 				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["27F6D0F855D593D6"]
+			id: "0D589BE1DB45CF4D"
+			tasks: [{
+				id: "30E9DD2BD47BDB2F"
+				type: "item"
+				item: "astikorcarts:animal_cart"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["27F6D0F855D593D6"]
+			id: "5D9146D79336FEF1"
+			tasks: [{
+				id: "03DA3D87A6F6D060"
+				type: "item"
+				item: "astikorcarts:plow"
 			}]
 		}
 	]
