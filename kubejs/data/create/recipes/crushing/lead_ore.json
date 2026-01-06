@@ -1,0 +1,32 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ores/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_lead"
+    },
+    {
+      "item": "mekanism:dust_lead",
+      "count": 2,
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 400,
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/lead",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

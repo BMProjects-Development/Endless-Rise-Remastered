@@ -1,0 +1,11 @@
+{
+  "type": "primutils:chopping",
+  "chopAmounts": 1,
+  "input": {
+    "item": "minecraft:oak_log"
+  },
+  "output": {
+    "item": "minecraft:oak_planks",
+    "count": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "charcoal_pit:barrel",
+  "item_in":{
+  	"item":"minecraft:sugar_cane"
+  },
+  "fluid_in":{
+  	"tag":"minecraft:water",
+  	"amount": 50
+  },
+  "item_out":{
+  	"item":"minecraft:paper"
+  },
+  "out_amount":1,
+  "flags": 1,
+  "time": 400
+}

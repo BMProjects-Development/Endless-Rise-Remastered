@@ -245,6 +245,7 @@
 				"08D541875A03DFFD"
 				"42FE908F1D88CAE9"
 			]
+			size: 0.95d
 			id: "2F178217D0C37FC8"
 			tasks: [{
 				id: "7A9E26A9EE9E75A4"
@@ -403,6 +404,7 @@
 			y: -1.5d
 			description: ["{er.09bc33749d387467.quests16.description0}"]
 			dependencies: ["6264DD1A5265CA11"]
+			size: 0.95d
 			id: "08D541875A03DFFD"
 			tasks: [{
 				id: "23315BF678E2A4A0"
@@ -419,8 +421,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.0d
+			x: 3.0d
+			y: -1.5d
 			description: ["{er.09bc33749d387467.quests17.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			id: "1623F52695BB1A56"
@@ -517,7 +519,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests21.description0}"]
 			dependencies: ["18B3AC82C7E152D5"]
-			size: 0.9d
+			size: 0.8d
 			id: "33D766CC2E68C961"
 			tasks: [{
 				id: "1B49B9FBF4A61070"
@@ -616,7 +618,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests30.title}"
-			x: 3.5d
+			x: 3.0d
 			y: 1.5d
 			description: ["{er.09bc33749d387467.quests30.description0}"]
 			dependencies: ["3A6840BC06F09951"]
@@ -636,10 +638,10 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 4.0d
+			y: -3.0d
 			description: ["{er.09bc33749d387467.quests31.description0}"]
-			dependencies: ["3A6840BC06F09951"]
+			dependencies: ["2899535C3F79E47F"]
 			id: "7C5C00B15B9897BC"
 			tasks: [{
 				id: "3E26E5CCC8D46E8E"
@@ -655,8 +657,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			x: 4.5d
+			y: -4.5d
 			description: ["{er.09bc33749d387467.quests32.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
 			id: "139A2673A665DA5F"
@@ -712,8 +714,8 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests35.title}"
-			x: 3.0d
-			y: -3.0d
+			x: 3.5d
+			y: -4.5d
 			description: ["{er.09bc33749d387467.quests35.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
 			id: "27F6D0F855D593D6"
@@ -780,8 +782,8 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests38.title}"
-			x: 3.5d
-			y: -4.5d
+			x: 4.0d
+			y: -5.5d
 			description: ["{er.09bc33749d387467.quests38.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
 			id: "5804894E20CF75B5"
@@ -1027,11 +1029,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -0.5d
+			x: 9.6d
+			y: -0.8d
 			description: ["Хороший способ получить много Пыльцы."]
-			dependencies: ["18B3AC82C7E152D5"]
-			size: 0.9d
+			dependencies: ["4851726CE8BE7194"]
+			size: 0.8d
 			id: "433E640317141488"
 			tasks: [{
 				id: "2C62B282F7937772"
@@ -1046,8 +1048,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.0d
+			x: 3.0d
+			y: -5.5d
 			dependencies: ["27F6D0F855D593D6"]
 			id: "0D589BE1DB45CF4D"
 			tasks: [{
@@ -1057,14 +1059,92 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
+			x: 3.0d
+			y: -3.5d
 			dependencies: ["27F6D0F855D593D6"]
 			id: "5D9146D79336FEF1"
 			tasks: [{
 				id: "03DA3D87A6F6D060"
 				type: "item"
 				item: "astikorcarts:plow"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["2B75E14C24231869"]
+			id: "2899535C3F79E47F"
+			tasks: [{
+				id: "039C623D5B9E0E9A"
+				type: "item"
+				item: "artisanworktables:worktable_carpenter"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["2899535C3F79E47F"]
+			id: "1479CC56B0DBB3F1"
+			tasks: [{
+				id: "13A487B227CC5EAD"
+				type: "item"
+				item: "charcoal_pit:barrel"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			dependencies: ["7F9BAF137DB45C19"]
+			id: "387C7C8B8BA0851B"
+			tasks: [{
+				id: "3FC92B6781115B8F"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 8.8d
+			y: -0.8d
+			dependencies: ["18B3AC82C7E152D5"]
+			size: 0.8d
+			id: "4851726CE8BE7194"
+			tasks: [{
+				id: "3B28F70A2D446157"
+				type: "item"
+				item: "artisanworktables:worktable_mage"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			dependencies: ["387C7C8B8BA0851B"]
+			id: "75597F53A9396B84"
+			tasks: [{
+				id: "29908027B0773B2B"
+				type: "item"
+				item: "minecraft:book"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["1479CC56B0DBB3F1"]
+			id: "19EBBD2ED6AD1922"
+			tasks: [{
+				id: "05A70BD28C2A9091"
+				type: "checkmark"
+				title: "Мокрая бумага"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["19EBBD2ED6AD1922"]
+			id: "7F9BAF137DB45C19"
+			tasks: [{
+				id: "289194875D01BD27"
+				type: "item"
+				item: "primutils:drying_rack"
 			}]
 		}
 	]
