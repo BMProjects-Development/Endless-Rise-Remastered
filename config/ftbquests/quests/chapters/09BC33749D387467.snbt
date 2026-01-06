@@ -769,6 +769,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
+			description: ["{er.09bc33749d387467.quests39.description0}"]
 			dependencies: ["2B75E14C24231869"]
 			id: "42DBB54A6A81625E"
 			tasks: [{
@@ -778,8 +779,10 @@
 			}]
 		}
 		{
+			title: "{er.09bc33749d387467.quests38.title}"
 			x: 3.5d
 			y: -4.0d
+			description: ["{er.09bc33749d387467.quests38.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
 			id: "5804894E20CF75B5"
 			tasks: [

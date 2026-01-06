@@ -78,11 +78,11 @@
 
 ["Gameplay Settings"]
 	#Determines if monsters should only spawn where the light value equals zero.
-	MonstersSpawnInTotalDarkness = true
+	MonstersSpawnInTotalDarkness = false
 
 	["Gameplay Settings"."Raw Ore Settings"]
 		#Determines if Iron, Gold and Copper should drop Raw Ores.
-		RawOreDrops = true
+		RawOreDrops = false
 		#Determines if Copper from other mods should also drop Raw Copper.
 		RawOreDropsForExternalCopper = false
 

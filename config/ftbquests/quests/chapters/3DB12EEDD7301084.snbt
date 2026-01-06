@@ -11,11 +11,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
-			description: [
-				"{er.3db12eedd7301084.quests0.description0}"
-				""
-				"{er.3db12eedd7301084.quests0.description1}"
-			]
+			description: ["{er.3db12eedd7301084.quests0.description0}"]
 			size: 1.3d
 			id: "4015F9A5ADB11078"
 			tasks: [{
