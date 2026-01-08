@@ -23,11 +23,6 @@
 				type: "checkmark"
 				title: "{er.71840908ca6989e1.quests1.tasks0.title}"
 			}]
-			rewards: [{
-				id: "6CEAA196E81254E8"
-				type: "item"
-				item: "sereneseasons:calendar"
-			}]
 		}
 		{
 			icon: "antiqueatlas:empty_antique_atlas"
@@ -43,11 +38,6 @@
 				id: "2932487E12151B37"
 				type: "checkmark"
 				title: "{er.71840908ca6989e1.quests3.tasks0.title}"
-			}]
-			rewards: [{
-				id: "08CD9A76CE2F1398"
-				type: "item"
-				item: "antiqueatlas:empty_antique_atlas"
 			}]
 		}
 		{

@@ -291,11 +291,20 @@
 					rightclick: false
 				}
 			]
-			rewards: [{
-				id: "20890CEBC581DCF2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "20890CEBC581DCF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "023898FB9C5E1C6B"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage add @a iron_age false"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "{er.09bc33749d387467.quests12.title}"
@@ -403,7 +412,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -1.0d
 			description: ["{er.09bc33749d387467.quests17.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			id: "1623F52695BB1A56"
@@ -541,8 +550,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 3.5d
+			y: 2.0d
 			description: ["{er.09bc33749d387467.quests24.description0}"]
 			dependencies: ["41C6AB8863DA77C2"]
 			id: "0ABFF94FA1462431"
@@ -591,7 +600,7 @@
 		{
 			title: "{er.09bc33749d387467.quests30.title}"
 			x: 3.0d
-			y: 1.5d
+			y: 1.0d
 			description: ["{er.09bc33749d387467.quests30.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			id: "41C6AB8863DA77C2"
@@ -1052,8 +1061,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -3.0d
+			x: 3.5d
+			y: -2.0d
 			dependencies: ["2899535C3F79E47F"]
 			id: "1479CC56B0DBB3F1"
 			tasks: [{
@@ -1098,7 +1107,7 @@
 		{
 			x: 6.0d
 			y: -3.5d
-			dependencies: ["1479CC56B0DBB3F1"]
+			dependencies: ["23FFFC5B724778A4"]
 			id: "19EBBD2ED6AD1922"
 			tasks: [{
 				id: "05A70BD28C2A9091"
@@ -1115,6 +1124,50 @@
 				id: "289194875D01BD27"
 				type: "item"
 				item: "primutils:drying_rack"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			dependencies: ["75597F53A9396B84"]
+			id: "39D9929D7D0497E1"
+			tasks: [{
+				id: "43AFF2071315F2B9"
+				type: "item"
+				item: "antiqueatlas:empty_antique_atlas"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			dependencies: ["387C7C8B8BA0851B"]
+			id: "764F39D90DE9FDEC"
+			tasks: [{
+				id: "6971363D1E5DA265"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["2899535C3F79E47F"]
+			id: "23FFFC5B724778A4"
+			tasks: [{
+				id: "1DD39F4DDDAB4715"
+				type: "item"
+				item: "primutils:basin"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["1479CC56B0DBB3F1"]
+			id: "45587AD8C228DBB3"
+			tasks: [{
+				id: "189A3E51BBDE8F02"
+				type: "item"
+				item: "charcoal_pit:cheese"
 			}]
 		}
 	]

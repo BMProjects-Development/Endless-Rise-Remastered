@@ -7,7 +7,7 @@
 			#Determines if Copper should generate so it doesn't interfere with other modded copper.
 			GenerateCopperOre = false
 			#Determines if Large Copper Blobs should generate in Dripstone Caves.
-			DripstoneCaveLargeCopperBlobs = true
+			DripstoneCaveLargeCopperBlobs = false
 
 		["World Generation"."Ore Generation"."Tuff Settings"]
 			#Determines if Tuff Blobs should generate underground.
@@ -21,7 +21,7 @@
 			#Determines the weight of spawning for Deepslate.
 			DeepslateSpawnWeight = 2
 			#Determines if Deepslate Ores should generate underground.
-			GenerateDeepslateOres = true
+			GenerateDeepslateOres = false
 
 	["World Generation"."Feature Generation"]
 		#Determines if Glow Lichen should generate underground.

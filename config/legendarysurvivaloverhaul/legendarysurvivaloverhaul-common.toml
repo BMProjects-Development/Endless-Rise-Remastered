@@ -306,16 +306,16 @@
 	"Cumulative Thirst Effect Duration" = true
 	# Scaling of the damages dealt when completely dehydrated. Each tick damage will be increased by this value.
 	#Range: 0.0 ~ 1000.0
-	"Dehydration Damage Scaling" = 0.3
+	"Dehydration Damage Scaling" = 0.1
 	# How many thirst exhaustion will be added every 50 ticks when the player suffers from not amplified Thirst Effect.
 	# The player will suffer Thirst Effect from dirty water for example.
 	#Range: 0.0 ~ 1000.0
-	"Thirst Effect Modifier" = 0.25
+	"Thirst Effect Modifier" = 0.15
 
 	[thirst.exhaustion]
 		# Thirst exhausted every 10 ticks.
 		#Range: 0.0 ~ 1000.0
-		"Base Thirst Exhaustion" = 0.03
+		"Base Thirst Exhaustion" = 0.01
 		# Thirst exhausted when sprinting, replacing the base thirst exhausted.
 		#Range: 0.0 ~ 1000.0
 		"Sprinting Thirst Exhaustion" = 0.1

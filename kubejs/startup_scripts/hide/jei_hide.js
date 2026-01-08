@@ -32,6 +32,7 @@ const HIDDEN = [
   'cavesandcliffs:deepslate_copper_ore',
   'cavesandcliffs:raw_copper',
   'create:copper_sheet',
+  'createaddition:copper_wire',
   
   'immersiveengineering:dust_gold',
   'appliedenergistics2:gold_dust',
@@ -59,6 +60,8 @@ const HIDDEN = [
   'cavesandcliffs:raw_iron_block',
   'create:iron_sheet',
   'boss_tools:iron_plate',
+  'boss_tools:iron_stick',
+  'createaddition:iron_rod',
   
   'immersiveengineering:storage_lead',
   'immersiveengineering:dust_lead',
