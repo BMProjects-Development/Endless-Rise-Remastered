@@ -830,10 +830,10 @@
 				}
 			}]
 			rewards: [{
-				id: "4A0A0A480F4F333F"
+				id: "1548B51D9758E24B"
 				type: "command"
 				auto: "invisible"
-				command: "/gamestage add @a nether false"
+				command: "/gamestage add @a nether_dim false"
 				player_command: false
 			}]
 		}

@@ -42,6 +42,13 @@
 					dimension: "minecraft:the_nether"
 				}
 			]
+			rewards: [{
+				id: "3B55F3FC7DFDDCD6"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a nether false"
+				player_command: false
+			}]
 		}
 		{
 			title: "{er.57d608a24de940da.quests1.title}"
@@ -227,7 +234,6 @@
 			shape: "tech_square"
 			description: ["{er.57d608a24de940da.quests13.description0}"]
 			dependencies: ["462BD8A3987B8465"]
-			size: 1.2d
 			id: "13CCA304B7C69DB3"
 			tasks: [{
 				id: "4A90C4CDDB072707"
