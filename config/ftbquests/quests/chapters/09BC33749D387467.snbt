@@ -1110,9 +1110,9 @@
 			dependencies: ["23FFFC5B724778A4"]
 			id: "19EBBD2ED6AD1922"
 			tasks: [{
-				id: "05A70BD28C2A9091"
-				type: "checkmark"
-				title: "Мокрая бумага"
+				id: "6CAE9723A495293F"
+				type: "item"
+				item: "kubejs:wet_paper"
 			}]
 		}
 		{
