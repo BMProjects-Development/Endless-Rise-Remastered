@@ -66,5 +66,15 @@ onEvent('recipes', event => {
 	C: 'minecraft:black_dye'
   })
   
+  
+  event.remove({output: 'boss_tools:steel_sword'})
+  
+  event.remove({output: 'boss_tools:steel_shovel'})
+  
+  event.remove({output: 'boss_tools:steel_pickaxe'})
+  
+  event.remove({output: 'boss_tools:steel_axe'})
+  
+  event.remove({output: 'boss_tools:steel_hoe'})
 
 })

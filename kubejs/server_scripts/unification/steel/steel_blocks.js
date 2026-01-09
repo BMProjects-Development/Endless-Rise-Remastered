@@ -1,7 +1,8 @@
 const MAIN_STEEL_BLOCK = 'immersiveengineering:storage_steel'
 
 const DUPLICATES_STEEL_BLOCKS = [
-  'mekanism:block_steel'
+  'mekanism:block_steel',
+  'boss_tools:steel_block'
 ]
 
 

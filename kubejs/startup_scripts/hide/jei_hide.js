@@ -34,6 +34,8 @@ const HIDDEN = [
   'create:copper_sheet',
   'createaddition:copper_wire',
   
+  'createaddition:diamond_grit',
+  
   'immersiveengineering:dust_gold',
   'appliedenergistics2:gold_dust',
   'create:crushed_gold_ore',
@@ -111,7 +113,23 @@ const HIDDEN = [
   'immersiveengineering:nugget_steel',
   'boss_tools:steel_nugget',
   'immersiveengineering:dust_steel',
-  'mekanism:block_steel'
+  'mekanism:block_steel',
+  'boss_tools:steel_block',
+  
+  'boss_tools:steel_sword',
+  'boss_tools:steel_shovel',
+  'boss_tools:steel_pickaxe',
+  'boss_tools:steel_axe',
+  'boss_tools:steel_hoe',
+  'immersiveengineering:sword_steel',
+  'immersiveengineering:shovel_steel',
+  'immersiveengineering:pickaxe_steel',
+  'immersiveengineering:axe_steel',
+  'immersiveengineering:hoe_steel',
+  'immersiveengineering:armor_steel_head',
+  'immersiveengineering:armor_steel_chest',
+  'immersiveengineering:armor_steel_legs',
+  'immersiveengineering:armor_steel_feet'
 ]
 
 onEvent('jei.hide.items', event => {

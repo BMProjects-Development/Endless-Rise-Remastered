@@ -23,4 +23,23 @@ onEvent('recipes', event => {
   })
   
   
+  event.remove({output: 'immersiveengineering:sword_steel'})
+  
+  event.remove({output: 'immersiveengineering:shovel_steel'})
+  
+  event.remove({output: 'immersiveengineering:pickaxe_steel'})
+  
+  event.remove({output: 'immersiveengineering:axe_steel'})
+  
+  event.remove({output: 'immersiveengineering:hoe_steel'})
+  
+  event.remove({output: 'immersiveengineering:armor_steel_head'})
+  
+  event.remove({output: 'immersiveengineering:armor_steel_chest'})
+  
+  event.remove({output: 'immersiveengineering:armor_steel_legs'})
+  
+  event.remove({output: 'immersiveengineering:armor_steel_feet'})
+  
+  
 })
