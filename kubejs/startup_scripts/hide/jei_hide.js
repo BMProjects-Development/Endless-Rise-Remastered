@@ -129,11 +129,7 @@ const HIDDEN = [
   'immersiveengineering:armor_steel_head',
   'immersiveengineering:armor_steel_chest',
   'immersiveengineering:armor_steel_legs',
-  'immersiveengineering:armor_steel_feet',
- 
-  'farmersdelight:flint_knife',
-  'ends_delight:end_stone_knife',
-  'ends_delight:purpur_knife'
+  'immersiveengineering:armor_steel_feet'
 ]
 
 onEvent('jei.hide.items', event => {

@@ -709,7 +709,7 @@
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
 			x: 6.0d
-			y: 4.5d
+			y: 5.0d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
 			id: "3FB829F02CA5860E"
@@ -809,7 +809,7 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: 6.5d
 			y: 4.0d
 			dependencies: ["36860DF44D9FF9A5"]
 			id: "2A55F762879AF918"
@@ -842,8 +842,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 4.5d
+			x: 7.0d
+			y: 5.0d
 			description: ["Улучшенные инструменты!"]
 			dependencies: ["2A55F762879AF918"]
 			id: "0FD4CF62064122DD"
@@ -1175,28 +1175,33 @@
 			y: -1.5d
 			dependencies: ["2899535C3F79E47F"]
 			id: "2936657AD885EAC2"
-			tasks: [
-				{
-					id: "3357FE8E05FB8D5E"
-					type: "item"
-					item: {
-						id: "woodenbuckets:wooden_bucket"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7E34C60F285FA53C"
+				type: "item"
+				item: {
+					id: "woodenshears:wooden_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["36860DF44D9FF9A5"]
+			id: "54474F72C729487C"
+			tasks: [
 				{
-					id: "7E34C60F285FA53C"
+					id: "34EF99A53CED42A1"
 					type: "item"
-					item: {
-						id: "woodenshears:wooden_shears"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "ceramics:unfired_clay_bucket"
+				}
+				{
+					id: "047217E7CB92FCAA"
+					type: "item"
+					item: "ceramics:clay_bucket"
 				}
 			]
 		}
