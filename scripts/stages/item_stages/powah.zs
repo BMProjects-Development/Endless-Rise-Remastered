@@ -107,7 +107,6 @@ ItemStages.restrict(<item:powah:reactor_niotic>, "powah");
 ItemStages.restrict(<item:powah:reactor_nitro>, "powah");
 ItemStages.restrict(<item:powah:reactor_spirited>, "powah");
 ItemStages.restrict(<item:powah:reactor_starter>, "powah");
-
 ItemStages.restrict(<item:powah:energy_discharger_basic>, "powah");
 ItemStages.restrict(<item:powah:energy_discharger_blazing>, "powah");
 ItemStages.restrict(<item:powah:energy_discharger_hardened>, "powah");
@@ -115,7 +114,6 @@ ItemStages.restrict(<item:powah:energy_discharger_niotic>, "powah");
 ItemStages.restrict(<item:powah:energy_discharger_nitro>, "powah");
 ItemStages.restrict(<item:powah:energy_discharger_spirited>, "powah");
 ItemStages.restrict(<item:powah:energy_discharger_starter>, "powah");
-
 ItemStages.restrict(<item:powah:energy_cable_basic>, "powah");
 ItemStages.restrict(<item:powah:energy_cable_blazing>, "powah");
 ItemStages.restrict(<item:powah:energy_cable_hardened>, "powah");
@@ -123,10 +121,6 @@ ItemStages.restrict(<item:powah:energy_cable_niotic>, "powah");
 ItemStages.restrict(<item:powah:energy_cable_nitro>, "powah");
 ItemStages.restrict(<item:powah:energy_cable_spirited>, "powah");
 ItemStages.restrict(<item:powah:energy_cable_starter>, "powah");
-
-
-
-
 ItemStages.restrict(<item:powah:energizing_orb>, "powah");
 ItemStages.restrict(<item:powah:energized_steel_block>, "powah");
 ItemStages.restrict(<item:powah:blazing_crystal_block>, "powah");
@@ -134,9 +128,6 @@ ItemStages.restrict(<item:powah:niotic_crystal_block>, "powah");
 ItemStages.restrict(<item:powah:spirited_crystal_block>, "powah");
 ItemStages.restrict(<item:powah:nitro_crystal_block>, "powah");
 ItemStages.restrict(<item:powah:dry_ice>, "powah");
-
-
-
 ItemStages.restrict(<item:powah:book>, "powah");
 ItemStages.restrict(<item:powah:wrench>, "powah");
 ItemStages.restrict(<item:powah:player_aerial_pearl>, "powah");
