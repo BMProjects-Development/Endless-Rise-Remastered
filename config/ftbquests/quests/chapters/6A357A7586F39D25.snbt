@@ -403,5 +403,22 @@
 				}
 			}]
 		}
+		{
+			x: -4.5d
+			y: 0.5d
+			id: "03D444C591714C7D"
+			tasks: [{
+				id: "5B2924A8E5A0D3AA"
+				type: "checkmark"
+				title: "Космическая эпоха"
+			}]
+			rewards: [{
+				id: "78136FEE2D637CB2"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a space_age false"
+				player_command: false
+			}]
+		}
 	]
 }

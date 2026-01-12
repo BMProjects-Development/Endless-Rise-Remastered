@@ -650,5 +650,38 @@
 				item: "fluxnetworks:flux_controller"
 			}]
 		}
+		{
+			x: -5.0d
+			y: -0.5d
+			id: "168C2024771F640D"
+			tasks: [{
+				id: "033ABFB8770260D3"
+				type: "checkmark"
+				title: "Powah"
+			}]
+			rewards: [{
+				id: "7FCDBB134B5DCAFB"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a powah false"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			id: "32741DB060A0342C"
+			tasks: [{
+				id: "70279EB86597A865"
+				type: "checkmark"
+				title: "Flux Networks"
+			}]
+			rewards: [{
+				id: "0A92670869883C12"
+				type: "command"
+				command: "/gamestage add @a fluxnetworks false"
+				player_command: false
+			}]
+		}
 	]
 }

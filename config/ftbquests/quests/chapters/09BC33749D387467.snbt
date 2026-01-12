@@ -214,7 +214,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests9.title}"
-			x: 9.5d
+			x: 9.0d
 			y: 2.0d
 			description: ["{er.09bc33749d387467.quests9.description0}"]
 			dependencies: [
@@ -262,7 +262,7 @@
 			description: ["{er.09bc33749d387467.quests11.description0}"]
 			dependencies: [
 				"7A0E4BDCE0CFCEEF"
-				"2F178217D0C37FC8"
+				"6A29C90242D9CBC8"
 				"7007EB833169459C"
 			]
 			size: 1.2d
@@ -341,24 +341,15 @@
 				item: "minecraft:iron_ingot"
 				count: 8L
 			}]
-			rewards: [
-				{
-					id: "21B05AE2B4E6E82C"
-					type: "command"
-					auto: "invisible"
-					command: "/gamestage add @a primitive false"
-					player_command: false
-				}
-				{
-					id: "099290F9AF28F54E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "099290F9AF28F54E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests14.title}"
-			x: 9.0d
+			x: 8.5d
 			y: 3.0d
 			description: ["{er.09bc33749d387467.quests14.description0}"]
 			dependencies: ["7A0E4BDCE0CFCEEF"]
@@ -393,7 +384,7 @@
 			x: 8.5d
 			y: -2.0d
 			description: ["{er.09bc33749d387467.quests16.description0}"]
-			dependencies: ["6264DD1A5265CA11"]
+			dependencies: ["6E62A29B69EC18E1"]
 			size: 0.95d
 			id: "08D541875A03DFFD"
 			tasks: [{
@@ -458,10 +449,10 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: 15.0d
 			y: 0.0d
 			description: ["{er.09bc33749d387467.quests19.description0}"]
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["7B854E2A39C6594B"]
 			id: "7E50B0D00134778F"
 			tasks: [{
 				id: "7E2899B13AF3E999"
@@ -526,7 +517,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests23.title}"
-			x: 8.5d
+			x: 7.5d
 			y: 2.0d
 			description: ["{er.09bc33749d387467.quests23.description0}"]
 			dependencies: [
@@ -562,10 +553,10 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 14.0d
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["7B854E2A39C6594B"]
 			id: "7455E4A62CD8E5E9"
 			tasks: [{
 				id: "40D8DF64462B82B4"
@@ -574,10 +565,10 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 16.0d
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["7B854E2A39C6594B"]
 			id: "098811FF1C8C0952"
 			tasks: [{
 				id: "5ED598E95E6A06F3"
@@ -676,7 +667,7 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: 15.0d
 			y: 6.5d
 			dependencies: ["0B728A65AD5A65F1"]
 			id: "6A0ED669633D1FC0"
@@ -708,7 +699,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
-			x: 6.0d
+			x: 5.5d
 			y: 5.0d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
@@ -720,7 +711,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 14.0d
 			y: 6.0d
 			description: ["{er.09bc33749d387467.quests37.description0}"]
 			dependencies: ["0B728A65AD5A65F1"]
@@ -782,7 +773,7 @@
 		}
 		{
 			title: "Гончарная яма"
-			x: 7.0d
+			x: 6.5d
 			y: 2.5d
 			dependencies: ["7EBB21849EC41175"]
 			id: "36860DF44D9FF9A5"
@@ -809,7 +800,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 6.0d
 			y: 4.0d
 			dependencies: ["36860DF44D9FF9A5"]
 			id: "2A55F762879AF918"
@@ -842,7 +833,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.5d
 			y: 5.0d
 			description: ["Улучшенные инструменты!"]
 			dependencies: ["2A55F762879AF918"]
@@ -884,9 +875,9 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 14.5d
 			y: 3.5d
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["7B854E2A39C6594B"]
 			id: "63045AEFFE6135FD"
 			tasks: [
 				{
@@ -908,7 +899,7 @@
 			]
 		}
 		{
-			x: 13.5d
+			x: 15.0d
 			y: 5.0d
 			dependencies: [
 				"239DA0ED7B6E6E9E"
@@ -922,7 +913,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 16.0d
 			y: 6.0d
 			dependencies: ["0B728A65AD5A65F1"]
 			id: "1D1D8C789B0248D4"
@@ -933,9 +924,9 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 15.5d
 			y: 3.5d
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["7B854E2A39C6594B"]
 			id: "239DA0ED7B6E6E9E"
 			tasks: [
 				{
@@ -957,7 +948,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 13.0d
 			y: 3.0d
 			dependencies: ["63045AEFFE6135FD"]
 			id: "7BBBFC4DD495888A"
@@ -968,7 +959,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 13.0d
 			y: 4.0d
 			dependencies: ["63045AEFFE6135FD"]
 			id: "235DA27BF7F9FB63"
@@ -985,7 +976,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.5d
 			y: 1.5d
 			dependencies: ["7EBB21849EC41175"]
 			id: "563D6D54B597360A"
@@ -996,10 +987,10 @@
 			}]
 		}
 		{
-			x: 15.0d
+			x: 16.5d
 			y: 2.0d
 			subtitle: "Перход в новую главу!"
-			dependencies: ["544D867E9E65F95E"]
+			dependencies: ["7B854E2A39C6594B"]
 			size: 1.3d
 			id: "7F6F9186F2AB5326"
 			tasks: [{
@@ -1188,7 +1179,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 7.0d
 			y: 4.0d
 			dependencies: ["36860DF44D9FF9A5"]
 			id: "54474F72C729487C"
@@ -1204,6 +1195,60 @@
 					item: "ceramics:clay_bucket"
 				}
 			]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["6264DD1A5265CA11"]
+			id: "6E62A29B69EC18E1"
+			tasks: [{
+				id: "037622BA00F4D93B"
+				type: "checkmark"
+				title: "Медная эпоха"
+			}]
+			rewards: [{
+				id: "4B4B161C7B84081C"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a copper_age false"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["2F178217D0C37FC8"]
+			id: "6A29C90242D9CBC8"
+			tasks: [{
+				id: "5984F447972A7A89"
+				type: "checkmark"
+				title: "Железная эпоха"
+			}]
+			rewards: [{
+				id: "06022B4D99DE88C6"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a iron_age false"
+				player_command: false
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.0d
+			dependencies: ["544D867E9E65F95E"]
+			id: "7B854E2A39C6594B"
+			tasks: [{
+				id: "1814BC0FC4EC5C03"
+				type: "checkmark"
+				title: "Примитивная эпоха"
+			}]
+			rewards: [{
+				id: "09D4D7E0CE9AB922"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a primitive false"
+				player_command: false
+			}]
 		}
 	]
 }

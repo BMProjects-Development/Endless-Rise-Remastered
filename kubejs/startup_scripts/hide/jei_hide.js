@@ -129,7 +129,15 @@ const HIDDEN = [
   'immersiveengineering:armor_steel_head',
   'immersiveengineering:armor_steel_chest',
   'immersiveengineering:armor_steel_legs',
-  'immersiveengineering:armor_steel_feet'
+  'immersiveengineering:armor_steel_feet',
+  
+  'industrialforegoing:infinity_trident',
+  'industrialforegoing:infinity_drill',
+  'industrialforegoing:infinity_launcher',
+  'industrialforegoing:infinity_nuke',
+  'industrialforegoing:infinity_saw',
+  'industrialforegoing:infinity_backpack',
+  'industrialforegoing:infinity_hammer'
 ]
 
 onEvent('jei.hide.items', event => {
