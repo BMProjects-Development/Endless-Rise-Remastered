@@ -6,7 +6,7 @@
   <a href="https://github.com/BMProjects-Development/Endless-Rise/stargazers"><img src="https://img.shields.io/github/stars/BMProjects-Development/Endless-Rise.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
   <a href="https://github.com/BMProjects-Development/Endless-Rise/graphs/contributors"><img src="https://img.shields.io/github/contributors/BMProjects-Development/Endless-Rise.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Contributors"></a>
   <a href="https://github.com/HollowHorizon/HollowCore/releases"><img src="https://img.shields.io/github/downloads/BMProjects-Development/Endless-Rise/total?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Downloads"></a>
-  <a href="https://discord.gg/qKpPhkwGCY"><img src="https://img.shields.io/discord/1087416155934834748?style=for-the-badge&label=Discord&logo=discord&logoColor=d9e0ee&labelColor=f1c232&color=bf9000" alt="Discord"></a>
+  <a href="https://discord.gg/9GWKBVw3Ty"><img src="https://img.shields.io/discord/1087416155934834748?style=for-the-badge&label=Discord&logo=discord&logoColor=d9e0ee&labelColor=f1c232&color=bf9000" alt="Discord"></a>
 </p>
 
 # 🌠 $${\color{yellow}{Endless \space Rise}}$$
