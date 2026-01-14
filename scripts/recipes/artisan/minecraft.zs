@@ -206,3 +206,15 @@ Recipe.type(Type.CHEF)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:minecraft:glistering_melon_slice>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:minecraft:book>);
+Recipe.type(Type.TANNER)
+  .shaped([
+    [<item:minecraft:paper>, <item:minecraft:paper>, <item:minecraft:air>],
+    [<item:minecraft:paper>, <item:minecraft:leather>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
+  .tool(<tag:items:artisantools:type/cutting_board>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:minecraft:book>)
+  .register();

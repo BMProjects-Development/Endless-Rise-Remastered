@@ -49,3 +49,40 @@ Recipe.type(Type.POTTER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:charcoal_pit:nether_brick_item> * 2)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:charcoal_pit:bellows>);
+Recipe.type(Type.TANNER)
+  .shaped([
+    [<item:the_bumblezone:beehive_beeswax>, <item:minecraft:leather>, <item:the_bumblezone:beehive_beeswax>],
+    [<tag:items:minecraft:planks>, <item:minecraft:leather>, <tag:items:minecraft:planks>],
+    [<item:the_bumblezone:beehive_beeswax>, <item:minecraft:leather>, <item:the_bumblezone:beehive_beeswax>]])
+  .tool(<tag:items:artisantools:type/cutting_board>, 10)
+  .tool(<tag:items:artisantools:type/chisel>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:charcoal_pit:bellows>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:charcoal_pit:mechanical_bellows>);
+Recipe.type(Type.TANNER)
+  .shaped([
+    [<tag:items:forge:cobblestone>, <item:minecraft:leather>, <item:the_bumblezone:beehive_beeswax>],
+    [<item:minecraft:redstone>, <item:minecraft:leather>, <item:minecraft:iron_ingot>],
+    [<tag:items:forge:cobblestone>, <item:minecraft:leather>, <item:the_bumblezone:beehive_beeswax>]])
+  .tool(<tag:items:artisantools:type/cutting_board>, 10)
+  .tool(<tag:items:artisantools:type/chisel>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:charcoal_pit:mechanical_bellows>)
+  .register();
+  
+Recipe.type(Type.TANNER)
+  .shaped([
+    [<item:minecraft:air>, <tag:items:forge:cobblestone>, <item:minecraft:air>],
+    [<item:minecraft:redstone>, <item:charcoal_pit:bellows>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:air>, <tag:items:forge:cobblestone>, <item:minecraft:air>]])
+  .tool(<tag:items:artisantools:type/cutting_board>, 10)
+  .tool(<tag:items:artisantools:type/chisel>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:charcoal_pit:mechanical_bellows>)
+  .register();

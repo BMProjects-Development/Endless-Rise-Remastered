@@ -13,3 +13,16 @@ Recipe.type(Type.TANNER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:supplementaries:sack>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:supplementaries:bellows>);
+Recipe.type(Type.TANNER)
+  .shaped([
+    [<tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>],
+    [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
+    [<tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>, <tag:items:minecraft:slabs>]])
+  .tool(<tag:items:artisantools:type/cutting_board>, 10)
+  .tool(<tag:items:artisantools:type/chisel>, 10)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:supplementaries:bellows>)
+  .register();
