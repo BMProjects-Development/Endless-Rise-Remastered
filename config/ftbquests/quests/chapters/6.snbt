@@ -1,0 +1,11 @@
+{
+	id: "16203F78B0F17F7A"
+	group: "4F34514062F979C6"
+	order_index: 3
+	filename: "6"
+	title: "&6Автоматизация"
+	icon: "industrialforegoing:block_placer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
