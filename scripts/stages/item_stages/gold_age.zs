@@ -31,8 +31,6 @@ ItemStages.restrict(<tag:items:forge:rods/gold>, "gold_age");
 
 ItemStages.restrict(<item:createaddition:gold_spool>, "gold_age");
 
-ItemStages.restrict(<tag:items:spartanweaponry:golden_weapons>, "gold_age");
-
 ItemStages.restrict(<tag:items:tconstruct:casts/gold>, "gold_age");
 
 ItemStages.restrict(<item:burningfurnace:dry_enchanted_golden_apple>, "gold_age");
@@ -117,8 +115,6 @@ ItemStages.restrict(<item:betterendforge:golden_hammer>, "gold_age");
 
 ItemStages.restrict(<item:farmersdelight:golden_knife>, "gold_age");
 
-ItemStages.restrict(<item:mekanismtools:gold_paxel>, "gold_age");
-
 ItemStages.restrict(<item:notreepunching:gold_knife>, "gold_age");
 
 ItemStages.restrict(<item:notreepunching:gold_mattock>, "gold_age");
@@ -162,10 +158,6 @@ ItemStages.restrict(<tag:items:forge:furnaces/gold>, "gold_age");
 ItemStages.restrict(<item:ironfurnaces:upgrade_diamond>, "gold_age");
 
 ItemStages.restrict(<item:ironfurnaces:upgrade_gold2>, "gold_age");
-
-ItemStages.restrict(<item:spartanshields:shield_basic_gold>, "gold_age");
-
-ItemStages.restrict(<item:spartanshields:shield_tower_gold>, "gold_age");
 
 ItemStages.restrict(<item:tconstruct:gold_reinforcement>, "gold_age");
 

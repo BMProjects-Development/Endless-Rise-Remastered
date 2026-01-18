@@ -77,8 +77,6 @@ ItemStages.restrict(<item:create:cinder_flour>, "nether");
 
 ItemStages.restrict(<tag:items:nether_extension:netherite_gear>, "nether");
 
-ItemStages.restrict(<tag:items:spartanweaponry:netherite_weapons>, "nether");
-
 ItemStages.restrict(<tag:items:chipped:nether_bricks>, "nether");
 
 ItemStages.restrict(<tag:items:chipped:red_nether_bricks>, "nether");
@@ -94,8 +92,6 @@ ItemStages.restrict(<item:sophisticatedbackpacks:netherite_backpack>, "nether");
 ItemStages.restrict(<tag:items:forge:nuggets/netherite>, "nether");
 
 ItemStages.restrict(<tag:items:forge:nuggets/netherite_scrap>, "nether");
-
-ItemStages.restrict(<item:mekanismtools:netherite_paxel>, "nether");
 
 ItemStages.restrict(<item:nethers_delight:nether_skewer>, "nether");
 
@@ -178,10 +174,6 @@ ItemStages.restrict(<tag:items:netherdepthsupgrade:nether_salad_foods>, "nether"
 ItemStages.restrict(<item:netherdepthsupgrade:nether_rice_roll_medley_block>, "nether");
 
 ItemStages.restrict(<item:byg:yellow_nether_bricks>, "nether");
-
-ItemStages.restrict(<item:spartanshields:shield_basic_netherite>, "nether");
-
-ItemStages.restrict(<item:spartanshields:shield_tower_netherite>, "nether");
 
 ItemStages.restrict(<item:byg:blue_nether_gold_ore>, "nether");
 
