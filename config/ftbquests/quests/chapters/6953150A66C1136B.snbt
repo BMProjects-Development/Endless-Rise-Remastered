@@ -482,5 +482,22 @@
 				item: "pneumaticcraft:spawner_core"
 			}]
 		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "7D00063DBD18C9CF"
+			tasks: [{
+				id: "76133DECAC69A9B4"
+				type: "checkmark"
+				title: "Новая стадия - Пневматика"
+			}]
+			rewards: [{
+				id: "6775739D13A89815"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a pneumaticcraft false"
+				player_command: false
+			}]
+		}
 	]
 }

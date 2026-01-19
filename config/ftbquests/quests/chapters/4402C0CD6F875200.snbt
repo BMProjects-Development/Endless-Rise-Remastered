@@ -1043,5 +1043,22 @@
 				}
 			]
 		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "4A69DE664E0837BE"
+			tasks: [{
+				id: "3350AC5C8E7BDA9C"
+				type: "checkmark"
+				title: "Новая стадия - Инженерия"
+			}]
+			rewards: [{
+				id: "2C54F499614437F6"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a immersiveengineering false"
+				player_command: false
+			}]
+		}
 	]
 }

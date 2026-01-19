@@ -85,7 +85,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests4.title}"
-			x: 2.5d
+			x: 3.0d
 			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests4.description0}"]
 			dependencies: ["17FC0F3202DCCA6A"]
@@ -187,7 +187,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 7.0d
 			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests10.description0}"]
 			dependencies: ["63B31D2AF4550037"]
@@ -478,7 +478,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests27.description0}"]
 			dependencies: ["759CD5F854301CA1"]
@@ -550,7 +550,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests31.title}"
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 			description: ["{er.61c23a1a1b8933b6.quests31.description0}"]
 			dependencies: ["759CD5F854301CA1"]
@@ -673,8 +673,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests40.title}"
-			x: 2.0d
-			y: -8.0d
+			x: 5.0d
+			y: -6.5d
 			description: ["{er.61c23a1a1b8933b6.quests40.description0}"]
 			dependencies: ["1F75B70BE7D3826B"]
 			id: "093501F9725A0851"
@@ -721,8 +721,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests41.title}"
-			x: 3.0d
-			y: -8.5d
+			x: 5.0d
+			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
 			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
@@ -810,25 +810,6 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -7.5d
-			shape: "tech_smooth_square"
-			description: ["{er.61c23a1a1b8933b6.quests45.description0}"]
-			dependencies: ["172F8DEC670AAEDC"]
-			id: "31BD23CD6DFA60B1"
-			tasks: [{
-				id: "20BB3C13423F8C8C"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			x: 3.5d
 			y: 1.5d
 			description: ["{er.61c23a1a1b8933b6.quests46.description0}"]
@@ -858,7 +839,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: -3.5d
 			dependencies: ["759CD5F854301CA1"]
 			id: "17FC0F3202DCCA6A"
@@ -869,7 +850,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: -3.5d
 			dependencies: ["759CD5F854301CA1"]
 			id: "63B31D2AF4550037"
@@ -881,7 +862,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests50.title}"
-			x: 2.0d
+			x: 2.5d
 			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests50.description0}"]
 			dependencies: ["549F858A9EB00499"]
@@ -903,8 +884,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests51.title}"
-			x: 1.5d
-			y: -6.5d
+			x: 3.0d
+			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests51.description0}"]
 			dependencies: ["331FF86414916787"]
 			id: "1F75B70BE7D3826B"
@@ -922,7 +903,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 7.0d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests52.description0}"]
 			dependencies: ["07BAC67F8C8D8A2A"]
@@ -978,8 +959,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -8.5d
+			x: 7.0d
+			y: -6.0d
 			dependencies: ["093501F9725A0851"]
 			id: "1C696EB9C608D8CB"
 			tasks: [{
@@ -989,8 +970,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -9.5d
+			x: 7.5d
+			y: -5.0d
 			dependencies: ["1C696EB9C608D8CB"]
 			id: "1BAA190C877E451B"
 			tasks: [{
@@ -1075,26 +1056,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -4.0d
-			dependencies: ["759CD5F854301CA1"]
-			id: "269C4FD2828A06D1"
-			tasks: [{
-				id: "6AC911F0D98CAD51"
-				type: "item"
-				item: {
-					id: "minecraft:iron_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 6.0d
-			y: -5.0d
-			dependencies: ["269C4FD2828A06D1"]
+			x: 6.5d
+			y: -7.0d
+			dependencies: ["093501F9725A0851"]
 			id: "62CB3EBB76D050B3"
 			tasks: [{
 				id: "2F98B11A480C643C"
@@ -1110,9 +1074,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.0d
-			dependencies: ["269C4FD2828A06D1"]
+			x: 3.5d
+			y: -7.0d
+			dependencies: ["093501F9725A0851"]
 			id: "4064A1996ED9F59C"
 			tasks: [{
 				id: "1E61FE89DE578723"
@@ -1128,8 +1092,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -6.0d
+			x: 4.0d
+			y: -8.5d
 			dependencies: ["4064A1996ED9F59C"]
 			id: "172F8DEC670AAEDC"
 			tasks: [{
@@ -1139,8 +1103,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -6.0d
+			x: 6.0d
+			y: -8.5d
 			dependencies: ["62CB3EBB76D050B3"]
 			id: "64BDE97489C13204"
 			tasks: [{
@@ -1168,20 +1132,12 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: -9.0d
-			dependencies: ["31BD23CD6DFA60B1"]
-			id: "7239D5B183090B35"
-			tasks: [{
-				id: "62FFA986EF6A3CA5"
-				type: "item"
-				item: "minecraft:obsidian"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -9.5d
-			dependencies: ["7239D5B183090B35"]
+			dependencies: [
+				"172F8DEC670AAEDC"
+				"64BDE97489C13204"
+			]
 			id: "39606160F4710D39"
 			tasks: [{
 				id: "43F76F11E996688D"
@@ -1206,7 +1162,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: -2.0d
 			dependencies: ["759CD5F854301CA1"]
 			id: "183EB37365746C12"
@@ -1230,7 +1186,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -3.0d
 			dependencies: ["183EB37365746C12"]
 			id: "2CB9305DE80F7DDA"
 			tasks: [

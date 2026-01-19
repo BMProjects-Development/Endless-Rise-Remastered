@@ -123,28 +123,6 @@
 			}]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:longsword_diamond"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -1.5d
-			y: 0.5d
-			shape: "tech_circle"
-			subtitle: "Разнообразное оружие!"
-			description: ["В сборке присутсвует моды Spartan Weaponry и Spartan Shields, которые добавляют различное оружие и щиты."]
-			hide_dependency_lines: true
-			dependencies: ["207D5D4DC9F02D96"]
-			id: "62FA6243E8286946"
-			tasks: [{
-				id: "2CAA4DC98B9ADD7C"
-				type: "checkmark"
-				title: "Спартанское оружие"
-			}]
-		}
-		{
 			icon: "minecraft:furnace"
 			x: 0.0d
 			y: -3.0d
@@ -181,8 +159,8 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -3.0d
-			y: 0.0d
+			x: -1.5d
+			y: 0.5d
 			shape: "tech_circle"
 			subtitle: "Сильные противники!"
 			description: ["Теперь Вы можете встретить усиленных мобов из мода Champions!"]

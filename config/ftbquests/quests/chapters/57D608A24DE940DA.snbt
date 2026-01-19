@@ -14,7 +14,7 @@
 			y: -0.5d
 			shape: "tech_smooth_square"
 			description: ["{er.57d608a24de940da.quests0.description0}"]
-			dependencies: ["31BD23CD6DFA60B1"]
+			dependencies: ["39606160F4710D39"]
 			hide: true
 			size: 1.2d
 			id: "462BD8A3987B8465"

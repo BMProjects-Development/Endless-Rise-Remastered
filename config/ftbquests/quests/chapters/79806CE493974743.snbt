@@ -683,5 +683,22 @@
 				player_command: false
 			}]
 		}
+		{
+			x: -6.0d
+			y: 0.0d
+			id: "6B84A6F72430702F"
+			tasks: [{
+				id: "3E78EFA1E78FADB3"
+				type: "checkmark"
+				title: "Новая стадия - аплайд"
+			}]
+			rewards: [{
+				id: "2FA433E6D8261C90"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a appliedenergistics2 false"
+				player_command: false
+			}]
+		}
 	]
 }
