@@ -610,7 +610,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: -3.5d
 			description: ["{er.09bc33749d387467.quests31.description0}"]
 			dependencies: ["2899535C3F79E47F"]
@@ -629,8 +629,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.5d
+			x: 4.0d
+			y: -5.0d
 			description: ["{er.09bc33749d387467.quests32.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
 			id: "139A2673A665DA5F"
@@ -679,7 +679,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests35.title}"
-			x: 3.5d
+			x: 3.0d
 			y: -5.0d
 			description: ["{er.09bc33749d387467.quests35.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
@@ -699,7 +699,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
-			x: 5.5d
+			x: 6.5d
 			y: 5.0d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
@@ -753,7 +753,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests38.title}"
-			x: 4.0d
+			x: 3.5d
 			y: -6.0d
 			description: ["{er.09bc33749d387467.quests38.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
@@ -800,6 +800,7 @@
 			]
 		}
 		{
+			title: "Камушек"
 			x: 6.0d
 			y: 4.0d
 			dependencies: ["36860DF44D9FF9A5"]
@@ -831,48 +832,6 @@
 				count: 4
 				random_bonus: 4
 			}]
-		}
-		{
-			x: 6.5d
-			y: 5.0d
-			description: ["Улучшенные инструменты!"]
-			dependencies: ["2A55F762879AF918"]
-			id: "0FD4CF62064122DD"
-			tasks: [
-				{
-					id: "585B33808C8CAA43"
-					type: "item"
-					item: {
-						id: "minecraft:stone_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "66BD496E10DBA7FD"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "27EBA8BC8BEA566D"
-					type: "item"
-					item: {
-						id: "minecraft:stone_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 		}
 		{
 			x: 14.5d
@@ -1019,7 +978,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: -6.0d
 			dependencies: ["27F6D0F855D593D6"]
 			id: "0D589BE1DB45CF4D"
@@ -1030,7 +989,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: -4.0d
 			dependencies: ["27F6D0F855D593D6"]
 			id: "5D9146D79336FEF1"
@@ -1043,6 +1002,7 @@
 		{
 			x: 4.5d
 			y: -2.0d
+			description: ["Верстак столяра необходим для создания предметов, где используется Дерево. Например, сундук, бочка и т.п."]
 			dependencies: ["2B75E14C24231869"]
 			id: "2899535C3F79E47F"
 			tasks: [{
@@ -1054,6 +1014,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
+			description: ["Бочка необходима для создания различных продуктов питания и напитков."]
 			dependencies: ["2899535C3F79E47F"]
 			id: "1479CC56B0DBB3F1"
 			tasks: [{
@@ -1063,8 +1024,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: -5.5d
+			description: ["Бумага получается путём просушивания мокрой бумаги на сушилке."]
 			dependencies: ["7F9BAF137DB45C19"]
 			id: "387C7C8B8BA0851B"
 			tasks: [{
@@ -1085,8 +1047,13 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: -7.0d
+			description: [
+				"Книгу можно создать на верстаке кожевника."
+				""
+				"Она необходима для создания  различных предметов. Но самое главное сейчас - Старинный атлас."
+			]
 			dependencies: ["387C7C8B8BA0851B"]
 			id: "75597F53A9396B84"
 			tasks: [{
@@ -1096,8 +1063,13 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -4.0d
+			description: [
+				"Мокрая бумага получается путём замачивания тростника или опилок в деревянном бассейне."
+				""
+				"Она необходима для получения обычной бумаги."
+			]
 			dependencies: ["23FFFC5B724778A4"]
 			id: "19EBBD2ED6AD1922"
 			tasks: [{
@@ -1107,8 +1079,9 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: -4.0d
+			description: ["Сушилка необходима для просушивания различных предметов."]
 			dependencies: ["19EBBD2ED6AD1922"]
 			id: "7F9BAF137DB45C19"
 			tasks: [{
@@ -1118,8 +1091,9 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -7.0d
+			description: ["Пустой старинный атлас в данной сборке является заменой мини-карты."]
 			dependencies: ["75597F53A9396B84"]
 			id: "39D9929D7D0497E1"
 			tasks: [{
@@ -1129,19 +1103,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -5.5d
-			dependencies: ["387C7C8B8BA0851B"]
-			id: "764F39D90DE9FDEC"
-			tasks: [{
-				id: "6971363D1E5DA265"
-				type: "item"
-				item: "sereneseasons:calendar"
-			}]
-		}
-		{
-			x: 5.0d
+			x: 5.5d
 			y: -3.5d
+			description: ["Деревянный бассейн необходим для замачивания различных предметов."]
 			dependencies: ["2899535C3F79E47F"]
 			id: "23FFFC5B724778A4"
 			tasks: [{
@@ -1153,17 +1117,20 @@
 		{
 			x: 2.0d
 			y: -2.0d
+			description: ["Сыр можно создать в бочке, используя молоко и уксус."]
 			dependencies: ["1479CC56B0DBB3F1"]
 			id: "45587AD8C228DBB3"
 			tasks: [{
 				id: "189A3E51BBDE8F02"
 				type: "item"
 				item: "charcoal_pit:cheese"
+				count: 4L
 			}]
 		}
 		{
 			x: 3.0d
 			y: -1.5d
+			description: ["Деревянные ножницы - альтернатива обычным ножницам для раннего этапа игры."]
 			dependencies: ["2899535C3F79E47F"]
 			id: "2936657AD885EAC2"
 			tasks: [{
@@ -1179,6 +1146,7 @@
 			}]
 		}
 		{
+			title: "Глиняное ведро"
 			x: 7.0d
 			y: 4.0d
 			dependencies: ["36860DF44D9FF9A5"]
@@ -1248,6 +1216,46 @@
 				auto: "invisible"
 				command: "/gamestage add @a primitive false"
 				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["2899535C3F79E47F"]
+			id: "4A8155210133B261"
+			tasks: [{
+				id: "528AA778FAE66F23"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			dependencies: ["4A8155210133B261"]
+			id: "3C95ECB72B7EB463"
+			tasks: [{
+				id: "14547B2D23A7FC4D"
+				type: "item"
+				title: "Any #tconstruct:tables"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tables"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			dependencies: ["3C95ECB72B7EB463"]
+			id: "3D3F68AB25A89D80"
+			tasks: [{
+				id: "5383DECBC407FFBC"
+				type: "checkmark"
+				title: "Создание инструментов"
 			}]
 		}
 	]
