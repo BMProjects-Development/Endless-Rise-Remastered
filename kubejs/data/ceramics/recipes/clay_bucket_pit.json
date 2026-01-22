@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "ceramics:unfired_clay_bucket"
+  },
+  "result": "ceramics:clay_bucket",
+  "experience": 0.3
+}
