@@ -841,6 +841,7 @@
 		{
 			x: 4.5d
 			y: -3.5d
+			description: ["Венчик необходим для создания Механического смешивателя."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "17FC0F3202DCCA6A"
 			tasks: [{
@@ -852,6 +853,7 @@
 		{
 			x: 5.5d
 			y: -3.5d
+			description: ["Пропеллер необходим для создания Вентилятора в корпусе."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "63B31D2AF4550037"
 			tasks: [{
@@ -931,6 +933,11 @@
 			title: "{er.61c23a1a1b8933b6.quests54.title}"
 			x: 17.5d
 			y: 0.0d
+			description: [
+				"Создав колёса дробления, Вы можете получить Незераковую пыль."
+				""
+				"Используя эту пыль, Вы можете создать Основу торта Всполоха."
+			]
 			dependencies: ["3FB4B3A128FF3B65"]
 			id: "050A07013995BE6E"
 			tasks: [
@@ -950,6 +957,11 @@
 		{
 			x: 19.0d
 			y: 0.0d
+			description: [
+				"Залив основу торта Всполоха лавой, Вы можете получить Торт Всполоха."
+				""
+				"Он необходим для большего разогрева горелки Всполоха."
+			]
 			dependencies: ["050A07013995BE6E"]
 			id: "0F7CFC82FFD07B37"
 			tasks: [{
@@ -961,6 +973,11 @@
 		{
 			x: 7.0d
 			y: -6.0d
+			description: [
+				"Создав Плавильню, Вы можете выплавить в ней Слиток розового золота."
+				""
+				"Этот сплав Меди и Золота (3 к 1) необходим для создания различных предметов."
+			]
 			dependencies: ["093501F9725A0851"]
 			id: "1C696EB9C608D8CB"
 			tasks: [{
@@ -972,6 +989,11 @@
 		{
 			x: 7.5d
 			y: -5.0d
+			description: [
+				"Доску объявлений Вы можете найти в деревнях, но у неё также есть и обычный крафт."
+				""
+				"В этой доске Вы можете брать задания и получать награду за их выполнение."
+			]
 			dependencies: ["1C696EB9C608D8CB"]
 			id: "1BAA190C877E451B"
 			tasks: [{
@@ -1014,6 +1036,7 @@
 		{
 			x: 13.0d
 			y: -4.5d
+			description: ["Бойлер необходим для создания Стального котла и Двигателя."]
 			dependencies: ["27EE9C334876E614"]
 			id: "439E2A4DCF4F3D3C"
 			tasks: [{
@@ -1025,6 +1048,11 @@
 		{
 			x: 13.0d
 			y: -6.0d
+			description: [
+				"Двигатель необходим для создания воздушных судов - Кукурузник и Дирижабль."
+				""
+				"А также его можно улучшать."
+			]
 			dependencies: ["439E2A4DCF4F3D3C"]
 			id: "7561D55FE65CB140"
 			tasks: [{
@@ -1036,6 +1064,7 @@
 		{
 			x: 14.5d
 			y: -6.5d
+			description: ["Кукурузник позволяет довольно быстро перемещаться по воздуху."]
 			dependencies: ["7561D55FE65CB140"]
 			id: "14D57DB008DFA90B"
 			tasks: [{
@@ -1047,6 +1076,7 @@
 		{
 			x: 11.5d
 			y: -6.5d
+			description: ["Дирижабль позволяет довольно быстро перемещаться по воздуху."]
 			dependencies: ["7561D55FE65CB140"]
 			id: "6238CE5D50CA2737"
 			tasks: [{
@@ -1056,36 +1086,52 @@
 			}]
 		}
 		{
+			title: "Золотая эпоха"
 			x: 6.5d
 			y: -7.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Золотая эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["093501F9725A0851"]
 			id: "62CB3EBB76D050B3"
 			tasks: [{
 				id: "2F98B11A480C643C"
 				type: "checkmark"
-				title: "Золотая эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "57A8E3542870821B"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a gold_age false"
 				player_command: false
 			}]
 		}
 		{
+			title: "Алмазная эпоха"
 			x: 3.5d
 			y: -7.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Алмазная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["093501F9725A0851"]
 			id: "4064A1996ED9F59C"
 			tasks: [{
 				id: "1E61FE89DE578723"
 				type: "checkmark"
-				title: "Алмазная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "6B281E4A36464754"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a diamond_age false"
 				player_command: false
@@ -1094,46 +1140,73 @@
 		{
 			x: 4.0d
 			y: -8.5d
+			description: [
+				"Открыв новую стадию, Вы наконец-то можете добывать и использовать Алмазы. "
+				""
+				"Они необходимы для создания различных предметов."
+			]
 			dependencies: ["4064A1996ED9F59C"]
 			id: "172F8DEC670AAEDC"
 			tasks: [{
 				id: "7782D5772CB04FC5"
 				type: "item"
 				item: "minecraft:diamond"
+				count: 4L
 			}]
 		}
 		{
 			x: 6.0d
 			y: -8.5d
+			description: [
+				"Открыв новую стадию, Вы наконец-то можете добывать и использовать Золотые слитки. "
+				""
+				"Они необходимы для создания различных предметов."
+			]
 			dependencies: ["62CB3EBB76D050B3"]
 			id: "64BDE97489C13204"
 			tasks: [{
 				id: "25BBA4B974ABC5D9"
 				type: "item"
 				item: "minecraft:gold_ingot"
+				count: 4L
 			}]
 		}
 		{
+			title: "Механическая эпоха"
 			x: -1.0d
 			y: 0.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Механическая эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["7CAEFFF51B924E9A"]
 			id: "48217EC3294DAFC3"
 			tasks: [{
 				id: "3BF101502A478B26"
 				type: "checkmark"
-				title: "Механическая эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "4ED06E0C66D2B4A5"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a create false"
 				player_command: false
 			}]
 		}
 		{
+			title: "Открытие - Ад"
 			x: 5.0d
 			y: -9.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Адское измерение&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: [
 				"172F8DEC670AAEDC"
 				"64BDE97489C13204"
@@ -1142,12 +1215,13 @@
 			tasks: [{
 				id: "43F76F11E996688D"
 				type: "checkmark"
-				title: "Открытие - Ад"
+				title: "Нажми на меня!"
 			}]
 			rewards: [
 				{
 					id: "071ECEA7C6822252"
 					type: "command"
+					team_reward: true
 					auto: "invisible"
 					command: "/gamestage add @a nether_dim false"
 					player_command: false
@@ -1155,6 +1229,7 @@
 				{
 					id: "6E30670191C80095"
 					type: "command"
+					team_reward: true
 					auto: "invisible"
 					command: "/gamestage add @a nether false"
 					player_command: false

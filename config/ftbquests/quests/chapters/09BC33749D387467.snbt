@@ -1213,54 +1213,78 @@
 			]
 		}
 		{
+			title: "Медная эпоха"
 			x: 7.0d
 			y: -2.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Медная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["6264DD1A5265CA11"]
 			id: "6E62A29B69EC18E1"
 			tasks: [{
 				id: "037622BA00F4D93B"
 				type: "checkmark"
-				title: "Медная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "4B4B161C7B84081C"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a copper_age false"
 				player_command: false
 			}]
 		}
 		{
+			title: "Железная эпоха"
 			x: 10.5d
 			y: 0.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Железная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["2F178217D0C37FC8"]
 			id: "6A29C90242D9CBC8"
 			tasks: [{
 				id: "5984F447972A7A89"
 				type: "checkmark"
-				title: "Железная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "06022B4D99DE88C6"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a iron_age false"
 				player_command: false
 			}]
 		}
 		{
+			title: "Примитивная эпоха"
 			x: 15.0d
 			y: 2.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Примитивная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7B854E2A39C6594B"
 			tasks: [{
 				id: "1814BC0FC4EC5C03"
 				type: "checkmark"
-				title: "Примитивная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "09D4D7E0CE9AB922"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a primitive false"
 				player_command: false
@@ -1307,6 +1331,43 @@
 			}]
 		}
 		{
+			title: "Создание инструментов"
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:mining_speed": 4.4f
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 104.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 3s
+						}
+					]
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:stone"
+						"tconstruct:stone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
 			x: 5.5d
 			y: -6.5d
 			description: [
@@ -1319,7 +1380,7 @@
 			tasks: [{
 				id: "5383DECBC407FFBC"
 				type: "checkmark"
-				title: "Создание инструментов"
+				title: "Нажми на меня!"
 			}]
 		}
 		{

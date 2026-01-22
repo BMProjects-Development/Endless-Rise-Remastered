@@ -124,8 +124,8 @@
 		}
 		{
 			icon: "minecraft:furnace"
-			x: 0.0d
-			y: -3.0d
+			x: -3.0d
+			y: 0.0d
 			subtitle: "Новые механики!"
 			description: [
 				"- Их теперь нужно зажигать для начала работы;"
@@ -145,7 +145,7 @@
 			icon: "artisanworktables:worktable_basic"
 			x: 0.0d
 			y: 3.0d
-			shape: "tech_circle"
+			shape: "tech_square"
 			subtitle: "Больше разнообразия!"
 			description: ["Многие рецепты были перенесены в различные верстаки из мода Artisan Worktables!"]
 			hide_dependency_lines: true
@@ -183,7 +183,7 @@
 			}
 			x: 3.0d
 			y: 0.0d
-			shape: "tech_circle"
+			shape: "tech_square"
 			subtitle: "Разнообразие глаз!"
 			description: ["Теперь, для активации портала, необходимо собрать 12 разных глаз из мода End Remastered!"]
 			hide_dependency_lines: true
@@ -231,6 +231,44 @@
 				id: "301F57F50EDC6333"
 				type: "checkmark"
 				title: "Новые деревья"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Ключевая особенность!"
+			description: [
+				"Одной из главнейших особенностей Endless Rise являются &6Стадии игры&r."
+				""
+				"По мере своего развития Вы будете открывать всё новые стадии, открывающие новые предметы, блоки, механики и прочее!"
+				""
+				"Стадии игры, которые Вы пройдёте:"
+				"- copper_age;"
+				"- iron_age;"
+				"- primitive;"
+				"- create;"
+				"- gold_age;"
+				"- diamond_age;"
+				"- nether;"
+				"- nether_dim;"
+				"- immersiveengineering;"
+				"- atum_dim;"
+				"- end_dim;"
+				"- pneumaticcraft;"
+				"- appliedenergistics2;"
+				"- powah;"
+				"- fluxnetworks;"
+				"- mekanism;"
+				"- industrialforegoing;"
+				"- space_age."
+			]
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "67F8E4400871772D"
+			tasks: [{
+				id: "68085E57D1770487"
+				type: "checkmark"
+				title: "Стадии игры"
 			}]
 		}
 	]
