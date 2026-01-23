@@ -367,17 +367,24 @@
 			description: ["{er.09bc33749d387467.quests15.description0}"]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "069BDFDAE5930675"
-			tasks: [{
-				id: "6F23942737E391A8"
-				type: "item"
-				item: {
-					id: "notreepunching:fire_starter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1B71876EA93FAD82"
+					type: "item"
+					item: "lititup:switchgrass_fiber"
+				}
+				{
+					id: "643C23013EB6FF2D"
+					type: "item"
+					item: {
+						id: "lititup:sparkling_flint"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			title: "{er.09bc33749d387467.quests16.title}"
