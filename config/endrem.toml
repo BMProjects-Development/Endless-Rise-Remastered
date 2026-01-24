@@ -5,7 +5,7 @@
 	#Toggle Ender Eyes Actions (Throwing and Placing in Portal Frames)
 	ender_eyes = false
 	#Sets the quantity of mobs in End Remastered Structures: "peaceful", "easy", "normal", "hard" or "hardcore"
-	monster_difficulty = "normal"
+	monster_difficulty = "hard"
 	#Comma-separated list of whitelisted dimensions for End Remastered Structures
 	whitelisted_dimensions = "[minecraft:overworld]"
 	#Comma-separated list of blacklisted biomes for the End Gate

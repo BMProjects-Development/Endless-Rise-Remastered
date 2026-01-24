@@ -792,6 +792,13 @@
 			}]
 		}
 		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "engineersdecor:engineersdecor_manual"
+				}
+			}
 			x: 0.5d
 			y: -3.0d
 			shape: "tech_smooth_square"

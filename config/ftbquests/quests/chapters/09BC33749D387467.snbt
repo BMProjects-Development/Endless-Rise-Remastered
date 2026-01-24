@@ -206,11 +206,6 @@
 				type: "item"
 				item: "charcoal_pit:clay_pot"
 			}]
-			rewards: [{
-				id: "290904E8330AA536"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests9.title}"
@@ -291,20 +286,13 @@
 					rightclick: false
 				}
 			]
-			rewards: [
-				{
-					id: "20890CEBC581DCF2"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "023898FB9C5E1C6B"
-					type: "command"
-					auto: "invisible"
-					command: "/gamestage add @a iron_age false"
-					player_command: false
-				}
-			]
+			rewards: [{
+				id: "023898FB9C5E1C6B"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a iron_age false"
+				player_command: false
+			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests12.title}"
@@ -340,11 +328,6 @@
 				type: "item"
 				item: "minecraft:iron_ingot"
 				count: 8L
-			}]
-			rewards: [{
-				id: "099290F9AF28F54E"
-				type: "xp_levels"
-				xp_levels: 1
 			}]
 		}
 		{
@@ -449,11 +432,6 @@
 					count: 3L
 				}
 			]
-			rewards: [{
-				id: "4AC0D505D46F4975"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 		}
 		{
 			x: 15.0d
@@ -481,18 +459,11 @@
 				type: "dimension"
 				dimension: "the_bumblezone:the_bumblezone"
 			}]
-			rewards: [
-				{
-					id: "6482D0AFA50B3C8D"
-					type: "item"
-					item: "scalinghealth:enchanted_heart"
-				}
-				{
-					id: "26AF7E7DA6B54F75"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "26AF7E7DA6B54F75"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests21.title}"
@@ -670,11 +641,6 @@
 				type: "item"
 				item: "artisanworktables:worktable_basic"
 			}]
-			rewards: [{
-				id: "02D9AA1B1A499667"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 		}
 		{
 			x: 14.5d
@@ -695,6 +661,7 @@
 			y: -5.0d
 			description: ["{er.09bc33749d387467.quests35.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
+			optional: true
 			id: "27F6D0F855D593D6"
 			tasks: [
 				{
