@@ -85,7 +85,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests4.title}"
-			x: 2.5d
+			x: 3.0d
 			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests4.description0}"]
 			dependencies: ["17FC0F3202DCCA6A"]
@@ -187,7 +187,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 7.0d
 			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests10.description0}"]
 			dependencies: ["63B31D2AF4550037"]
@@ -478,7 +478,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests27.description0}"]
 			dependencies: ["759CD5F854301CA1"]
@@ -550,7 +550,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests31.title}"
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 			description: ["{er.61c23a1a1b8933b6.quests31.description0}"]
 			dependencies: ["759CD5F854301CA1"]
@@ -673,8 +673,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests40.title}"
-			x: 2.0d
-			y: -8.0d
+			x: 5.0d
+			y: -6.5d
 			description: ["{er.61c23a1a1b8933b6.quests40.description0}"]
 			dependencies: ["1F75B70BE7D3826B"]
 			id: "093501F9725A0851"
@@ -721,8 +721,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests41.title}"
-			x: 3.0d
-			y: -8.5d
+			x: 5.5d
+			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
 			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
@@ -797,35 +797,16 @@
 			]
 		}
 		{
-			x: 21.0d
-			y: 1.5d
+			x: 22.0d
+			y: 2.0d
 			description: ["{er.61c23a1a1b8933b6.quests44.description0}"]
-			dependencies: ["62D1BFB9177CF557"]
+			dependencies: ["1F5DBD70C3621400"]
 			id: "5DCD21BA0E949787"
 			tasks: [{
 				id: "6622D87485FD7AB4"
 				type: "item"
 				item: "createaddition:overcharged_alloy"
 				count: 2L
-			}]
-		}
-		{
-			x: 4.0d
-			y: -7.5d
-			shape: "tech_smooth_square"
-			description: ["{er.61c23a1a1b8933b6.quests45.description0}"]
-			dependencies: ["172F8DEC670AAEDC"]
-			id: "31BD23CD6DFA60B1"
-			tasks: [{
-				id: "20BB3C13423F8C8C"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
 		}
 		{
@@ -841,25 +822,9 @@
 			}]
 		}
 		{
-			x: 22.0d
-			y: 2.0d
-			dependencies: ["5DCD21BA0E949787"]
-			id: "326C0451B1FDCEF3"
-			tasks: [{
-				id: "04ED965EA4F6522D"
-				type: "item"
-				item: {
-					id: "createaddition:overcharged_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 4.0d
+			x: 4.5d
 			y: -3.5d
+			description: ["Венчик необходим для создания Механического смешивателя."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "17FC0F3202DCCA6A"
 			tasks: [{
@@ -869,8 +834,9 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: -3.5d
+			description: ["Пропеллер необходим для создания Вентилятора в корпусе."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "63B31D2AF4550037"
 			tasks: [{
@@ -881,7 +847,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests50.title}"
-			x: 2.0d
+			x: 2.5d
 			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests50.description0}"]
 			dependencies: ["549F858A9EB00499"]
@@ -903,8 +869,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests51.title}"
-			x: 1.5d
-			y: -6.5d
+			x: 3.0d
+			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests51.description0}"]
 			dependencies: ["331FF86414916787"]
 			id: "1F75B70BE7D3826B"
@@ -922,7 +888,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 7.0d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests52.description0}"]
 			dependencies: ["07BAC67F8C8D8A2A"]
@@ -950,6 +916,11 @@
 			title: "{er.61c23a1a1b8933b6.quests54.title}"
 			x: 17.5d
 			y: 0.0d
+			description: [
+				"Создав колёса дробления, Вы можете получить Незераковую пыль."
+				""
+				"Используя эту пыль, Вы можете создать Основу торта Всполоха."
+			]
 			dependencies: ["3FB4B3A128FF3B65"]
 			id: "050A07013995BE6E"
 			tasks: [
@@ -969,6 +940,11 @@
 		{
 			x: 19.0d
 			y: 0.0d
+			description: [
+				"Залив основу торта Всполоха лавой, Вы можете получить Торт Всполоха."
+				""
+				"Он необходим для большего разогрева горелки Всполоха."
+			]
 			dependencies: ["050A07013995BE6E"]
 			id: "0F7CFC82FFD07B37"
 			tasks: [{
@@ -978,8 +954,13 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -8.5d
+			x: 7.0d
+			y: -6.0d
+			description: [
+				"Создав Плавильню, Вы можете выплавить в ней Слиток розового золота."
+				""
+				"Этот сплав Меди и Золота (3 к 1) необходим для создания различных предметов."
+			]
 			dependencies: ["093501F9725A0851"]
 			id: "1C696EB9C608D8CB"
 			tasks: [{
@@ -989,8 +970,13 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -9.5d
+			x: 7.5d
+			y: -5.0d
+			description: [
+				"Доску объявлений Вы можете найти в деревнях, но у неё также есть и обычный крафт."
+				""
+				"В этой доске Вы можете брать задания и получать награду за их выполнение."
+			]
 			dependencies: ["1C696EB9C608D8CB"]
 			id: "1BAA190C877E451B"
 			tasks: [{
@@ -1033,6 +1019,7 @@
 		{
 			x: 13.0d
 			y: -4.5d
+			description: ["Бойлер необходим для создания Стального котла и Двигателя."]
 			dependencies: ["27EE9C334876E614"]
 			id: "439E2A4DCF4F3D3C"
 			tasks: [{
@@ -1044,6 +1031,11 @@
 		{
 			x: 13.0d
 			y: -6.0d
+			description: [
+				"Двигатель необходим для создания воздушных судов - Кукурузник и Дирижабль."
+				""
+				"А также его можно улучшать."
+			]
 			dependencies: ["439E2A4DCF4F3D3C"]
 			id: "7561D55FE65CB140"
 			tasks: [{
@@ -1055,6 +1047,7 @@
 		{
 			x: 14.5d
 			y: -6.5d
+			description: ["Кукурузник позволяет довольно быстро перемещаться по воздуху."]
 			dependencies: ["7561D55FE65CB140"]
 			id: "14D57DB008DFA90B"
 			tasks: [{
@@ -1066,6 +1059,7 @@
 		{
 			x: 11.5d
 			y: -6.5d
+			description: ["Дирижабль позволяет довольно быстро перемещаться по воздуху."]
 			dependencies: ["7561D55FE65CB140"]
 			id: "6238CE5D50CA2737"
 			tasks: [{
@@ -1075,123 +1069,142 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -4.0d
-			dependencies: ["759CD5F854301CA1"]
-			id: "269C4FD2828A06D1"
-			tasks: [{
-				id: "6AC911F0D98CAD51"
-				type: "item"
-				item: {
-					id: "minecraft:iron_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 6.0d
-			y: -5.0d
-			dependencies: ["269C4FD2828A06D1"]
+			title: "Золотая эпоха"
+			x: 6.5d
+			y: -7.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Золотая эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
+			dependencies: ["093501F9725A0851"]
 			id: "62CB3EBB76D050B3"
 			tasks: [{
 				id: "2F98B11A480C643C"
 				type: "checkmark"
-				title: "Золотая эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "57A8E3542870821B"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a gold_age false"
 				player_command: false
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.0d
-			dependencies: ["269C4FD2828A06D1"]
+			title: "Алмазная эпоха"
+			x: 3.5d
+			y: -7.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Алмазная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
+			dependencies: ["093501F9725A0851"]
 			id: "4064A1996ED9F59C"
 			tasks: [{
 				id: "1E61FE89DE578723"
 				type: "checkmark"
-				title: "Алмазная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "6B281E4A36464754"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a diamond_age false"
 				player_command: false
 			}]
 		}
 		{
-			x: 4.5d
-			y: -6.0d
+			x: 4.0d
+			y: -8.5d
+			description: [
+				"Открыв новую стадию, Вы наконец-то можете добывать и использовать Алмазы. "
+				""
+				"Они необходимы для создания различных предметов."
+			]
 			dependencies: ["4064A1996ED9F59C"]
 			id: "172F8DEC670AAEDC"
 			tasks: [{
 				id: "7782D5772CB04FC5"
 				type: "item"
 				item: "minecraft:diamond"
+				count: 4L
 			}]
 		}
 		{
-			x: 5.5d
-			y: -6.0d
+			x: 6.0d
+			y: -8.5d
+			description: [
+				"Открыв новую стадию, Вы наконец-то можете добывать и использовать Золотые слитки. "
+				""
+				"Они необходимы для создания различных предметов."
+			]
 			dependencies: ["62CB3EBB76D050B3"]
 			id: "64BDE97489C13204"
 			tasks: [{
 				id: "25BBA4B974ABC5D9"
 				type: "item"
 				item: "minecraft:gold_ingot"
+				count: 4L
 			}]
 		}
 		{
+			title: "Механическая эпоха"
 			x: -1.0d
 			y: 0.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Механическая эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["7CAEFFF51B924E9A"]
 			id: "48217EC3294DAFC3"
 			tasks: [{
 				id: "3BF101502A478B26"
 				type: "checkmark"
-				title: "Механическая эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "4ED06E0C66D2B4A5"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a create false"
 				player_command: false
 			}]
 		}
 		{
-			x: 4.5d
+			title: "Открытие - Ад"
+			x: 5.0d
 			y: -9.0d
-			dependencies: ["31BD23CD6DFA60B1"]
-			id: "7239D5B183090B35"
-			tasks: [{
-				id: "62FFA986EF6A3CA5"
-				type: "item"
-				item: "minecraft:obsidian"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -9.5d
-			dependencies: ["7239D5B183090B35"]
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Адское измерение&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
+			dependencies: [
+				"172F8DEC670AAEDC"
+				"64BDE97489C13204"
+			]
 			id: "39606160F4710D39"
 			tasks: [{
 				id: "43F76F11E996688D"
 				type: "checkmark"
-				title: "Открытие - Ад"
+				title: "Нажми на меня!"
 			}]
 			rewards: [
 				{
 					id: "071ECEA7C6822252"
 					type: "command"
+					team_reward: true
 					auto: "invisible"
 					command: "/gamestage add @a nether_dim false"
 					player_command: false
@@ -1199,6 +1212,7 @@
 				{
 					id: "6E30670191C80095"
 					type: "command"
+					team_reward: true
 					auto: "invisible"
 					command: "/gamestage add @a nether false"
 					player_command: false
@@ -1206,7 +1220,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: -2.0d
 			dependencies: ["759CD5F854301CA1"]
 			id: "183EB37365746C12"
@@ -1230,7 +1244,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -3.0d
 			dependencies: ["183EB37365746C12"]
 			id: "2CB9305DE80F7DDA"
 			tasks: [
@@ -1243,6 +1257,48 @@
 					id: "129B8F556B57CEA4"
 					type: "item"
 					item: "legendarysurvivaloverhaul:warm_string"
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: 1.5d
+			description: ["Катушка Теслы необходима, чтобы заряжать различные предметы. "]
+			dependencies: ["62D1BFB9177CF557"]
+			id: "1F5DBD70C3621400"
+			tasks: [{
+				id: "55EE1E43FA6EEDDB"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+		}
+		{
+			title: "Лучшая броня"
+			x: 4.5d
+			y: -5.0d
+			description: ["С помощью этих форм можно создавать хорошую броню, вливая в эти формы жидкий металл."]
+			dependencies: ["093501F9725A0851"]
+			id: "6872ADC8F44B9111"
+			tasks: [
+				{
+					id: "3CEEB01A61503462"
+					type: "item"
+					item: "constructsarmory:head_plate_cast"
+				}
+				{
+					id: "0F0A03D0292E6E95"
+					type: "item"
+					item: "constructsarmory:body_plate_cast"
+				}
+				{
+					id: "18DCABE6260D22BD"
+					type: "item"
+					item: "constructsarmory:legs_plate_cast"
+				}
+				{
+					id: "1BDD8A4277D753AB"
+					type: "item"
+					item: "constructsarmory:feet_plate_cast"
 				}
 			]
 		}

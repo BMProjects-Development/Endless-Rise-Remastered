@@ -53,3 +53,15 @@ Recipe.type(Type.TANNER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:tconstruct:travelers_boots>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:tconstruct:pattern>);
+Recipe.type(Type.CARPENTER)
+  .shaped([
+    [<tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>],
+    [<tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>],
+    [<tag:items:forge:rods/wooden>, <tag:items:minecraft:planks>, <tag:items:forge:rods/wooden>]])
+  .tool(<tag:items:artisantools:type/chisel>, 5)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:tconstruct:pattern> * 4)
+  .register();

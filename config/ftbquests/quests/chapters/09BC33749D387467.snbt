@@ -367,17 +367,24 @@
 			description: ["{er.09bc33749d387467.quests15.description0}"]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "069BDFDAE5930675"
-			tasks: [{
-				id: "6F23942737E391A8"
-				type: "item"
-				item: {
-					id: "notreepunching:fire_starter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1B71876EA93FAD82"
+					type: "item"
+					item: "lititup:switchgrass_fiber"
+				}
+				{
+					id: "643C23013EB6FF2D"
+					type: "item"
+					item: {
+						id: "lititup:sparkling_flint"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			title: "{er.09bc33749d387467.quests16.title}"
@@ -557,6 +564,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
+			optional: true
 			id: "7455E4A62CD8E5E9"
 			tasks: [{
 				id: "40D8DF64462B82B4"
@@ -569,6 +577,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
+			optional: true
 			id: "098811FF1C8C0952"
 			tasks: [{
 				id: "5ED598E95E6A06F3"
@@ -610,7 +619,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: -3.5d
 			description: ["{er.09bc33749d387467.quests31.description0}"]
 			dependencies: ["2899535C3F79E47F"]
@@ -629,10 +638,11 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.5d
+			x: 4.0d
+			y: -5.0d
 			description: ["{er.09bc33749d387467.quests32.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
+			optional: true
 			id: "139A2673A665DA5F"
 			tasks: [{
 				id: "6DB127AA8FDC3E6A"
@@ -667,9 +677,11 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 6.5d
+			x: 14.5d
+			y: 7.0d
+			description: ["Улучшенная версия обычной печки."]
 			dependencies: ["0B728A65AD5A65F1"]
+			optional: true
 			id: "6A0ED669633D1FC0"
 			tasks: [{
 				id: "520F33C9A8F6B4E6"
@@ -679,7 +691,7 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests35.title}"
-			x: 3.5d
+			x: 3.0d
 			y: -5.0d
 			description: ["{er.09bc33749d387467.quests35.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
@@ -699,16 +711,37 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests36.title}"
-			x: 5.5d
+			x: 6.5d
 			y: 5.0d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
+			optional: true
 			id: "3FB829F02CA5860E"
-			tasks: [{
-				id: "2BF7B97EF3B19CFB"
-				type: "item"
-				item: "dummmmmmy:target_dummy_placer"
-			}]
+			tasks: [
+				{
+					id: "2BF7B97EF3B19CFB"
+					type: "item"
+					item: "dummmmmmy:target_dummy_placer"
+				}
+				{
+					id: "16C7395745A29908"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "630F69A64FD83256"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: 14.0d
@@ -725,6 +758,7 @@
 		{
 			x: 4.0d
 			y: 3.5d
+			description: ["Фляга необходима для набора воды и последующего её питья."]
 			dependencies: ["42DBB54A6A81625E"]
 			id: "571F237813EF60B5"
 			tasks: [{
@@ -753,10 +787,11 @@
 		}
 		{
 			title: "{er.09bc33749d387467.quests38.title}"
-			x: 4.0d
+			x: 3.5d
 			y: -6.0d
 			description: ["{er.09bc33749d387467.quests38.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
+			optional: true
 			id: "5804894E20CF75B5"
 			tasks: [
 				{
@@ -775,6 +810,15 @@
 			title: "Гончарная яма"
 			x: 6.5d
 			y: 2.5d
+			description: [
+				"На данном этапе игры для обжига различных предметов Вам необходимо использовать Гончарную яму."
+				""
+				"Чтобы обжечь что-либо в гончарной яме необходимо:"
+				"- Положить нужные предметы на землю (Шифт + ПКМ) и со всех сторон обложить также землёй, чтобы предметы были в яме;"
+				"Далее на ПКМ положить Сено (6 штук);"
+				"- После положить также на ПКМ Дерево (3 штуки);"
+				"- И поджечь всё это дело!"
+			]
 			dependencies: ["7EBB21849EC41175"]
 			id: "36860DF44D9FF9A5"
 			tasks: [
@@ -800,8 +844,10 @@
 			]
 		}
 		{
+			title: "Камушки"
 			x: 6.0d
 			y: 4.0d
+			description: ["На ранних этапах игры для получения Камня и Гладкого камня необходимо использовать Гончарную яму."]
 			dependencies: ["36860DF44D9FF9A5"]
 			id: "2A55F762879AF918"
 			tasks: [
@@ -833,50 +879,14 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 5.0d
-			description: ["Улучшенные инструменты!"]
-			dependencies: ["2A55F762879AF918"]
-			id: "0FD4CF62064122DD"
-			tasks: [
-				{
-					id: "585B33808C8CAA43"
-					type: "item"
-					item: {
-						id: "minecraft:stone_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "66BD496E10DBA7FD"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "27EBA8BC8BEA566D"
-					type: "item"
-					item: {
-						id: "minecraft:stone_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
+			title: "Спасение рук от ожёгов"
 			x: 14.5d
 			y: 3.5d
+			description: [
+				"В данной сборке нельзя просто так забрать результат работы печек. "
+				""
+				"Теперь необходимо иметь Полотенце, чтобы получилось без ожёгов забрать готовую еду или переплавленный ресурс."
+			]
 			dependencies: ["7B854E2A39C6594B"]
 			id: "63045AEFFE6135FD"
 			tasks: [
@@ -901,6 +911,11 @@
 		{
 			x: 15.0d
 			y: 5.0d
+			description: [
+				"Поздравляем, Вы дошли до Печки!"
+				""
+				"Но не всё так просто... В данной сборке Вам необходимо самостоятельно зажигать печку, чтобы она начала работать."
+			]
 			dependencies: [
 				"239DA0ED7B6E6E9E"
 				"63045AEFFE6135FD"
@@ -915,6 +930,7 @@
 		{
 			x: 16.0d
 			y: 6.0d
+			description: ["Коптильня необходима для более быстрой готовки еды."]
 			dependencies: ["0B728A65AD5A65F1"]
 			id: "1D1D8C789B0248D4"
 			tasks: [{
@@ -924,8 +940,14 @@
 			}]
 		}
 		{
+			title: "Добыча огня"
 			x: 15.5d
 			y: 3.5d
+			description: [
+				"В данной сборке нельзя просто так разжечь огонь, используя Огниво. "
+				""
+				"Теперь необходимо иметь в инвентаре ещё и Порох, чтобы получилось добыть огонь."
+			]
 			dependencies: ["7B854E2A39C6594B"]
 			id: "239DA0ED7B6E6E9E"
 			tasks: [
@@ -944,13 +966,16 @@
 					id: "5023DC5A23A4F8FE"
 					type: "item"
 					item: "minecraft:gunpowder"
+					count: 2L
 				}
 			]
 		}
 		{
 			x: 13.0d
 			y: 3.0d
+			description: ["Вешалка для полотенце просто удобная и декоративная полочка для размещения полотенца."]
 			dependencies: ["63045AEFFE6135FD"]
+			optional: true
 			id: "7BBBFC4DD495888A"
 			tasks: [{
 				id: "4427C541AF6B35B0"
@@ -961,6 +986,7 @@
 		{
 			x: 13.0d
 			y: 4.0d
+			description: ["Кухонная перчатка, так же, как и полотенце, необходима, чтобы не обжигать свои руки."]
 			dependencies: ["63045AEFFE6135FD"]
 			id: "235DA27BF7F9FB63"
 			tasks: [{
@@ -978,6 +1004,7 @@
 		{
 			x: 6.5d
 			y: 1.5d
+			description: ["Верстак гончара необходим для создания предметов, где используется Глина. Например, глиняные кирпичи, глиняное ведро и т.п."]
 			dependencies: ["7EBB21849EC41175"]
 			id: "563D6D54B597360A"
 			tasks: [{
@@ -989,7 +1016,12 @@
 		{
 			x: 16.5d
 			y: 2.0d
-			subtitle: "Перход в новую главу!"
+			subtitle: "Переход в новую главу!"
+			description: [
+				"Получив железный слиток, Вы можете создать Верстак инженера и наконец-то перейти в новую главу - &6Эпоха механики&r!"
+				""
+				"Верстак иженера необходим для создания инженерных предметов. Например, кварцевый дробитель."
+			]
 			dependencies: ["7B854E2A39C6594B"]
 			size: 1.3d
 			id: "7F6F9186F2AB5326"
@@ -1005,6 +1037,7 @@
 			description: ["Хороший способ получить много Пыльцы."]
 			dependencies: ["4851726CE8BE7194"]
 			size: 0.9d
+			optional: true
 			id: "433E640317141488"
 			tasks: [{
 				id: "2C62B282F7937772"
@@ -1019,9 +1052,11 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: -6.0d
+			description: ["С помощью Телеги для мобов можно перевозить мобов."]
 			dependencies: ["27F6D0F855D593D6"]
+			optional: true
 			id: "0D589BE1DB45CF4D"
 			tasks: [{
 				id: "30E9DD2BD47BDB2F"
@@ -1030,9 +1065,11 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: -4.0d
+			description: ["С помощью Плуга можно вспахивать землю эффективнее."]
 			dependencies: ["27F6D0F855D593D6"]
+			optional: true
 			id: "5D9146D79336FEF1"
 			tasks: [{
 				id: "03DA3D87A6F6D060"
@@ -1043,6 +1080,7 @@
 		{
 			x: 4.5d
 			y: -2.0d
+			description: ["Верстак столяра необходим для создания предметов, где используется Дерево. Например, сундук, бочка и т.п."]
 			dependencies: ["2B75E14C24231869"]
 			id: "2899535C3F79E47F"
 			tasks: [{
@@ -1054,7 +1092,9 @@
 		{
 			x: 3.0d
 			y: -2.5d
+			description: ["Бочка необходима для создания различных продуктов питания и напитков."]
 			dependencies: ["2899535C3F79E47F"]
+			optional: true
 			id: "1479CC56B0DBB3F1"
 			tasks: [{
 				id: "13A487B227CC5EAD"
@@ -1063,20 +1103,24 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: -5.5d
+			description: ["Бумага получается путём просушивания мокрой бумаги на сушилке."]
 			dependencies: ["7F9BAF137DB45C19"]
 			id: "387C7C8B8BA0851B"
 			tasks: [{
 				id: "3FC92B6781115B8F"
 				type: "item"
 				item: "minecraft:paper"
+				count: 3L
 			}]
 		}
 		{
 			x: 9.5d
 			y: -0.5d
+			description: ["Верстак мага необходим для создания магических предметов. Например, жемчужины врат."]
 			dependencies: ["18B3AC82C7E152D5"]
+			optional: true
 			id: "4851726CE8BE7194"
 			tasks: [{
 				id: "3B28F70A2D446157"
@@ -1085,9 +1129,15 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: -7.0d
+			description: [
+				"Книгу можно создать на верстаке кожевника."
+				""
+				"Она необходима для создания  различных предметов. Но самое главное сейчас - Старинный атлас."
+			]
 			dependencies: ["387C7C8B8BA0851B"]
+			optional: true
 			id: "75597F53A9396B84"
 			tasks: [{
 				id: "29908027B0773B2B"
@@ -1096,8 +1146,13 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -4.0d
+			description: [
+				"Мокрая бумага получается путём замачивания тростника или опилок в деревянном бассейне."
+				""
+				"Она необходима для получения обычной бумаги."
+			]
 			dependencies: ["23FFFC5B724778A4"]
 			id: "19EBBD2ED6AD1922"
 			tasks: [{
@@ -1107,8 +1162,9 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: -4.0d
+			description: ["Сушилка необходима для просушивания различных предметов."]
 			dependencies: ["19EBBD2ED6AD1922"]
 			id: "7F9BAF137DB45C19"
 			tasks: [{
@@ -1118,9 +1174,11 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -7.0d
+			description: ["Пустой старинный атлас в данной сборке является заменой мини-карты."]
 			dependencies: ["75597F53A9396B84"]
+			optional: true
 			id: "39D9929D7D0497E1"
 			tasks: [{
 				id: "43AFF2071315F2B9"
@@ -1129,19 +1187,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -5.5d
-			dependencies: ["387C7C8B8BA0851B"]
-			id: "764F39D90DE9FDEC"
-			tasks: [{
-				id: "6971363D1E5DA265"
-				type: "item"
-				item: "sereneseasons:calendar"
-			}]
-		}
-		{
-			x: 5.0d
+			x: 5.5d
 			y: -3.5d
+			description: ["Деревянный бассейн необходим для замачивания различных предметов."]
 			dependencies: ["2899535C3F79E47F"]
 			id: "23FFFC5B724778A4"
 			tasks: [{
@@ -1153,18 +1201,23 @@
 		{
 			x: 2.0d
 			y: -2.0d
+			description: ["Сыр можно создать в бочке, используя молоко и уксус."]
 			dependencies: ["1479CC56B0DBB3F1"]
+			optional: true
 			id: "45587AD8C228DBB3"
 			tasks: [{
 				id: "189A3E51BBDE8F02"
 				type: "item"
 				item: "charcoal_pit:cheese"
+				count: 4L
 			}]
 		}
 		{
 			x: 3.0d
 			y: -1.5d
+			description: ["Деревянные ножницы - альтернатива обычным ножницам для раннего этапа игры."]
 			dependencies: ["2899535C3F79E47F"]
+			optional: true
 			id: "2936657AD885EAC2"
 			tasks: [{
 				id: "7E34C60F285FA53C"
@@ -1179,8 +1232,14 @@
 			}]
 		}
 		{
+			title: "Глиняное ведро"
 			x: 7.0d
 			y: 4.0d
+			description: [
+				"Для перемещения жидкости на ранних этапах Вам необходимо создать Необожжённое глиняное ведро."
+				""
+				"После его необходимо обжечь в гончарной яме, в итоге получив Глиняное ведро."
+			]
 			dependencies: ["36860DF44D9FF9A5"]
 			id: "54474F72C729487C"
 			tasks: [
@@ -1197,57 +1256,187 @@
 			]
 		}
 		{
+			title: "Медная эпоха"
 			x: 7.0d
 			y: -2.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Медная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["6264DD1A5265CA11"]
 			id: "6E62A29B69EC18E1"
 			tasks: [{
 				id: "037622BA00F4D93B"
 				type: "checkmark"
-				title: "Медная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "4B4B161C7B84081C"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a copper_age false"
 				player_command: false
 			}]
 		}
 		{
+			title: "Железная эпоха"
 			x: 10.5d
 			y: 0.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Железная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["2F178217D0C37FC8"]
 			id: "6A29C90242D9CBC8"
 			tasks: [{
 				id: "5984F447972A7A89"
 				type: "checkmark"
-				title: "Железная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "06022B4D99DE88C6"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a iron_age false"
 				player_command: false
 			}]
 		}
 		{
+			title: "Примитивная эпоха"
 			x: 15.0d
 			y: 2.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Примитивная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
 			dependencies: ["544D867E9E65F95E"]
 			id: "7B854E2A39C6594B"
 			tasks: [{
 				id: "1814BC0FC4EC5C03"
 				type: "checkmark"
-				title: "Примитивная эпоха"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
 				id: "09D4D7E0CE9AB922"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
 				command: "/gamestage add @a primitive false"
 				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			description: [
+				"Шаблоны создаются на верстаке столяра. "
+				""
+				"Они необходимы для создания некоторых приспособлений для создания инструментов, а также для создания частей этих инструментов. "
+			]
+			dependencies: ["2899535C3F79E47F"]
+			id: "4A8155210133B261"
+			tasks: [{
+				id: "528AA778FAE66F23"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 4L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			description: [
+				"Для создания инструментов Вам необходимо создать:"
+				"- Формирователь частей;"
+				"- Литейная станция."
+			]
+			dependencies: ["4A8155210133B261"]
+			id: "3C95ECB72B7EB463"
+			tasks: [{
+				id: "14547B2D23A7FC4D"
+				type: "item"
+				title: "Столы для инструментов"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tables"
+					}
+				}
+			}]
+		}
+		{
+			title: "Создание инструментов"
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:mining_speed": 4.4f
+						"tconstruct:attack_damage": 1.0f
+						"tconstruct:harvest_level": 1.0f
+						"tconstruct:durability": 104.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+						{
+							name: "tconstruct:stonebound"
+							level: 3s
+						}
+					]
+					tic_materials: [
+						"tconstruct:stone"
+						"tconstruct:stone"
+						"tconstruct:stone"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 5.5d
+			y: -6.5d
+			description: [
+				"В данной сборке полностью отключены стандартные инструменты."
+				""
+				"Поэтому Вам необходимо создавать инструменты из мода TConstruct. "
+			]
+			dependencies: ["3C95ECB72B7EB463"]
+			id: "3D3F68AB25A89D80"
+			tasks: [{
+				id: "5383DECBC407FFBC"
+				type: "checkmark"
+				title: "Нажми на меня!"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 7.0d
+			description: ["Печь для обжига необходима для более удобного и быстрого обижига предметов."]
+			dependencies: ["0B728A65AD5A65F1"]
+			optional: true
+			id: "4EF2E618B4208EF0"
+			tasks: [{
+				id: "3331E1978E990ACE"
+				type: "item"
+				item: "ceramics:kiln"
 			}]
 		}
 	]

@@ -123,31 +123,9 @@
 			}]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:longsword_diamond"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -1.5d
-			y: 0.5d
-			shape: "tech_circle"
-			subtitle: "Разнообразное оружие!"
-			description: ["В сборке присутсвует моды Spartan Weaponry и Spartan Shields, которые добавляют различное оружие и щиты."]
-			hide_dependency_lines: true
-			dependencies: ["207D5D4DC9F02D96"]
-			id: "62FA6243E8286946"
-			tasks: [{
-				id: "2CAA4DC98B9ADD7C"
-				type: "checkmark"
-				title: "Спартанское оружие"
-			}]
-		}
-		{
 			icon: "minecraft:furnace"
-			x: 0.0d
-			y: -3.0d
+			x: -3.0d
+			y: 0.0d
 			subtitle: "Новые механики!"
 			description: [
 				"- Их теперь нужно зажигать для начала работы;"
@@ -167,7 +145,7 @@
 			icon: "artisanworktables:worktable_basic"
 			x: 0.0d
 			y: 3.0d
-			shape: "tech_circle"
+			shape: "tech_square"
 			subtitle: "Больше разнообразия!"
 			description: ["Многие рецепты были перенесены в различные верстаки из мода Artisan Worktables!"]
 			hide_dependency_lines: true
@@ -181,8 +159,8 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -3.0d
-			y: 0.0d
+			x: -1.5d
+			y: 0.5d
 			shape: "tech_circle"
 			subtitle: "Сильные противники!"
 			description: ["Теперь Вы можете встретить усиленных мобов из мода Champions!"]
@@ -205,7 +183,7 @@
 			}
 			x: 3.0d
 			y: 0.0d
-			shape: "tech_circle"
+			shape: "tech_square"
 			subtitle: "Разнообразие глаз!"
 			description: ["Теперь, для активации портала, необходимо собрать 12 разных глаз из мода End Remastered!"]
 			hide_dependency_lines: true
@@ -253,6 +231,49 @@
 				id: "301F57F50EDC6333"
 				type: "checkmark"
 				title: "Новые деревья"
+			}]
+		}
+		{
+			title: "Стадии игры"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Ключевая особенность!"
+			description: [
+				"Одной из главнейших особенностей Endless Rise являются &6Стадии игры&r."
+				""
+				"По мере своего развития Вы будете получать всё новые стадии, открывающие новые предметы, блоки, механики и прочее!"
+				""
+				"Стадии игры, которые Вы пройдёте:"
+				"- copper_age;"
+				"- iron_age;"
+				"- primitive;"
+				"- create;"
+				"- gold_age;"
+				"- diamond_age;"
+				"- nether;"
+				"- nether_dim;"
+				"- immersiveengineering;"
+				"- atum;"
+				"- atum_dim;"
+				"- end;"
+				"- end_dim;"
+				"- pneumaticcraft;"
+				"- appliedenergistics2;"
+				"- powah;"
+				"- fluxnetworks;"
+				"- mekanism;"
+				"- industrialforegoing;"
+				"- space_age."
+				""
+				"Если по каким-либо причинам Вы не получили нужную стадию, можно прописать команду [/gamestage add @a \"название стадии\" false] для разблокировки нужной стадии."
+			]
+			hide_dependency_lines: true
+			dependencies: ["207D5D4DC9F02D96"]
+			id: "67F8E4400871772D"
+			tasks: [{
+				id: "68085E57D1770487"
+				type: "checkmark"
+				title: "Нажми на меня!"
 			}]
 		}
 	]

@@ -29,13 +29,9 @@ ItemStages.restrict(<item:notreepunching:iron_saw>, "iron_age");
 
 ItemStages.restrict(<item:notreepunching:iron_mattock>, "iron_age");
 
-ItemStages.restrict(<item:mekanismtools:iron_paxel>, "iron_age");
-
 ItemStages.restrict(<item:notreepunching:iron_knife>, "iron_age");
 
 ItemStages.restrict(<tag:items:artisantools:material/iron>, "iron_age");
-
-ItemStages.restrict(<tag:items:spartanweaponry:iron_weapons>, "iron_age");
 
 ItemStages.restrict(<item:sophisticatedbackpacks:iron_backpack>, "iron_age");
 
@@ -144,9 +140,5 @@ ItemStages.restrict(<item:ironfurnaces:upgrade_silver2>, "iron_age");
 ItemStages.restrict(<item:pneumaticcraft:drill_bit_iron>, "iron_age");
 
 ItemStages.restrict(<tag:items:minecraft:anvil>, "iron_age");
-
-ItemStages.restrict(<item:spartanshields:shield_basic_iron>, "iron_age");
-
-ItemStages.restrict(<item:spartanshields:shield_tower_iron>, "iron_age");
 
 ItemStages.restrict(<item:chimes:iron_chimes>, "iron_age");

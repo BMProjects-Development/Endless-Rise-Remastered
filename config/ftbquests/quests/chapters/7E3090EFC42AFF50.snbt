@@ -1004,5 +1004,22 @@
 				item: "mekanism:antiprotonic_nucleosynthesizer"
 			}]
 		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "53051E02987C093C"
+			tasks: [{
+				id: "43881166C2BEBC17"
+				type: "checkmark"
+				title: "Новая стадия - Меканизм"
+			}]
+			rewards: [{
+				id: "5F56D3082D51EFF5"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a mekanism false"
+				player_command: false
+			}]
+		}
 	]
 }

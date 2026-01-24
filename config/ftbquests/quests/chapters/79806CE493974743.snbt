@@ -522,17 +522,26 @@
 			}]
 		}
 		{
+			title: "Зарядка"
 			x: -2.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
+			description: ["Зарядная сфера необходима для зарядки различных предметов электричеством."]
 			dependencies: ["116A04DB56AEFF3E"]
 			size: 1.2d
 			id: "4BC27B8F8CBF12A3"
-			tasks: [{
-				id: "419F9F59CF4FA7F8"
-				type: "item"
-				item: "powah:energizing_orb"
-			}]
+			tasks: [
+				{
+					id: "419F9F59CF4FA7F8"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "230773625E0B45AF"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
 			rewards: [{
 				id: "69D08F026ADBDE58"
 				type: "item"
@@ -680,6 +689,23 @@
 				id: "0A92670869883C12"
 				type: "command"
 				command: "/gamestage add @a fluxnetworks false"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			id: "6B84A6F72430702F"
+			tasks: [{
+				id: "3E78EFA1E78FADB3"
+				type: "checkmark"
+				title: "Новая стадия - аплайд"
+			}]
+			rewards: [{
+				id: "2FA433E6D8261C90"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a appliedenergistics2 false"
 				player_command: false
 			}]
 		}

@@ -17,8 +17,6 @@ ItemStages.restrict(<tag:items:forge:wires/copper>, "copper_age");
 
 ItemStages.restrict(<tag:items:forge:storage_blocks/copper>, "copper_age");
 
-ItemStages.restrict(<tag:items:spartanweaponry:copper_weapons>, "copper_age");
-
 ItemStages.restrict(<item:ironchest:copper_to_silver_chest_upgrade>, "copper_age");
 
 ItemStages.restrict(<item:ironchest:wood_to_copper_chest_upgrade>, "copper_age");
@@ -62,9 +60,5 @@ ItemStages.restrict(<tag:items:forge:furnaces/copper>, "copper_age");
 ItemStages.restrict(<item:ironfurnaces:upgrade_copper>, "copper_age");
 
 ItemStages.restrict(<item:ironfurnaces:upgrade_silver>, "copper_age");
-
-ItemStages.restrict(<item:spartanshields:shield_basic_copper>, "copper_age");
-
-ItemStages.restrict(<item:spartanshields:shield_tower_copper>, "copper_age");
 
 ItemStages.restrict(<item:chimes:copper_chimes>, "copper_age");

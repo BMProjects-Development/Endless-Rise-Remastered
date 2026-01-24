@@ -16,6 +16,8 @@
 			"{er.6a357a7586f39d25.quests15.description0}"
 			""
 			"{er.6a357a7586f39d25.quests15.description1}"
+			""
+			"{er.6a357a7586f39d25.quests15.description2}"
 		]
 		dependencies: ["4B22C2E1D0D516E4"]
 		hide: true

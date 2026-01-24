@@ -7,15 +7,11 @@ ItemStages.restrict(<tag:items:forge:storage_blocks/diamond>, "diamond_age");
 
 ItemStages.restrict(<tag:items:artisantools:material/diamond>, "diamond_age");
 
-ItemStages.restrict(<tag:items:spartanweaponry:diamond_weapons>, "diamond_age");
-
 ItemStages.restrict(<tag:items:forge:gears/diamond>, "diamond_age");
 
 ItemStages.restrict(<tag:items:mekanism:enriched/diamond>, "diamond_age");
 
 ItemStages.restrict(<tag:items:forge:dusts/diamond>, "diamond_age");
-
-ItemStages.restrict(<tag:items:spartanweaponry:diamond_projectiles>, "diamond_age");
 
 ItemStages.restrict(<item:sophisticatedbackpacks:diamond_backpack>, "diamond_age");
 
@@ -38,8 +34,6 @@ ItemStages.restrict(<item:ironchest:diamond_to_crystal_chest_upgrade>, "diamond_
 ItemStages.restrict(<item:ironchest:diamond_to_obsidian_chest_upgrade>, "diamond_age");
 
 ItemStages.restrict(<item:ironchest:diamond_chest>, "diamond_age");
-
-ItemStages.restrict(<item:mekanismtools:diamond_paxel>, "diamond_age");
 
 ItemStages.restrict(<item:notreepunching:diamond_knife>, "diamond_age");
 
@@ -104,7 +98,3 @@ ItemStages.restrict(<tag:items:forge:furnaces/diamond>, "diamond_age");
 ItemStages.restrict(<item:ironfurnaces:upgrade_emerald>, "diamond_age");
 
 ItemStages.restrict(<item:ironfurnaces:upgrade_crystal>, "diamond_age");
-
-ItemStages.restrict(<item:spartanshields:shield_basic_diamond>, "diamond_age");
-
-ItemStages.restrict(<item:spartanshields:shield_tower_diamond>, "diamond_age");

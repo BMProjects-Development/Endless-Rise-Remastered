@@ -55,15 +55,28 @@
 			dependencies: ["7BC929A9FE99C775"]
 			id: "49B663AD2181C26F"
 			tasks: [{
-				id: "3752061A51EAE62A"
+				id: "726EB7396FE7A018"
 				type: "item"
-				item: "immersiveengineering:coke"
+				title: "4х Коксовый уголь"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:coal_coke"
+					}
+				}
+				count: 4L
 			}]
 		}
 		{
 			title: "{er.4402c0cd6f875200.quests3.title}"
 			x: 2.0d
 			y: 0.0d
+			description: [
+				"Соединив обычные доски с креозотом, Вы можете получить Горизонтальные доски."
+				""
+				"Они необходимы для создания различных предметов."
+			]
 			dependencies: ["7BC929A9FE99C775"]
 			id: "52B94FC9AA7696E2"
 			tasks: [{
@@ -1042,6 +1055,23 @@
 					count: 4L
 				}
 			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "4A69DE664E0837BE"
+			tasks: [{
+				id: "3350AC5C8E7BDA9C"
+				type: "checkmark"
+				title: "Новая стадия - Инженерия"
+			}]
+			rewards: [{
+				id: "2C54F499614437F6"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a immersiveengineering false"
+				player_command: false
+			}]
 		}
 	]
 }

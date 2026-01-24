@@ -7,5 +7,21 @@
 	icon: "industrialforegoing:block_placer"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "7B4DED00639AB381"
+		tasks: [{
+			id: "6B61C52C9C6B08C7"
+			type: "checkmark"
+			title: "Новая стадия - индастриал"
+		}]
+		rewards: [{
+			id: "41ED3C97247758AA"
+			type: "command"
+			auto: "invisible"
+			command: "/gamestage add @a industrialforegoing false"
+			player_command: false
+		}]
+	}]
 }

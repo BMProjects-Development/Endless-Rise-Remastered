@@ -14,7 +14,7 @@
 			y: -0.5d
 			shape: "tech_smooth_square"
 			description: ["{er.57d608a24de940da.quests0.description0}"]
-			dependencies: ["31BD23CD6DFA60B1"]
+			dependencies: ["39606160F4710D39"]
 			hide: true
 			size: 1.2d
 			id: "462BD8A3987B8465"
@@ -175,12 +175,118 @@
 			dependencies: ["5807AA78E1578DDF"]
 			size: 1.2d
 			id: "5A4E2FDAE9E6BDB5"
-			tasks: [{
-				id: "6B88D4725A0CA70D"
-				type: "item"
-				item: "minecraft:ender_eye"
-				count: 12L
-			}]
+			tasks: [
+				{
+					id: "4930E0853D9519BF"
+					type: "item"
+					item: {
+						id: "endrem:wither_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "264FD66BF17A1691"
+					type: "item"
+					item: {
+						id: "endrem:magical_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2267386848B346EE"
+					type: "item"
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5714C72A79D796B7"
+					type: "item"
+					item: {
+						id: "endrem:old_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40582E3E83558208"
+					type: "item"
+					item: {
+						id: "endrem:rogue_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24458DEC053B19BE"
+					type: "item"
+					item: {
+						id: "endrem:nether_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5307512069739237"
+					type: "item"
+					item: {
+						id: "endrem:cold_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22D488BBFCF0478E"
+					type: "item"
+					item: {
+						id: "endrem:corrupted_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D89711A4FF1BEB2"
+					type: "item"
+					item: {
+						id: "endrem:black_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A36D05EC6D000E0"
+					type: "item"
+					item: {
+						id: "endrem:lost_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "22A2A7D9450DF959"
 				type: "command"
