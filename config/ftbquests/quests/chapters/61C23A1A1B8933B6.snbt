@@ -253,7 +253,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 11.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests14.description0}"]
 			dependencies: ["2C356C79E12F86BE"]
@@ -272,7 +272,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests15.title}"
-			x: 10.0d
+			x: 10.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests15.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
@@ -293,7 +293,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 12.0d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests16.description0}"]
 			dependencies: ["46515BC511B4975E"]
@@ -305,7 +305,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests17.description0}"]
 			dependencies: ["309F4243634A2888"]
@@ -330,7 +330,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests19.title}"
-			x: 14.5d
+			x: 15.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.61c23a1a1b8933b6.quests19.description0}"]
@@ -345,7 +345,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 15.0d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests20.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -369,7 +369,7 @@
 			]
 		}
 		{
-			x: 16.0d
+			x: 16.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests21.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -383,7 +383,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests22.title}"
-			x: 12.0d
+			x: 12.5d
 			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests22.description0}"]
 			dependencies: ["27EE9C334876E614"]
@@ -414,7 +414,7 @@
 			]
 		}
 		{
-			x: 14.0d
+			x: 14.5d
 			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests23.description0}"]
 			dependencies: ["27EE9C334876E614"]
@@ -433,7 +433,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests24.title}"
-			x: 14.5d
+			x: 15.0d
 			y: 1.5d
 			description: ["{er.61c23a1a1b8933b6.quests24.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -496,7 +496,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests28.description0}"]
 			dependencies: ["3A22BE56B1E3CBDA"]
@@ -569,7 +569,7 @@
 			]
 		}
 		{
-			x: 20.5d
+			x: 21.0d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests32.description0}"]
 			dependencies: ["0F7CFC82FFD07B37"]
@@ -586,7 +586,7 @@
 			}]
 		}
 		{
-			x: 22.0d
+			x: 22.5d
 			y: -2.0d
 			description: ["{er.61c23a1a1b8933b6.quests33.description0}"]
 			dependencies: ["48E28ED91BA9ED80"]
@@ -646,7 +646,7 @@
 			}]
 		}
 		{
-			x: 21.0d
+			x: 21.5d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests38.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
@@ -659,7 +659,7 @@
 			}]
 		}
 		{
-			x: 22.0d
+			x: 22.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests39.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
@@ -750,7 +750,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests42.description0}"]
@@ -770,7 +770,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 10.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.61c23a1a1b8933b6.quests43.description0}"]
@@ -797,7 +797,7 @@
 			]
 		}
 		{
-			x: 22.0d
+			x: 22.5d
 			y: 2.0d
 			description: ["{er.61c23a1a1b8933b6.quests44.description0}"]
 			dependencies: ["1F5DBD70C3621400"]
@@ -901,7 +901,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: -3.0d
 			description: ["{er.61c23a1a1b8933b6.quests53.description0}"]
 			dependencies: ["339E99FFA9CEE6D2"]
@@ -914,7 +914,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests54.title}"
-			x: 17.5d
+			x: 18.0d
 			y: 0.0d
 			description: [
 				"Создав колёса дробления, Вы можете получить Незераковую пыль."
@@ -938,7 +938,7 @@
 			]
 		}
 		{
-			x: 19.0d
+			x: 19.5d
 			y: 0.0d
 			description: [
 				"Залив основу торта Всполоха лавой, Вы можете получить Торт Всполоха."
@@ -986,7 +986,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 11.0d
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests27.description0}"]
 			dependencies: ["309F4243634A2888"]
@@ -1004,7 +1004,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 11.0d
 			y: 2.0d
 			shape: "tech_circle"
 			description: ["{er.09bc33749d387467.quests28.description0}"]
@@ -1017,7 +1017,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: -4.5d
 			description: ["Бойлер необходим для создания Стального котла и Двигателя."]
 			dependencies: ["27EE9C334876E614"]
@@ -1029,7 +1029,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: -6.0d
 			description: [
 				"Двигатель необходим для создания воздушных судов - Кукурузник и Дирижабль."
@@ -1045,7 +1045,7 @@
 			}]
 		}
 		{
-			x: 14.5d
+			x: 15.0d
 			y: -6.5d
 			description: ["Кукурузник позволяет довольно быстро перемещаться по воздуху."]
 			dependencies: ["7561D55FE65CB140"]
@@ -1057,7 +1057,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 12.0d
 			y: -6.5d
 			description: ["Дирижабль позволяет довольно быстро перемещаться по воздуху."]
 			dependencies: ["7561D55FE65CB140"]
@@ -1261,7 +1261,7 @@
 			]
 		}
 		{
-			x: 21.0d
+			x: 21.5d
 			y: 1.5d
 			description: ["Катушка Теслы необходима, чтобы заряжать различные предметы. "]
 			dependencies: ["62D1BFB9177CF557"]
@@ -1301,6 +1301,42 @@
 					item: "constructsarmory:feet_plate_cast"
 				}
 			]
+		}
+		{
+			title: "Инженерная эпоха"
+			x: 7.0d
+			y: 1.5d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Инженерная эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
+			dependencies: ["29039481EF4BB2EF"]
+			id: "4A69DE664E0837BE"
+			tasks: [{
+				id: "3350AC5C8E7BDA9C"
+				type: "checkmark"
+				title: "Нажми на меня!"
+			}]
+			rewards: [{
+				id: "2C54F499614437F6"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a immersiveengineering false"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			id: "1D93899CFFCF5589"
+			tasks: [{
+				id: "4FF480EE32AE922D"
+				type: "checkmark"
+				title: "Открытие - Атум"
+			}]
 		}
 	]
 }

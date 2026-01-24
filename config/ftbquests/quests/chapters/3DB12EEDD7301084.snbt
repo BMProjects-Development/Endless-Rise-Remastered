@@ -11,6 +11,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
+			subtitle: "Великое развитие!"
 			description: ["{er.3db12eedd7301084.quests0.description0}"]
 			size: 1.3d
 			id: "4015F9A5ADB11078"
@@ -30,6 +31,7 @@
 			x: 0.0d
 			y: -1.5d
 			shape: "tech_smooth_square"
+			subtitle: "Авторы сборки!"
 			description: ["{er.3db12eedd7301084.quests1.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			id: "241F9AF7B1E9356C"

@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "tag": "forge:dusts/coal"
+    },
+    {
+      "tag": "appliedenergistics2:crystals/fluix"
+    },
+    {
+      "tag": "appliedenergistics2:crystals/fluix"
+    }
+  ],
+  "results": [
+    {
+      "item": "powah:dielectric_paste",
+	  "count": 16
+    }
+  ],
+  "heatRequirement": "heated"
+}

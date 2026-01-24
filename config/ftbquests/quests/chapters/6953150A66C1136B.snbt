@@ -20,7 +20,7 @@
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.6953150a66c1136b.quests0.description0}"]
-			dependencies: ["0CB34097439D4C81"]
+			dependencies: ["7D00063DBD18C9CF"]
 			hide: true
 			size: 1.2d
 			id: "45A07D9B8081F2A0"
@@ -483,19 +483,28 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
-			id: "7D00063DBD18C9CF"
+			title: "Эпоха механизмов"
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Эпоха механизмов&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
+			dependencies: ["491435ED023469B3"]
+			id: "53051E02987C093C"
 			tasks: [{
-				id: "76133DECAC69A9B4"
+				id: "43881166C2BEBC17"
 				type: "checkmark"
-				title: "Новая стадия - Пневматика"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
-				id: "6775739D13A89815"
+				id: "5F56D3082D51EFF5"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
-				command: "/gamestage add @a pneumaticcraft false"
+				command: "/gamestage add @a mekanism false"
 				player_command: false
 			}]
 		}

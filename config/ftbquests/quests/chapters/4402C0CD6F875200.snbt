@@ -13,7 +13,7 @@
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.4402c0cd6f875200.quests0.description0}"]
-			dependencies: ["29039481EF4BB2EF"]
+			dependencies: ["4A69DE664E0837BE"]
 			hide: true
 			size: 1.2d
 			id: "4AA6F5E7D38B0E33"
@@ -1057,19 +1057,28 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 0.0d
-			id: "4A69DE664E0837BE"
+			title: "Пневматическая эпоха"
+			x: 4.0d
+			y: -3.0d
+			subtitle: "Новая стадия игры!"
+			description: [
+				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Пнематическая эпоха&r!"
+				""
+				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+			]
+			dependencies: ["0CB34097439D4C81"]
+			id: "7D00063DBD18C9CF"
 			tasks: [{
-				id: "3350AC5C8E7BDA9C"
+				id: "76133DECAC69A9B4"
 				type: "checkmark"
-				title: "Новая стадия - Инженерия"
+				title: "Нажми на меня!"
 			}]
 			rewards: [{
-				id: "2C54F499614437F6"
+				id: "6775739D13A89815"
 				type: "command"
+				team_reward: true
 				auto: "invisible"
-				command: "/gamestage add @a immersiveengineering false"
+				command: "/gamestage add @a pneumaticcraft false"
 				player_command: false
 			}]
 		}

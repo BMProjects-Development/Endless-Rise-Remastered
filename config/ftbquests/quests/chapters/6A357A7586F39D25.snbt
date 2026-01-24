@@ -1,7 +1,7 @@
 {
 	id: "6A357A7586F39D25"
 	group: "4F34514062F979C6"
-	order_index: 4
+	order_index: 3
 	filename: "6A357A7586F39D25"
 	title: "{er.6a357a7586f39d25.title}"
 	icon: {
@@ -31,7 +31,7 @@
 			y: 0.5d
 			shape: "tech_smooth_square"
 			description: ["{er.6a357a7586f39d25.quests1.description0}"]
-			dependencies: ["4222E4C3CB12466C"]
+			dependencies: ["03D444C591714C7D"]
 			hide: true
 			size: 1.2d
 			id: "718D674A4C22515B"
@@ -400,23 +400,6 @@
 					Count: 1b
 					tag: { }
 				}
-			}]
-		}
-		{
-			x: -4.5d
-			y: 0.5d
-			id: "03D444C591714C7D"
-			tasks: [{
-				id: "5B2924A8E5A0D3AA"
-				type: "checkmark"
-				title: "Космическая эпоха"
-			}]
-			rewards: [{
-				id: "78136FEE2D637CB2"
-				type: "command"
-				auto: "invisible"
-				command: "/gamestage add @a space_age false"
-				player_command: false
 			}]
 		}
 	]

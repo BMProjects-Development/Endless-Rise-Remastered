@@ -15,16 +15,4 @@ onEvent('recipes', event => {
   })
   
   
-  event.remove({output: 'powah:dielectric_paste'})	
-  event.shaped('8x powah:dielectric_paste', [
-    'FCF',
-    'CBC',
-    'FCF'
-  ], {
-    F: 'appliedenergistics2:purified_fluix_crystal',
-	C: '#forge:dusts/coal',
-	B: 'minecraft:blaze_powder'
-  })
-  
-  
 })
