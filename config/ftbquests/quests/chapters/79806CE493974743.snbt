@@ -401,7 +401,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 9.0d
 			y: 0.0d
 			shape: "tech_square"
 			description: ["{er.79806ce493974743.quests25.description0}"]
@@ -414,7 +414,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 8.5d
 			y: 1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests26.description0}"]
@@ -428,7 +428,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 9.5d
 			y: 1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests27.description0}"]
@@ -442,7 +442,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 8.5d
 			y: -1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests28.description0}"]
@@ -456,7 +456,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 9.5d
 			y: -1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests29.description0}"]
@@ -470,7 +470,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 10.5d
 			y: 0.0d
 			description: ["{er.79806ce493974743.quests30.description0}"]
 			dependencies: ["69825D5DFE2FB5F8"]
