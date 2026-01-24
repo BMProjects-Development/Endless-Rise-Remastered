@@ -721,7 +721,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests41.title}"
-			x: 5.0d
+			x: 5.5d
 			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
 			dependencies: ["093501F9725A0851"]
@@ -797,10 +797,10 @@
 			]
 		}
 		{
-			x: 21.0d
-			y: 1.5d
+			x: 22.0d
+			y: 2.0d
 			description: ["{er.61c23a1a1b8933b6.quests44.description0}"]
-			dependencies: ["62D1BFB9177CF557"]
+			dependencies: ["1F5DBD70C3621400"]
 			id: "5DCD21BA0E949787"
 			tasks: [{
 				id: "6622D87485FD7AB4"
@@ -819,23 +819,6 @@
 				id: "3DE45522BACB1F32"
 				type: "item"
 				item: "create:goggles"
-			}]
-		}
-		{
-			x: 22.0d
-			y: 2.0d
-			dependencies: ["5DCD21BA0E949787"]
-			id: "326C0451B1FDCEF3"
-			tasks: [{
-				id: "04ED965EA4F6522D"
-				type: "item"
-				item: {
-					id: "createaddition:overcharged_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
 		}
 		{
@@ -1274,6 +1257,48 @@
 					id: "129B8F556B57CEA4"
 					type: "item"
 					item: "legendarysurvivaloverhaul:warm_string"
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: 1.5d
+			description: ["Катушка Теслы необходима, чтобы заряжать различные предметы. "]
+			dependencies: ["62D1BFB9177CF557"]
+			id: "1F5DBD70C3621400"
+			tasks: [{
+				id: "55EE1E43FA6EEDDB"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+		}
+		{
+			title: "Лучшая броня"
+			x: 4.5d
+			y: -5.0d
+			description: ["С помощью этих форм можно создавать хорошую броню, вливая в эти формы жидкий металл."]
+			dependencies: ["093501F9725A0851"]
+			id: "6872ADC8F44B9111"
+			tasks: [
+				{
+					id: "3CEEB01A61503462"
+					type: "item"
+					item: "constructsarmory:head_plate_cast"
+				}
+				{
+					id: "0F0A03D0292E6E95"
+					type: "item"
+					item: "constructsarmory:body_plate_cast"
+				}
+				{
+					id: "18DCABE6260D22BD"
+					type: "item"
+					item: "constructsarmory:legs_plate_cast"
+				}
+				{
+					id: "1BDD8A4277D753AB"
+					type: "item"
+					item: "constructsarmory:feet_plate_cast"
 				}
 			]
 		}

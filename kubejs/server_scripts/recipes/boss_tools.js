@@ -51,7 +51,7 @@ onEvent('recipes', event => {
     A: 'boss_tools:compressed_steel',
 	B: 'minecraft:iron_nugget',
 	C: '#forge:rods/iron',
-	D: '#steampowered:ingots/steel'
+	D: '#forge:ingots/steel'
   })
   
   

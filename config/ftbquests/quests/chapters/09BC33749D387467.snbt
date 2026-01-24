@@ -564,6 +564,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
+			optional: true
 			id: "7455E4A62CD8E5E9"
 			tasks: [{
 				id: "40D8DF64462B82B4"
@@ -576,6 +577,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
+			optional: true
 			id: "098811FF1C8C0952"
 			tasks: [{
 				id: "5ED598E95E6A06F3"
@@ -640,6 +642,7 @@
 			y: -5.0d
 			description: ["{er.09bc33749d387467.quests32.description0}"]
 			dependencies: ["7C5C00B15B9897BC"]
+			optional: true
 			id: "139A2673A665DA5F"
 			tasks: [{
 				id: "6DB127AA8FDC3E6A"
@@ -678,6 +681,7 @@
 			y: 7.0d
 			description: ["Улучшенная версия обычной печки."]
 			dependencies: ["0B728A65AD5A65F1"]
+			optional: true
 			id: "6A0ED669633D1FC0"
 			tasks: [{
 				id: "520F33C9A8F6B4E6"
@@ -711,12 +715,33 @@
 			y: 5.0d
 			description: ["{er.09bc33749d387467.quests36.description0}"]
 			dependencies: ["2A55F762879AF918"]
+			optional: true
 			id: "3FB829F02CA5860E"
-			tasks: [{
-				id: "2BF7B97EF3B19CFB"
-				type: "item"
-				item: "dummmmmmy:target_dummy_placer"
-			}]
+			tasks: [
+				{
+					id: "2BF7B97EF3B19CFB"
+					type: "item"
+					item: "dummmmmmy:target_dummy_placer"
+				}
+				{
+					id: "16C7395745A29908"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "630F69A64FD83256"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: 14.0d
@@ -766,6 +791,7 @@
 			y: -6.0d
 			description: ["{er.09bc33749d387467.quests38.description0}"]
 			dependencies: ["27F6D0F855D593D6"]
+			optional: true
 			id: "5804894E20CF75B5"
 			tasks: [
 				{
@@ -949,6 +975,7 @@
 			y: 3.0d
 			description: ["Вешалка для полотенце просто удобная и декоративная полочка для размещения полотенца."]
 			dependencies: ["63045AEFFE6135FD"]
+			optional: true
 			id: "7BBBFC4DD495888A"
 			tasks: [{
 				id: "4427C541AF6B35B0"
@@ -1010,6 +1037,7 @@
 			description: ["Хороший способ получить много Пыльцы."]
 			dependencies: ["4851726CE8BE7194"]
 			size: 0.9d
+			optional: true
 			id: "433E640317141488"
 			tasks: [{
 				id: "2C62B282F7937772"
@@ -1028,6 +1056,7 @@
 			y: -6.0d
 			description: ["С помощью Телеги для мобов можно перевозить мобов."]
 			dependencies: ["27F6D0F855D593D6"]
+			optional: true
 			id: "0D589BE1DB45CF4D"
 			tasks: [{
 				id: "30E9DD2BD47BDB2F"
@@ -1040,6 +1069,7 @@
 			y: -4.0d
 			description: ["С помощью Плуга можно вспахивать землю эффективнее."]
 			dependencies: ["27F6D0F855D593D6"]
+			optional: true
 			id: "5D9146D79336FEF1"
 			tasks: [{
 				id: "03DA3D87A6F6D060"
@@ -1064,6 +1094,7 @@
 			y: -2.5d
 			description: ["Бочка необходима для создания различных продуктов питания и напитков."]
 			dependencies: ["2899535C3F79E47F"]
+			optional: true
 			id: "1479CC56B0DBB3F1"
 			tasks: [{
 				id: "13A487B227CC5EAD"
@@ -1089,6 +1120,7 @@
 			y: -0.5d
 			description: ["Верстак мага необходим для создания магических предметов. Например, жемчужины врат."]
 			dependencies: ["18B3AC82C7E152D5"]
+			optional: true
 			id: "4851726CE8BE7194"
 			tasks: [{
 				id: "3B28F70A2D446157"
@@ -1105,6 +1137,7 @@
 				"Она необходима для создания  различных предметов. Но самое главное сейчас - Старинный атлас."
 			]
 			dependencies: ["387C7C8B8BA0851B"]
+			optional: true
 			id: "75597F53A9396B84"
 			tasks: [{
 				id: "29908027B0773B2B"
@@ -1145,6 +1178,7 @@
 			y: -7.0d
 			description: ["Пустой старинный атлас в данной сборке является заменой мини-карты."]
 			dependencies: ["75597F53A9396B84"]
+			optional: true
 			id: "39D9929D7D0497E1"
 			tasks: [{
 				id: "43AFF2071315F2B9"
@@ -1169,6 +1203,7 @@
 			y: -2.0d
 			description: ["Сыр можно создать в бочке, используя молоко и уксус."]
 			dependencies: ["1479CC56B0DBB3F1"]
+			optional: true
 			id: "45587AD8C228DBB3"
 			tasks: [{
 				id: "189A3E51BBDE8F02"
@@ -1182,6 +1217,7 @@
 			y: -1.5d
 			description: ["Деревянные ножницы - альтернатива обычным ножницам для раннего этапа игры."]
 			dependencies: ["2899535C3F79E47F"]
+			optional: true
 			id: "2936657AD885EAC2"
 			tasks: [{
 				id: "7E34C60F285FA53C"
@@ -1395,6 +1431,7 @@
 			y: 7.0d
 			description: ["Печь для обжига необходима для более удобного и быстрого обижига предметов."]
 			dependencies: ["0B728A65AD5A65F1"]
+			optional: true
 			id: "4EF2E618B4208EF0"
 			tasks: [{
 				id: "3331E1978E990ACE"

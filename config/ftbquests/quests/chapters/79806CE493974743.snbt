@@ -522,17 +522,26 @@
 			}]
 		}
 		{
+			title: "Зарядка"
 			x: -2.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
+			description: ["Зарядная сфера необходима для зарядки различных предметов электричеством."]
 			dependencies: ["116A04DB56AEFF3E"]
 			size: 1.2d
 			id: "4BC27B8F8CBF12A3"
-			tasks: [{
-				id: "419F9F59CF4FA7F8"
-				type: "item"
-				item: "powah:energizing_orb"
-			}]
+			tasks: [
+				{
+					id: "419F9F59CF4FA7F8"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "230773625E0B45AF"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
 			rewards: [{
 				id: "69D08F026ADBDE58"
 				type: "item"
