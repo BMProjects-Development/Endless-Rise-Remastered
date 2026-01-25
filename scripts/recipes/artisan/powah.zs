@@ -29,3 +29,15 @@ Recipe.type(Type.ENGINEER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:powah:energizing_orb>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:powah:capacitor_basic>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:powah:dielectric_paste>],
+    [<tag:items:forge:plates/iron>, <item:create:polished_rose_quartz>, <tag:items:forge:plates/iron>],
+    [<item:powah:dielectric_paste>, <tag:items:forge:plates/iron>, <item:minecraft:air>]])
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:powah:capacitor_basic>)
+  .register();
