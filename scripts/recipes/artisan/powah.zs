@@ -41,3 +41,15 @@ Recipe.type(Type.ENGINEER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:powah:capacitor_basic>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:powah:aerial_pearl>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:powah:dielectric_paste>, <tag:items:forge:plates/iron>, <item:powah:dielectric_paste>],
+    [<tag:items:forge:plates/iron>, <item:minecraft:ender_pearl>, <tag:items:forge:plates/iron>],
+    [<item:powah:dielectric_paste>, <tag:items:forge:plates/iron>, <item:powah:dielectric_paste>]])
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:powah:aerial_pearl>)
+  .register();
