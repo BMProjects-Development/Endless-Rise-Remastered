@@ -521,11 +521,11 @@
 			}]
 		}
 		{
-			title: "Зарядка"
+			title: "{er.79806ce493974743.quests34.title}"
 			x: -6.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
-			description: ["Зарядная сфера необходима для зарядки различных предметов электричеством."]
+			description: ["{er.79806ce493974743.quests34.description0}"]
 			dependencies: ["4C15B717EC932133"]
 			size: 1.2d
 			id: "4BC27B8F8CBF12A3"
@@ -654,21 +654,21 @@
 			}]
 		}
 		{
-			title: "Электрическая эпоха"
+			title: "{er.79806ce493974743.quests43.title}"
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.79806ce493974743.quests43.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Электрическая эпоха&r!"
+				"{er.79806ce493974743.quests43.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.79806ce493974743.quests43.description1}"
 			]
 			dependencies: ["38D25F8137A28EFD"]
 			id: "168C2024771F640D"
 			tasks: [{
 				id: "033ABFB8770260D3"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.79806ce493974743.quests43.tasks0.title}"
 			}]
 			rewards: [{
 				id: "7FCDBB134B5DCAFB"
@@ -680,21 +680,21 @@
 			}]
 		}
 		{
-			title: "Флаксовая эпоха"
+			title: "{er.79806ce493974743.quests44.title}"
 			x: -6.0d
 			y: 3.0d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.79806ce493974743.quests44.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Флаксовая эпоха&r!"
+				"{er.79806ce493974743.quests44.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.79806ce493974743.quests44.description1}"
 			]
 			dependencies: ["55089144A1EAB58D"]
 			id: "32741DB060A0342C"
 			tasks: [{
 				id: "70279EB86597A865"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.79806ce493974743.quests44.tasks0.title}"
 			}]
 			rewards: [{
 				id: "0A92670869883C12"
@@ -705,10 +705,10 @@
 			}]
 		}
 		{
-			title: "Диэлектрик"
+			title: "{er.79806ce493974743.quests45.title}"
 			x: -3.0d
 			y: 0.0d
-			description: ["Открыв стадию с модом Powah, Вы можете создать Диэлектрическую пасту и некоторые компоненты из неё."]
+			description: ["{er.79806ce493974743.quests45.description0}"]
 			dependencies: ["168C2024771F640D"]
 			id: "0DB51D377E2814CA"
 			tasks: [
@@ -740,7 +740,7 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			description: ["Диэлектрический корпус - основа механизмов в моде Powah."]
+			description: ["{er.79806ce493974743.quests46.description0}"]
 			dependencies: ["0DB51D377E2814CA"]
 			id: "4C15B717EC932133"
 			tasks: [{
@@ -752,7 +752,7 @@
 		{
 			x: -3.5d
 			y: -1.5d
-			description: ["Конденсаторы - довольно важные предметы, которые используются при создании различных предметов."]
+			description: ["{er.79806ce493974743.quests47.description0}"]
 			dependencies: ["0DB51D377E2814CA"]
 			id: "32E9CE5254C5A6AF"
 			tasks: [
@@ -778,7 +778,7 @@
 		{
 			x: -2.5d
 			y: 1.5d
-			description: ["Гаечный ключ необходим для настройки механизмов."]
+			description: ["{er.79806ce493974743.quests48.description0}"]
 			dependencies: ["0DB51D377E2814CA"]
 			id: "6D937486D2FE1979"
 			tasks: [{
@@ -796,7 +796,7 @@
 		{
 			x: -3.5d
 			y: 1.5d
-			description: ["Эфирная жемчужина необходима для создания Связанной эфирной жемчужины. "]
+			description: ["{er.79806ce493974743.quests49.description0}"]
 			dependencies: ["0DB51D377E2814CA"]
 			id: "6E5401BBD6D688B3"
 			tasks: [{
@@ -809,9 +809,9 @@
 			x: -3.0d
 			y: 3.0d
 			description: [
-				"Для получения Связанной эфирной жемчужины необходимо нажать ПКМ по Зомби или Кадавру, держа в руке Эфирную жемчужину."
+				"{er.79806ce493974743.quests50.description0}"
 				""
-				"Связанная эфирная жемчужина необходима для создания Беспроводного зарядника."
+				"{er.79806ce493974743.quests50.description1}"
 			]
 			dependencies: ["6E5401BBD6D688B3"]
 			id: "2E43F9E4ADD5AD9C"
@@ -824,7 +824,7 @@
 		{
 			x: -2.0d
 			y: 3.5d
-			description: ["Беспроводной зарядник позволяет передавать энергию без проводов."]
+			description: ["{er.79806ce493974743.quests51.description0}"]
 			dependencies: ["2E43F9E4ADD5AD9C"]
 			id: "6344B4F238010552"
 			tasks: [{
@@ -836,7 +836,7 @@
 		{
 			x: -4.5d
 			y: -2.0d
-			description: ["Аккумулятор позволяет хранить и переносить некоторое количество энергии."]
+			description: ["{er.79806ce493974743.quests52.description0}"]
 			dependencies: ["32E9CE5254C5A6AF"]
 			id: "3322ECE6B7EB88E2"
 			tasks: [{
@@ -850,21 +850,21 @@
 			}]
 		}
 		{
-			title: "Космическая эпоха"
+			title: "{er.79806ce493974743.quests53.title}"
 			x: -6.0d
 			y: -3.0d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.79806ce493974743.quests53.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Космическая эпоха&r!"
+				"{er.79806ce493974743.quests53.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.79806ce493974743.quests53.description1}"
 			]
 			dependencies: ["4222E4C3CB12466C"]
 			id: "03D444C591714C7D"
 			tasks: [{
 				id: "5B2924A8E5A0D3AA"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.79806ce493974743.quests53.tasks0.title}"
 			}]
 			rewards: [{
 				id: "78136FEE2D637CB2"

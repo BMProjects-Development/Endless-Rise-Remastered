@@ -3,7 +3,7 @@
 	group: "4F34514062F979C6"
 	order_index: 4
 	filename: "13E0000B8592C62D"
-	title: "&6Финал..."
+	title: "{er.13e0000b8592c62d.title}"
 	icon: "kubejs:endless_rise"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

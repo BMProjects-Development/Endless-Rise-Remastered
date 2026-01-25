@@ -3,6 +3,6 @@
 		{ id: "1ED255BD6A1F3077", title: "{er.chapter_groups.chapter_groups0.title}" }
 		{ id: "11EC8770AFEB5B52", title: "{er.chapter_groups.chapter_groups1.title}" }
 		{ id: "4F34514062F979C6", title: "{er.chapter_groups.chapter_groups2.title}" }
-		{ id: "00D98D97DF9EF177", title: "&aРазное" }
+		{ id: "00D98D97DF9EF177", title: "{er.chapter_groups.chapter_groups3.title}" }
 	]
 }

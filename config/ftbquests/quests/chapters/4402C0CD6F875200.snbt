@@ -57,7 +57,7 @@
 			tasks: [{
 				id: "726EB7396FE7A018"
 				type: "item"
-				title: "4х Коксовый уголь"
+				title: "{er.4402c0cd6f875200.quests2.tasks0.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -73,9 +73,9 @@
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"Соединив обычные доски с креозотом, Вы можете получить Горизонтальные доски."
+				"{er.4402c0cd6f875200.quests3.description0}"
 				""
-				"Они необходимы для создания различных предметов."
+				"{er.4402c0cd6f875200.quests3.description1}"
 			]
 			dependencies: ["7BC929A9FE99C775"]
 			id: "52B94FC9AA7696E2"
@@ -1064,21 +1064,21 @@
 			]
 		}
 		{
-			title: "Пневматическая эпоха"
+			title: "{er.4402c0cd6f875200.quests48.title}"
 			x: 4.0d
 			y: -3.0d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.4402c0cd6f875200.quests48.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Пнематическая эпоха&r!"
+				"{er.4402c0cd6f875200.quests48.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.4402c0cd6f875200.quests48.description1}"
 			]
 			dependencies: ["0CB34097439D4C81"]
 			id: "7D00063DBD18C9CF"
 			tasks: [{
 				id: "76133DECAC69A9B4"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.4402c0cd6f875200.quests48.tasks0.title}"
 			}]
 			rewards: [{
 				id: "6775739D13A89815"

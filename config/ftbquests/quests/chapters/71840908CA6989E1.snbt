@@ -13,7 +13,7 @@
 			x: 0.5d
 			y: -1.5d
 			shape: "tech_circle"
-			subtitle: "Смена стилей игры!"
+			subtitle: "{er.71840908ca6989e1.quests0.subtitle}"
 			description: ["{er.71840908ca6989e1.quests1.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -29,7 +29,7 @@
 			x: -0.5d
 			y: -1.5d
 			shape: "tech_circle"
-			subtitle: "Замена мини-карты!"
+			subtitle: "{er.71840908ca6989e1.quests1.subtitle}"
 			description: ["{er.71840908ca6989e1.quests3.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -45,7 +45,7 @@
 			x: 1.5d
 			y: -0.5d
 			shape: "tech_circle"
-			subtitle: "Всё в одном месте!"
+			subtitle: "{er.71840908ca6989e1.quests2.subtitle}"
 			description: ["{er.71840908ca6989e1.quests4.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -64,16 +64,16 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Главные новшества!"
+			subtitle: "{er.71840908ca6989e1.quests3.subtitle}"
 			description: [
-				"В этом разделе Вы сможете узнать самые главные нововведения о которых Вам стоит знать для удобства дальнейшей игры."
+				"{er.71840908ca6989e1.quests3.description0}"
 				""
-				"Среди них:"
-				"- Атлас;"
-				"- Рост сложности;"
-				"- Сезоны года;"
-				"- Том Акаши;"
-				"- Здоровье за еду."
+				"{er.71840908ca6989e1.quests3.description1}"
+				"{er.71840908ca6989e1.quests3.description2}"
+				"{er.71840908ca6989e1.quests3.description3}"
+				"{er.71840908ca6989e1.quests3.description4}"
+				"{er.71840908ca6989e1.quests3.description5}"
+				"{er.71840908ca6989e1.quests3.description6}"
 			]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
@@ -82,7 +82,7 @@
 			tasks: [{
 				id: "2BB5446055A908A7"
 				type: "checkmark"
-				title: "Особенности проекта"
+				title: "{er.71840908ca6989e1.quests3.tasks0.title}"
 			}]
 			rewards: [{
 				id: "05BC7E38C516410B"
@@ -95,15 +95,15 @@
 			x: -0.5d
 			y: 1.5d
 			shape: "tech_circle"
-			subtitle: "Развитие технологий!"
-			description: ["В сборке присутсвует большое количество различного транспорта: от телеги и плотов до кораблей и самолётов!"]
+			subtitle: "{er.71840908ca6989e1.quests4.subtitle}"
+			description: ["{er.71840908ca6989e1.quests4.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "08C151FE635392FC"
 			tasks: [{
 				id: "5E4280459302F150"
 				type: "checkmark"
-				title: "Транспорт"
+				title: "{er.71840908ca6989e1.quests4.tasks0.title}"
 			}]
 		}
 		{
@@ -111,26 +111,26 @@
 			x: 0.5d
 			y: 1.5d
 			shape: "tech_circle"
-			subtitle: "И награды за них!"
-			description: ["Создав Доску объвлений, Вы можете брать различные задания и, выполнив их, получить награду."]
+			subtitle: "{er.71840908ca6989e1.quests5.subtitle}"
+			description: ["{er.71840908ca6989e1.quests5.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "164FAF57F5ED32E1"
 			tasks: [{
 				id: "55F07BE4F7A2913C"
 				type: "checkmark"
-				title: "Задания"
+				title: "{er.71840908ca6989e1.quests5.tasks0.title}"
 			}]
 		}
 		{
 			icon: "minecraft:furnace"
 			x: -3.0d
 			y: 0.0d
-			subtitle: "Новые механики!"
+			subtitle: "{er.71840908ca6989e1.quests6.subtitle}"
 			description: [
-				"- Их теперь нужно зажигать для начала работы;"
-				"- Они теперь разводят огонь в радиусе нескольких блоков от себя;"
-				"- Чтобы забирать предметы из печек необходимо иметь полотенце."
+				"{er.71840908ca6989e1.quests6.description0}"
+				"{er.71840908ca6989e1.quests6.description1}"
+				"{er.71840908ca6989e1.quests6.description2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
@@ -138,7 +138,7 @@
 			tasks: [{
 				id: "66C5D3C800331024"
 				type: "checkmark"
-				title: "Всё о печках"
+				title: "{er.71840908ca6989e1.quests6.tasks0.title}"
 			}]
 		}
 		{
@@ -146,15 +146,15 @@
 			x: 0.0d
 			y: 3.0d
 			shape: "tech_square"
-			subtitle: "Больше разнообразия!"
-			description: ["Многие рецепты были перенесены в различные верстаки из мода Artisan Worktables!"]
+			subtitle: "{er.71840908ca6989e1.quests7.subtitle}"
+			description: ["{er.71840908ca6989e1.quests7.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "3FF34529D1C9CCBE"
 			tasks: [{
 				id: "7001268018E04FE6"
 				type: "checkmark"
-				title: "Новые верстаки"
+				title: "{er.71840908ca6989e1.quests7.tasks0.title}"
 			}]
 		}
 		{
@@ -162,15 +162,15 @@
 			x: -1.5d
 			y: 0.5d
 			shape: "tech_circle"
-			subtitle: "Сильные противники!"
-			description: ["Теперь Вы можете встретить усиленных мобов из мода Champions!"]
+			subtitle: "{er.71840908ca6989e1.quests8.subtitle}"
+			description: ["{er.71840908ca6989e1.quests8.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "77EC3B823796B709"
 			tasks: [{
 				id: "6B30F92AC901932C"
 				type: "checkmark"
-				title: "Усиленные мобы"
+				title: "{er.71840908ca6989e1.quests8.tasks0.title}"
 			}]
 		}
 		{
@@ -184,15 +184,15 @@
 			x: 3.0d
 			y: 0.0d
 			shape: "tech_square"
-			subtitle: "Разнообразие глаз!"
-			description: ["Теперь, для активации портала, необходимо собрать 12 разных глаз из мода End Remastered!"]
+			subtitle: "{er.71840908ca6989e1.quests9.subtitle}"
+			description: ["{er.71840908ca6989e1.quests9.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "3A3CCF0128FBD93C"
 			tasks: [{
 				id: "5F5C87927BEF592D"
 				type: "checkmark"
-				title: "Изменения Энда"
+				title: "{er.71840908ca6989e1.quests9.tasks0.title}"
 			}]
 		}
 		{
@@ -206,15 +206,15 @@
 			x: -1.5d
 			y: -0.5d
 			shape: "tech_circle"
-			subtitle: "Новый вид получения ресурсов!"
-			description: ["Теперь Вы можете создавать различные врата из мода GatewaysToEternity для получения различных ресурсов!"]
+			subtitle: "{er.71840908ca6989e1.quests10.subtitle}"
+			description: ["{er.71840908ca6989e1.quests10.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "2549C71245FC0023"
 			tasks: [{
 				id: "27D85AE8268F22C1"
 				type: "checkmark"
-				title: "Врата"
+				title: "{er.71840908ca6989e1.quests10.tasks0.title}"
 			}]
 		}
 		{
@@ -222,50 +222,50 @@
 			x: 1.5d
 			y: 0.5d
 			shape: "tech_circle"
-			subtitle: "Красота и удобства!"
-			description: ["Теперь в мире генерируются новые деревья, которые намного легче добывать!"]
+			subtitle: "{er.71840908ca6989e1.quests11.subtitle}"
+			description: ["{er.71840908ca6989e1.quests11.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "5BE5FB3E9050D700"
 			tasks: [{
 				id: "301F57F50EDC6333"
 				type: "checkmark"
-				title: "Новые деревья"
+				title: "{er.71840908ca6989e1.quests11.tasks0.title}"
 			}]
 		}
 		{
-			title: "Стадии игры"
+			title: "{er.71840908ca6989e1.quests12.title}"
 			x: 0.0d
 			y: -3.0d
-			subtitle: "Ключевая особенность!"
+			subtitle: "{er.71840908ca6989e1.quests12.subtitle}"
 			description: [
-				"Одной из главнейших особенностей Endless Rise являются &6Стадии игры&r."
+				"{er.71840908ca6989e1.quests12.description0}"
 				""
-				"По мере своего развития Вы будете получать всё новые стадии, открывающие новые предметы, блоки, механики и прочее!"
+				"{er.71840908ca6989e1.quests12.description1}"
 				""
-				"Стадии игры, которые Вы пройдёте:"
-				"- copper_age;"
-				"- iron_age;"
-				"- primitive;"
-				"- create;"
-				"- gold_age;"
-				"- diamond_age;"
-				"- nether;"
-				"- nether_dim;"
-				"- immersiveengineering;"
-				"- atum;"
-				"- atum_dim;"
-				"- end;"
-				"- end_dim;"
-				"- pneumaticcraft;"
-				"- appliedenergistics2;"
-				"- powah;"
-				"- fluxnetworks;"
-				"- mekanism;"
-				"- industrialforegoing;"
-				"- space_age."
+				"{er.71840908ca6989e1.quests12.description2}"
+				"{er.71840908ca6989e1.quests12.description3}"
+				"{er.71840908ca6989e1.quests12.description4}"
+				"{er.71840908ca6989e1.quests12.description5}"
+				"{er.71840908ca6989e1.quests12.description6}"
+				"{er.71840908ca6989e1.quests12.description7}"
+				"{er.71840908ca6989e1.quests12.description8}"
+				"{er.71840908ca6989e1.quests12.description9}"
+				"{er.71840908ca6989e1.quests12.description10}"
+				"{er.71840908ca6989e1.quests12.description11}"
+				"{er.71840908ca6989e1.quests12.description12}"
+				"{er.71840908ca6989e1.quests12.description13}"
+				"{er.71840908ca6989e1.quests12.description14}"
+				"{er.71840908ca6989e1.quests12.description15}"
+				"{er.71840908ca6989e1.quests12.description16}"
+				"{er.71840908ca6989e1.quests12.description17}"
+				"{er.71840908ca6989e1.quests12.description18}"
+				"{er.71840908ca6989e1.quests12.description19}"
+				"{er.71840908ca6989e1.quests12.description20}"
+				"{er.71840908ca6989e1.quests12.description21}"
+				"{er.71840908ca6989e1.quests12.description22}"
 				""
-				"Если по каким-либо причинам Вы не получили нужную стадию, можно прописать команду [/gamestage add @a \"название стадии\" false] для разблокировки нужной стадии."
+				"{er.71840908ca6989e1.quests12.description23}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
@@ -273,7 +273,7 @@
 			tasks: [{
 				id: "68085E57D1770487"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.71840908ca6989e1.quests12.tasks0.title}"
 			}]
 		}
 	]

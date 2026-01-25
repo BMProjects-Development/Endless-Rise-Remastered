@@ -483,21 +483,21 @@
 			}]
 		}
 		{
-			title: "Эпоха механизмов"
+			title: "{er.6953150a66c1136b.quests34.title}"
 			x: -1.0d
 			y: 4.5d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.6953150a66c1136b.quests34.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Эпоха механизмов&r!"
+				"{er.6953150a66c1136b.quests34.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.6953150a66c1136b.quests34.description1}"
 			]
 			dependencies: ["491435ED023469B3"]
 			id: "53051E02987C093C"
 			tasks: [{
 				id: "43881166C2BEBC17"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.6953150a66c1136b.quests34.tasks0.title}"
 			}]
 			rewards: [{
 				id: "5F56D3082D51EFF5"

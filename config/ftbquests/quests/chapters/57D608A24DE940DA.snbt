@@ -690,30 +690,40 @@
 			}]
 		}
 		{
-			title: "Открытие - Энд"
+			title: "{er.57d608a24de940da.quests29.title}"
 			x: -5.5d
 			y: 0.0d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.57d608a24de940da.quests29.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Измерение Энда&r!"
+				"{er.57d608a24de940da.quests29.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.57d608a24de940da.quests29.description1}"
 			]
 			dependencies: ["5A4E2FDAE9E6BDB5"]
 			id: "0209E0BBD283D2CF"
 			tasks: [{
 				id: "493F459333F72B55"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.57d608a24de940da.quests29.tasks0.title}"
 			}]
-			rewards: [{
-				id: "5D84B06ED2928C1B"
-				type: "command"
-				team_reward: true
-				auto: "invisible"
-				command: "/gamestage add @a end false"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "5D84B06ED2928C1B"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a end false"
+					player_command: false
+				}
+				{
+					id: "390DCE8FD01AC31E"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a end_dim false"
+					player_command: false
+				}
+			]
 		}
 	]
 }

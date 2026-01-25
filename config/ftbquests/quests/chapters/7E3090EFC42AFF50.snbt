@@ -29,7 +29,7 @@
 			x: 2.0d
 			y: 0.0d
 			shape: "tech_circle"
-			subtitle: "Переход в новую главу!"
+			subtitle: "{er.7e3090efc42aff50.quests1.subtitle}"
 			description: ["{er.7e3090efc42aff50.quests1.description0}"]
 			dependencies: ["6EDBA2148672DAB0"]
 			size: 1.2d
@@ -787,7 +787,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "tech_circle"
-			description: ["Продвинутые компоненты из этого мода. Они вам понадобятся для создания различных механизмов."]
+			description: ["{er.7e3090efc42aff50.quests56.description0}"]
 			dependencies: ["62856F299F843C2A"]
 			size: 1.2d
 			id: "4A75CC5B7B46A4FE"
@@ -809,7 +809,7 @@
 			x: 6.0d
 			y: 0.0d
 			shape: "tech_circle"
-			description: ["Элитные компоненты из этого мода. Они вам понадобятся для создания различных механизмов."]
+			description: ["{er.7e3090efc42aff50.quests57.description0}"]
 			dependencies: ["4A75CC5B7B46A4FE"]
 			size: 1.2d
 			id: "7986D6D72CCCD95A"
@@ -830,7 +830,7 @@
 			x: 8.0d
 			y: 0.0d
 			shape: "tech_circle"
-			description: ["Совершенный компонент из этого мода. Он вам понадобится для создания различных механизмов."]
+			description: ["{er.7e3090efc42aff50.quests58.description0}"]
 			dependencies: ["7986D6D72CCCD95A"]
 			size: 1.2d
 			id: "48502CFABF15A126"
@@ -843,7 +843,7 @@
 		{
 			x: 9.5d
 			y: -0.5d
-			description: ["Данная камера необходима для получения некоторых ресурсов."]
+			description: ["{er.7e3090efc42aff50.quests59.description0}"]
 			dependencies: ["48502CFABF15A126"]
 			id: "66E79C37834A07DF"
 			tasks: [{
@@ -856,7 +856,7 @@
 			x: 10.5d
 			y: -1.5d
 			shape: "tech_smooth_square"
-			description: ["Плутоний один из самых редких ресурсов в данном мире."]
+			description: ["{er.7e3090efc42aff50.quests60.description0}"]
 			dependencies: ["66E79C37834A07DF"]
 			size: 1.2d
 			id: "0890E8870E816C1D"
@@ -870,7 +870,7 @@
 			x: 8.5d
 			y: -1.5d
 			shape: "tech_smooth_square"
-			description: ["Полоний один из самых редких ресурсов в данном мире."]
+			description: ["{er.7e3090efc42aff50.quests61.description0}"]
 			dependencies: ["66E79C37834A07DF"]
 			size: 1.2d
 			id: "6CBF2038A77A746C"
@@ -883,7 +883,7 @@
 		{
 			x: 9.5d
 			y: 0.5d
-			description: ["Химический кристаллизатор необходим для обработки ресурсов."]
+			description: ["{er.7e3090efc42aff50.quests62.description0}"]
 			dependencies: ["48502CFABF15A126"]
 			id: "582BD1E5EC7F3963"
 			tasks: [{
@@ -896,7 +896,7 @@
 			x: 11.0d
 			y: 0.5d
 			shape: "tech_smooth_square"
-			description: ["Антиматерия один из самых редких ресурсов в данном мире."]
+			description: ["{er.7e3090efc42aff50.quests63.description0}"]
 			dependencies: ["582BD1E5EC7F3963"]
 			size: 1.2d
 			id: "5B4AD921207A3E45"
@@ -909,7 +909,7 @@
 		{
 			x: 10.5d
 			y: -3.0d
-			description: ["Данный фрагмент необходим для получения ядерного топлива."]
+			description: ["{er.7e3090efc42aff50.quests64.description0}"]
 			dependencies: ["0890E8870E816C1D"]
 			id: "1846E1CC0020CE6E"
 			tasks: [{
@@ -921,7 +921,7 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			description: ["Ядро телепортации необходимо для создания различных предметов."]
+			description: ["{er.7e3090efc42aff50.quests65.description0}"]
 			dependencies: ["48502CFABF15A126"]
 			id: "78D04004FD5671BD"
 			tasks: [{
@@ -934,7 +934,7 @@
 			title: "{er.7e3090efc42aff50.quests66.title}"
 			x: 9.0d
 			y: -3.0d
-			description: ["Лучшая броня в игре!"]
+			description: ["{er.7e3090efc42aff50.quests66.description0}"]
 			dependencies: ["6CBF2038A77A746C"]
 			id: "3DF0AC507F11AFA0"
 			tasks: [
@@ -987,7 +987,7 @@
 		{
 			x: 8.0d
 			y: -3.0d
-			description: ["Лучший инструмент в игре!"]
+			description: ["{er.7e3090efc42aff50.quests67.description0}"]
 			dependencies: ["6CBF2038A77A746C"]
 			id: "247D166680B76084"
 			tasks: [{
@@ -1005,7 +1005,7 @@
 		{
 			x: 12.5d
 			y: 0.0d
-			description: ["Данный синтезатор необходим для превращения одних предметов в другие за счёт антиматерии."]
+			description: ["{er.7e3090efc42aff50.quests68.description0}"]
 			dependencies: ["5B4AD921207A3E45"]
 			size: 1.2d
 			id: "26596967997A5B59"
@@ -1016,21 +1016,21 @@
 			}]
 		}
 		{
-			title: "Индустриальная эпоха"
+			title: "{er.7e3090efc42aff50.quests69.title}"
 			x: 1.5d
 			y: -1.5d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.7e3090efc42aff50.quests69.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Индустриальная эпоха&r!"
+				"{er.7e3090efc42aff50.quests69.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.7e3090efc42aff50.quests69.description1}"
 			]
 			dependencies: ["62856F299F843C2A"]
 			id: "7B4DED00639AB381"
 			tasks: [{
 				id: "6B61C52C9C6B08C7"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.7e3090efc42aff50.quests69.tasks0.title}"
 			}]
 			rewards: [{
 				id: "41ED3C97247758AA"
@@ -1045,9 +1045,9 @@
 			x: 2.0d
 			y: -3.0d
 			description: [
-				"Гнилая рамка - самое начало мода Industrial Foregoing."
+				"{er.7e3090efc42aff50.quests70.description0}"
 				""
-				"Она необходима для создания различных механизмов."
+				"{er.7e3090efc42aff50.quests70.description1}"
 			]
 			dependencies: ["7B4DED00639AB381"]
 			id: "373C6C2AB651DEF0"
@@ -1060,7 +1060,7 @@
 		{
 			x: 1.0d
 			y: -4.0d
-			description: ["Юнит по производству латекса произоводит латекс, добывая его из бревён."]
+			description: ["{er.7e3090efc42aff50.quests71.description0}"]
 			dependencies: ["373C6C2AB651DEF0"]
 			id: "6CAA0BB43632EE34"
 			tasks: [{
@@ -1070,13 +1070,13 @@
 			}]
 		}
 		{
-			title: "Получение пластика"
+			title: "{er.7e3090efc42aff50.quests72.title}"
 			x: 0.5d
 			y: -5.5d
 			description: [
-				"Добыв достаточно латекса, Вы можете создать Пластик."
+				"{er.7e3090efc42aff50.quests72.description0}"
 				""
-				"Пластик необходим для создания различных предметов."
+				"{er.7e3090efc42aff50.quests72.description1}"
 			]
 			dependencies: ["6CAA0BB43632EE34"]
 			id: "5CACCB84CC2947E3"
@@ -1103,9 +1103,9 @@
 			x: 1.0d
 			y: -7.0d
 			description: [
-				"Обычная рамка - это улучшенная версия предыдущей рамки."
+				"{er.7e3090efc42aff50.quests73.description0}"
 				""
-				"Нужна она для создания множества предметов и механизмов."
+				"{er.7e3090efc42aff50.quests73.description1}"
 			]
 			dependencies: ["5CACCB84CC2947E3"]
 			id: "7C0836EB00D686D8"
@@ -1119,9 +1119,9 @@
 			x: 2.0d
 			y: -8.0d
 			description: [
-				"Продвинутая рамка - это улучшенная версия предыдущей рамки."
+				"{er.7e3090efc42aff50.quests74.description0}"
 				""
-				"Нужна она для создания множества предметов и механизмов."
+				"{er.7e3090efc42aff50.quests74.description1}"
 			]
 			dependencies: [
 				"7C0836EB00D686D8"
@@ -1137,7 +1137,7 @@
 		{
 			x: 3.0d
 			y: -4.0d
-			description: ["Завод-резня мобов позволяет собрать Розовую слизь, убивая мобов."]
+			description: ["{er.7e3090efc42aff50.quests75.description0}"]
 			dependencies: ["373C6C2AB651DEF0"]
 			id: "4986C97C170C9ED1"
 			tasks: [{
@@ -1149,7 +1149,7 @@
 		{
 			x: 3.5d
 			y: -5.5d
-			description: ["Розовая слизь необходима для создания множества предметов."]
+			description: ["{er.7e3090efc42aff50.quests76.description0}"]
 			dependencies: ["4986C97C170C9ED1"]
 			id: "2C3DF8BE83A4155D"
 			tasks: [{
@@ -1161,7 +1161,7 @@
 		{
 			x: 3.0d
 			y: -7.0d
-			description: ["Слиток розовой слизи необходим для создания некоторых предметов."]
+			description: ["{er.7e3090efc42aff50.quests77.description0}"]
 			dependencies: ["2C3DF8BE83A4155D"]
 			id: "199BF71C29337641"
 			tasks: [{
@@ -1171,10 +1171,10 @@
 			}]
 		}
 		{
-			title: "Лазерная дрель"
+			title: "{er.7e3090efc42aff50.quests78.title}"
 			x: 2.0d
 			y: -9.5d
-			description: ["Лазерная дрель позволяет добывать различные ресурсы."]
+			description: ["{er.7e3090efc42aff50.quests78.description0}"]
 			dependencies: ["2CAAA831CF84D533"]
 			id: "2A9C873ACCBC7962"
 			tasks: [
@@ -1194,9 +1194,9 @@
 			x: 2.0d
 			y: -11.0d
 			description: [
-				"Эфир можно добыть лазерной дрелью."
+				"{er.7e3090efc42aff50.quests79.description0}"
 				""
-				"Он необходим для создания некоторых предметов."
+				"{er.7e3090efc42aff50.quests79.description1}"
 			]
 			dependencies: ["2A9C873ACCBC7962"]
 			id: "699B35A1D9837463"
@@ -1210,9 +1210,9 @@
 			x: 2.0d
 			y: -12.5d
 			description: [
-				"Ультимейтная рамка - это улучшенная версия предыдущей рамки."
+				"{er.7e3090efc42aff50.quests80.description0}"
 				""
-				"Нужна она для создания множества предметов и механизмов."
+				"{er.7e3090efc42aff50.quests80.description1}"
 			]
 			dependencies: ["699B35A1D9837463"]
 			id: "6C968A88DA54A7F4"
@@ -1225,7 +1225,7 @@
 		{
 			x: 2.0d
 			y: -5.0d
-			description: ["Камера растворения - механизм, благодаря которому Вы сможете создавать новые полезные предметы."]
+			description: ["{er.7e3090efc42aff50.quests81.description0}"]
 			dependencies: ["373C6C2AB651DEF0"]
 			id: "5919A258640F6B57"
 			tasks: [{
@@ -1237,7 +1237,7 @@
 		{
 			x: 3.5d
 			y: -2.5d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests82.description0}"]
 			dependencies: ["373C6C2AB651DEF0"]
 			id: "2832D49C9A7498EC"
 			tasks: [{
@@ -1249,7 +1249,7 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests83.description0}"]
 			dependencies: ["373C6C2AB651DEF0"]
 			id: "5EFA6BFD86765C24"
 			tasks: [{
@@ -1261,7 +1261,7 @@
 		{
 			x: -0.5d
 			y: -7.5d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests84.description0}"]
 			dependencies: ["7C0836EB00D686D8"]
 			id: "236BA3484C2F2423"
 			tasks: [{
@@ -1273,7 +1273,7 @@
 		{
 			x: -0.5d
 			y: -6.5d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests85.description0}"]
 			dependencies: ["7C0836EB00D686D8"]
 			id: "0659E895C8AD0D58"
 			tasks: [{
@@ -1285,7 +1285,7 @@
 		{
 			x: 3.5d
 			y: -8.5d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests86.description0}"]
 			dependencies: ["2CAAA831CF84D533"]
 			id: "7A86901EFEC2DD91"
 			tasks: [{
@@ -1297,7 +1297,7 @@
 		{
 			x: 0.5d
 			y: -8.5d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests87.description0}"]
 			dependencies: ["2CAAA831CF84D533"]
 			hide_text_until_complete: false
 			id: "11F9070E55AD3DBD"
@@ -1310,7 +1310,7 @@
 		{
 			x: 3.5d
 			y: -13.0d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests88.description0}"]
 			dependencies: ["6C968A88DA54A7F4"]
 			id: "4FDE84A344AA60C2"
 			tasks: [{
@@ -1322,7 +1322,7 @@
 		{
 			x: 1.5d
 			y: -14.0d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests89.description0}"]
 			dependencies: ["6C968A88DA54A7F4"]
 			id: "31E99154C7DCD6AC"
 			tasks: [{
@@ -1332,10 +1332,10 @@
 			}]
 		}
 		{
-			title: "Чёрная дыра"
+			title: "{er.7e3090efc42aff50.quests90.title}"
 			x: 2.5d
 			y: -14.0d
-			description: ["Механизмы, которые помогут Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests90.description0}"]
 			dependencies: ["6C968A88DA54A7F4"]
 			id: "0DE75B4E2EC63590"
 			tasks: [
@@ -1354,7 +1354,7 @@
 		{
 			x: 0.5d
 			y: -13.0d
-			description: ["Механизм, который поможет Вам автоматизировать и улучшить свою базу!"]
+			description: ["{er.7e3090efc42aff50.quests91.description0}"]
 			dependencies: ["6C968A88DA54A7F4"]
 			id: "2E1F760440C3D0B7"
 			tasks: [{
@@ -1364,21 +1364,21 @@
 			}]
 		}
 		{
-			title: "Прикладная эпоха"
+			title: "{er.7e3090efc42aff50.quests92.title}"
 			x: 2.5d
 			y: -1.5d
-			subtitle: "Новая стадия игры!"
+			subtitle: "{er.7e3090efc42aff50.quests92.subtitle}"
 			description: [
-				"Выполнив данный квест &o(нажав на галочку)&r, Вы откроете новую стадию - &6Прикладная эпоха&r!"
+				"{er.7e3090efc42aff50.quests92.description0}"
 				""
-				"Получение данной стадии откроет Вам большое количество новых предметов, блоков и прочее."
+				"{er.7e3090efc42aff50.quests92.description1}"
 			]
 			dependencies: ["62856F299F843C2A"]
 			id: "6B84A6F72430702F"
 			tasks: [{
 				id: "3E78EFA1E78FADB3"
 				type: "checkmark"
-				title: "Нажми на меня!"
+				title: "{er.7e3090efc42aff50.quests92.tasks0.title}"
 			}]
 			rewards: [{
 				id: "2FA433E6D8261C90"
