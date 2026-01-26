@@ -24,7 +24,9 @@ onEvent('recipes', event => {
     'byg:pendorite_shovel',
     'endrem:end_crystal_shovel',
 	'endrem:end_crystal_hoe', 'byg:pendorite_hoe', 'betterendforge:aeternium_hoe', 'betterendforge:thallasium_hoe', 'betterendforge:terminite_hoe',
-	'aquaculture:neptunium_hoe', 'atum:limestone_hoe'
+	'aquaculture:neptunium_hoe', 'atum:limestone_hoe',
+	'betterendforge:iron_hammer', 'betterendforge:golden_hammer', 'atum:nebu_hammer',
+	'luphieclutteredmod:luphie_general_store_cabinet', 'luphieclutteredmod:luphie_worn_dorado_cabinet'
   ]                                                                           
 
   itemsToRemove.forEach(item => {
