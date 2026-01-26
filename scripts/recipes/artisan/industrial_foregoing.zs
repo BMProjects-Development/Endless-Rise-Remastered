@@ -104,3 +104,16 @@ Recipe.type(Type.ENGINEER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:industrialforegoing:mob_slaughter_factory>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:industrialforegoing:mob_crusher>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<tag:items:forge:plastic>, <item:tconstruct:small_blade>.withTag({Material: "tconstruct:iron" as string}), <tag:items:forge:plastic>],
+    [<item:apotheosis:weapon_book>, <item:industrialforegoing:machine_frame_advanced>, <item:apotheosis:weapon_book>],
+    [<tag:items:forge:gears/gold>, <item:create:polished_rose_quartz>, <tag:items:forge:gears/gold>]])
+  .tool(<tag:items:artisantools:type/hammer>, 15)
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:industrialforegoing:mob_crusher>)
+  .register();
