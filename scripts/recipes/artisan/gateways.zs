@@ -8,7 +8,7 @@ Recipe.type(Type.MAGE)
     [<item:minecraft:air>, <tag:items:forge:pollen>, <item:minecraft:air>],
     [<tag:items:forge:pollen>, <item:minecraft:ender_pearl>, <tag:items:forge:pollen>],
     [<item:minecraft:air>, <tag:items:forge:pollen>, <item:minecraft:air>]])
-  .tool(<tag:items:artisantools:type/grimoire>, 5)
+  .tool(<tag:items:artisantools:type/grimoire>, 15)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:gateways:gate_pearl>.withTag({gateway: "gateways:from_bee_gate_small" as string}))
   .register();
