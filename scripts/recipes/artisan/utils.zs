@@ -14,3 +14,15 @@ Recipe.type(Type.ENGINEER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:rangedpumps:pump>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:rechiseled:chisel>);
+Recipe.type(Type.DESIGNER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>],
+    [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]])
+  .tool(<tag:items:artisantools:type/chisel>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:rechiseled:chisel>)
+  .register();

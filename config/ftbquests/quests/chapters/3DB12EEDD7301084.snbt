@@ -12,7 +12,11 @@
 			y: 0.0d
 			shape: "tech_smooth_square"
 			subtitle: "{er.3db12eedd7301084.quests0.subtitle}"
-			description: ["{er.3db12eedd7301084.quests0.description0}"]
+			description: [
+				"{er.3db12eedd7301084.quests0.description0}"
+				""
+				"{image:endless_rise:textures/background.png width:192 height:108 align:1}"
+			]
 			size: 1.3d
 			id: "4015F9A5ADB11078"
 			tasks: [{
@@ -41,7 +45,7 @@
 				title: "{er.3db12eedd7301084.quests1.tasks0.title}"
 			}]
 			rewards: [{
-				id: "267C67AC23BD8ABB"
+				id: "1EA0B155E09750AE"
 				type: "command"
 				auto: "invisible"
 				command: "/say Telegram - https://t.me/BMProjects Discord - https://discord.gg/9GWKBVw3Ty"

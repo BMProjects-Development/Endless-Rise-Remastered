@@ -29,15 +29,15 @@
 			x: -0.5d
 			y: -1.5d
 			shape: "tech_circle"
-			subtitle: "{er.71840908ca6989e1.quests1.subtitle}"
-			description: ["{er.71840908ca6989e1.quests3.description0}"]
+			subtitle: "{er.71840908ca6989e1.quests13.subtitle}"
+			description: ["{er.71840908ca6989e1.quests13.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "0D811557B1492FA9"
 			tasks: [{
 				id: "2932487E12151B37"
 				type: "checkmark"
-				title: "{er.71840908ca6989e1.quests3.tasks0.title}"
+				title: "{er.71840908ca6989e1.quests13.tasks0.title}"
 			}]
 		}
 		{
@@ -45,15 +45,15 @@
 			x: 1.5d
 			y: -0.5d
 			shape: "tech_circle"
-			subtitle: "{er.71840908ca6989e1.quests2.subtitle}"
-			description: ["{er.71840908ca6989e1.quests4.description0}"]
+			subtitle: "{er.71840908ca6989e1.quests14.subtitle}"
+			description: ["{er.71840908ca6989e1.quests14.description0}"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "0AC2DBC17F3860F2"
 			tasks: [{
 				id: "3FABC325E603D640"
 				type: "checkmark"
-				title: "{er.71840908ca6989e1.quests4.tasks0.title}"
+				title: "{er.71840908ca6989e1.quests14.tasks0.title}"
 			}]
 			rewards: [{
 				id: "157FB0ADDACC25A6"
