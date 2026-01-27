@@ -433,3 +433,32 @@ ItemStages.restrict(<item:immersiveengineering:jerrycan>, "immersiveengineering"
 ItemStages.restrict(<item:immersiveengineering:shader>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:skyhook>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:earmuffs>, "immersiveengineering");
+
+
+
+
+
+ItemStages.restrict(<item:immersivepetroleum:oil_bucket>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:diesel_bucket>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:diesel_sulfur_bucket>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:lubricant_bucket>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:gasoline_bucket>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:napalm_bucket>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:petcoke_block>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:asphalt>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:gas_generator>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:asphalt_slab>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:asphalt_stairs>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:auto_lubricator>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:flarestack>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:bitumen>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:oil_can>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:speedboat>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:petcoke>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:petcoke_dust>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:upgrade_reinforced_hull>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:upgrade_icebreaker>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:upgrade_tank>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:upgrade_rudders>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:upgrade_paddles>, "immersiveengineering");
+ItemStages.restrict(<item:immersivepetroleum:projector>, "immersiveengineering");
