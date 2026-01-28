@@ -95,8 +95,6 @@ ItemStages.restrict(<item:industrialforegoing:speed_addon_1>, "industrialforegoi
 ItemStages.restrict(<item:industrialforegoing:speed_addon_2>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:straw>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:tinydryrubber>, "industrialforegoing");
-ItemStages.restrict(<item:mifa:processing_addon_4>, "industrialforegoing");
-ItemStages.restrict(<item:mifa:processing_addon_3>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:block_placer>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:resourceful_furnace>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:fluid_collector>, "industrialforegoing");
@@ -129,10 +127,6 @@ ItemStages.restrict(<item:industrialforegoing:animal_baby_separator>, "industria
 ItemStages.restrict(<item:industrialforegoing:item_transporter_type>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:fluid_transporter_type>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:world_transporter_type>, "industrialforegoing");
-ItemStages.restrict(<item:mifa:efficiency_addon_3>, "industrialforegoing");
-ItemStages.restrict(<item:mifa:efficiency_addon_4>, "industrialforegoing");
-ItemStages.restrict(<item:mifa:speed_addon_3>, "industrialforegoing");
-ItemStages.restrict(<item:mifa:speed_addon_4>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:simple_black_hole_tank>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:supreme_black_hole_tank>, "industrialforegoing");
 ItemStages.restrict(<item:industrialforegoing:black_hole_controller>, "industrialforegoing");

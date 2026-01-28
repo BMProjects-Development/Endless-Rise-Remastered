@@ -159,8 +159,6 @@ ItemStages.restrict(<item:bygonenether:netherite_bell>, "nether");
 
 ItemStages.restrict(<tag:items:forge:ores/netherite_scrap>, "nether");
 
-ItemStages.restrict(<tag:items:forge:gears/netherite>, "nether");
-
 ItemStages.restrict(<tag:items:forge:furnaces/netherite>, "nether");
 
 ItemStages.restrict(<item:ironfurnaces:upgrade_netherite>, "nether");
