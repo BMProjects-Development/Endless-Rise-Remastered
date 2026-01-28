@@ -155,7 +155,6 @@ ItemStages.restrict(<item:immersiveengineering:hammer>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:he>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:heavy_engineering>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:hemp_fabric>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:hemp_fiber>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:hempcrete>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:herbicide_bucket>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:hoe_steel>, "immersiveengineering");
@@ -241,7 +240,6 @@ ItemStages.restrict(<item:immersiveengineering:sawblade>, "immersiveengineering"
 ItemStages.restrict(<item:immersiveengineering:sawdust>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:sawmill>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:screwdriver>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:seed>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:shader_bag_common>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:shader_bag_epic>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:shader_bag_ie_masterwork>, "immersiveengineering");
