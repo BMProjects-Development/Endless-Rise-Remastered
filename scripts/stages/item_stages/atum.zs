@@ -520,7 +520,6 @@ ItemStages.restrict(<item:atum:fertile_soil>, "atum");
 ItemStages.restrict(<item:atum:fertile_soil_tilled>, "atum");
 ItemStages.restrict(<item:atum:fertile_soil_path>, "atum");
 ItemStages.restrict(<item:atum:strange_sand_path>, "atum");
-ItemStages.restrict(<item:atum:quern>, "atum");
 ItemStages.restrict(<item:atum:spinning_wheel>, "atum");
 ItemStages.restrict(<item:atum:kiln>, "atum");
 ItemStages.restrict(<item:atum:godforge>, "atum");
