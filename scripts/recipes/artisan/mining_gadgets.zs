@@ -245,3 +245,63 @@ Recipe.type(Type.ENGINEER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:mininggadgets:upgrade_fortune_3>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:mininggadgets:upgrade_efficiency_1>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:minecraft:redstone>, <item:mininggadgets:upgrade_empty>, <item:minecraft:redstone>],
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]])
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:mininggadgets:upgrade_efficiency_1>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:mininggadgets:upgrade_efficiency_2>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:minecraft:redstone>, <item:minecraft:redstone_block>, <item:minecraft:redstone>],
+    [<item:minecraft:redstone>, <item:mininggadgets:upgrade_efficiency_1>, <item:minecraft:redstone>],
+    [<item:minecraft:redstone>, <item:minecraft:redstone_block>, <item:minecraft:redstone>]])
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:mininggadgets:upgrade_efficiency_2>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:mininggadgets:upgrade_efficiency_3>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:minecraft:redstone>, <item:minecraft:redstone_block>, <item:minecraft:redstone>],
+    [<item:minecraft:redstone_block>, <item:mininggadgets:upgrade_efficiency_2>, <item:minecraft:redstone_block>],
+    [<item:minecraft:redstone>, <item:minecraft:redstone_block>, <item:minecraft:redstone>]])
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:mininggadgets:upgrade_efficiency_3>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:mininggadgets:upgrade_efficiency_4>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:minecraft:redstone_block>, <item:minecraft:redstone>, <item:minecraft:redstone_block>],
+    [<item:minecraft:redstone_block>, <item:mininggadgets:upgrade_efficiency_3>, <item:minecraft:redstone_block>],
+    [<item:minecraft:redstone_block>, <item:minecraft:redstone>, <item:minecraft:redstone_block>]])
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:mininggadgets:upgrade_efficiency_4>)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:mininggadgets:upgrade_efficiency_5>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:minecraft:redstone_block>, <item:minecraft:redstone_block>, <item:minecraft:redstone_block>],
+    [<item:minecraft:redstone_block>, <item:mininggadgets:upgrade_efficiency_4>, <item:minecraft:redstone_block>],
+    [<item:minecraft:redstone_block>, <item:minecraft:redstone_block>, <item:minecraft:redstone_block>]])
+  .tool(<tag:items:artisantools:type/pliers>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:mininggadgets:upgrade_efficiency_5>)
+  .register();
