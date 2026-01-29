@@ -171,9 +171,24 @@
 			x: -3.5d
 			y: 0.0d
 			shape: "tech_smooth_square"
-			description: ["{er.57d608a24de940da.quests9.description0}"]
+			description: [
+				"{er.57d608a24de940da.quests9.description0}"
+				""
+				"{er.57d608a24de940da.quests9.description1}"
+				"{er.57d608a24de940da.quests9.description2}"
+				"{er.57d608a24de940da.quests9.description3}"
+				"{er.57d608a24de940da.quests9.description4}"
+				"{er.57d608a24de940da.quests9.description5}"
+				"{er.57d608a24de940da.quests9.description6}"
+				"{er.57d608a24de940da.quests9.description7}"
+				"{er.57d608a24de940da.quests9.description8}"
+				"{er.57d608a24de940da.quests9.description9}"
+				"{er.57d608a24de940da.quests9.description10}"
+				"{er.57d608a24de940da.quests9.description11}"
+			]
 			dependencies: ["5807AA78E1578DDF"]
 			size: 1.2d
+			min_required_tasks: 1
 			id: "5A4E2FDAE9E6BDB5"
 			tasks: [
 				{
