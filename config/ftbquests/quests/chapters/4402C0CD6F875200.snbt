@@ -125,10 +125,10 @@
 			dependencies: ["77E59CDF780113E6"]
 			id: "0CB34097439D4C81"
 			tasks: [{
-				id: "3EEBC6AF4BCC7F99"
+				id: "6ADB71487BBF9487"
 				type: "item"
-				item: "immersiveengineering:ingot_steel"
-				count: 10L
+				item: "mekanism:ingot_steel"
+				count: 4L
 			}]
 		}
 		{
