@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:apple"
+  },
+  "output": {
+    "item": "burningfurnace:dry_apple",
+    "count": 1
+  }
+}

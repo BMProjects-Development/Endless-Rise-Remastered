@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:carrot"
+  },
+  "output": {
+    "item": "burningfurnace:dry_carrot",
+    "count": 1
+  }
+}

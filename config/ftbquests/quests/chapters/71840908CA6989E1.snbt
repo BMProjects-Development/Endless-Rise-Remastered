@@ -70,7 +70,6 @@
 				""
 				"{er.71840908ca6989e1.quests3.description1}"
 				"{er.71840908ca6989e1.quests3.description2}"
-				"{er.71840908ca6989e1.quests3.description3}"
 				"{er.71840908ca6989e1.quests3.description4}"
 				"{er.71840908ca6989e1.quests3.description5}"
 				"{er.71840908ca6989e1.quests3.description6}"
@@ -147,7 +146,15 @@
 			y: 3.0d
 			shape: "tech_square"
 			subtitle: "{er.71840908ca6989e1.quests7.subtitle}"
-			description: ["{er.71840908ca6989e1.quests7.description0}"]
+			description: [
+				"{er.71840908ca6989e1.quests7.description0}"
+				""
+				"{er.71840908ca6989e1.quests7.description1}"
+				""
+				"{er.71840908ca6989e1.quests7.description2}"
+				""
+				"{er.71840908ca6989e1.quests7.description3}"
+			]
 			hide_dependency_lines: true
 			dependencies: ["207D5D4DC9F02D96"]
 			id: "3FF34529D1C9CCBE"

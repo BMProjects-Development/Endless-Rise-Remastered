@@ -315,5 +315,101 @@
       "effects": [],
       "nbt": {}
     }
+  ],
+  "ends_delight:chorus_fruit_wine": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "ends_delight:chorus_fruit_milk_tea": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "ends_delight:bubble_tea": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "ends_delight:dragon_breath_soda": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "ends_delight:chorus_flower_tea": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:milk_bottle": [
+    {
+      "hydration": 4,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:apple_cider": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "farmersdelight:melon_juice": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "abnormals_delight:pickerelweed_juice": [
+    {
+      "hydration": 8,
+      "saturation": 4.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "byg:green_apple": [
+    {
+      "hydration": 2,
+      "saturation": 0.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "buzzier_bees:honey_apple": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
+  ],
+  "create:honeyed_apple": [
+    {
+      "hydration": 4,
+      "saturation": 2.0,
+      "effects": [],
+      "nbt": {}
+    }
   ]
 }

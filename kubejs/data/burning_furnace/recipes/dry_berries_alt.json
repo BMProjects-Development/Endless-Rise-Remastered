@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:sweet_berries"
+  },
+  "output": {
+    "item": "burningfurnace:dry_berries",
+    "count": 1
+  }
+}

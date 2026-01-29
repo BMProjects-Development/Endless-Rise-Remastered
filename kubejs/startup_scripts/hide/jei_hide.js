@@ -162,7 +162,11 @@ const HIDDEN = [
    'minecraft:wooden_hoe', 'minecraft:stone_hoe', 'minecraft:golden_hoe', 'minecraft:diamond_hoe', 'minecraft:netherite_hoe', 'endrem:end_crystal_hoe', 'byg:pendorite_hoe', 'betterendforge:aeternium_hoe', 'betterendforge:thallasium_hoe', 'betterendforge:terminite_hoe',
    'aquaculture:neptunium_hoe', 'atum:limestone_hoe', 'minecraft:golden_sword',
    'betterendforge:iron_hammer', 'betterendforge:golden_hammer', 'atum:nebu_hammer',
-   'luphieclutteredmod:luphie_general_store_cabinet', 'luphieclutteredmod:luphie_worn_dorado_cabinet'
+   'luphieclutteredmod:luphie_general_store_cabinet', 'luphieclutteredmod:luphie_worn_dorado_cabinet',
+   
+   'notreepunching:clay_brick',
+   'notreepunching:fire_starter',
+   'charcoal_pit:fire_starter'
 ]
 
 onEvent('jei.hide.items', event => {

@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:melon_slice"
+  },
+  "output": {
+    "item": "burningfurnace:dry_melon",
+    "count": 1
+  }
+}

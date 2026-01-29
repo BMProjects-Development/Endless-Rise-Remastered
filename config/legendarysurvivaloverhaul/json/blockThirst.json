@@ -9,13 +9,13 @@
   ],
   "minecraft:water": [
     {
-      "hydration": 3,
+      "hydration": 4,
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.25,
           "effect": "legendarysurvivaloverhaul:thirst",
-          "duration": 300,
+          "duration": 200,
           "amplifier": 0
         }
       ],
@@ -24,13 +24,13 @@
   ],
   "minecraft:flowing_water": [
     {
-      "hydration": 3,
+      "hydration": 4,
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.25,
           "effect": "legendarysurvivaloverhaul:thirst",
-          "duration": 300,
+          "duration": 200,
           "amplifier": 0
         }
       ],
@@ -39,13 +39,13 @@
   ],
   "minecraft:cauldron": [
     {
-      "hydration": 3,
+      "hydration": 4,
       "saturation": 0.0,
       "effects": [
         {
-          "chance": 0.75,
+          "chance": 0.25,
           "effect": "legendarysurvivaloverhaul:thirst",
-          "duration": 300,
+          "duration": 200,
           "amplifier": 0
         }
       ],

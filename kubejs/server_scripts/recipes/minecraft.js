@@ -36,6 +36,11 @@ onEvent('recipes', event => {
  
  
   event.shapeless('minecraft:wooden_hoe', ['#forge:string', '#forge:rods/wooden', '#forge:rods/wooden'])
+  
+  
+  event.smelting('minecraft:charcoal', '#minecraft:logs')
+  
+  event.blasting('minecraft:charcoal', '#minecraft:logs')
 
   
 })

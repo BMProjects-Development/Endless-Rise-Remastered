@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:salmon"
+  },
+  "output": {
+    "item": "burningfurnace:dry_salmon",
+    "count": 1
+  }
+}

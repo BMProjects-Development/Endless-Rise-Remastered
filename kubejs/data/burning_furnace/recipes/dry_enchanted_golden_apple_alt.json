@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "output": {
+    "item": "burningfurnace:dry_enchanted_golden_apple",
+    "count": 1
+  }
+}

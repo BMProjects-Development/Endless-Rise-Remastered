@@ -310,7 +310,7 @@
 	# How many thirst exhaustion will be added every 50 ticks when the player suffers from not amplified Thirst Effect.
 	# The player will suffer Thirst Effect from dirty water for example.
 	#Range: 0.0 ~ 1000.0
-	"Thirst Effect Modifier" = 0.15
+	"Thirst Effect Modifier" = 0.1
 
 	[thirst.exhaustion]
 		# Thirst exhausted every 10 ticks.
@@ -332,10 +332,10 @@
 	[thirst.canteen]
 		# Capacity of the canteen used to store water.
 		#Range: 0 ~ 1000
-		"Canteen Capacity" = 10
+		"Canteen Capacity" = 20
 		# Capacity of the large canteen used to store water.
 		#Range: 0 ~ 1000
-		"Large Canteen Capacity" = 20
+		"Large Canteen Capacity" = 40
 		# Allow override of purified water stored in canteen with normal water.
 		"Allow Override Purified Water" = true
 

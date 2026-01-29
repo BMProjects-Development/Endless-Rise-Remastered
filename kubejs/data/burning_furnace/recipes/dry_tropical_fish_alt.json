@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:tropical_fish"
+  },
+  "output": {
+    "item": "burningfurnace:dry_tropical_fish",
+    "count": 1
+  }
+}
