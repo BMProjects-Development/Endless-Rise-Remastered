@@ -213,17 +213,6 @@ ItemStages.restrict(<item:immersiveengineering:ore_silver>, "immersiveengineerin
 ItemStages.restrict(<item:immersiveengineering:ore_uranium>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:pickaxe_steel>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:plantoil_bucket>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_aluminum>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_constantan>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_copper>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_electrum>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_gold>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_iron>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_lead>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_nickel>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_silver>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_steel>, "immersiveengineering");
-ItemStages.restrict(<item:immersiveengineering:plate_uranium>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:potion>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:potion_bucket>, "immersiveengineering");
 ItemStages.restrict(<item:immersiveengineering:radiator>, "immersiveengineering");

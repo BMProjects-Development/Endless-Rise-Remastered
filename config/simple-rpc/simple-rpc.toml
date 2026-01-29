@@ -34,6 +34,10 @@
 	[[init.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[init.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Main Menu event
 [main_menu]
@@ -56,6 +60,10 @@
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 
+	[[main_menu.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
+
 #The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
@@ -76,6 +84,10 @@
 	[[server_list.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[server_list.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Realms Screen event
 [realms_list]
@@ -97,6 +109,10 @@
 	[[realms_list.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[realms_list.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Join Game Event
 [join_game]
@@ -118,6 +134,10 @@
 	[[join_game.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[join_game.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Single Player Event
 [single_player]
@@ -139,6 +159,10 @@
 	[[single_player.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[single_player.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Multi Player Event
 [multi_player]
@@ -160,6 +184,10 @@
 	[[multi_player.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[multi_player.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Realms Game Event
 [realms]
@@ -181,6 +209,10 @@
 	[[realms.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[realms.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #Fallback event for disabled events
 [generic]
@@ -200,6 +232,10 @@
 	[[generic.buttons]]
 		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
+		
+	[[generic.buttons]]
+		label = "CurseForge"
+		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #Custom Config Variables that you can use
 [custom]
@@ -231,8 +267,12 @@
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-		label = "BMProjects"
-		url = "https://discord.gg/9GWKBVw3Ty"
+			label = "BMProjects"
+			url = "https://discord.gg/9GWKBVw3Ty"
+		
+		[[dimension_overrides.dimensions.buttons]]
+			label = "CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -251,8 +291,12 @@
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-		label = "BMProjects"
-		url = "https://discord.gg/9GWKBVw3Ty"
+			label = "BMProjects"
+			url = "https://discord.gg/9GWKBVw3Ty"
+		
+		[[dimension_overrides.dimensions.buttons]]
+			label = "CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -271,6 +315,10 @@
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-		label = "BMProjects"
-		url = "https://discord.gg/9GWKBVw3Ty"
+			label = "BMProjects"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[dimension_overrides.dimensions.buttons]]
+			label = "CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
