@@ -64,3 +64,16 @@ Recipe.type(Type.ENGINEER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:immersiveengineering:windmill>)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:immersiveengineering:steel_fence>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>],
+    [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>]])
+  .tool(<tag:items:artisantools:type/hammer>, 15)
+  .tool(<tag:items:artisantools:type/spanner>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:immersiveengineering:steel_fence> * 3)
+  .register();
