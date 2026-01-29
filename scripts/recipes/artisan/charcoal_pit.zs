@@ -19,7 +19,7 @@ craftingTable.removeRecipe(<item:charcoal_pit:unfired_brick>);
 Recipe.type(Type.POTTER)
   .shaped([
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:air>],
+    [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
   .tool(<item:notreepunching:clay_tool>, 2)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
