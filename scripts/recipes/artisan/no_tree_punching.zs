@@ -37,22 +37,13 @@ Recipe.type(Type.BASIC)
   
   
 craftingTable.removeRecipe(<item:notreepunching:clay_brick>);
-Recipe.type(Type.POTTER)
-  .shaped([
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]])
-  .tool(<item:notreepunching:clay_tool>, 2)
-  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
-  .output(<item:notreepunching:clay_brick> * 2)
-  .register();
   
   
 Recipe.type(Type.POTTER)
   .shaped([
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:clay_ball>, <item:minecraft:air>, <item:minecraft:clay_ball>],
-    [<item:minecraft:air>, <item:minecraft:clay_ball>, <item:minecraft:air>]])
+    [<item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>]])
   .tool(<item:notreepunching:clay_tool>, 5)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:notreepunching:clay_flower_pot>)
