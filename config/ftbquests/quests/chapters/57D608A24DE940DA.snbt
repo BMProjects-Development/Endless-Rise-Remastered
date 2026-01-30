@@ -301,6 +301,28 @@
 						}
 					}
 				}
+				{
+					id: "36E6947A5ED86361"
+					type: "item"
+					item: {
+						id: "endrem:end_crystal_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6273821EB129DB94"
+					type: "item"
+					item: {
+						id: "endrem:witch_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
