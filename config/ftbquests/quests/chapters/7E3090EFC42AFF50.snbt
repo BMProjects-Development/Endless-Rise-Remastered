@@ -1050,6 +1050,7 @@
 				"{er.7e3090efc42aff50.quests70.description1}"
 			]
 			dependencies: ["7B4DED00639AB381"]
+			hide: true
 			id: "373C6C2AB651DEF0"
 			tasks: [{
 				id: "13BF0D44AB7F7D52"

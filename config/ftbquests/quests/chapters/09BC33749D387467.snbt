@@ -260,6 +260,7 @@
 				"6A29C90242D9CBC8"
 				"7007EB833169459C"
 			]
+			hide: true
 			size: 1.2d
 			id: "4EBFB6F86A201036"
 			tasks: [
@@ -375,6 +376,7 @@
 			y: -2.0d
 			description: ["{er.09bc33749d387467.quests16.description0}"]
 			dependencies: ["6E62A29B69EC18E1"]
+			hide: true
 			size: 0.95d
 			id: "08D541875A03DFFD"
 			tasks: [{
@@ -438,6 +440,7 @@
 			y: 0.0d
 			description: ["{er.09bc33749d387467.quests19.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
+			hide: true
 			id: "7E50B0D00134778F"
 			tasks: [{
 				id: "7E2899B13AF3E999"
@@ -535,6 +538,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests25.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
+			hide: true
 			optional: true
 			id: "7455E4A62CD8E5E9"
 			tasks: [{
@@ -548,6 +552,7 @@
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests26.description0}"]
 			dependencies: ["7B854E2A39C6594B"]
+			hide: true
 			optional: true
 			id: "098811FF1C8C0952"
 			tasks: [{
@@ -855,6 +860,7 @@
 				"{er.09bc33749d387467.quests41.description1}"
 			]
 			dependencies: ["7B854E2A39C6594B"]
+			hide: true
 			id: "63045AEFFE6135FD"
 			tasks: [
 				{
@@ -916,6 +922,7 @@
 				"{er.09bc33749d387467.quests44.description1}"
 			]
 			dependencies: ["7B854E2A39C6594B"]
+			hide: true
 			id: "239DA0ED7B6E6E9E"
 			tasks: [
 				{
@@ -990,6 +997,7 @@
 				"{er.09bc33749d387467.quests48.description1}"
 			]
 			dependencies: ["7B854E2A39C6594B"]
+			hide: true
 			size: 1.3d
 			id: "7F6F9186F2AB5326"
 			tasks: [{

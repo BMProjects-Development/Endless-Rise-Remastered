@@ -612,6 +612,7 @@
 			y: 4.5d
 			description: ["{er.79806ce493974743.quests40.description0}"]
 			dependencies: ["32741DB060A0342C"]
+			hide: true
 			id: "2997A409CF73DC0D"
 			tasks: [
 				{
@@ -710,6 +711,7 @@
 			y: 0.0d
 			description: ["{er.79806ce493974743.quests45.description0}"]
 			dependencies: ["168C2024771F640D"]
+			hide: true
 			id: "0DB51D377E2814CA"
 			tasks: [
 				{

@@ -45,6 +45,12 @@ ItemStages.restrict(<item:minecraft:golden_hoe>, "forbidden");
 
 ItemStages.restrict(<item:minecraft:diamond_sword>, "forbidden");
 
+ItemStages.restrict(<item:minecraft:diamond_axe>, "forbidden");
+
+ItemStages.restrict(<item:minecraft:diamond_pickaxe>, "forbidden");
+
+ItemStages.restrict(<item:minecraft:diamond_shovel>, "forbidden");
+
 ItemStages.restrict(<item:minecraft:diamond_hoe>, "forbidden");
 
 ItemStages.restrict(<item:minecraft:netherite_pickaxe>, "forbidden");
@@ -52,6 +58,8 @@ ItemStages.restrict(<item:minecraft:netherite_pickaxe>, "forbidden");
 ItemStages.restrict(<item:minecraft:netherite_axe>, "forbidden");
 
 ItemStages.restrict(<item:minecraft:netherite_hoe>, "forbidden");
+
+ItemStages.restrict(<item:minecraft:netherite_sword>, "forbidden");
 
 ItemStages.restrict(<item:appliedenergistics2:certus_quartz_sword>, "forbidden");
 
@@ -126,7 +134,3 @@ ItemStages.restrict(<item:betterendforge:iron_hammer>, "forbidden");
 ItemStages.restrict(<item:betterendforge:golden_hammer>, "forbidden");
 
 ItemStages.restrict(<item:atum:nebu_hammer>, "forbidden");
-
-ItemStages.restrict(<item:luphieclutteredmod:luphie_general_store_cabinet>, "forbidden");
-
-ItemStages.restrict(<item:luphieclutteredmod:luphie_worn_dorado_cabinet>, "forbidden");

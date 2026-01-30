@@ -13,6 +13,7 @@
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests0.description0}"]
 			dependencies: ["48217EC3294DAFC3"]
+			hide: true
 			size: 1.2d
 			id: "1618941433039F79"
 			tasks: [{
@@ -755,6 +756,7 @@
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests42.description0}"]
 			dependencies: ["1D93899CFFCF5589"]
+			hide: true
 			id: "4969DAD337FCABE1"
 			tasks: [{
 				id: "0CB26D49333F93C8"
@@ -1122,6 +1124,7 @@
 				"{er.61c23a1a1b8933b6.quests64.description1}"
 			]
 			dependencies: ["4064A1996ED9F59C"]
+			hide: true
 			id: "172F8DEC670AAEDC"
 			tasks: [{
 				id: "7782D5772CB04FC5"
@@ -1139,6 +1142,7 @@
 				"{er.61c23a1a1b8933b6.quests65.description1}"
 			]
 			dependencies: ["62CB3EBB76D050B3"]
+			hide: true
 			id: "64BDE97489C13204"
 			tasks: [{
 				id: "25BBA4B974ABC5D9"
