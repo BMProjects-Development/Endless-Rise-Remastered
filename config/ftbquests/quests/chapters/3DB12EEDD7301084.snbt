@@ -6,6 +6,56 @@
 	title: "{er.3db12eedd7301084.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.5d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/telegram.png"
+			hover: ["Telegram"]
+			click: "https://t.me/BMProjects"
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/discord.png"
+			hover: ["Discord"]
+			click: "https://discord.gg/9GWKBVw3Ty"
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/boosty.png"
+			hover: ["Boosty"]
+			click: "https://boosty.to/barmaxx"
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/github.png"
+			hover: ["GitHub"]
+			click: "https://github.com/BMProjects-Development"
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: 0.0d
