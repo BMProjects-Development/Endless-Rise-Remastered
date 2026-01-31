@@ -1,6 +1,5 @@
 <div align="center">
-<img width="1920" height="1009" alt="ERR" src="https://github.com/user-attachments/assets/3b60ab2d-bfcb-44dc-9bad-2a33d8b0af3f" />
-
+<img width="1920" height="1080" alt="Endless Rise Cover" src="https://github.com/user-attachments/assets/ee9f523d-b588-4e82-88e0-2d1e603b7e72" />
 
 <p>
   <a href="https://github.com/BMProjects-Development/Endless-Rise-Remastered/commits/"><img src="https://img.shields.io/github/commit-activity/t/BMProjects-Development/Endless-Rise-Remastered?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
