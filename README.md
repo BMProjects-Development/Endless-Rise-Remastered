@@ -1,25 +1,40 @@
 <div align="center">
-<img width="1280" height="720" alt="photo_2026-01-05_18-50-50" src="https://github.com/user-attachments/assets/bf46b94e-f145-4214-9835-bdee61bf1dab" />
+<img width="1920" height="1009" alt="ERR" src="https://github.com/user-attachments/assets/3b60ab2d-bfcb-44dc-9bad-2a33d8b0af3f" />
+
 
 <p>
-  <a href="https://github.com/BMProjects-Development/Endless-Rise/commits/"><img src="https://img.shields.io/github/commit-activity/t/BMProjects-Development/Endless-Rise?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
-  <a href="https://github.com/BMProjects-Development/Endless-Rise/stargazers"><img src="https://img.shields.io/github/stars/BMProjects-Development/Endless-Rise.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
-  <a href="https://github.com/BMProjects-Development/Endless-Rise/graphs/contributors"><img src="https://img.shields.io/github/contributors/BMProjects-Development/Endless-Rise.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Contributors"></a>
+  <a href="https://github.com/BMProjects-Development/Endless-Rise-Remastered/commits/"><img src="https://img.shields.io/github/commit-activity/t/BMProjects-Development/Endless-Rise-Remastered?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/Endless-Rise-Remastered/stargazers"><img src="https://img.shields.io/github/stars/BMProjects-Development/Endless-Rise-Remastered.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/Endless-Rise-Remastered/graphs/contributors"><img src="https://img.shields.io/github/contributors/BMProjects-Development/Endless-Rise-Remastered.svg?style=for-the-badge&labelColor=f1c232&color=bf9000" alt="Contributors"></a>
   <a href="https://discord.gg/9GWKBVw3Ty"><img src="https://img.shields.io/discord/1087416155934834748?style=for-the-badge&label=Discord&logo=discord&logoColor=d9e0ee&labelColor=f1c232&color=bf9000" alt="Discord"></a>
 </p>
 
-# 🌠 $${\color{yellow}{Endless \space Rise}}$$
-Endless Rise - is a modpack in which you will plunge into progress. You have to go through many epochs to reach Space! Travel through the worlds, study artifacts, build various mechanisms and farms. All mods are linked by new crafts and quests. We hope that you will enjoy it and you will get only positive emotions from the passage! <br/>
+# 🌠 $${\color{yellow}{Endless \space Rise: \space Remastered}}$$
+<b>Endless Rise: Remastered</b> is a massive reimagining of the popular modpack by its original developers at BMProjects. In this modpack, you will immerse yourself in a true path of evolution. You are set to progress through 18 game stages: starting from gathering sticks and stones, developing complex machinery, and exploring various dimensions, you will eventually reach the goal of building your very own spacecraft! <b>Endless Rise: Remastered</b> features 290+ mods seamlessly woven into a single progression through 500+ quests, 750+ modified recipes, and custom items. <br/>
 
 ## 🔆 $${\color{yellow}{Features}}$$
-▫️Many quests <br/>
-▫️Changed recipes <br/>
-▫️Unique main menu <br/>
-▫️Custom items <br/>
-▫️Game stages <br/>
-▫️Custom textures <br/>
-▫️Good optimization <br/>
-▫️and more!
+### <b>Progression and Balance</b>
+- <b>Development Stages</b>: The modpack is divided into 18 distinct game stages, each unlocking more items, blocks, and even new dimensions!
+
+- <b>Modified Recipes</b>: More than 750 recipes have been changed to ensure all 290+ mods are interconnected into a single, logical progression chain.
+
+- <b>Quests</b>: Over 500 quests have been added to guide you through every stage of the game and explain all the unique mechanics.
+
+### <b>Custom Content</b>
+- <b>New Textures, Menu, and Music</b>: We created our own resource pack, Endless Rise Textures, which rethemes the game to match the modpack's style. It also includes 9 custom music tracks and a completely redesigned main menu!
+
+- <b>Custom Items</b>: Exclusive custom items have been added to the modpack to enable more logical and balanced crafting recipes.
+
+- <b>Immersive Atmosphere</b>: We’ve integrated specific mods and resource packs that enhance the game's ambiance with new sounds, visual effects, and more.
+
+### <b>Miscellaneous</b>
+- <b>Various Mechanics</b>: A wide variety of new mechanics have been added—ranging from summoning your own horse in the early game to piloting planes and ships for fast travel across the world!
+
+- <b>Config Fine-tuning</b>: A massive number of configuration files have been manually adjusted to ensure the modpack works exactly as intended.
+
+- <b>Optimization</b>: Literally every essential optimization mod has been included, allowing for a smooth experience even on low-end PCs.
+
+
 
 # 🎞️ $${\color{yellow}{Trailer}}$$
 [YouTube](https://youtu.be/IDgItyj6tPI)
@@ -31,7 +46,8 @@ Endless Rise - is a modpack in which you will plunge into progress. You have to 
 
 # 📝 $${\color{yellow}{Contacts}}$$
 [Telegram](https://t.me/BMProjects) <br/>
-[Discord](https://discord.gg/9GWKBVw3Ty)
+[Discord](https://discord.gg/9GWKBVw3Ty) <br/>
+[Boosty](https://boosty.to/barmaxx)
 
 # 🛎️ $${\color{yellow}{Other \space links}}$$
 [Gallery](https://www.curseforge.com/minecraft/modpacks/endless-rise/gallery) <br/>
