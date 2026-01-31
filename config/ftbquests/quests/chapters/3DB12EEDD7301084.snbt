@@ -86,7 +86,11 @@
 			y: -1.5d
 			shape: "tech_smooth_square"
 			subtitle: "{er.3db12eedd7301084.quests1.subtitle}"
-			description: ["{er.3db12eedd7301084.quests1.description0}"]
+			description: [
+				"{er.3db12eedd7301084.quests1.description0}"
+				""
+				"{image:endless_rise:textures/background_loading.png width:192 height:108 align:1}"
+			]
 			dependencies: ["4015F9A5ADB11078"]
 			id: "241F9AF7B1E9356C"
 			tasks: [{
