@@ -287,13 +287,6 @@
 					rightclick: false
 				}
 			]
-			rewards: [{
-				id: "023898FB9C5E1C6B"
-				type: "command"
-				auto: "invisible"
-				command: "/gamestage add @a iron_age false"
-				player_command: false
-			}]
 		}
 		{
 			title: "{er.09bc33749d387467.quests12.title}"

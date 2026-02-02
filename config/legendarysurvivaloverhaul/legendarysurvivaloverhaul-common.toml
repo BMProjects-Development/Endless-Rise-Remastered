@@ -2,18 +2,18 @@
 # Options related to enabling/disabling specific features
 # See the json folder to customize the temperature of specific blocks, liquids, items, as well as thirst and healing features.
 [core]
+	# Whether the temperature system is enabled.
+	"Temperature Enabled" = true
+	# Whether the thirst system is enabled.
+	"Thirst Enabled" = true
+	# Whether heart fruits are functional and generate in-world.
+	"Heart Fruits Enabled" = true
+	# Whether body members receive localized damages.
+	"Localized Body Damage Enabled" = true
 	# If enabled, information like position and direction will be hidden from the debug screen (F3).
 	"Hide Info From Debug" = true
 	# If enabled, the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 	"Natural Regeneration Enabled" = false
-	# Whether body members receive localized damages.
-	"Localized Body Damage Enabled" = true
-	# Whether heart fruits are functional and generate in-world.
-	"Heart Fruits Enabled" = true
-	# Whether the thirst system is enabled.
-	"Thirst Enabled" = true
-	# Whether the temperature system is enabled.
-	"Temperature Enabled" = true
 
 	[core.advanced]
 		# How often player temperature is regularly synced between the client and server, in ticks.
@@ -36,24 +36,81 @@
 [temperature]
 	# If enabled, players will take damage from the effects of high temperature.
 	"Dangerous Heat Temperature Effects" = true
+	# If enabled, players will take damage from the effects of low temperature.
+	"Dangerous Cold Temperature Effects" = true
+	# Chance of the ferns to become a gold fern when grow mature.
+	#Range: 0.0 ~ 1.0
+	"Gold Fern Chance" = 0.01
+	# How much of an effect being on fire has on a player's temperature.
+	#Range: -1000.0 ~ 1000.0
+	"Player On Fire Modifier" = 12.5
+	# How much of an effect sprinting has on a player's temperature.
+	#Range: -1000.0 ~ 1000.0
+	"Player Sprint Modifier" = 1.5
 	# How much the effects of the player's altitude on temperature are multiplied starting at Y 64.
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	#Range: -1000.0 ~ 1000.0
 	"Altitude Modifier" = -3.0
-	# Chance of the ferns to become a gold fern when grow mature.
-	#Range: 0.0 ~ 1.0
-	"Gold Fern Chance" = 0.01
 	# If enabled, players will see particles on them when temperature resistance effect active.
 	# If disabled, players won't see particles but the potion color will turn black due to forge weird behavior.
 	"Show Temperature Potion Effect Particles" = true
-	# How much of an effect being on fire has on a player's temperature.
-	#Range: -1000.0 ~ 1000.0
-	"Player On Fire Modifier" = 12.5
-	# If enabled, players will take damage from the effects of low temperature.
-	"Dangerous Cold Temperature Effects" = true
-	# How much of an effect sprinting has on a player's temperature.
-	#Range: -1000.0 ~ 1000.0
-	"Player Sprint Modifier" = 1.5
+
+	[temperature.on-death]
+		# If enabled, players will be immune to temperature effects after death.
+		"Temperature Immunity On Death Enabled" = true
+		# Temperature immunity period in ticks while the player is immune to temperature effects after death.
+		#Range: 0 ~ 100000
+		"Temperature Immunity On Death Time" = 1800
+		# If enabled, players will be immune to temperature effects on first spawn in a world.
+		"Temperature Immunity On First Spawn Enabled" = true
+		# Temperature immunity period in ticks while the player is immune to temperature effects on first spawn.
+		#Range: 0 ~ 100000
+		"Temperature Immunity On First Spawn Time" = 1800
+
+	[temperature.secondary_effects]
+		# If enabled, players will also receive other effects from their current temperature state.
+		# If the player is too hot, hydration will deplete faster.
+		"Heat Temperature Secondary Effects" = true
+		# If enabled, players will also receive other effects from their current temperature state.
+		# If the player is too cold, hunger will deplete faster.
+		"Cold Temperature Secondary Effects" = true
+		# How much thirst exhaustion will be added every 50 ticks with no amplification effect, when the player suffers from heat.
+		#Range: 0.0 ~ 1000.0
+		"Heat Thirst Effect Modifier" = 0.1
+		# How much food exhaustion will be added every 50 ticks with no amplification effect, when the player suffers from frostbite.
+		# As reference, the hunger effect add 0.025 food exhaustion every 50 ticks.
+		#Range: 0.0 ~ 1000.0
+		"Cold Hunger Modifier" = 0.05
+
+	[temperature.wetness]
+		# Enable the wetness mechanic.
+		"Wetness Enabled" = true
+		# How much being wet influences the player's temperature.
+		#Range: -1000.0 ~ 1000.0
+		"Wetness Modifier" = -10.0
+		# How frequently the wetness is modified.
+		# By default, every 10 ticks, the wetness will either increase or decrease, based on the conditions.
+		#Range: 1 ~ 100000
+		"Wetness Tick Timer" = 10
+		# How much the wetness decrease when out of water, in case of dynamic wetness.
+		#Range: -1000 ~ 0
+		"Wetness Decrease" = -2
+		# How much the wetness increase when under rain, in case of dynamic wetness.
+		#Range: 0 ~ 1000
+		"Wetness Under Rain Increase" = 5
+		# How much the wetness increase when the player is in a fluid, scale by the amount of fluid in the block, in case of dynamic wetness.
+		# The defined value is for a full block of fluid, and goes up to 2 times this value when fully immerge.
+		#Range: 0 ~ 1000
+		"Wetness In Fluid Increase" = 10
+
+	[temperature.huddling]
+		# How much nearby players increase the ambient temperature by.
+		# Note that this value stacks!
+		#Range: -1000.0 ~ 1000.0
+		"Player Huddling Modifier" = 0.5
+		# The radius, in blocks, around which players will add to each other's temperature.
+		#Range: 0 ~ 10
+		"Player Huddling Radius" = 1
 
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
@@ -66,6 +123,59 @@
 		# 0 means no dryness effect; 0.5 means the biome temp will be divided by 2 at the middle of the night.
 		#Range: 0.0 ~ 1.0
 		"Biome's Dryness Multiplier" = 0.8
+
+	[temperature.weather]
+		# How much of an effect rain has on temperature.
+		#Range: -1000.0 ~ 1000.0
+		"Rain Temperature Modifier" = -2.0
+		# How much of an effect snow has on temperature.
+		#Range: -1000.0 ~ 1000.0
+		"Snow Temperature Modifier" = -6.0
+
+	[temperature.time]
+		# How much Time has effect on Temperature.
+		# Maximum effect at noon (positive) and midnight (negative), following a sinusoidal
+		#Range: 0.0 ~ Infinity
+		"Time Based Temperature Modifier" = 2.0
+		# How strongly time in extreme temperature biomes affect player's temperature.
+		# Extreme temperature biomes (like snowy taiga, deserts, ...) will multiply the time based temperature by this value, while temperate biome won't be affected by this value, following a linear.
+		#Range: 1.0 ~ Infinity
+		"Biome Time Multiplier" = 1.75
+		# Staying in the shade or during cloudy weather will reduce player's temperature by this amount based on time of the day (maximum effect at noon, following sinusoidal).
+		# Only effective in hot biomes and during day time!
+		#Range: -1000.0 ~ 1000.0
+		"Shade Time Modifier" = -6.0
+
+	# Temperature coat adds temperature effects on armors by using the sewing table.
+	# Adaptive means the coating will maintain the player's temperature temperate.
+	[temperature.coat]
+
+		# Add an adaptive heating effect on armors.
+		[temperature.coat.heating]
+			#Range: 0.0 ~ 1000.0
+			"Heating Coat I" = 2.0
+			#Range: 0.0 ~ 1000.0
+			"Heating Coat II" = 3.0
+			#Range: 0.0 ~ 1000.0
+			"Heating Coat III" = 4.0
+
+		# Add an adaptive cooling effect on armors.
+		[temperature.coat.cooling]
+			#Range: 0.0 ~ 1000.0
+			"Cooling Coat I" = 2.0
+			#Range: 0.0 ~ 1000.0
+			"Cooling Coat II" = 3.0
+			#Range: 0.0 ~ 1000.0
+			"Cooling Coat III" = 4.0
+
+		# Add an adaptive temperature effect on armors that can both heat and cool the player.
+		[temperature.coat.thermal]
+			#Range: 0.0 ~ 1000.0
+			"Thermal Coat I" = 2.0
+			#Range: 0.0 ~ 1000.0
+			"Thermal Coat II" = 3.0
+			#Range: 0.0 ~ 1000.0
+			"Thermal Coat III" = 4.0
 
 	[temperature.advanced]
 		# Maximum influence distance, in blocks, where thermal sources will have an effect on temperature.
@@ -86,217 +196,107 @@
 			# Amount of time in ticks between 2 player temperature modification. The bigger, the slower the temperature adjustments will occur.
 			#Range: > 5
 			"Temperature Tick Time" = 20
-			# Minimum amount of temperature the player's temperature can be modified at each temperature tick time.
-			# Correspond to the amount of temperature given when there is no temperature difference
-			#Range: 0.1 ~ 2.147483647E9
-			"Minimum Temperature Modification" = 0.2
 			# Maximum amount of temperature the player's temperature can be modified at each temperature tick time.
 			# Correspond to the amount of temperature given when temperature difference is maximum.
 			#Range: 0.1 ~ 2.147483647E9
 			"Maximum Temperature Modification" = 1.0
-
-	[temperature.wetness]
-		# How much being wet influences the player's temperature.
-		#Range: -1000.0 ~ 1000.0
-		"Wetness Modifier" = -10.0
-		# How much the wetness increase when the player is in a fluid, scale by the amount of fluid in the block, in case of dynamic wetness.
-		# The defined value is for a full block of fluid, and goes up to 2 times this value when fully immerge.
-		#Range: 0 ~ 1000
-		"Wetness In Fluid Increase" = 10
-		# Enable the wetness mechanic.
-		"Wetness Enabled" = true
-		# How much the wetness decrease when out of water, in case of dynamic wetness.
-		#Range: -1000 ~ 0
-		"Wetness Decrease" = -2
-		# How frequently the wetness is modified.
-		# By default, every 10 ticks, the wetness will either increase or decrease, based on the conditions.
-		#Range: 1 ~ 100000
-		"Wetness Tick Timer" = 10
-		# How much the wetness increase when under rain, in case of dynamic wetness.
-		#Range: 0 ~ 1000
-		"Wetness Under Rain Increase" = 5
-
-	[temperature.huddling]
-		# The radius, in blocks, around which players will add to each other's temperature.
-		#Range: 0 ~ 10
-		"Player Huddling Radius" = 1
-		# How much nearby players increase the ambient temperature by.
-		# Note that this value stacks!
-		#Range: -1000.0 ~ 1000.0
-		"Player Huddling Modifier" = 0.5
-
-	[temperature.on-death]
-		# Temperature immunity period in ticks while the player is immune to temperature effects on first spawn.
-		#Range: 0 ~ 100000
-		"Temperature Immunity On First Spawn Time" = 1800
-		# If enabled, players will be immune to temperature effects after death.
-		"Temperature Immunity On Death Enabled" = true
-		# Temperature immunity period in ticks while the player is immune to temperature effects after death.
-		#Range: 0 ~ 100000
-		"Temperature Immunity On Death Time" = 1800
-		# If enabled, players will be immune to temperature effects on first spawn in a world.
-		"Temperature Immunity On First Spawn Enabled" = true
-
-	# Temperature coat adds temperature effects on armors by using the sewing table.
-	# Adaptive means the coating will maintain the player's temperature temperate.
-	[temperature.coat]
-
-		# Add an adaptive cooling effect on armors.
-		[temperature.coat.cooling]
-			#Range: 0.0 ~ 1000.0
-			"Cooling Coat II" = 3.0
-			#Range: 0.0 ~ 1000.0
-			"Cooling Coat III" = 4.0
-			#Range: 0.0 ~ 1000.0
-			"Cooling Coat I" = 2.0
-
-		# Add an adaptive temperature effect on armors that can both heat and cool the player.
-		[temperature.coat.thermal]
-			#Range: 0.0 ~ 1000.0
-			"Thermal Coat I" = 2.0
-			#Range: 0.0 ~ 1000.0
-			"Thermal Coat III" = 4.0
-			#Range: 0.0 ~ 1000.0
-			"Thermal Coat II" = 3.0
-
-		# Add an adaptive heating effect on armors.
-		[temperature.coat.heating]
-			#Range: 0.0 ~ 1000.0
-			"Heating Coat III" = 4.0
-			#Range: 0.0 ~ 1000.0
-			"Heating Coat I" = 2.0
-			#Range: 0.0 ~ 1000.0
-			"Heating Coat II" = 3.0
-
-	[temperature.secondary_effects]
-		# If enabled, players will also receive other effects from their current temperature state.
-		# If the player is too cold, hunger will deplete faster.
-		"Cold Temperature Secondary Effects" = true
-		# How much food exhaustion will be added every 50 ticks with no amplification effect, when the player suffers from frostbite.
-		# As reference, the hunger effect add 0.025 food exhaustion every 50 ticks.
-		#Range: 0.0 ~ 1000.0
-		"Cold Hunger Modifier" = 0.05
-		# How much thirst exhaustion will be added every 50 ticks with no amplification effect, when the player suffers from heat.
-		#Range: 0.0 ~ 1000.0
-		"Heat Thirst Effect Modifier" = 0.1
-		# If enabled, players will also receive other effects from their current temperature state.
-		# If the player is too hot, hydration will deplete faster.
-		"Heat Temperature Secondary Effects" = true
-
-	[temperature.weather]
-		# How much of an effect snow has on temperature.
-		#Range: -1000.0 ~ 1000.0
-		"Snow Temperature Modifier" = -6.0
-		# How much of an effect rain has on temperature.
-		#Range: -1000.0 ~ 1000.0
-		"Rain Temperature Modifier" = -2.0
+			# Minimum amount of temperature the player's temperature can be modified at each temperature tick time.
+			# Correspond to the amount of temperature given when there is no temperature difference
+			#Range: 0.1 ~ 2.147483647E9
+			"Minimum Temperature Modification" = 0.2
 
 	[temperature.integration]
 
 		[temperature.integration.seasons]
 			# If Serene Seasons is installed, then seasons will have an effect on the player's temperature.
 			"Seasons affect Temperature" = true
+			# If the tropical seasons are disabled, the normal summer-autumn-winter-spring seasons are applied.
+			# If disabled, dry and wet seasons are applied for hot biomes.
+			"Tropical Seasons Enabled" = true
 			# If season cards are enabled, season cards will appear at every season changes.
 			"Season Cards Enabled" = true
 			# If default season is enabled, when serene season defines no season effect in a biome, the normal season temperature will be applied.
 			# If disabled, when serene season defines no season effects, no season temperature will be applied.
 			"Default Season Enabled" = true
-			# If the tropical seasons are disabled, the normal summer-autumn-winter-spring seasons are applied.
-			# If disabled, dry and wet seasons are applied for hot biomes.
-			"Tropical Seasons Enabled" = true
-
-			# Temperature modifiers per season in tropical biomes.
-			[temperature.integration.seasons.tropical]
-
-				[temperature.integration.seasons.tropical.wet-season]
-					#Range: -1000.0 ~ 1000.0
-					"Mid Wet Season Modifier" = -5.0
-					#Range: -1000.0 ~ 1000.0
-					"Early Wet Season Modifier" = -1.0
-					#Range: -1000.0 ~ 1000.0
-					"Late Wet Season Modifier" = -1.0
-
-				[temperature.integration.seasons.tropical.dry-season]
-					#Range: -1000.0 ~ 1000.0
-					"Mid Dry Season Modifier" = 7.0
-					#Range: -1000.0 ~ 1000.0
-					"Late Dry Season Modifier" = 3.0
-					#Range: -1000.0 ~ 1000.0
-					"Early Dry Season Modifier" = 3.0
 
 			# Temperature modifiers per season in temperate biomes. The value is reached at the middle of the sub season, and smoothly transition from one to another.
 			[temperature.integration.seasons.temperate]
 
 				[temperature.integration.seasons.temperate.spring]
 					#Range: -1000.0 ~ 1000.0
-					"Late Spring Modifier" = 3.0
+					"Early Spring Modifier" = -3.0
 					#Range: -1000.0 ~ 1000.0
 					"Mid Spring Modifier" = 0.0
 					#Range: -1000.0 ~ 1000.0
-					"Early Spring Modifier" = -3.0
+					"Late Spring Modifier" = 3.0
 
-				[temperature.integration.seasons.temperate.winter]
+				[temperature.integration.seasons.temperate.summer]
 					#Range: -1000.0 ~ 1000.0
-					"Late Winter Modifier" = -7.0
+					"Early Summer Modifier" = 5.0
 					#Range: -1000.0 ~ 1000.0
-					"Early Winter Modifier" = -7.0
+					"Mid Summer Modifier" = 8.0
 					#Range: -1000.0 ~ 1000.0
-					"Mid Winter Modifier" = -12.0
+					"Late Summer Modifier" = 5.0
 
 				[temperature.integration.seasons.temperate.autumn]
 					#Range: -1000.0 ~ 1000.0
 					"Early Autumn Modifier" = 3.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Autumn Modifier" = -3.0
-					#Range: -1000.0 ~ 1000.0
 					"Mid Autumn Modifier" = 0.0
+					#Range: -1000.0 ~ 1000.0
+					"Late Autumn Modifier" = -3.0
 
-				[temperature.integration.seasons.temperate.summer]
+				[temperature.integration.seasons.temperate.winter]
 					#Range: -1000.0 ~ 1000.0
-					"Mid Summer Modifier" = 8.0
+					"Early Winter Modifier" = -7.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Summer Modifier" = 5.0
+					"Mid Winter Modifier" = -12.0
 					#Range: -1000.0 ~ 1000.0
-					"Early Summer Modifier" = 5.0
+					"Late Winter Modifier" = -7.0
 
-	[temperature.time]
-		# How strongly time in extreme temperature biomes affect player's temperature.
-		# Extreme temperature biomes (like snowy taiga, deserts, ...) will multiply the time based temperature by this value, while temperate biome won't be affected by this value, following a linear.
-		#Range: 1.0 ~ Infinity
-		"Biome Time Multiplier" = 1.75
-		# Staying in the shade or during cloudy weather will reduce player's temperature by this amount based on time of the day (maximum effect at noon, following sinusoidal).
-		# Only effective in hot biomes and during day time!
-		#Range: -1000.0 ~ 1000.0
-		"Shade Time Modifier" = -6.0
-		# How much Time has effect on Temperature.
-		# Maximum effect at noon (positive) and midnight (negative), following a sinusoidal
-		#Range: 0.0 ~ Infinity
-		"Time Based Temperature Modifier" = 2.0
+			# Temperature modifiers per season in tropical biomes.
+			[temperature.integration.seasons.tropical]
+
+				[temperature.integration.seasons.tropical.wet-season]
+					#Range: -1000.0 ~ 1000.0
+					"Early Wet Season Modifier" = -1.0
+					#Range: -1000.0 ~ 1000.0
+					"Mid Wet Season Modifier" = -5.0
+					#Range: -1000.0 ~ 1000.0
+					"Late Wet Season Modifier" = -1.0
+
+				[temperature.integration.seasons.tropical.dry-season]
+					#Range: -1000.0 ~ 1000.0
+					"Early Dry Season Modifier" = 3.0
+					#Range: -1000.0 ~ 1000.0
+					"Mid Dry Season Modifier" = 7.0
+					#Range: -1000.0 ~ 1000.0
+					"Late Dry Season Modifier" = 3.0
 
 [environment]
 
 	[environment.flowers]
+		# In which biome names the Sun Fern will spawn.
+		"Sun Fern Biome Names Spawn List" = []
 		# In which biome categories the Sun Fern will spawn.
 		"Sun Fern Biome Categories Spawn List" = ["DESERT", "SAVANNA"]
+		# 1/X chance to spawn a Sun Fern patch per chunk. Increasing this number reduces the spawn chance.
+		#Range: > 1
+		"Sun Fern Spawn Chance" = 50
 		# In which biome names the Ice Fern will spawn.
 		"Ice Fern Biome Names Spawn List" = []
+		# In which biome categories the Ice Fern will spawn.
+		"Ice Fern Biome Categories Spawn List" = ["TAIGA", "ICY"]
 		# 1/X chance to spawn a Ice Fern patch per chunk. Increasing this number reduces the spawn chance.
 		#Range: > 1
 		"Ice Fern Spawn Chance" = 50
 		# In which biome names the Water Plant will spawn.
 		"Water Plant Biome Names Spawn List" = []
-		# In which biome categories the Ice Fern will spawn.
-		"Ice Fern Biome Categories Spawn List" = ["TAIGA", "ICY"]
-		# In which biome names the Sun Fern will spawn.
-		"Sun Fern Biome Names Spawn List" = []
+		# In which biome categories the Water Plant will spawn.
+		"Water Plant Biome Categories Spawn List" = ["DESERT"]
 		# 1/X chance to spawn a Water Plant patch per chunk. Increasing this number reduces the spawn chance.
 		#Range: > 1
 		"Water Plant Spawn Chance" = 50
-		# 1/X chance to spawn a Sun Fern patch per chunk. Increasing this number reduces the spawn chance.
-		#Range: > 1
-		"Sun Fern Spawn Chance" = 50
-		# In which biome categories the Water Plant will spawn.
-		"Water Plant Biome Categories Spawn List" = ["DESERT"]
 
 # Options related to thirst
 [thirst]
@@ -304,17 +304,40 @@
 	"Dangerous Dehydration" = true
 	# If enabled, each time the player receives a thirst effect, its duration will be added to the thirst effect duration if already on the player.
 	"Cumulative Thirst Effect Duration" = true
+	# Scaling of the damages dealt when completely dehydrated. Each tick damage will be increased by this value.
+	#Range: 0.0 ~ 1000.0
+	"Dehydration Damage Scaling" = 0.1
 	# How many thirst exhaustion will be added every 50 ticks when the player suffers from not amplified Thirst Effect.
 	# The player will suffer Thirst Effect from dirty water for example.
 	#Range: 0.0 ~ 1000.0
 	"Thirst Effect Modifier" = 0.1
-	# Scaling of the damages dealt when completely dehydrated. Each tick damage will be increased by this value.
-	#Range: 0.0 ~ 1000.0
-	"Dehydration Damage Scaling" = 0.1
 
-	[thirst.juices]
-		# Whether the player retrieves a glass bottle after drinking a juice.
-		"Glass Bottle Loot After Drinking A Juice" = true
+	[thirst.exhaustion]
+		# Thirst exhausted every 10 ticks.
+		#Range: 0.0 ~ 1000.0
+		"Base Thirst Exhaustion" = 0.01
+		# Thirst exhausted when sprinting, replacing the base thirst exhausted.
+		#Range: 0.0 ~ 1000.0
+		"Sprinting Thirst Exhaustion" = 0.1
+		# Thirst exhausted on every jump.
+		#Range: 0.0 ~ 1000.0
+		"On Jump Thirst Exhaustion" = 0.15
+		# Thirst exhausted on every block break.
+		#Range: 0.0 ~ 1000.0
+		"On Block Break Thirst Exhaustion" = 0.07
+		# Thirst exhausted on every attack.
+		#Range: 0.0 ~ 1000.0
+		"On Attack Thirst Exhaustion" = 0.3
+
+	[thirst.canteen]
+		# Capacity of the canteen used to store water.
+		#Range: 0 ~ 1000
+		"Canteen Capacity" = 20
+		# Capacity of the large canteen used to store water.
+		#Range: 0 ~ 1000
+		"Large Canteen Capacity" = 40
+		# Allow override of purified water stored in canteen with normal water.
+		"Allow Override Purified Water" = true
 
 	# Allows drinking from lava. Can be used as bauble.
 	[thirst.nether_chalice]
@@ -325,22 +348,9 @@
 		#Range: 0.0 ~ 20.0
 		Saturation = 4.0
 
-	[thirst.exhaustion]
-		# Thirst exhausted every 10 ticks.
-		#Range: 0.0 ~ 1000.0
-		"Base Thirst Exhaustion" = 0.01
-		# Thirst exhausted on every block break.
-		#Range: 0.0 ~ 1000.0
-		"On Block Break Thirst Exhaustion" = 0.07
-		# Thirst exhausted on every attack.
-		#Range: 0.0 ~ 1000.0
-		"On Attack Thirst Exhaustion" = 0.3
-		# Thirst exhausted when sprinting, replacing the base thirst exhausted.
-		#Range: 0.0 ~ 1000.0
-		"Sprinting Thirst Exhaustion" = 0.1
-		# Thirst exhausted on every jump.
-		#Range: 0.0 ~ 1000.0
-		"On Jump Thirst Exhaustion" = 0.15
+	[thirst.juices]
+		# Whether the player retrieves a glass bottle after drinking a juice.
+		"Glass Bottle Loot After Drinking A Juice" = true
 
 	[thirst.integration]
 
@@ -358,31 +368,21 @@
 				"Lava Saturation For Blazeborn" = 1.0
 
 			# Thirst depletes slightly faster
-			[thirst.integration.origins.phantom]
-				# Amount of thirst exhaustion added every 20 ticks.
-				#Range: 0.0 ~ 1000.0
-				"Extra Thirst Exhaustion For Phantom" = 0.1
-
-			# Thirst depletes slightly faster
 			[thirst.integration.origins.shulk]
 				# Amount of thirst exhaustion added every 20 ticks.
 				#Range: 0.0 ~ 1000.0
 				"Extra Thirst Exhaustion For Shulk" = 0.1
 
+			# Thirst depletes slightly faster
+			[thirst.integration.origins.phantom]
+				# Amount of thirst exhaustion added every 20 ticks.
+				#Range: 0.0 ~ 1000.0
+				"Extra Thirst Exhaustion For Phantom" = 0.1
+
 			[thirst.integration.origins.vampirism]
 				# If Vampirism is installed and if thirst enabled while being a vampire, keep the thirst system in addition to the vampiric one.
 				# If disabled, the thirst system will be disabled for vampires.
 				"Thirst Enabled If Vampire" = false
-
-	[thirst.canteen]
-		# Capacity of the canteen used to store water.
-		#Range: 0 ~ 1000
-		"Canteen Capacity" = 20
-		# Allow override of purified water stored in canteen with normal water.
-		"Allow Override Purified Water" = true
-		# Capacity of the large canteen used to store water.
-		#Range: 0 ~ 1000
-		"Large Canteen Capacity" = 40
 
 	# Options related to heart fruits
 	[thirst.heart-fruits]
@@ -396,48 +396,94 @@
 		"Hearts Lost On Death" = -1
 
 		[thirst.heart-fruits.effects]
-			# Whether Heart Fruits give a strong regeneration effect.
-			"Heart Fruits Give Regen" = true
 			# Amount of hearts gained from eating a Heart Fruit.
 			#Range: > 1
 			"Additional Hearts Per Heart Fruit" = 1
+			# Whether Heart Fruits give a strong regeneration effect.
+			"Heart Fruits Give Regen" = true
 
 	# Options related to localized body damage
 	# The damageSourceBodyParts.json allows you to define for specific damage source, the damage spread across specified body parts.
 	# The damage distribution can either be ONE_OF or ALL. ALL means the damage are equally divided across all body parts.
 	[thirst.body-damage]
-		# How much health ratio are recovered from bed sleeping.
-		#Range: 0.0 ~ 1.0
-		"Health Ratio Recovered" = 1.0
+		# Multiply the damage taken by the player when shot in the head without helmet.
+		#Range: 1.0 ~ 1000.0
+		"Headshot Multiplier" = 2.0
 		# How much of the hurt player's damage is assigned to the body parts.
 		#Range: 0.0 ~ 1000.0
 		"Body Damage Multiplier" = 1.0
-		# The hunger bar won't drop below this value while body is healing.
-		# Each hunger icon has a value of 2 in the hunger bar.
-		#Range: 0 ~ 1000
-		"Minimum Food On Body Healing" = 0
+		# How much health ratio are recovered in all body parts from bed sleeping.
+		#Range: 0.0 ~ 1.0
+		"Body Part Health Ratio Recovered" = 1.0
+		# How much health ratio are recovered from bed sleeping.
+		#Range: 0.0 ~ 1.0
+		"Health Ratio Recovered" = 1.0
 		# How much food is exhausted when a limb regenerates based on the amount of health regenerated.
 		# Each 1 health regenerated, the food is exhausted by this value.
 		#Range: 0.0 ~ 1000.0
 		"Body Healing Food Exhaustion" = 0.1
-		# Multiply the damage taken by the player when shot in the head without helmet.
-		#Range: 1.0 ~ 1000.0
-		"Headshot Multiplier" = 2.0
-		# How much health ratio are recovered in all body parts from bed sleeping.
-		#Range: 0.0 ~ 1.0
-		"Body Part Health Ratio Recovered" = 1.0
+		# The hunger bar won't drop below this value while body is healing.
+		# Each hunger icon has a value of 2 in the hunger bar.
+		#Range: 0 ~ 1000
+		"Minimum Food On Body Healing" = 0
+
+		[thirst.body-damage.healing-items]
+
+			[thirst.body-damage.healing-items.healing-herbs]
+				# Item use time in ticks.
+				#Range: 0 ~ 1000
+				"Healing Herbs Use Time" = 20
+				# Regeneration effect amplifier.
+				#Range: 0 ~ 10
+				"Healing Herbs Regeneration Amplifier" = 0
+				# Regeneration effect duration in ticks.
+				#Range: 0 ~ 10000
+				"Healing Herbs Regeneration Duration" = 60
+
+			[thirst.body-damage.healing-items.plaster]
+				# Item use time in ticks.
+				#Range: 0 ~ 1000
+				"Plaster Use Time" = 20
+				# Regeneration effect amplifier.
+				#Range: 0 ~ 10
+				"Plaster Regeneration Amplifier" = 0
+				# Regeneration effect duration in ticks.
+				#Range: 0 ~ 10000
+				"Plaster Regeneration Duration" = 120
+
+			[thirst.body-damage.healing-items.bandage]
+				# Item use time in ticks.
+				#Range: 0 ~ 1000
+				"Bandage Use Time" = 30
+				# Regeneration effect amplifier.
+				#Range: 0 ~ 10
+				"Bandage Regeneration Amplifier" = 1
+				# Regeneration effect duration in ticks.
+				#Range: 0 ~ 10000
+				"Bandage Regeneration Duration" = 120
+
+			[thirst.body-damage.healing-items.tonic]
+				# Item use time in ticks.
+				#Range: 0 ~ 1000
+				"Tonic Use Time" = 50
+				# Regeneration effect amplifier.
+				#Range: 0 ~ 10
+				"Tonic Regeneration Amplifier" = 1
+				# Regeneration effect duration in ticks.
+				#Range: 0 ~ 10000
+				"Tonic Regeneration Duration" = 140
+
+			[thirst.body-damage.healing-items.medikit]
+				# Item use time in ticks.
+				#Range: 0 ~ 1000
+				"Medikit Use Time" = 50
+				#Range: 0 ~ 10
+				"Medikit Regeneration Amplifier" = 2
+				# Regeneration effect duration in ticks.
+				#Range: 0 ~ 10000
+				"Medikit Regeneration Duration" = 140
 
 		[thirst.body-damage.body-parts-health]
-			# Both feet will have this health.
-			#Range: 0.0 ~ 1000.0
-			"Feet Part Health" = 0.4
-			# Both legs will have this health.
-			#Range: 0.0 ~ 1000.0
-			"Legs Part Health" = 0.6
-			#Range: 0.0 ~ 1000.0
-			"Chest Part Health" = 0.6
-			#Range: 0.0 ~ 1000.0
-			"Head Part Health" = 0.4
 			# How a player's body part health is determined. Accepted values are as follows:
 			#   SIMPLE - Body parts will have initial fixed values. The body parts health define the health value.
 			#       In this case, if the 'headPartHeath = 10', the head will have '10' health.
@@ -445,108 +491,62 @@
 			#       In this case, if the 'headPartHeath = 0.3', the head will have '0.3' * 'player max health' health.
 			# Any other value will default to SIMPLE.
 			"Body Part Health Mode" = "DYNAMIC"
+			#Range: 0.0 ~ 1000.0
+			"Head Part Health" = 0.4
 			# Both arms will have this health.
 			#Range: 0.0 ~ 1000.0
 			"Arms Part Health" = 0.4
+			#Range: 0.0 ~ 1000.0
+			"Chest Part Health" = 0.6
+			# Both legs will have this health.
+			#Range: 0.0 ~ 1000.0
+			"Legs Part Health" = 0.6
+			# Both feet will have this health.
+			#Range: 0.0 ~ 1000.0
+			"Feet Part Health" = 0.4
 
 		[thirst.body-damage.body-parts-effects]
 
 			# Each effect, threshold and amplifier lists must have the same number of items.
 			# The first effect will be triggered with the first amplifier value when the first threshold is reach.
 			[thirst.body-damage.body-parts-effects.head]
-				# The list of thresholds for which each effect will be triggered. A threshold is a percentage of remaining head health.
-				# 0 means the head is fully damaged.
-				" Head Part Effect Thresholds" = [0.2]
+				# The list of effects that will be triggered when the head is damaged by the percentage of remaining head health defined in the thresholds.
+				"Head Part Effects" = ["legendarysurvivaloverhaul:headache"]
 				# The list of amplifiers the effect will have.
 				# 0 means the basic effect, 1 means the effect is amplified once.
 				" Head Part Effect Amplifiers" = [0]
-				# The list of effects that will be triggered when the head is damaged by the percentage of remaining head health defined in the thresholds.
-				"Head Part Effects" = ["legendarysurvivaloverhaul:headache"]
-
-			[thirst.body-damage.body-parts-effects.feet]
-				"Feet Part Effects" = ["minecraft:slowness"]
-				"Both Feet Part Effect Amplifiers" = [1]
-				"Feet Part Effect Amplifiers" = [0]
-				"Both Feet Part Effect Thresholds" = [0.2]
-				"Feet Part Effect Thresholds" = [0.2]
-				"Both Feet Part Effects" = ["minecraft:slowness"]
-
-			[thirst.body-damage.body-parts-effects.chest]
-				" Chest Part Effect Thresholds" = [0.2]
-				" Chest Part Effect Amplifier" = [0]
-				" Chest Part Effects" = ["legendarysurvivaloverhaul:vulnerability"]
-
-			[thirst.body-damage.body-parts-effects.legs]
-				"Legs Part Effect Thresholds" = [0.2]
-				"Legs Part Effects" = ["legendarysurvivaloverhaul:hard_falling"]
-				"Both Legs Part Effect Amplifiers" = [1]
-				"Both Legs Part Effects" = ["legendarysurvivaloverhaul:hard_falling"]
-				"Legs Part Effect Amplifiers" = [0]
-				"Both Legs Part Effect Thresholds" = [0.2]
+				# The list of thresholds for which each effect will be triggered. A threshold is a percentage of remaining head health.
+				# 0 means the head is fully damaged.
+				" Head Part Effect Thresholds" = [0.2]
 
 			[thirst.body-damage.body-parts-effects.arms]
+				"Arms Part Effects" = ["minecraft:mining_fatigue"]
+				"Arms Part Effect Amplifiers" = [0]
+				"Arms Part Effect Thresholds" = [0.2]
 				# These effects will be triggered when both arms reach the thresholds.
 				# If a same effect is used with a higher amplifier, the higher prevails (normal Minecraft behaviour).
 				"Both Arms Part Effects" = ["minecraft:weakness"]
-				"Arms Part Effect Thresholds" = [0.2]
-				"Arms Part Effects" = ["minecraft:mining_fatigue"]
 				"Both Arms Part Effect Amplifiers" = [0]
 				"Both Arms Part Effect Thresholds" = [0.2]
-				"Arms Part Effect Amplifiers" = [0]
 
-		[thirst.body-damage.healing-items]
+			[thirst.body-damage.body-parts-effects.chest]
+				" Chest Part Effects" = ["legendarysurvivaloverhaul:vulnerability"]
+				" Chest Part Effect Amplifier" = [0]
+				" Chest Part Effect Thresholds" = [0.2]
 
-			[thirst.body-damage.healing-items.plaster]
-				# Regeneration effect amplifier.
-				#Range: 0 ~ 10
-				"Plaster Regeneration Amplifier" = 0
-				# Regeneration effect duration in ticks.
-				#Range: 0 ~ 10000
-				"Plaster Regeneration Duration" = 120
-				# Item use time in ticks.
-				#Range: 0 ~ 1000
-				"Plaster Use Time" = 20
+			[thirst.body-damage.body-parts-effects.legs]
+				"Legs Part Effects" = ["legendarysurvivaloverhaul:hard_falling"]
+				"Legs Part Effect Amplifiers" = [0]
+				"Legs Part Effect Thresholds" = [0.2]
+				"Both Legs Part Effects" = ["legendarysurvivaloverhaul:hard_falling"]
+				"Both Legs Part Effect Amplifiers" = [1]
+				"Both Legs Part Effect Thresholds" = [0.2]
 
-			[thirst.body-damage.healing-items.medikit]
-				# Item use time in ticks.
-				#Range: 0 ~ 1000
-				"Medikit Use Time" = 50
-				# Regeneration effect duration in ticks.
-				#Range: 0 ~ 10000
-				"Medikit Regeneration Duration" = 140
-				#Range: 0 ~ 10
-				"Medikit Regeneration Amplifier" = 2
-
-			[thirst.body-damage.healing-items.tonic]
-				# Regeneration effect amplifier.
-				#Range: 0 ~ 10
-				"Tonic Regeneration Amplifier" = 1
-				# Item use time in ticks.
-				#Range: 0 ~ 1000
-				"Tonic Use Time" = 50
-				# Regeneration effect duration in ticks.
-				#Range: 0 ~ 10000
-				"Tonic Regeneration Duration" = 140
-
-			[thirst.body-damage.healing-items.healing-herbs]
-				# Item use time in ticks.
-				#Range: 0 ~ 1000
-				"Healing Herbs Use Time" = 20
-				# Regeneration effect duration in ticks.
-				#Range: 0 ~ 10000
-				"Healing Herbs Regeneration Duration" = 60
-				# Regeneration effect amplifier.
-				#Range: 0 ~ 10
-				"Healing Herbs Regeneration Amplifier" = 0
-
-			[thirst.body-damage.healing-items.bandage]
-				# Regeneration effect amplifier.
-				#Range: 0 ~ 10
-				"Bandage Regeneration Amplifier" = 1
-				# Item use time in ticks.
-				#Range: 0 ~ 1000
-				"Bandage Use Time" = 30
-				# Regeneration effect duration in ticks.
-				#Range: 0 ~ 10000
-				"Bandage Regeneration Duration" = 120
+			[thirst.body-damage.body-parts-effects.feet]
+				"Feet Part Effects" = ["minecraft:slowness"]
+				"Feet Part Effect Amplifiers" = [0]
+				"Feet Part Effect Thresholds" = [0.2]
+				"Both Feet Part Effects" = ["minecraft:slowness"]
+				"Both Feet Part Effect Amplifiers" = [1]
+				"Both Feet Part Effect Thresholds" = [0.2]
 
