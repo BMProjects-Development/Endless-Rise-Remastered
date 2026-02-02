@@ -32,11 +32,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[init.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[init.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Main Menu event
@@ -57,11 +57,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[main_menu.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 
 	[[main_menu.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Server List event
@@ -82,11 +82,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[server_list.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[server_list.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Realms Screen event
@@ -107,11 +107,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[realms_list.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[realms_list.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Join Game Event
@@ -132,11 +132,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[join_game.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[join_game.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Single Player Event
@@ -157,11 +157,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[single_player.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[single_player.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Multi Player Event
@@ -182,11 +182,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[multi_player.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[multi_player.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #The Realms Game Event
@@ -207,11 +207,11 @@
 	smallImageText = "%realmdescription%"
 	#The buttons to display on Discord
 	[[realms.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[realms.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #Fallback event for disabled events
@@ -230,11 +230,11 @@
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
 	[[generic.buttons]]
-		label = "Join us on Discord"
+		label = "BMProjects"
 		url = "https://discord.gg/9GWKBVw3Ty"
 		
 	[[generic.buttons]]
-		label = "Download on CurseForge"
+		label = "CurseForge"
 		url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 #Custom Config Variables that you can use
@@ -267,11 +267,11 @@
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Join us on Discord"
+			label = "BMProjects"
 			url = "https://discord.gg/9GWKBVw3Ty"
 		
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Download on CurseForge"
+			label = "CurseForge"
 			url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 	[[dimension_overrides.dimensions]]
@@ -291,11 +291,11 @@
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Join us on Discord"
+			label = "BMProjects"
 			url = "https://discord.gg/9GWKBVw3Ty"
 		
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Download on CurseForge"
+			label = "CurseForge"
 			url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
 	[[dimension_overrides.dimensions]]
@@ -315,10 +315,10 @@
 		smallImageText = "%mods% mods installed"
 		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Join us on Discord"
+			label = "BMProjects"
 			url = "https://discord.gg/9GWKBVw3Ty"
 			
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Download on CurseForge"
+			label = "CurseForge"
 			url = "https://www.curseforge.com/minecraft/modpacks/endless-rise"
 
