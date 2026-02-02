@@ -499,7 +499,7 @@
 
 [world]
 	"New Stone Types" = true
-	"Lush Underground Biome" = true
+	"Lush Underground Biome" = false
 	"Big Dungeon" = true
 	Speleothems = true
 	"Elder Prismarine Underground Biome" = true
@@ -523,7 +523,7 @@
 	"Overgrown Underground Biome" = true
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
-	Deepslate = true
+	Deepslate = false
 	"Monster Box" = true
 
 	[world.monster_box]
@@ -1947,7 +1947,7 @@
 	"Totem Of Holding" = true
 	Backpack = true
 	Crate = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Magnets = true
 	Pipes = true
 

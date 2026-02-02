@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "notreepunching:macuahuitl"
+    },
+    {
+      "item": "luphieclutteredmod:luphie_dorado_cabinet"
+    }
+  ],
+  "result": {
+    "item": "luphieclutteredmod:luphie_worn_dorado_cabinet",
+    "count": 1
+  }
+}

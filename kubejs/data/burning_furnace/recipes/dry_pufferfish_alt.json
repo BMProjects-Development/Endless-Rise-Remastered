@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 200,
+  "input": {
+    "item": "minecraft:pufferfish"
+  },
+  "output": {
+    "item": "burningfurnace:dry_pufferfish",
+    "count": 1
+  }
+}

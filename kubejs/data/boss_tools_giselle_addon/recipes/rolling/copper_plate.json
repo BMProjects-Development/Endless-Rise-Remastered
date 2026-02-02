@@ -1,0 +1,13 @@
+{
+   "type":"boss_tools_giselle_addon:rolling",
+   "input":{
+      "ingredient":{
+         "tag":"forge:ingots/copper"
+      }
+   },
+   "output":{
+      "item":"immersiveengineering:plate_copper",
+      "count":1
+   },
+   "cookTime":200
+}

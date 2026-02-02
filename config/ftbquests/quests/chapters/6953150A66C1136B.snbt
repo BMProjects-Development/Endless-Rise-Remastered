@@ -20,7 +20,7 @@
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.6953150a66c1136b.quests0.description0}"]
-			dependencies: ["0CB34097439D4C81"]
+			dependencies: ["7D00063DBD18C9CF"]
 			hide: true
 			size: 1.2d
 			id: "45A07D9B8081F2A0"
@@ -480,6 +480,32 @@
 				id: "6A472EB39576C1D9"
 				type: "item"
 				item: "pneumaticcraft:spawner_core"
+			}]
+		}
+		{
+			title: "{er.6953150a66c1136b.quests34.title}"
+			x: -1.0d
+			y: 4.5d
+			subtitle: "{er.6953150a66c1136b.quests34.subtitle}"
+			description: [
+				"{er.6953150a66c1136b.quests34.description0}"
+				""
+				"{er.6953150a66c1136b.quests34.description1}"
+			]
+			dependencies: ["491435ED023469B3"]
+			id: "53051E02987C093C"
+			tasks: [{
+				id: "43881166C2BEBC17"
+				type: "checkmark"
+				title: "{er.6953150a66c1136b.quests34.tasks0.title}"
+			}]
+			rewards: [{
+				id: "5F56D3082D51EFF5"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a mekanism false"
+				player_command: false
 			}]
 		}
 	]

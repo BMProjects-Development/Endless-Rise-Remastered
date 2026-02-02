@@ -14,7 +14,7 @@
 			y: -0.5d
 			shape: "tech_smooth_square"
 			description: ["{er.57d608a24de940da.quests0.description0}"]
-			dependencies: ["31BD23CD6DFA60B1"]
+			dependencies: ["39606160F4710D39"]
 			hide: true
 			size: 1.2d
 			id: "462BD8A3987B8465"
@@ -42,6 +42,13 @@
 					dimension: "minecraft:the_nether"
 				}
 			]
+			rewards: [{
+				id: "3B55F3FC7DFDDCD6"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a nether false"
+				player_command: false
+			}]
 		}
 		{
 			title: "{er.57d608a24de940da.quests1.title}"
@@ -164,23 +171,159 @@
 			x: -3.5d
 			y: 0.0d
 			shape: "tech_smooth_square"
-			description: ["{er.57d608a24de940da.quests9.description0}"]
+			description: [
+				"{er.57d608a24de940da.quests9.description0}"
+				""
+				"{er.57d608a24de940da.quests9.description1}"
+				"{er.57d608a24de940da.quests9.description2}"
+				"{er.57d608a24de940da.quests9.description3}"
+				"{er.57d608a24de940da.quests9.description4}"
+				"{er.57d608a24de940da.quests9.description5}"
+				"{er.57d608a24de940da.quests9.description6}"
+				"{er.57d608a24de940da.quests9.description7}"
+				"{er.57d608a24de940da.quests9.description8}"
+				"{er.57d608a24de940da.quests9.description9}"
+				"{er.57d608a24de940da.quests9.description10}"
+				"{er.57d608a24de940da.quests9.description11}"
+			]
 			dependencies: ["5807AA78E1578DDF"]
 			size: 1.2d
+			min_required_tasks: 1
 			id: "5A4E2FDAE9E6BDB5"
-			tasks: [{
-				id: "6B88D4725A0CA70D"
-				type: "item"
-				item: "minecraft:ender_eye"
-				count: 12L
-			}]
-			rewards: [{
-				id: "22A2A7D9450DF959"
-				type: "command"
-				auto: "invisible"
-				command: "/gamestage add @a end false"
-				player_command: false
-			}]
+			tasks: [
+				{
+					id: "4930E0853D9519BF"
+					type: "item"
+					item: {
+						id: "endrem:wither_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "264FD66BF17A1691"
+					type: "item"
+					item: {
+						id: "endrem:magical_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2267386848B346EE"
+					type: "item"
+					item: {
+						id: "endrem:guardian_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5714C72A79D796B7"
+					type: "item"
+					item: {
+						id: "endrem:old_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40582E3E83558208"
+					type: "item"
+					item: {
+						id: "endrem:rogue_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24458DEC053B19BE"
+					type: "item"
+					item: {
+						id: "endrem:nether_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5307512069739237"
+					type: "item"
+					item: {
+						id: "endrem:cold_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22D488BBFCF0478E"
+					type: "item"
+					item: {
+						id: "endrem:corrupted_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D89711A4FF1BEB2"
+					type: "item"
+					item: {
+						id: "endrem:black_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A36D05EC6D000E0"
+					type: "item"
+					item: {
+						id: "endrem:lost_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36E6947A5ED86361"
+					type: "item"
+					item: {
+						id: "endrem:end_crystal_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6273821EB129DB94"
+					type: "item"
+					item: {
+						id: "endrem:witch_eye"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -227,7 +370,6 @@
 			shape: "tech_square"
 			description: ["{er.57d608a24de940da.quests13.description0}"]
 			dependencies: ["462BD8A3987B8465"]
-			size: 1.2d
 			id: "13CCA304B7C69DB3"
 			tasks: [{
 				id: "4A90C4CDDB072707"
@@ -583,6 +725,42 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "{er.57d608a24de940da.quests29.title}"
+			x: -5.5d
+			y: 0.0d
+			subtitle: "{er.57d608a24de940da.quests29.subtitle}"
+			description: [
+				"{er.57d608a24de940da.quests29.description0}"
+				""
+				"{er.57d608a24de940da.quests29.description1}"
+			]
+			dependencies: ["5A4E2FDAE9E6BDB5"]
+			id: "0209E0BBD283D2CF"
+			tasks: [{
+				id: "493F459333F72B55"
+				type: "checkmark"
+				title: "{er.57d608a24de940da.quests29.tasks0.title}"
+			}]
+			rewards: [
+				{
+					id: "5D84B06ED2928C1B"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a end false"
+					player_command: false
+				}
+				{
+					id: "390DCE8FD01AC31E"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a end_dim false"
+					player_command: false
+				}
+			]
 		}
 	]
 }

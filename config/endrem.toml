@@ -42,7 +42,7 @@
 	#Values for the End Remastered map trade: [minPrice, maxPrice, expGiven]
 	map_trade_values = "[30, 40, 12]"
 	#Sets the quantity of mobs in End Remastered Structures: "peaceful", "easy", "normal", "hard" or "hardcore"
-	monster_difficulty = "normal"
+	monster_difficulty = "hard"
 	#Minimum distance in chunks between End Gates and the spawn
 	end_gate_spawn_distance = 130
 

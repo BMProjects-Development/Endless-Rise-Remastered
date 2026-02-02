@@ -1,0 +1,20 @@
+{
+  "type": "primutils:stirring",
+  "stirAmounts": 3,
+  "inputs": [
+    {
+      "item": "immersiveengineering:dust_wood",
+      "count": 1
+    }
+  ],
+  "output": [
+    {
+      "item": "kubejs:wet_paper",
+      "count": 1
+    }
+  ],
+  "input_fluid": {
+    "name": "minecraft:water",
+    "amount": 250
+  }
+}

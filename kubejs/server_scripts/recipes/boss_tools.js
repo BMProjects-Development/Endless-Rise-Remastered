@@ -51,7 +51,7 @@ onEvent('recipes', event => {
     A: 'boss_tools:compressed_steel',
 	B: 'minecraft:iron_nugget',
 	C: '#forge:rods/iron',
-	D: '#steampowered:ingots/steel'
+	D: '#forge:ingots/steel'
   })
   
   
@@ -66,5 +66,15 @@ onEvent('recipes', event => {
 	C: 'minecraft:black_dye'
   })
   
+  
+  event.remove({output: 'boss_tools:steel_sword'})
+  
+  event.remove({output: 'boss_tools:steel_shovel'})
+  
+  event.remove({output: 'boss_tools:steel_pickaxe'})
+  
+  event.remove({output: 'boss_tools:steel_axe'})
+  
+  event.remove({output: 'boss_tools:steel_hoe'})
 
 })

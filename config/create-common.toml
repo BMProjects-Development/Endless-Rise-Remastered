@@ -17,14 +17,14 @@
 			maxHeight = 85
 			# 
 			#Range: > 0
-			clusterSize = 0
+			clusterSize = 1
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 2.0
+			frequency = 0
 
 		[worldgen.v2.weathered_limestone]
 			# 
@@ -60,7 +60,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 4.0
+			frequency = 0
 
 		[worldgen.v2.limestone]
 			# 

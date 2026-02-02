@@ -6,15 +6,66 @@
 	title: "{er.3db12eedd7301084.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.5d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/telegram.png"
+			hover: ["Telegram"]
+			click: "https://t.me/BMProjects"
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/discord.png"
+			hover: ["Discord"]
+			click: "https://discord.gg/9GWKBVw3Ty"
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/boosty.png"
+			hover: ["Boosty"]
+			click: "https://boosty.to/barmaxx"
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "endless_rise:textures/github.png"
+			hover: ["GitHub"]
+			click: "https://github.com/BMProjects-Development"
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: 0.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
+			subtitle: "{er.3db12eedd7301084.quests0.subtitle}"
 			description: [
 				"{er.3db12eedd7301084.quests0.description0}"
 				""
-				"{er.3db12eedd7301084.quests0.description1}"
+				"{image:endless_rise:textures/background.png width:192 height:108 align:1}"
 			]
 			size: 1.3d
 			id: "4015F9A5ADB11078"
@@ -34,7 +85,12 @@
 			x: 0.0d
 			y: -1.5d
 			shape: "tech_smooth_square"
-			description: ["{er.3db12eedd7301084.quests1.description0}"]
+			subtitle: "{er.3db12eedd7301084.quests1.subtitle}"
+			description: [
+				"{er.3db12eedd7301084.quests1.description0}"
+				""
+				"{image:endless_rise:textures/background_loading.png width:192 height:108 align:1}"
+			]
 			dependencies: ["4015F9A5ADB11078"]
 			id: "241F9AF7B1E9356C"
 			tasks: [{
@@ -43,7 +99,7 @@
 				title: "{er.3db12eedd7301084.quests1.tasks0.title}"
 			}]
 			rewards: [{
-				id: "267C67AC23BD8ABB"
+				id: "1EA0B155E09750AE"
 				type: "command"
 				auto: "invisible"
 				command: "/say Telegram - https://t.me/BMProjects Discord - https://discord.gg/9GWKBVw3Ty"

@@ -1,0 +1,47 @@
+{
+  "minecraft:overworld": {
+    "temperature": 20.0
+  },
+  "minecraft:the_nether": {
+    "temperature": 50.0
+  },
+  "minecraft:the_end": {
+    "temperature": -25.0
+  },
+  "atum:atum": {
+    "temperature": 35.0
+  },
+  "boss_tools:mars": {
+    "temperature": -62.0
+  },
+  "boss_tools:mars_orbit": {
+    "temperature": -50.0
+  },
+  "boss_tools:mercury": {
+    "temperature": -93.0
+  },
+  "boss_tools:mercury_orbit": {
+    "temperature": -50.0
+  },
+  "boss_tools:moon": {
+    "temperature": -80.0
+  },
+  "boss_tools:moon_orbit": {
+    "temperature": -50.0
+  },
+  "boss_tools:overworld_orbit": {
+    "temperature": -50.0
+  },
+  "boss_tools:venus": {
+    "temperature": 462.0
+  },
+  "boss_tools:venus_orbit": {
+    "temperature": 150.0
+  },
+  "compactmachines:compact_world": {
+    "temperature": 0.0
+  },
+  "the_bumblezone:the_bumblezone": {
+    "temperature": 25.0
+  }
+}

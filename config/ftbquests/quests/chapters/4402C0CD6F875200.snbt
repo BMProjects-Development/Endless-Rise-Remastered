@@ -13,7 +13,7 @@
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.4402c0cd6f875200.quests0.description0}"]
-			dependencies: ["29039481EF4BB2EF"]
+			dependencies: ["4A69DE664E0837BE"]
 			hide: true
 			size: 1.2d
 			id: "4AA6F5E7D38B0E33"
@@ -55,15 +55,28 @@
 			dependencies: ["7BC929A9FE99C775"]
 			id: "49B663AD2181C26F"
 			tasks: [{
-				id: "3752061A51EAE62A"
+				id: "726EB7396FE7A018"
 				type: "item"
-				item: "immersiveengineering:coke"
+				title: "{er.4402c0cd6f875200.quests2.tasks0.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:coal_coke"
+					}
+				}
+				count: 4L
 			}]
 		}
 		{
 			title: "{er.4402c0cd6f875200.quests3.title}"
 			x: 2.0d
 			y: 0.0d
+			description: [
+				"{er.4402c0cd6f875200.quests3.description0}"
+				""
+				"{er.4402c0cd6f875200.quests3.description1}"
+			]
 			dependencies: ["7BC929A9FE99C775"]
 			id: "52B94FC9AA7696E2"
 			tasks: [{
@@ -112,10 +125,10 @@
 			dependencies: ["77E59CDF780113E6"]
 			id: "0CB34097439D4C81"
 			tasks: [{
-				id: "3EEBC6AF4BCC7F99"
+				id: "6ADB71487BBF9487"
 				type: "item"
-				item: "immersiveengineering:ingot_steel"
-				count: 10L
+				item: "mekanism:ingot_steel"
+				count: 4L
 			}]
 		}
 		{
@@ -779,6 +792,13 @@
 			}]
 		}
 		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "engineersdecor:engineersdecor_manual"
+				}
+			}
 			x: 0.5d
 			y: -3.0d
 			shape: "tech_smooth_square"
@@ -1042,6 +1062,32 @@
 					count: 4L
 				}
 			]
+		}
+		{
+			title: "{er.4402c0cd6f875200.quests48.title}"
+			x: 4.0d
+			y: -3.0d
+			subtitle: "{er.4402c0cd6f875200.quests48.subtitle}"
+			description: [
+				"{er.4402c0cd6f875200.quests48.description0}"
+				""
+				"{er.4402c0cd6f875200.quests48.description1}"
+			]
+			dependencies: ["0CB34097439D4C81"]
+			id: "7D00063DBD18C9CF"
+			tasks: [{
+				id: "76133DECAC69A9B4"
+				type: "checkmark"
+				title: "{er.4402c0cd6f875200.quests48.tasks0.title}"
+			}]
+			rewards: [{
+				id: "6775739D13A89815"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a pneumaticcraft false"
+				player_command: false
+			}]
 		}
 	]
 }

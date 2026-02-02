@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "&6&lEndless Rise"
+	title: "&6&lEndless Rise: Remastered"
 	icon: "kubejs:endless_rise"
 	default_reward_team: false
 	default_consume_items: false

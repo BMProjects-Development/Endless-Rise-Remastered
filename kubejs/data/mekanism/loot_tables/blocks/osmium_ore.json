@@ -1,0 +1,1 @@
+{"type":"minecraft:block","pools":[{"name":"main","rolls":1,"entries":[{"type":"minecraft:item","name":"geolosys:osmium_cluster"}],"conditions":[{"condition":"minecraft:survives_explosion"}]}]}

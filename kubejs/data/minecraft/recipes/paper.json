@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 100,
+  "input": {
+    "item": "kubejs:wet_paper"
+  },
+  "output": {
+    "item": "minecraft:paper",
+    "count": 1
+  }
+}

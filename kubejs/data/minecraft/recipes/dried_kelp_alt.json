@@ -1,0 +1,11 @@
+{
+  "type": "primutils:drying",
+  "duration": 300,
+  "input": {
+    "item": "minecraft:kelp"
+  },
+  "output": {
+    "item": "minecraft:dried_kelp",
+    "count": 1
+  }
+}

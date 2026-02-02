@@ -9,10 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.0d
+			x: 0.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests0.description0}"]
-			dependencies: ["7CAEFFF51B924E9A"]
+			dependencies: ["48217EC3294DAFC3"]
+			hide: true
 			size: 1.2d
 			id: "1618941433039F79"
 			tasks: [{
@@ -46,7 +47,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests2.title}"
-			x: 1.0d
+			x: 2.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests2.description0}"]
 			dependencies: ["1618941433039F79"]
@@ -72,7 +73,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 2.0d
 			y: 1.0d
 			description: ["{er.61c23a1a1b8933b6.quests3.description0}"]
 			dependencies: ["31B0B795411A5508"]
@@ -85,8 +86,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests4.title}"
-			x: 2.0d
-			y: -3.5d
+			x: 3.0d
+			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests4.description0}"]
 			dependencies: ["17FC0F3202DCCA6A"]
 			id: "549F858A9EB00499"
@@ -105,7 +106,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests5.title}"
-			x: 3.5d
+			x: 5.0d
 			y: 0.0d
 			description: [
 				"{er.61c23a1a1b8933b6.quests5.description0}"
@@ -127,52 +128,52 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 5.0d
 			y: -1.5d
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests6.description0}"]
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "759CD5F854301CA1"
 			tasks: [{
-				id: "162AA645BC55F932"
+				id: "3617D896EEAD970B"
 				type: "item"
-				item: "create:iron_sheet"
+				item: "immersiveengineering:plate_iron"
 				count: 4L
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.5d
 			y: 1.5d
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests7.description0}"]
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "30141E3997BA2ADF"
 			tasks: [{
-				id: "5C45F80B572434D9"
+				id: "25757447FBA204E6"
 				type: "item"
-				item: "create:copper_sheet"
+				item: "immersiveengineering:plate_copper"
 				count: 4L
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 1.5d
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests8.description0}"]
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "2373D730A820B6FB"
 			tasks: [{
-				id: "21320A3D0400104C"
+				id: "3B9AB028AFDC8DC8"
 				type: "item"
-				item: "create:golden_sheet"
+				item: "immersiveengineering:plate_gold"
 				count: 4L
 			}]
 		}
 		{
-			x: 5.0d
+			x: 6.5d
 			y: 0.0d
 			shape: "tech_circle"
-			subtitle: "Переход в новую главу!"
+			subtitle: "{er.61c23a1a1b8933b6.quests9.subtitle}"
 			description: ["{er.61c23a1a1b8933b6.quests9.description0}"]
 			dependencies: [
 				"7C8A764A4A0F003E"
@@ -187,8 +188,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -3.5d
+			x: 7.0d
+			y: -4.0d
 			description: ["{er.61c23a1a1b8933b6.quests10.description0}"]
 			dependencies: ["63B31D2AF4550037"]
 			id: "562B29B6639F36A9"
@@ -207,7 +208,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests11.title}"
-			x: -1.0d
+			x: 0.5d
 			y: 3.0d
 			description: ["{er.61c23a1a1b8933b6.quests11.description0}"]
 			dependencies: ["462BBE365EAB472A"]
@@ -228,7 +229,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: 0.5d
 			y: 1.5d
 			description: ["{er.61c23a1a1b8933b6.quests12.description0}"]
 			dependencies: ["1618941433039F79"]
@@ -240,7 +241,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.5d
 			y: 3.0d
 			description: ["{er.61c23a1a1b8933b6.quests13.description0}"]
 			dependencies: ["30141E3997BA2ADF"]
@@ -253,7 +254,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 12.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests14.description0}"]
 			dependencies: ["2C356C79E12F86BE"]
@@ -272,7 +273,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests15.title}"
-			x: 8.5d
+			x: 11.5d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests15.description0}"]
 			dependencies: ["6DCDEBE91E280D59"]
@@ -293,7 +294,7 @@
 			]
 		}
 		{
-			x: 10.0d
+			x: 13.0d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests16.description0}"]
 			dependencies: ["46515BC511B4975E"]
@@ -305,7 +306,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 14.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests17.description0}"]
 			dependencies: ["309F4243634A2888"]
@@ -317,7 +318,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 2.5d
 			description: ["{er.61c23a1a1b8933b6.quests18.description0}"]
 			dependencies: ["2373D730A820B6FB"]
@@ -330,7 +331,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests19.title}"
-			x: 13.0d
+			x: 16.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.61c23a1a1b8933b6.quests19.description0}"]
@@ -345,7 +346,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 16.0d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests20.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -369,7 +370,7 @@
 			]
 		}
 		{
-			x: 14.5d
+			x: 17.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests21.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -383,7 +384,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests22.title}"
-			x: 10.5d
+			x: 13.5d
 			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests22.description0}"]
 			dependencies: ["27EE9C334876E614"]
@@ -414,7 +415,7 @@
 			]
 		}
 		{
-			x: 12.5d
+			x: 15.5d
 			y: -3.5d
 			description: ["{er.61c23a1a1b8933b6.quests23.description0}"]
 			dependencies: ["27EE9C334876E614"]
@@ -433,7 +434,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests24.title}"
-			x: 13.0d
+			x: 16.0d
 			y: 1.5d
 			description: ["{er.61c23a1a1b8933b6.quests24.description0}"]
 			dependencies: ["365E33230CE0071A"]
@@ -452,7 +453,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: 0.0d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests25.description0}"]
 			dependencies: ["1618941433039F79"]
@@ -465,7 +466,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 1.0d
 			y: -1.5d
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests26.description0}"]
@@ -478,8 +479,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: 3.5d
+			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests27.description0}"]
 			dependencies: ["759CD5F854301CA1"]
 			id: "2C26A692DADE6537"
@@ -496,7 +497,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 14.5d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests28.description0}"]
 			dependencies: ["3A22BE56B1E3CBDA"]
@@ -508,7 +509,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 6.5d
 			y: 4.0d
 			description: ["{er.61c23a1a1b8933b6.quests29.description0}"]
 			dependencies: ["3045A3DD55265737"]
@@ -520,7 +521,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 4.0d
 			description: ["{er.61c23a1a1b8933b6.quests30.description0}"]
 			dependencies: ["3045A3DD55265737"]
@@ -550,7 +551,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests31.title}"
-			x: 4.5d
+			x: 6.5d
 			y: -2.0d
 			description: ["{er.61c23a1a1b8933b6.quests31.description0}"]
 			dependencies: ["759CD5F854301CA1"]
@@ -569,7 +570,7 @@
 			]
 		}
 		{
-			x: 19.0d
+			x: 22.0d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests32.description0}"]
 			dependencies: ["0F7CFC82FFD07B37"]
@@ -586,7 +587,7 @@
 			}]
 		}
 		{
-			x: 20.5d
+			x: 23.5d
 			y: -2.0d
 			description: ["{er.61c23a1a1b8933b6.quests33.description0}"]
 			dependencies: ["48E28ED91BA9ED80"]
@@ -598,7 +599,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 2.0d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests34.description0}"]
 			dependencies: ["31B0B795411A5508"]
@@ -610,7 +611,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 5.0d
 			y: 5.5d
 			description: ["{er.61c23a1a1b8933b6.quests35.description0}"]
 			dependencies: ["7BC47C71E95CC330"]
@@ -622,7 +623,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.5d
 			y: 4.5d
 			description: ["{er.61c23a1a1b8933b6.quests36.description0}"]
 			dependencies: ["3045A3DD55265737"]
@@ -634,7 +635,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.0d
 			y: 5.5d
 			description: ["{er.61c23a1a1b8933b6.quests37.description0}"]
 			dependencies: ["3DADF1CE7B4D9A06"]
@@ -646,7 +647,7 @@
 			}]
 		}
 		{
-			x: 19.5d
+			x: 22.5d
 			y: -1.5d
 			description: ["{er.61c23a1a1b8933b6.quests38.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
@@ -659,7 +660,7 @@
 			}]
 		}
 		{
-			x: 20.5d
+			x: 23.5d
 			y: 0.0d
 			description: ["{er.61c23a1a1b8933b6.quests39.description0}"]
 			dependencies: ["62D1BFB9177CF557"]
@@ -673,11 +674,10 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests40.title}"
-			x: 0.0d
-			y: -6.0d
+			x: 5.0d
+			y: -6.5d
 			description: ["{er.61c23a1a1b8933b6.quests40.description0}"]
 			dependencies: ["1F75B70BE7D3826B"]
-			size: 1.1d
 			id: "093501F9725A0851"
 			tasks: [
 				{
@@ -722,8 +722,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests41.title}"
-			x: 1.0d
-			y: -6.5d
+			x: 5.5d
+			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
 			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
@@ -751,27 +751,21 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 9.5d
 			y: 0.0d
 			shape: "tech_circle"
 			description: ["{er.61c23a1a1b8933b6.quests42.description0}"]
-			dependencies: ["29039481EF4BB2EF"]
+			dependencies: ["1D93899CFFCF5589"]
+			hide: true
 			id: "4969DAD337FCABE1"
 			tasks: [{
 				id: "0CB26D49333F93C8"
 				type: "item"
 				item: "atum:scarab"
 			}]
-			rewards: [{
-				id: "6227EF1B258F65D6"
-				type: "command"
-				auto: "invisible"
-				command: "/gamestage add @a atum false"
-				player_command: false
-			}]
 		}
 		{
-			x: 8.0d
+			x: 11.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.61c23a1a1b8933b6.quests43.description0}"]
@@ -798,10 +792,10 @@
 			]
 		}
 		{
-			x: 19.5d
-			y: 1.5d
+			x: 23.5d
+			y: 2.0d
 			description: ["{er.61c23a1a1b8933b6.quests44.description0}"]
-			dependencies: ["62D1BFB9177CF557"]
+			dependencies: ["1F5DBD70C3621400"]
 			id: "5DCD21BA0E949787"
 			tasks: [{
 				id: "6622D87485FD7AB4"
@@ -811,34 +805,7 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.5d
-			shape: "tech_smooth_square"
-			description: ["{er.61c23a1a1b8933b6.quests45.description0}"]
-			dependencies: ["30141E3997BA2ADF"]
-			size: 1.2d
-			id: "31BD23CD6DFA60B1"
-			tasks: [{
-				id: "20BB3C13423F8C8C"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4A0A0A480F4F333F"
-				type: "command"
-				auto: "invisible"
-				command: "/gamestage add @a nether false"
-				player_command: false
-			}]
-		}
-		{
-			x: 2.0d
+			x: 3.5d
 			y: 1.5d
 			description: ["{er.61c23a1a1b8933b6.quests46.description0}"]
 			dependencies: ["2373D730A820B6FB"]
@@ -850,25 +817,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 2.0d
-			dependencies: ["5DCD21BA0E949787"]
-			id: "326C0451B1FDCEF3"
-			tasks: [{
-				id: "04ED965EA4F6522D"
-				type: "item"
-				item: {
-					id: "createaddition:overcharged_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: -3.0d
+			x: 4.5d
+			y: -3.5d
+			description: ["{er.61c23a1a1b8933b6.quests46.description0}"]
 			dependencies: ["759CD5F854301CA1"]
 			id: "17FC0F3202DCCA6A"
 			tasks: [{
@@ -878,8 +829,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			x: 5.5d
+			y: -3.5d
+			description: ["{er.61c23a1a1b8933b6.quests47.description0}"]
 			dependencies: ["759CD5F854301CA1"]
 			id: "63B31D2AF4550037"
 			tasks: [{
@@ -890,8 +842,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests50.title}"
-			x: 1.0d
-			y: -4.5d
+			x: 2.5d
+			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests50.description0}"]
 			dependencies: ["549F858A9EB00499"]
 			id: "331FF86414916787"
@@ -912,8 +864,8 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests51.title}"
-			x: 0.0d
-			y: -5.0d
+			x: 3.0d
+			y: -6.0d
 			description: ["{er.61c23a1a1b8933b6.quests51.description0}"]
 			dependencies: ["331FF86414916787"]
 			id: "1F75B70BE7D3826B"
@@ -931,7 +883,7 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: 7.0d
 			y: -1.0d
 			description: ["{er.61c23a1a1b8933b6.quests52.description0}"]
 			dependencies: ["07BAC67F8C8D8A2A"]
@@ -944,7 +896,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 14.5d
 			y: -3.0d
 			description: ["{er.61c23a1a1b8933b6.quests53.description0}"]
 			dependencies: ["339E99FFA9CEE6D2"]
@@ -957,8 +909,13 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests54.title}"
-			x: 16.0d
+			x: 19.0d
 			y: 0.0d
+			description: [
+				"{er.61c23a1a1b8933b6.quests52.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests52.description1}"
+			]
 			dependencies: ["3FB4B3A128FF3B65"]
 			id: "050A07013995BE6E"
 			tasks: [
@@ -976,8 +933,13 @@
 			]
 		}
 		{
-			x: 17.5d
+			x: 20.5d
 			y: 0.0d
+			description: [
+				"{er.61c23a1a1b8933b6.quests53.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests53.description1}"
+			]
 			dependencies: ["050A07013995BE6E"]
 			id: "0F7CFC82FFD07B37"
 			tasks: [{
@@ -987,8 +949,13 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -6.5d
+			x: 7.0d
+			y: -6.0d
+			description: [
+				"{er.61c23a1a1b8933b6.quests54.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests54.description1}"
+			]
 			dependencies: ["093501F9725A0851"]
 			id: "1C696EB9C608D8CB"
 			tasks: [{
@@ -998,10 +965,14 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -7.5d
+			x: 7.5d
+			y: -5.0d
+			description: [
+				"{er.61c23a1a1b8933b6.quests55.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests55.description1}"
+			]
 			dependencies: ["1C696EB9C608D8CB"]
-			size: 1.2d
 			id: "1BAA190C877E451B"
 			tasks: [{
 				id: "153984DEC54BBDA9"
@@ -1010,7 +981,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 12.0d
 			y: 0.5d
 			description: ["{er.09bc33749d387467.quests27.description0}"]
 			dependencies: ["309F4243634A2888"]
@@ -1028,7 +999,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 12.0d
 			y: 2.0d
 			shape: "tech_circle"
 			description: ["{er.09bc33749d387467.quests28.description0}"]
@@ -1041,8 +1012,9 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 14.5d
 			y: -4.5d
+			description: ["{er.61c23a1a1b8933b6.quests58.description0}"]
 			dependencies: ["27EE9C334876E614"]
 			id: "439E2A4DCF4F3D3C"
 			tasks: [{
@@ -1052,8 +1024,13 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 14.5d
 			y: -6.0d
+			description: [
+				"{er.61c23a1a1b8933b6.quests59.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests59.description1}"
+			]
 			dependencies: ["439E2A4DCF4F3D3C"]
 			id: "7561D55FE65CB140"
 			tasks: [{
@@ -1063,8 +1040,9 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 16.0d
 			y: -6.5d
+			description: ["{er.61c23a1a1b8933b6.quests60.description0}"]
 			dependencies: ["7561D55FE65CB140"]
 			id: "14D57DB008DFA90B"
 			tasks: [{
@@ -1074,8 +1052,9 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: 13.0d
 			y: -6.5d
+			description: ["{er.61c23a1a1b8933b6.quests61.description0}"]
 			dependencies: ["7561D55FE65CB140"]
 			id: "6238CE5D50CA2737"
 			tasks: [{
@@ -1083,6 +1062,385 @@
 				type: "item"
 				item: "immersive_aircraft:airship"
 			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests62.title}"
+			x: 6.5d
+			y: -7.0d
+			subtitle: "{er.61c23a1a1b8933b6.quests62.subtitle}"
+			description: [
+				"{er.61c23a1a1b8933b6.quests62.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests62.description1}"
+			]
+			dependencies: ["093501F9725A0851"]
+			id: "62CB3EBB76D050B3"
+			tasks: [{
+				id: "2F98B11A480C643C"
+				type: "checkmark"
+				title: "{er.61c23a1a1b8933b6.quests62.tasks0.title}"
+			}]
+			rewards: [{
+				id: "57A8E3542870821B"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a gold_age false"
+				player_command: false
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests63.title}"
+			x: 3.5d
+			y: -7.0d
+			subtitle: "{er.61c23a1a1b8933b6.quests63.subtitle}"
+			description: [
+				"{er.61c23a1a1b8933b6.quests63.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests63.description1}"
+			]
+			dependencies: ["093501F9725A0851"]
+			id: "4064A1996ED9F59C"
+			tasks: [{
+				id: "1E61FE89DE578723"
+				type: "checkmark"
+				title: "{er.61c23a1a1b8933b6.quests63.tasks0.title}"
+			}]
+			rewards: [{
+				id: "6B281E4A36464754"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a diamond_age false"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			description: [
+				"{er.61c23a1a1b8933b6.quests64.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests64.description1}"
+			]
+			dependencies: ["4064A1996ED9F59C"]
+			hide: true
+			id: "172F8DEC670AAEDC"
+			tasks: [{
+				id: "7782D5772CB04FC5"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			description: [
+				"{er.61c23a1a1b8933b6.quests65.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests65.description1}"
+			]
+			dependencies: ["62CB3EBB76D050B3"]
+			hide: true
+			id: "64BDE97489C13204"
+			tasks: [{
+				id: "25BBA4B974ABC5D9"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 4L
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests66.title}"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "{er.61c23a1a1b8933b6.quests66.subtitle}"
+			description: [
+				"{er.61c23a1a1b8933b6.quests66.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests66.description1}"
+			]
+			dependencies: ["7CAEFFF51B924E9A"]
+			id: "48217EC3294DAFC3"
+			tasks: [{
+				id: "3BF101502A478B26"
+				type: "checkmark"
+				title: "{er.61c23a1a1b8933b6.quests66.tasks0.title}"
+			}]
+			rewards: [{
+				id: "4ED06E0C66D2B4A5"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a create false"
+				player_command: false
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests67.title}"
+			x: 5.0d
+			y: -9.0d
+			subtitle: "{er.61c23a1a1b8933b6.quests67.subtitle}"
+			description: [
+				"{er.61c23a1a1b8933b6.quests67.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests67.description1}"
+			]
+			dependencies: [
+				"172F8DEC670AAEDC"
+				"64BDE97489C13204"
+			]
+			id: "39606160F4710D39"
+			tasks: [{
+				id: "43F76F11E996688D"
+				type: "checkmark"
+				title: "{er.61c23a1a1b8933b6.quests67.tasks0.title}"
+			}]
+			rewards: [
+				{
+					id: "071ECEA7C6822252"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a nether_dim false"
+					player_command: false
+				}
+				{
+					id: "6E30670191C80095"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a nether false"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests68.title}"
+			x: 3.5d
+			y: -2.0d
+			description: ["{er.61c23a1a1b8933b6.quests68.description0}"]
+			dependencies: ["759CD5F854301CA1"]
+			id: "183EB37365746C12"
+			tasks: [
+				{
+					id: "5E8E0606D32502E3"
+					type: "item"
+					item: "legendarysurvivaloverhaul:sewing_table"
+				}
+				{
+					id: "41E8532E58BFF80E"
+					type: "item"
+					item: "legendarysurvivaloverhaul:heater"
+				}
+				{
+					id: "0C1F7F9102FDCD12"
+					type: "item"
+					item: "legendarysurvivaloverhaul:cooler"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests69.title}"
+			x: 3.0d
+			y: -3.0d
+			description: ["{er.61c23a1a1b8933b6.quests69.description0}"]
+			dependencies: ["183EB37365746C12"]
+			id: "2CB9305DE80F7DDA"
+			tasks: [
+				{
+					id: "238C7B010CAAE122"
+					type: "item"
+					item: "legendarysurvivaloverhaul:cold_string"
+					count: 4L
+				}
+				{
+					id: "129B8F556B57CEA4"
+					type: "item"
+					item: "legendarysurvivaloverhaul:warm_string"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 1.5d
+			description: ["{er.61c23a1a1b8933b6.quests70.description0}"]
+			dependencies: ["62D1BFB9177CF557"]
+			id: "1F5DBD70C3621400"
+			tasks: [{
+				id: "55EE1E43FA6EEDDB"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests71.title}"
+			x: 4.5d
+			y: -5.0d
+			description: ["{er.61c23a1a1b8933b6.quests71.description0}"]
+			dependencies: ["093501F9725A0851"]
+			id: "6872ADC8F44B9111"
+			tasks: [
+				{
+					id: "3CEEB01A61503462"
+					type: "item"
+					item: "constructsarmory:head_plate_cast"
+				}
+				{
+					id: "0F0A03D0292E6E95"
+					type: "item"
+					item: "constructsarmory:body_plate_cast"
+				}
+				{
+					id: "18DCABE6260D22BD"
+					type: "item"
+					item: "constructsarmory:legs_plate_cast"
+				}
+				{
+					id: "1BDD8A4277D753AB"
+					type: "item"
+					item: "constructsarmory:feet_plate_cast"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests72.title}"
+			x: 7.0d
+			y: 1.5d
+			subtitle: "{er.61c23a1a1b8933b6.quests72.subtitle}"
+			description: [
+				"{er.61c23a1a1b8933b6.quests72.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests72.description1}"
+			]
+			dependencies: ["29039481EF4BB2EF"]
+			id: "4A69DE664E0837BE"
+			tasks: [{
+				id: "3350AC5C8E7BDA9C"
+				type: "checkmark"
+				title: "{er.61c23a1a1b8933b6.quests72.tasks0.title}"
+			}]
+			rewards: [{
+				id: "2C54F499614437F6"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a immersiveengineering false"
+				player_command: false
+			}]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests73.title}"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "{er.61c23a1a1b8933b6.quests73.subtitle}"
+			description: [
+				"{er.61c23a1a1b8933b6.quests73.description0}"
+				""
+				"{er.61c23a1a1b8933b6.quests73.description1}"
+			]
+			dependencies: ["29039481EF4BB2EF"]
+			id: "1D93899CFFCF5589"
+			tasks: [{
+				id: "4FF480EE32AE922D"
+				type: "checkmark"
+				title: "{er.61c23a1a1b8933b6.quests73.tasks0.title}"
+			}]
+			rewards: [
+				{
+					id: "24ABAF776576A123"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a atum false"
+					player_command: false
+				}
+				{
+					id: "592B78EF953D7E93"
+					type: "command"
+					team_reward: true
+					auto: "invisible"
+					command: "/gamestage add @a atum_dim false"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests74.title}"
+			x: 1.5d
+			y: -3.5d
+			description: ["{er.61c23a1a1b8933b6.quests74.description0}"]
+			dependencies: ["2CB9305DE80F7DDA"]
+			id: "6AFA124214A1EDF6"
+			tasks: [
+				{
+					id: "7F5D23588CF476D9"
+					type: "item"
+					item: "legendarysurvivaloverhaul:cooling_coat_1"
+				}
+				{
+					id: "2FC6EA43DB081B95"
+					type: "item"
+					item: "legendarysurvivaloverhaul:heating_coat_1"
+				}
+				{
+					id: "7840DCA956445B0C"
+					type: "item"
+					item: "legendarysurvivaloverhaul:thermal_coat_1"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests75.title}"
+			x: 0.0d
+			y: -3.5d
+			description: ["{er.61c23a1a1b8933b6.quests75.description0}"]
+			dependencies: ["6AFA124214A1EDF6"]
+			id: "282BDE97E1EF5104"
+			tasks: [
+				{
+					id: "287C511509519323"
+					type: "item"
+					item: "legendarysurvivaloverhaul:cooling_coat_2"
+				}
+				{
+					id: "1349D4205A8B0CDF"
+					type: "item"
+					item: "legendarysurvivaloverhaul:heating_coat_2"
+				}
+				{
+					id: "045F8C3F8CE5548E"
+					type: "item"
+					item: "legendarysurvivaloverhaul:thermal_coat_2"
+				}
+			]
+		}
+		{
+			title: "{er.61c23a1a1b8933b6.quests76.title}"
+			x: -1.5d
+			y: -3.0d
+			description: ["{er.61c23a1a1b8933b6.quests76.description0}"]
+			dependencies: ["282BDE97E1EF5104"]
+			id: "414BDDAEE3C8A119"
+			tasks: [
+				{
+					id: "1C93DF8487F26CE0"
+					type: "item"
+					item: "legendarysurvivaloverhaul:cooling_coat_3"
+				}
+				{
+					id: "6E7AB300F84ADA3E"
+					type: "item"
+					item: "legendarysurvivaloverhaul:heating_coat_3"
+				}
+				{
+					id: "46CB777C652D4995"
+					type: "item"
+					item: "legendarysurvivaloverhaul:thermal_coat_3"
+				}
+			]
 		}
 	]
 }

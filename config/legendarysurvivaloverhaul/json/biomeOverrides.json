@@ -1,0 +1,38 @@
+{
+  "betterendforge:ice_starfield": {
+    "temperature": 0.1,
+    "isDry": false
+  },
+  "minecraft:frozen_ocean": {
+    "temperature": -0.5,
+    "isDry": false
+  },
+  "minecraft:crimson_forest": {
+    "temperature": 0.75,
+    "isDry": false
+  },
+  "betterendforge:sulphur_springs": {
+    "temperature": 1.1,
+    "isDry": false
+  },
+  "minecraft:deep_frozen_ocean": {
+    "temperature": -0.5,
+    "isDry": false
+  },
+  "minecraft:nether_wastes": {
+    "temperature": 1.0,
+    "isDry": false
+  },
+  "minecraft:soul_sand_valley": {
+    "temperature": 1.0,
+    "isDry": false
+  },
+  "minecraft:warped_forest": {
+    "temperature": 0.75,
+    "isDry": false
+  },
+  "minecraft:basalt_deltas": {
+    "temperature": 1.45,
+    "isDry": false
+  }
+}

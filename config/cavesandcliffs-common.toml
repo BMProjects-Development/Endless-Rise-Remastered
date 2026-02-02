@@ -19,7 +19,7 @@
 			#Determines the rarity of spawning for Azalea Trees.
 			AzaleaTreeGenerationRarity = 2
 			#Determines if Azalea Trees should generate in the surface.
-			GenerateAzaleaTrees = false
+			GenerateAzaleaTrees = true
 
 	["World Generation"."Entity Generation"]
 
@@ -52,13 +52,13 @@
 			#Determines if Copper should generate so it doesn't interfere with other modded copper.
 			GenerateCopperOre = false
 			#Determines if Large Copper Blobs should generate in Dripstone Caves.
-			DripstoneCaveLargeCopperBlobs = true
+			DripstoneCaveLargeCopperBlobs = false
 
 		["World Generation"."Ore Generation"."Deepslate Settings"]
 			#Determines the weight of spawning for Deepslate.
 			DeepslateSpawnWeight = 2
 			#Determines if Deepslate Ores should generate underground.
-			GenerateDeepslateOres = true
+			GenerateDeepslateOres = false
 			#Determines if Deepslate Blobs should generate underground.
 			GenerateDeepslate = true
 
@@ -84,7 +84,7 @@
 		#Determines if Copper from other mods should also drop Raw Copper.
 		RawOreDropsForExternalCopper = false
 		#Determines if Iron, Gold and Copper should drop Raw Ores.
-		RawOreDrops = true
+		RawOreDrops = false
 
 ["Client Settings"]
 	#Determines the Value for the Panorama to display. 

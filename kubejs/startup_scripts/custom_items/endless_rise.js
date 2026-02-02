@@ -1,12 +1,14 @@
 onEvent('item.registry', event => {
 	
 	 
-	 event.create('lamp').displayName('Лампа')
+	 event.create('wet_paper')
 	 
-	 event.create('lense').displayName('Линза')
+	 event.create('lamp')
 	 
-	 event.create('photocell').displayName('Фотоэлемент')
+	 event.create('lense')
 	 
-	 event.create('endless_rise').displayName('Endless Rise')
+	 event.create('photocell')
+	 
+	 event.create('endless_rise').displayName('Endless Rise').maxStackSize(1)
 	 
 })

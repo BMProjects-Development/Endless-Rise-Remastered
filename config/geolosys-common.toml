@@ -1,0 +1,52 @@
+
+#Feature Control
+["feature control"]
+	#Output info into the logs when generating Geolosys deposits
+	debugWorldgen = false
+	#Outputs really advanced info when generating deposits.
+	advancedDebugWorldGen = false
+	#The fallback materials which a Deposit can replace if they're not specified by the deposit itself
+	#Format: Comma-delimited set of <modid:block> (see default for example)
+	defaultReplacementMaterials = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:sandstone", "byg:rocky_stone", "byg:soapstone", "byg:scoria_stone", "create:gabbro", "create:weathered_limestone", "cavesandcliffs:deepslate", "cavesandcliffs:tuff", "cavesandcliffs:dripstone_block"]
+	#Disable generation of Vanilla ores
+	disableVanillaOreGen = true
+
+#Prospecting Options
+[prospecting]
+	#Whether or not Samples randomly tick (like crops). This can be bad for performance but fixes waterlogging issues on worldgen
+	shouldSamplesTick = false
+	#The diameter of the prospector's pick prospecting cycle
+	#Range: > 1
+	proPickDiameter = 5
+	#Enable the prospector's pickaxe
+	enableProPick = true
+	#Allow the prospector's pick to get damaged
+	enableProPickDmg = false
+	#Max durability of a prospector's pick if damage is enabled
+	#Range: > 1
+	proPickDurability = 1024
+	#A list of <modid:block> that samples may not be placed on
+	samplePlacementBlacklist = ["minecraft:ice", "minecraft:packed_ice", "minecraft:bedrock", "minecraft:sand", "minecraft:gravel", "minecraft:clay", "minecraft:dirt", "mekanism:block_salt", "byg:meadow_dirt", "minecraft:coarse_dirt", "cavesandcliffs:rooted_dirt", "minecraft:grass_path", "minecraft:sandstone", "minecraft:sandstone_wall", "minecraft:oak_planks", "minecraft:smooth_sandstone", "minecraft:polished_andesite", "tconstruct:earth_sky_slime_grass", "tconstruct:sky_slime_dirt", "tconstruct:earth_congealed_slime", "cavesandcliffs:moss_block", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:stone_brick_wall", "minecraft:obsidian", "minecraft:blackstone", "minecraft:soul_sand", "minecraft:basalt", "minecraft:crying_obsidian", "minecraft:gilded_blackstone", "minecraft:soul_soil", "quark:jasper", "tconstruct:sky_sky_slime_grass", "tconstruct:sky_congealed_slime", "tconstruct:sky_slime_dirt", "minecraft:polished_basalt", "boss_tools:sky_stone", "minecraft:coal_block", "minecraft:magma_block", "upgrade_aquatic:driftwood_log", "appliedenergistics2:sky_stone_block", "minecraft:snow_block", "savageandravage:gloomy_tiles", "savageandravage:runed_gloomy_tiles", "minecraft:snow"]
+	#The range (depth) of the prospector's pick prospecting cycle
+	#Range: > 1
+	proPickRange = 5
+	#Give players a Field Manual if they haven't gotten one
+	giveManual = false
+	#Maximum samples that can generate with each pluton within a chunk
+	#Range: 1 ~ 256
+	maxSamplesPerChunk = 2
+	#The percentage chance that a given chunk will be devoid of any Geolosys plutons (higher means more space between plutons)
+	#Range: 0.0 ~ 1.0
+	chunkSkipChance = 0.5
+
+#Mod-Compat Settings
+[compat]
+	#This will make it so that Platinum will drop Platinum AND Osmium
+	enableOsmium = true
+	#This will make it so that Platinum will ONLY drop Osmium
+	enableOsmiumExclusively = true
+	#This will make it so that Autunite will drop Uranium AND Yellorium
+	enableYellorium = true
+	#This will make is so that Coal has a rare chance of dropping sulfur
+	enableSulfur = true
+

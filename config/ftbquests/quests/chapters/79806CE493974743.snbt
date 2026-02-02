@@ -9,13 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.5d
-			y: -3.0d
+			x: 0.0d
+			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.79806ce493974743.quests0.description0}"]
-			dependencies: ["62856F299F843C2A"]
+			dependencies: ["6B84A6F72430702F"]
 			hide: true
-			size: 1.2d
 			id: "38D25F8137A28EFD"
 			tasks: [{
 				id: "5AECA94727BED8A7"
@@ -25,11 +24,11 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests1.description0}"]
-			dependencies: ["62856F299F843C2A"]
+			dependencies: ["38D25F8137A28EFD"]
 			hide: true
 			size: 1.2d
 			id: "116A04DB56AEFF3E"
@@ -40,7 +39,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 1.5d
 			y: 1.0d
 			description: ["{er.79806ce493974743.quests2.description0}"]
 			hide_dependency_lines: true
@@ -53,7 +52,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 2.5d
 			y: 1.0d
 			description: ["{er.79806ce493974743.quests3.description0}"]
 			hide_dependency_lines: true
@@ -66,7 +65,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 1.5d
 			y: 2.0d
 			description: ["{er.79806ce493974743.quests4.description0}"]
 			hide_dependency_lines: true
@@ -79,7 +78,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 2.5d
 			y: 2.0d
 			description: ["{er.79806ce493974743.quests5.description0}"]
 			hide_dependency_lines: true
@@ -92,8 +91,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -2.5d
+			x: 0.5d
+			y: 1.5d
 			description: ["{er.79806ce493974743.quests6.description0}"]
 			dependencies: ["38D25F8137A28EFD"]
 			id: "5E5746EA61145D4C"
@@ -104,8 +103,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.5d
+			x: 0.5d
+			y: -1.5d
 			description: ["{er.79806ce493974743.quests7.description0}"]
 			dependencies: ["38D25F8137A28EFD"]
 			id: "2A0A5A9E18005F31"
@@ -116,8 +115,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.5d
+			x: 1.5d
+			y: -2.0d
 			description: ["{er.79806ce493974743.quests8.description0}"]
 			dependencies: ["2A0A5A9E18005F31"]
 			id: "71CD56B8654872BE"
@@ -129,8 +128,8 @@
 		}
 		{
 			title: "{er.79806ce493974743.quests9.title}"
-			x: 1.0d
-			y: -2.5d
+			x: 2.5d
+			y: -2.0d
 			description: ["{er.79806ce493974743.quests9.description0}"]
 			dependencies: ["71CD56B8654872BE"]
 			id: "3E655507E5C51C7A"
@@ -154,7 +153,7 @@
 		}
 		{
 			title: "{er.79806ce493974743.quests10.title}"
-			x: 2.0d
+			x: 3.5d
 			y: -1.5d
 			description: ["{er.79806ce493974743.quests10.description0}"]
 			dependencies: ["3E655507E5C51C7A"]
@@ -178,7 +177,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
 			description: ["{er.79806ce493974743.quests11.description0}"]
@@ -195,7 +194,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests12.description0}"]
@@ -208,7 +207,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 4.0d
 			y: 1.5d
 			description: ["{er.79806ce493974743.quests13.description0}"]
 			dependencies: ["6A63DD0C75C4DC73"]
@@ -220,7 +219,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 4.5d
 			y: 2.5d
 			description: ["{er.79806ce493974743.quests14.description0}"]
 			hide_dependency_lines: true
@@ -233,7 +232,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.5d
 			y: 2.5d
 			description: ["{er.79806ce493974743.quests15.description0}"]
 			hide_dependency_lines: true
@@ -246,7 +245,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: 1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests16.description0}"]
@@ -264,7 +263,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 5.5d
 			y: 2.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests17.description0}"]
@@ -282,7 +281,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.5d
 			y: 2.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests18.description0}"]
@@ -300,7 +299,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 7.0d
 			y: 1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests19.description0}"]
@@ -318,7 +317,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: -1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests20.description0}"]
@@ -336,7 +335,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 5.5d
 			y: -2.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests21.description0}"]
@@ -354,7 +353,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.5d
 			y: -2.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests22.description0}"]
@@ -372,7 +371,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 7.0d
 			y: -1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests23.description0}"]
@@ -390,7 +389,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 7.5d
 			y: 0.0d
 			description: ["{er.79806ce493974743.quests24.description0}"]
 			dependencies: ["601325ECE439EDA4"]
@@ -402,7 +401,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 9.0d
 			y: 0.0d
 			shape: "tech_square"
 			description: ["{er.79806ce493974743.quests25.description0}"]
@@ -415,7 +414,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 8.5d
 			y: 1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests26.description0}"]
@@ -429,7 +428,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 9.5d
 			y: 1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests27.description0}"]
@@ -443,7 +442,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 8.5d
 			y: -1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests28.description0}"]
@@ -457,7 +456,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 9.5d
 			y: -1.0d
 			shape: "tech_circle"
 			description: ["{er.79806ce493974743.quests29.description0}"]
@@ -471,7 +470,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 10.5d
 			y: 0.0d
 			description: ["{er.79806ce493974743.quests30.description0}"]
 			dependencies: ["69825D5DFE2FB5F8"]
@@ -483,7 +482,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 7.5d
 			y: 2.0d
 			description: ["{er.79806ce493974743.quests31.description0}"]
 			dependencies: ["5C35B7CA713C8447"]
@@ -495,7 +494,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 9.0d
 			y: 2.5d
 			shape: "tech_square"
 			description: ["{er.79806ce493974743.quests32.description0}"]
@@ -508,7 +507,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 10.5d
 			y: 2.5d
 			shape: "tech_smooth_square"
 			description: ["{er.79806ce493974743.quests33.description0}"]
@@ -522,26 +521,30 @@
 			}]
 		}
 		{
-			x: -2.0d
+			title: "{er.79806ce493974743.quests34.title}"
+			x: -6.0d
 			y: 0.0d
 			shape: "tech_smooth_square"
-			dependencies: ["116A04DB56AEFF3E"]
+			description: ["{er.79806ce493974743.quests34.description0}"]
+			dependencies: ["4C15B717EC932133"]
 			size: 1.2d
 			id: "4BC27B8F8CBF12A3"
-			tasks: [{
-				id: "419F9F59CF4FA7F8"
-				type: "item"
-				item: "powah:energizing_orb"
-			}]
-			rewards: [{
-				id: "69D08F026ADBDE58"
-				type: "item"
-				item: "powah:book"
-			}]
+			tasks: [
+				{
+					id: "419F9F59CF4FA7F8"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "230773625E0B45AF"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: -5.5d
+			y: -1.5d
 			description: ["{er.79806ce493974743.quests35.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "4222E4C3CB12466C"
@@ -553,8 +556,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
+			x: -5.5d
+			y: 1.5d
 			description: ["{er.79806ce493974743.quests36.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "55089144A1EAB58D"
@@ -566,8 +569,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: -6.5d
+			y: 1.5d
 			description: ["{er.79806ce493974743.quests37.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "297BFFD7B579CB71"
@@ -579,8 +582,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
+			x: -6.5d
+			y: -1.5d
 			description: ["{er.79806ce493974743.quests38.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "740DC1D7FBBB85D3"
@@ -592,7 +595,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -7.5d
 			y: 0.0d
 			description: ["{er.79806ce493974743.quests39.description0}"]
 			dependencies: ["4BC27B8F8CBF12A3"]
@@ -605,10 +608,11 @@
 		}
 		{
 			title: "{er.79806ce493974743.quests40.title}"
-			x: -1.5d
-			y: 2.5d
+			x: -5.5d
+			y: 4.5d
 			description: ["{er.79806ce493974743.quests40.description0}"]
-			dependencies: ["55089144A1EAB58D"]
+			dependencies: ["32741DB060A0342C"]
+			hide: true
 			id: "2997A409CF73DC0D"
 			tasks: [
 				{
@@ -626,8 +630,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 4.0d
+			x: -4.5d
+			y: 5.0d
 			description: ["{er.79806ce493974743.quests41.description0}"]
 			dependencies: ["2997A409CF73DC0D"]
 			id: "33DBD241362CF43E"
@@ -639,8 +643,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.5d
+			x: -3.5d
+			y: 4.5d
 			description: ["{er.79806ce493974743.quests42.description0}"]
 			dependencies: ["33DBD241362CF43E"]
 			id: "4AA3AC2CC41E4F58"
@@ -648,6 +652,229 @@
 				id: "68AD323A0392F0A7"
 				type: "item"
 				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			title: "{er.79806ce493974743.quests43.title}"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "{er.79806ce493974743.quests43.subtitle}"
+			description: [
+				"{er.79806ce493974743.quests43.description0}"
+				""
+				"{er.79806ce493974743.quests43.description1}"
+			]
+			dependencies: ["38D25F8137A28EFD"]
+			id: "168C2024771F640D"
+			tasks: [{
+				id: "033ABFB8770260D3"
+				type: "checkmark"
+				title: "{er.79806ce493974743.quests43.tasks0.title}"
+			}]
+			rewards: [{
+				id: "7FCDBB134B5DCAFB"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a powah false"
+				player_command: false
+			}]
+		}
+		{
+			title: "{er.79806ce493974743.quests44.title}"
+			x: -6.0d
+			y: 3.0d
+			subtitle: "{er.79806ce493974743.quests44.subtitle}"
+			description: [
+				"{er.79806ce493974743.quests44.description0}"
+				""
+				"{er.79806ce493974743.quests44.description1}"
+			]
+			dependencies: ["55089144A1EAB58D"]
+			id: "32741DB060A0342C"
+			tasks: [{
+				id: "70279EB86597A865"
+				type: "checkmark"
+				title: "{er.79806ce493974743.quests44.tasks0.title}"
+			}]
+			rewards: [{
+				id: "0A92670869883C12"
+				type: "command"
+				team_reward: true
+				command: "/gamestage add @a fluxnetworks false"
+				player_command: false
+			}]
+		}
+		{
+			title: "{er.79806ce493974743.quests45.title}"
+			x: -3.0d
+			y: 0.0d
+			description: ["{er.79806ce493974743.quests45.description0}"]
+			dependencies: ["168C2024771F640D"]
+			hide: true
+			id: "0DB51D377E2814CA"
+			tasks: [
+				{
+					id: "666A8F26442D5513"
+					type: "item"
+					item: "powah:dielectric_paste"
+					count: 8L
+				}
+				{
+					id: "2F30929D15555DE1"
+					type: "item"
+					item: "powah:dielectric_rod"
+					count: 8L
+				}
+				{
+					id: "293827B3E84CD2FC"
+					type: "item"
+					item: "powah:dielectric_rod_horizontal"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "5C6072297CBC7952"
+				type: "item"
+				item: "powah:book"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["{er.79806ce493974743.quests46.description0}"]
+			dependencies: ["0DB51D377E2814CA"]
+			id: "4C15B717EC932133"
+			tasks: [{
+				id: "6C2895772E7F9671"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			description: ["{er.79806ce493974743.quests47.description0}"]
+			dependencies: ["0DB51D377E2814CA"]
+			id: "32E9CE5254C5A6AF"
+			tasks: [
+				{
+					id: "7918EE510C6B1958"
+					type: "item"
+					item: "powah:capacitor_basic"
+					count: 4L
+				}
+				{
+					id: "155F1302420E418F"
+					type: "item"
+					item: "powah:capacitor_basic_tiny"
+					count: 2L
+				}
+				{
+					id: "64949ADAFA8FFF87"
+					type: "item"
+					item: "powah:capacitor_basic_large"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			description: ["{er.79806ce493974743.quests48.description0}"]
+			dependencies: ["0DB51D377E2814CA"]
+			id: "6D937486D2FE1979"
+			tasks: [{
+				id: "3B3044440E4F2D69"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["{er.79806ce493974743.quests49.description0}"]
+			dependencies: ["0DB51D377E2814CA"]
+			id: "6E5401BBD6D688B3"
+			tasks: [{
+				id: "082E932EF0C8EB93"
+				type: "item"
+				item: "powah:aerial_pearl"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: [
+				"{er.79806ce493974743.quests50.description0}"
+				""
+				"{er.79806ce493974743.quests50.description1}"
+			]
+			dependencies: ["6E5401BBD6D688B3"]
+			id: "2E43F9E4ADD5AD9C"
+			tasks: [{
+				id: "5CA34F9E65FC2854"
+				type: "item"
+				item: "powah:player_aerial_pearl"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: ["{er.79806ce493974743.quests51.description0}"]
+			dependencies: ["2E43F9E4ADD5AD9C"]
+			id: "6344B4F238010552"
+			tasks: [{
+				id: "56CCBC7D6E19F9B9"
+				type: "item"
+				item: "powah:player_transmitter_starter"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["{er.79806ce493974743.quests52.description0}"]
+			dependencies: ["32E9CE5254C5A6AF"]
+			id: "3322ECE6B7EB88E2"
+			tasks: [{
+				id: "2986D4BD0815FD57"
+				type: "item"
+				item: {
+					id: "powah:battery_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{er.79806ce493974743.quests53.title}"
+			x: -6.0d
+			y: -3.0d
+			subtitle: "{er.79806ce493974743.quests53.subtitle}"
+			description: [
+				"{er.79806ce493974743.quests53.description0}"
+				""
+				"{er.79806ce493974743.quests53.description1}"
+			]
+			dependencies: ["4222E4C3CB12466C"]
+			id: "03D444C591714C7D"
+			tasks: [{
+				id: "5B2924A8E5A0D3AA"
+				type: "checkmark"
+				title: "{er.79806ce493974743.quests53.tasks0.title}"
+			}]
+			rewards: [{
+				id: "78136FEE2D637CB2"
+				type: "command"
+				team_reward: true
+				auto: "invisible"
+				command: "/gamestage add @a space_age false"
+				player_command: false
 			}]
 		}
 	]
