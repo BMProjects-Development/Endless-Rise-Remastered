@@ -24,7 +24,7 @@
       "properties": {
         "blaze": "smouldering"
       },
-      "temperature": 2.5
+      "temperature": 1.5
     },
     {
       "properties": {
@@ -56,7 +56,7 @@
       "properties": {
         "lit": "true"
       },
-      "temperature": 6.0
+      "temperature": 4.0
     },
     {
       "properties": {
@@ -84,7 +84,7 @@
       "properties": {
         "lit": "true"
       },
-      "temperature": 6.0
+      "temperature": 4.0
     },
     {
       "properties": {
@@ -116,7 +116,7 @@
       "properties": {
         "lit": "true"
       },
-      "temperature": 7.5
+      "temperature": 4.5
     },
     {
       "properties": {
@@ -128,7 +128,7 @@
   "minecraft:torch": [
     {
       "properties": {},
-      "temperature": 1.5
+      "temperature": 0.5
     }
   ],
   "legendarysurvivaloverhaul:sun_fern_crop": [
@@ -164,7 +164,7 @@
       "properties": {
         "lit": "true"
       },
-      "temperature": 7.5
+      "temperature": 5.5
     },
     {
       "properties": {
@@ -178,7 +178,7 @@
       "properties": {
         "lit": "true"
       },
-      "temperature": 10.0
+      "temperature": 7.0
     },
     {
       "properties": {
@@ -210,7 +210,7 @@
   "minecraft:lava": [
     {
       "properties": {},
-      "temperature": 12.5
+      "temperature": 10.5
     }
   ],
   "minecraft:jack_o_lantern": [
@@ -236,7 +236,7 @@
   "minecraft:wall_torch": [
     {
       "properties": {},
-      "temperature": 1.5
+      "temperature": 0.5
     }
   ],
   "minecraft:flowing_lava": [
@@ -262,7 +262,7 @@
       "properties": {
         "lit": "true"
       },
-      "temperature": 6.0
+      "temperature": 3.0
     },
     {
       "properties": {
