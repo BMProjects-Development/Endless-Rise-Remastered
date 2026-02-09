@@ -3,7 +3,7 @@
 
 	[renderers.inventory_renderer]
 		#Show a tooltip when hovering over an effect widget.
-		hovering_tooltip = true
+		hovering_tooltip = false
 		#Minimum screen border distance for effect widgets.
 		#Range: > 0
 		screen_border_distance = 3
