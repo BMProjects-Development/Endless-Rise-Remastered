@@ -67,7 +67,7 @@ Recipe.type(Type.ENGINEER)
   
   
 craftingTable.removeRecipe(<item:immersiveengineering:steel_fence>);
-Recipe.type(Type.ENGINEER)
+Recipe.type(Type.BLACKSMITH)
   .shaped([
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<tag:items:forge:ingots/steel>, <tag:items:forge:rods/steel>, <tag:items:forge:ingots/steel>],

@@ -1,9 +1,9 @@
 
 ["Main Settings Handler"]
 	#List of items that will ignite Furnace blocks. This list will only accept items with durability.
-	Furnace_executor_item_list = []
+	Furnace_executor_item_list = ["tconstruct:flint_and_bronze"]
 	#Custom item consumption for when the player tries to use the Sparkling Flint item. This value can be empty, just keep the brackets.
-	Sparkling_flint_consumption_item = "lititup:switchgrass_fiber"
+	Sparkling_flint_consumption_item = ""
 	#Enable or disable the requirement to ignite a furnace block with Flint and Steel or Sparkling Flint items before allowing it to cook items.
 	Flint_and_steel_furnace_executor = true
 	#Lit up furnaces success rate for Sparkling Flint item. (0.6 = 60%)
