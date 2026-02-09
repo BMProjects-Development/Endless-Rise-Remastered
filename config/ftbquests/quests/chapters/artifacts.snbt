@@ -19,6 +19,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "64B31E7A73C93674"
 			tasks: [{
 				id: "26B9EC619FF7FE81"
@@ -42,6 +43,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "7532A86DC3CEF045"
 			tasks: [{
 				id: "3856179D9FD2365A"
@@ -60,6 +62,7 @@
 			subtitle: "{er.artifacts.quests2.subtitle}"
 			description: ["{er.artifacts.quests2.description0}"]
 			dependencies: ["7532A86DC3CEF045"]
+			optional: true
 			id: "477B62AC571D2178"
 			tasks: [{
 				id: "2B5E6FF8CECCFD66"
@@ -83,6 +86,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "11BFAA76B7B2186C"
 			tasks: [{
 				id: "3709312D7F094EED"
@@ -106,6 +110,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "118775F35099669F"
 			tasks: [{
 				id: "44F18F581576CDEE"
@@ -129,6 +134,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "5DB25EFDD268C453"
 			tasks: [{
 				id: "217FFA62FD7C3178"
@@ -152,6 +158,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "763E749270AA478A"
 			tasks: [{
 				id: "7B1234811CFF72DA"
@@ -175,6 +182,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "4D7236827EE271DB"
 			tasks: [{
 				id: "3C9980C47D416BD5"
@@ -198,6 +206,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "19C5B6306DD1DF9E"
 			tasks: [{
 				id: "11A34FCE514D8946"
@@ -221,6 +230,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "0CF58A49B41CD2FD"
 			tasks: [{
 				id: "7A57730ADA169F5B"
@@ -244,6 +254,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "12379A5427AE9D13"
 			tasks: [{
 				id: "3908617E3605BB32"
@@ -268,6 +279,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "20C243D6E808607E"
 			tasks: [{
 				id: "017074029DF0B6E2"
@@ -292,6 +304,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "27E71769ABBDF0A9"
 			tasks: [{
 				id: "0FA7C0DBBFF81005"
@@ -316,6 +329,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "484AE961F1ADD9D6"
 			tasks: [{
 				id: "554337C9EB5DF38A"
@@ -340,6 +354,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "4CDB4DA7F939A212"
 			tasks: [{
 				id: "3E218FCCD5985DA3"
@@ -364,6 +379,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "0C087B5EC8F9F208"
 			tasks: [{
 				id: "7CC9CFAA51FDD1C6"
@@ -388,6 +404,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "4CA4ADFE03DD7745"
 			tasks: [{
 				id: "47F37B8717437BBF"
@@ -411,6 +428,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "2D1F0000A1444ADC"
 			tasks: [{
 				id: "6B471F2D9AB9A83C"
@@ -434,6 +452,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "3D5BFD3A48AF8D4B"
 			tasks: [{
 				id: "5AB8439E2349B83A"
@@ -457,6 +476,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "017C01505F05E23C"
 			tasks: [{
 				id: "5A739EDB04CCAA09"
@@ -480,6 +500,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "03BEA9FF0A1AE8CF"
 			tasks: [{
 				id: "51204CAB6442BB0A"
@@ -503,6 +524,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "5D8AEB9A4D56DA90"
 			tasks: [{
 				id: "3A5433C115D663D1"
@@ -526,6 +548,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "47E2567A818CDF3B"
 			tasks: [{
 				id: "4EEADA8105CC02E4"
@@ -549,6 +572,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "0DEB832273F443BC"
 			tasks: [{
 				id: "5FE732E0ED10FF64"
@@ -572,6 +596,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "0C8D8CD6F02F795F"
 			tasks: [{
 				id: "7164BA58CE552C09"
@@ -595,6 +620,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "6E0A156826148087"
 			tasks: [{
 				id: "5D0BAC821C9440EA"
@@ -618,6 +644,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "1E16F3C53B5345C8"
 			tasks: [{
 				id: "2499B2ABBFB4D3EA"
@@ -641,6 +668,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "09863E3543982343"
 			tasks: [{
 				id: "7933BB4CC9AA5895"
@@ -664,6 +692,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "4E0081059D71BCAC"
 			tasks: [{
 				id: "3544D5E3839FC1B2"
@@ -687,6 +716,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "35C75D9D963FB1CC"
 			tasks: [{
 				id: "264DB24C48570750"
@@ -711,6 +741,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "7D51B7AE9D0FB217"
 			tasks: [{
 				id: "3465D05AFDF4EAFB"
@@ -735,6 +766,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "76F5E7826FA02A50"
 			tasks: [{
 				id: "5DB8921041F49A68"
@@ -759,6 +791,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "4E3A96DCCB347A2A"
 			tasks: [{
 				id: "150A7D68BFB9E938"
@@ -783,6 +816,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "3D501CC2BD25F480"
 			tasks: [{
 				id: "24C89C8CCD19C1FF"
@@ -807,6 +841,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "35FC5D14CFB1A88D"
 			tasks: [{
 				id: "7A09919563E7FA5E"
@@ -831,6 +866,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "7FB804DF3F37E6C1"
 			tasks: [{
 				id: "71BD96DB4E56CFAA"
@@ -855,6 +891,7 @@
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "5CEA284A4E9B0CEA"
 			tasks: [{
 				id: "753F54C76E0CC28D"

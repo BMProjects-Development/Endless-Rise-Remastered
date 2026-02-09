@@ -28,6 +28,7 @@
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "78BD398809013534"
 			tasks: [{
 				id: "3C0A6A91A2D7EF85"
@@ -53,6 +54,7 @@
 			description: ["{er.reliquary.quests1.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "6E44560E1B6FA6D3"
 			tasks: [{
 				id: "319206F59115A452"
@@ -76,6 +78,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "04D9ECE32C41651D"
 			tasks: [{
 				id: "7FEA4EBF63FAC1C3"
@@ -101,6 +104,7 @@
 			description: ["{er.reliquary.quests3.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "0424B69EB0ADBDFD"
 			tasks: [{
 				id: "0D595E3C822695C4"
@@ -120,6 +124,7 @@
 			description: ["{er.reliquary.quests4.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "52DAD02AB8D98C2A"
 			tasks: [{
 				id: "79BB745346005F1D"
@@ -147,6 +152,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "769CFFD4A904F8A8"
 			tasks: [{
 				id: "79B1461B61603C24"
@@ -180,6 +186,7 @@
 			description: ["{er.reliquary.quests6.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "0AB563FC37C58F6E"
 			tasks: [{
 				id: "22FD7D71C7FBB21F"
@@ -199,6 +206,7 @@
 			description: ["{er.reliquary.quests7.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "710758CA1E529C12"
 			tasks: [{
 				id: "2163685A020A1348"
@@ -230,6 +238,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "32331A894F602C8E"
 			tasks: [{
 				id: "24390430CEA0FCC1"
@@ -260,6 +269,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "3E35DB48C65F529E"
 			tasks: [{
 				id: "19B3AD990EDAD37B"
@@ -288,6 +298,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "612A366796443537"
 			tasks: [{
 				id: "0C42F07DFB3238C9"
@@ -316,6 +327,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "633DFE3BFED168B6"
 			tasks: [{
 				id: "01FD7A273C939111"
@@ -356,6 +368,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "07D35DBFCCD7705E"
 			tasks: [{
 				id: "59881A024B54A4A9"
@@ -375,6 +388,7 @@
 			description: ["{er.reliquary.quests13.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "66AB1EE300BEC02E"
 			tasks: [{
 				id: "0F9348E685A8CB0D"
@@ -398,6 +412,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "2278AB0668015C40"
 			tasks: [{
 				id: "62D35A7F099DC45D"
@@ -417,6 +432,7 @@
 			description: ["{er.reliquary.quests15.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "7B1BAF5AFECE973C"
 			tasks: [{
 				id: "5B1850EA84853453"
@@ -436,6 +452,7 @@
 			description: ["{er.reliquary.quests16.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "03CFDF2E97C8CA8C"
 			tasks: [{
 				id: "3A6A198A7F25FDCD"
@@ -459,6 +476,7 @@
 			]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "03B938F7B00A0471"
 			tasks: [{
 				id: "11FF15042DC5FBFF"
@@ -478,6 +496,7 @@
 			description: ["{er.reliquary.quests18.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "575A4686FBB758EC"
 			tasks: [{
 				id: "5FA4FD2C4D8E3341"
@@ -497,6 +516,7 @@
 			description: ["{er.reliquary.quests19.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "337152DDC55288D0"
 			tasks: [{
 				id: "202E11C330ABEC58"
@@ -516,6 +536,7 @@
 			description: ["{er.reliquary.quests20.description0}"]
 			dependencies: ["3A6840BC06F09951"]
 			hide: true
+			optional: true
 			id: "3EB0313E8201403F"
 			tasks: [{
 				id: "1A71B432A49D9B2D"
