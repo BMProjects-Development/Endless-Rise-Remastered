@@ -128,7 +128,7 @@
 		{
 			title: "{er.57d608a24de940da.quests6.title}"
 			x: -2.5d
-			y: -2.0d
+			y: -2.5d
 			description: ["{er.57d608a24de940da.quests6.description0}"]
 			dependencies: ["67061367401ADFFB"]
 			id: "2472ED4B88B44529"
@@ -141,7 +141,7 @@
 		}
 		{
 			x: -4.0d
-			y: -2.0d
+			y: -2.5d
 			description: ["{er.57d608a24de940da.quests7.description0}"]
 			dependencies: ["2472ED4B88B44529"]
 			id: "7C6F8290B3E50949"
@@ -327,7 +327,7 @@
 		}
 		{
 			x: -2.5d
-			y: 1.0d
+			y: 1.5d
 			description: ["{er.57d608a24de940da.quests10.description0}"]
 			dependencies: ["5807AA78E1578DDF"]
 			id: "054786CC970C41B3"
@@ -393,7 +393,7 @@
 		}
 		{
 			x: -1.5d
-			y: 2.0d
+			y: 2.5d
 			description: ["{er.57d608a24de940da.quests15.description0}"]
 			dependencies: ["34A7FE9376813446"]
 			id: "572FBA521097362A"
@@ -407,7 +407,7 @@
 		{
 			title: "{er.57d608a24de940da.quests16.title}"
 			x: -1.0d
-			y: 3.5d
+			y: 4.0d
 			shape: "tech_circle"
 			description: ["{er.57d608a24de940da.quests16.description0}"]
 			dependencies: ["572FBA521097362A"]
@@ -461,8 +461,8 @@
 		}
 		{
 			title: "{er.57d608a24de940da.quests17.title}"
-			x: -3.0d
-			y: 2.5d
+			x: -2.0d
+			y: 4.0d
 			shape: "tech_circle"
 			description: ["{er.57d608a24de940da.quests17.description0}"]
 			dependencies: ["572FBA521097362A"]
@@ -495,7 +495,7 @@
 		}
 		{
 			x: 0.5d
-			y: 2.0d
+			y: 2.5d
 			shape: "tech_circle"
 			description: ["{er.57d608a24de940da.quests19.description0}"]
 			dependencies: ["27013DB46FA954AC"]
@@ -508,7 +508,7 @@
 		}
 		{
 			x: 2.0d
-			y: 2.5d
+			y: 3.0d
 			shape: "tech_circle"
 			description: ["{er.57d608a24de940da.quests20.description0}"]
 			dependencies: ["137DA83271DA2726"]
@@ -527,7 +527,7 @@
 		}
 		{
 			x: -0.5d
-			y: 2.0d
+			y: 2.5d
 			description: ["{er.57d608a24de940da.quests21.description0}"]
 			dependencies: ["27013DB46FA954AC"]
 			id: "5A69D9627B4C0617"
@@ -545,8 +545,8 @@
 		}
 		{
 			title: "{er.57d608a24de940da.quests22.title}"
-			x: -5.0d
-			y: -3.0d
+			x: -4.5d
+			y: -4.0d
 			description: ["{er.57d608a24de940da.quests22.description0}"]
 			dependencies: ["7C6F8290B3E50949"]
 			id: "741186B79AFCC650"
@@ -589,49 +589,6 @@
 					type: "item"
 					item: {
 						id: "minecraft:netherite_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "{er.57d608a24de940da.quests23.title}"
-			x: -5.0d
-			y: -1.0d
-			description: ["{er.57d608a24de940da.quests23.description0}"]
-			dependencies: ["7C6F8290B3E50949"]
-			id: "2DA652089028017F"
-			tasks: [
-				{
-					id: "673FBE27BC9E35FB"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0CC7821FDA3F55ED"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4E7BB08FD85EC5F6"
-					type: "item"
-					item: {
-						id: "minecraft:netherite_axe"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -759,6 +716,114 @@
 					auto: "invisible"
 					command: "/gamestage add @a end_dim false"
 					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["2472ED4B88B44529"]
+			id: "1D90FCA16E49E375"
+			tasks: [{
+				id: "57DB7AA89896F08D"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			dependencies: ["1D90FCA16E49E375"]
+			id: "4342554551FCD64C"
+			tasks: [
+				{
+					id: "20F03CDFFEE9361D"
+					type: "item"
+					item: "netherdepthsupgrade:soulsucker"
+				}
+				{
+					id: "4BBBCF4056AF069C"
+					type: "item"
+					item: "netherdepthsupgrade:soul_sucker_leather"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			dependencies: ["4342554551FCD64C"]
+			id: "4CF8C6F0E4A11FF4"
+			tasks: [{
+				id: "0158A47754A7C921"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:soul_sucker_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:soul_speed"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["741186B79AFCC650"]
+			id: "07CE321AFDDBB7DB"
+			tasks: [
+				{
+					id: "1B1B1FC92336310E"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BC7197DE3F2B245"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "428681C59908CBF8"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "142AE72CFEBE7999"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}

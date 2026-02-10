@@ -1453,6 +1453,7 @@
 				"{image:endless_rise:textures/smeltery_showcase_5.png width:192 height:108 align:1}"
 			]
 			dependencies: ["093501F9725A0851"]
+			optional: true
 			id: "17066FCC351AD701"
 			tasks: [{
 				id: "6BB6FF7F611D8267"

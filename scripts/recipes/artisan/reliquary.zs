@@ -13,3 +13,15 @@ Recipe.type(Type.MAGE)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:xreliquary:mob_charm_fragment>.withTag({entity: "minecraft:zombified_piglin" as string}))
   .register();
+  
+  
+craftingTable.removeRecipe(<item:xreliquary:crimson_cloth>);
+Recipe.type(Type.TAILOR)
+  .shaped([
+    [<item:xreliquary:nebulous_heart>, <item:minecraft:black_wool>, <item:xreliquary:nebulous_heart>],
+    [<item:minecraft:red_wool>, <item:tconstruct:silky_cloth>, <item:minecraft:red_wool>],
+    [<item:xreliquary:nebulous_heart>, <item:minecraft:black_wool>, <item:xreliquary:nebulous_heart>]])
+  .tool(<tag:items:artisantools:type/needle>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:xreliquary:crimson_cloth> * 2)
+  .register();

@@ -13,7 +13,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -7.5d
+			x: -7.0d
 			y: -3.0d
 			description: ["{er.other.quests2.description0}"]
 			dependencies: ["7F6F9186F2AB5326"]
@@ -31,7 +31,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -7.5d
 			y: -1.5d
 			description: ["{er.other.quests3.description0}"]
 			dependencies: ["13458DF94390D17D"]
@@ -74,8 +74,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.5d
+			x: -1.0d
+			y: -3.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -100,7 +100,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: -3.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
@@ -114,7 +114,7 @@
 		}
 		{
 			x: -2.0d
-			y: -1.5d
+			y: -2.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -126,8 +126,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -1.0d
+			x: -1.0d
+			y: -1.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -139,8 +139,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
+			x: 0.0d
+			y: -2.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -177,7 +177,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -5.0d
 			y: 2.0d
 			dependencies: ["595414D7F6703D32"]
 			optional: true
@@ -189,7 +189,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: 3.5d
 			dependencies: ["611778140F84D833"]
 			optional: true
@@ -201,7 +201,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -7.0d
 			y: 1.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
@@ -214,7 +214,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -7.5d
 			y: -0.5d
 			dependencies: ["2829092A4C756C02"]
 			optional: true
@@ -251,8 +251,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
+			x: -5.5d
+			y: 4.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -264,7 +264,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 3.5d
 			y: -2.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
@@ -283,7 +283,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 4.0d
 			y: -0.5d
 			dependencies: ["58284516B54F3D6B"]
 			optional: true
@@ -301,7 +301,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 3.5d
 			y: 1.0d
 			dependencies: ["74C2838540B54677"]
 			optional: true
@@ -319,7 +319,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.0d
 			y: -0.5d
 			dependencies: ["4897CBC67E627276"]
 			optional: true
@@ -337,8 +337,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			x: 2.5d
+			y: -3.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -350,8 +350,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -3.0d
+			x: 4.5d
+			y: -3.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -363,8 +363,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.5d
+			x: -2.5d
+			y: -0.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -376,8 +376,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			x: 0.5d
+			y: 0.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -389,8 +389,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.5d
+			x: -2.5d
+			y: 0.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -402,7 +402,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: 0.0d
 			dependencies: [
 				"0D54BB825A13A08D"
@@ -418,8 +418,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: 0.5d
+			y: 1.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -431,8 +431,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: -0.5d
+			y: 2.0d
 			dependencies: ["3EC2258A8A9E4C85"]
 			optional: true
 			id: "5D90418319B8F42A"
@@ -443,8 +443,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.5d
+			x: -1.5d
+			y: 2.0d
 			dependencies: ["5D90418319B8F42A"]
 			optional: true
 			id: "141D5E98CBE79F35"
@@ -455,8 +455,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: 1.5d
 			dependencies: ["141D5E98CBE79F35"]
 			optional: true
 			id: "60FCD45D62BA46EA"
@@ -467,8 +467,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.5d
+			x: 0.5d
+			y: -0.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -480,8 +480,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.5d
+			x: 0.5d
+			y: 3.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -493,8 +493,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 3.5d
+			x: -2.5d
+			y: 3.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -509,6 +509,7 @@
 			x: -4.5d
 			y: -1.5d
 			dependencies: ["58C9C1DAC20F99DE"]
+			optional: true
 			id: "144777DEDE90028B"
 			tasks: [{
 				id: "11F1911E4A70BF17"
@@ -532,6 +533,7 @@
 			x: -5.5d
 			y: -1.5d
 			dependencies: ["58C9C1DAC20F99DE"]
+			optional: true
 			id: "5B253DF7F1F5924B"
 			tasks: [{
 				id: "3586C7A3FBC58E2B"
@@ -555,6 +557,7 @@
 			x: -6.0d
 			y: -3.5d
 			dependencies: ["58C9C1DAC20F99DE"]
+			optional: true
 			id: "4F2FD745960EA991"
 			tasks: [{
 				id: "672DC909D10AB516"
@@ -570,9 +573,11 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 4.5d
+			x: -6.5d
+			y: 4.0d
 			dependencies: ["7F6F9186F2AB5326"]
+			hide: true
+			optional: true
 			id: "27C7831AE5956CB3"
 			tasks: [{
 				id: "14B400789F08F812"
@@ -581,6 +586,85 @@
 					id: "charginggadgets:charging_station"
 					Count: 1b
 					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["7F6F9186F2AB5326"]
+			hide: true
+			optional: true
+			id: "1630EEB73C03681E"
+			tasks: [{
+				id: "01A420E50915302C"
+				type: "item"
+				item: {
+					id: "enderchests:ender_pouch"
+					Count: 1b
+					tag: {
+						open: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["1630EEB73C03681E"]
+			optional: true
+			id: "7F4FA26ED9184DBF"
+			tasks: [{
+				id: "47DE72DA7A85A3C1"
+				type: "item"
+				item: {
+					id: "enderchests:ender_chest"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["7F6F9186F2AB5326"]
+			hide: true
+			optional: true
+			id: "1A28FAC8B6FF8937"
+			tasks: [{
+				id: "388FFA98AB3D241E"
+				type: "item"
+				item: {
+					id: "endertanks:ender_tank"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["7F6F9186F2AB5326"]
+			hide: true
+			optional: true
+			id: "682A608DBB3BF3D5"
+			tasks: [{
+				id: "61198ECD8D4F9AC7"
+				type: "item"
+				item: {
+					id: "endertanks:ender_bucket"
+					Count: 1b
+					tag: {
+						owner: "all"
+						mode: "normal"
+						code: "000"
+					}
 				}
 			}]
 		}

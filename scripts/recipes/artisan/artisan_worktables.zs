@@ -201,3 +201,23 @@ Recipe.type(Type.BASIC)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:artisanworktables:workstation_blacksmith>)
   .register();
+  
+  
+Recipe.type(Type.BASIC)
+  .shaped([
+    [<tag:items:minecraft:planks>, <item:minecraft:writable_book>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:forge:workbenches>, <tag:items:minecraft:planks>],
+    [<tag:items:forge:fences/wooden>, <item:minecraft:air>, <tag:items:forge:fences/wooden>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:artisanworktables:worktable_scribe>)
+  .register();
+  
+  
+Recipe.type(Type.BASIC)
+  .shaped([
+    [<item:minecraft:purple_wool>, <item:minecraft:yellow_wool>, <item:minecraft:purple_wool>],
+    [<item:minecraft:light_blue_wool>, <tag:items:forge:workbenches>, <item:minecraft:light_blue_wool>],
+    [<tag:items:forge:fences/wooden>, <item:minecraft:air>, <tag:items:forge:fences/wooden>]])
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:artisanworktables:worktable_tailor>)
+  .register();

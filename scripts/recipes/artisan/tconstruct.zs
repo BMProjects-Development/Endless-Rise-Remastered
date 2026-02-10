@@ -65,3 +65,15 @@ Recipe.type(Type.CARPENTER)
   .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
   .output(<item:tconstruct:pattern> * 4)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:tconstruct:silky_cloth>);
+Recipe.type(Type.TAILOR)
+  .shaped([
+    [<tag:items:forge:string>, <tag:items:forge:string>, <tag:items:forge:string>],
+    [<tag:items:forge:string>, <item:tconstruct:rose_gold_ingot>, <tag:items:forge:string>],
+    [<tag:items:forge:string>, <tag:items:forge:string>, <tag:items:forge:string>]])
+  .tool(<tag:items:artisantools:type/needle>, 15)
+  .restrict(Tier.WORKTABLE, Tier.WORKTABLE)
+  .output(<item:tconstruct:silky_cloth>)
+  .register();
