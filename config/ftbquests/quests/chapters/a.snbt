@@ -48,8 +48,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -1.5d
+			x: -5.0d
+			y: -3.0d
 			description: ["{er.other.quests4.description0}"]
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
@@ -251,8 +251,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -3.0d
+			x: -3.5d
+			y: 1.5d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -503,6 +503,85 @@
 				id: "0A64F500D7419F39"
 				type: "item"
 				item: "pipez:wrench"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["58C9C1DAC20F99DE"]
+			id: "144777DEDE90028B"
+			tasks: [{
+				id: "11F1911E4A70BF17"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["58C9C1DAC20F99DE"]
+			id: "5B253DF7F1F5924B"
+			tasks: [{
+				id: "3586C7A3FBC58E2B"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-1893206714
+							-353943141
+							-2079461384
+							-848105639
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["58C9C1DAC20F99DE"]
+			id: "4F2FD745960EA991"
+			tasks: [{
+				id: "672DC909D10AB516"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			dependencies: ["7F6F9186F2AB5326"]
+			id: "27C7831AE5956CB3"
+			tasks: [{
+				id: "14B400789F08F812"
+				type: "item"
+				item: {
+					id: "charginggadgets:charging_station"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

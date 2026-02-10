@@ -1089,5 +1089,108 @@
 				player_command: false
 			}]
 		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["4AA6F5E7D38B0E33"]
+			id: "360551792F71E58F"
+			tasks: [{
+				id: "4ABA167D9C12F8CE"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["360551792F71E58F"]
+			id: "288B00C75D85AD01"
+			tasks: [
+				{
+					id: "57A85473DA3F77E9"
+					type: "item"
+					item: "immersiveengineering:ingot_constantan"
+					count: 2L
+				}
+				{
+					id: "4E67AA4A18A73D8D"
+					type: "item"
+					item: "immersiveengineering:plate_constantan"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["360551792F71E58F"]
+			id: "47E7B19B7779722E"
+			tasks: [
+				{
+					id: "291AE974E3C15AC6"
+					type: "item"
+					item: "immersiveengineering:ingot_electrum"
+					count: 2L
+				}
+				{
+					id: "313A028E7284285E"
+					type: "item"
+					item: "immersiveengineering:plate_electrum"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: [
+				"47E7B19B7779722E"
+				"288B00C75D85AD01"
+			]
+			id: "3D7DFEAD23FA279A"
+			tasks: [{
+				id: "78E2AF9B72C167A3"
+				type: "item"
+				item: "mininggadgets:upgrade_empty"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["3D7DFEAD23FA279A"]
+			id: "1BA8BCED56071B6C"
+			tasks: [{
+				id: "59BC78C4239A0FD0"
+				type: "item"
+				item: "mininggadgets:modificationtable"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["3D7DFEAD23FA279A"]
+			id: "5AF4BEABD166731C"
+			tasks: [{
+				id: "67138285C2B8F3C1"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_simple"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["3D7DFEAD23FA279A"]
+			id: "331009A6AAE5A662"
+			tasks: [{
+				id: "6DF57C174465F0F0"
+				type: "item"
+				item: "mininggadgets:upgrade_three_by_three"
+			}]
+		}
 	]
 }

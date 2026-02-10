@@ -722,7 +722,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests41.title}"
-			x: 5.5d
+			x: 6.0d
 			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests41.description0}"]
 			dependencies: ["093501F9725A0851"]
@@ -1277,7 +1277,7 @@
 		}
 		{
 			title: "{er.61c23a1a1b8933b6.quests71.title}"
-			x: 4.5d
+			x: 4.0d
 			y: -5.0d
 			description: ["{er.61c23a1a1b8933b6.quests71.description0}"]
 			dependencies: ["093501F9725A0851"]
@@ -1441,6 +1441,29 @@
 					item: "legendarysurvivaloverhaul:thermal_coat_3"
 				}
 			]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			description: [
+				"{image:endless_rise:textures/smeltery_showcase.png width:192 height:108 align:1}"
+				"{image:endless_rise:textures/smeltery_showcase_2.png width:192 height:108 align:1}"
+				"{image:endless_rise:textures/smeltery_showcase_3.png width:192 height:108 align:1}"
+				"{image:endless_rise:textures/smeltery_showcase_4.png width:192 height:108 align:1}"
+				"{image:endless_rise:textures/smeltery_showcase_5.png width:192 height:108 align:1}"
+			]
+			dependencies: ["093501F9725A0851"]
+			id: "17066FCC351AD701"
+			tasks: [{
+				id: "6BB6FF7F611D8267"
+				type: "questsadditions:structure"
+				title: "Постройка плавильни"
+				name: "smeltery"
+				hasCustomPicture: false
+				layer: false
+				ignoreState: false
+				rightclick: false
+			}]
 		}
 	]
 }
