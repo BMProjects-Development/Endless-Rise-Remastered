@@ -5,6 +5,71 @@
       "name": "BarMaxx",
       "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
     },
+    "time": 1770825770683,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "D:\\Prism Launcher\\instances\\Endless Rise\\minecraft\\config\\spark\\profile-2026-02-11_19.02.50.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BarMaxx",
+      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
+    },
+    "time": 1770824337384,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "D:\\Prism Launcher\\instances\\Endless Rise\\minecraft\\config\\spark\\profile-2026-02-11_18.38.57.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BarMaxx",
+      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
+    },
+    "time": 1770823616204,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "D:\\Prism Launcher\\instances\\Endless Rise\\minecraft\\config\\spark\\profile-2026-02-11_18.26.56.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BarMaxx",
+      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
+    },
+    "time": 1770822560409,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "D:\\Prism Launcher\\instances\\Endless Rise\\minecraft\\config\\spark\\profile-2026-02-11_18.09.20.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BarMaxx",
+      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
+    },
+    "time": 1770822067015,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "D:\\Prism Launcher\\instances\\Endless Rise\\minecraft\\config\\spark\\profile-2026-02-11_18.01.06.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BarMaxx",
+      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
+    },
     "time": 1766320472641,
     "type": "Profiler",
     "data": {

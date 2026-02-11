@@ -1,5 +1,5 @@
 #Use a slightly more compact, but also slightly slower representation for block states
-compactFastMap = false
+compactFastMap = true
 #Cache the predicate instances used in multipart models
 cacheMultipartPredicates = true
 #Do not create a new MultipartBakedModel instance for each block state using the same multipartmodel. Requires cacheMultipartPredicates to be enabled

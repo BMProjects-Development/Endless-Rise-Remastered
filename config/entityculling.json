@@ -10,7 +10,7 @@
   "entityWhitelist": [
     "botania:mana_burst"
   ],
-  "tracingDistance": 128,
+  "tracingDistance": 64,
   "debugMode": false,
   "sleepDelay": 10,
   "hitboxLimit": 50,
