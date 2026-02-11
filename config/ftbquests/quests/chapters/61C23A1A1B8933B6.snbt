@@ -898,7 +898,7 @@
 		{
 			x: 14.5d
 			y: -3.0d
-			description: ["{er.61c23a1a1b8933b6.quests53.description0}"]
+			description: ["{er.61c23a1a1b8933b6.quests77.description0}"]
 			dependencies: ["339E99FFA9CEE6D2"]
 			id: "27EE9C334876E614"
 			tasks: [{
