@@ -591,7 +591,7 @@
 		}
 		{
 			x: 2.5d
-			y: 2.5d
+			y: 3.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -610,7 +610,7 @@
 		}
 		{
 			x: 3.0d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["1630EEB73C03681E"]
 			optional: true
 			id: "7F4FA26ED9184DBF"
@@ -629,7 +629,7 @@
 		}
 		{
 			x: 4.5d
-			y: 2.5d
+			y: 3.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
@@ -649,7 +649,7 @@
 		}
 		{
 			x: 4.0d
-			y: 3.5d
+			y: 4.0d
 			dependencies: ["7F6F9186F2AB5326"]
 			hide: true
 			optional: true
